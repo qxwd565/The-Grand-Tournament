@@ -1,0 +1,387 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "AT_130",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-08-25",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
+  "sourceCommit": "d04048e30e0ac075b5961e0198c5576d38fd828d",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "AT_130",
+      "dbfId": 2723,
+      "name": "바다의 학살자",
+      "type": "MINION",
+      "cardClass": "WARRIOR",
+      "rarity": "EPIC",
+      "collectible": true,
+      "cost": 6,
+      "text": "이 카드를 뽑을 때,\n내 하수인들에게\n피해를 1 줍니다.",
+      "attack": 6,
+      "health": 7,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "등장과 동시에 학살을 일삼습니다. 그런데 왜 내 하수인들에게만?!",
+      "spellSchool": "",
+      "portrait": "HS5-030_D.psd:2067b69db63fb30439ec5c41e13a8a4f",
+      "set": "TGT",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 6
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1077,
+          "name": "뽑을 때 시전",
+          "value": 1
+        }
+      ],
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드",
+      "classes": [],
+      "art": "art/AT_130.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS5-030_D.psd:2067b69db63fb30439ec5c41e13a8a4f",
+      "goldenMaterial": "AT_130_PremiumCard.mat:e623fc04a789f884db107d6b665f3d88",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "AT_130",
+    "dbfId": 2723,
+    "name": "바다의 학살자",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "이 카드를 뽑을 때,\n내 하수인들에게\n피해를 1 줍니다.",
+    "attack": 6,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "등장과 동시에 학살을 일삼습니다. 그런데 왜 내 하수인들에게만?!",
+    "spellSchool": "",
+    "portrait": "HS5-030_D.psd:2067b69db63fb30439ec5c41e13a8a4f",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1077,
+        "name": "뽑을 때 시전",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/AT_130.png"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/tgt-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": []
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/AT_130.json",
+    "document": {
+      "schemaVersion": 2,
+      "mode": "constructed",
+      "card": {
+        "id": "AT_130",
+        "dbfId": 2723,
+        "name": "바다의 학살자",
+        "type": "MINION",
+        "cardClass": "WARRIOR",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 6,
+        "text": "이 카드를 뽑을 때,<br></br>내 하수인들에게<br></br>피해를 1 줍니다.",
+        "attack": 6,
+        "health": 7,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "등장과 동시에 학살을 일삼습니다. 그런데 왜 내 하수인들에게만?!",
+        "spellSchool": "",
+        "portrait": "HS5-030_D.psd:2067b69db63fb30439ec5c41e13a8a4f",
+        "set": "TGT",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 7
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 6
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 6
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 10
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 11
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 4
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 1077,
+            "name": "뽑을 때 시전",
+            "value": 1
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/AT_130.png",
+        "patches": [
+          {
+            "date": "2022-11-30",
+            "changes": {
+              "races": [
+                "UNDEAD"
+              ],
+              "race": "언데드"
+            }
+          }
+        ],
+        "releasedAt": "2015-08-25",
+        "releaseStatus": "verified",
+        "initialSpecStatus": "partially_verified",
+        "patchSources": {
+          "2022-11-30": "https://hearthstone.blizzard.com/ko-kr/news/23882860"
+        }
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS5-030_D.psd:2067b69db63fb30439ec5c41e13a8a4f",
+        "goldenMaterial": "AT_130_PremiumCard.mat:e623fc04a789f884db107d6b665f3d88",
+        "goldenAnimation": ""
+      },
+      "historicalTextObservations": [
+        {
+          "build": "3.0.0.9786",
+          "name": "바다의 학살자",
+          "rawText": "이 카드를 뽑을 때, 내 하수인들에게 피해를 1 줍니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+          "lastObservedBuild": "5.0.0.12574"
+        },
+        {
+          "build": "6.0.0.13921",
+          "name": "바다의 학살자",
+          "rawText": "이 카드를 뽑을 때,\n내 하수인들에게\n피해를 1 줍니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ]
+    },
+    "meaning": "Preserved vetted audit, never published under sourceCommit. Source-backed reconstruction supplies initial and later specs, while originalSource is the actual published original."
+  },
+  "availabilityScope": "Korean ordinary constructed-match use; excludes preview, preload and early adventure use. No new default visibility gate.",
+  "dateRecheckEvidence": "tools/tgt-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "3.0.0.9786",
+        "name": "바다의 학살자",
+        "rawText": "이 카드를 뽑을 때, 내 하수인들에게 피해를 1 줍니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+        "lastObservedBuild": "5.0.0.12574"
+      },
+      {
+        "build": "6.0.0.13921",
+        "name": "바다의 학살자",
+        "rawText": "이 카드를 뽑을 때,\n내 하수인들에게\n피해를 1 줍니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "knownUnmodeledIntervals": "tools/tgt-known-unmodeled-intervals.json",
+    "missingIDs": "tools/tgt-missing-ids.json"
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "3.0.0.9786",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "Tag": {},
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "29.0.0.195635"
+    },
+    {
+      "build": "30.6.0.208591",
+      "source": "https://github.com/HearthSim/hsdata/blob/37797c6c5e9af546306299ade90189454f2b16ac/CardDefs.xml",
+      "Tag": {
+        "1077": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

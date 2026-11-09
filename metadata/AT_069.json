@@ -1,0 +1,402 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "AT_069",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-08-25",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
+  "sourceCommit": "d04048e30e0ac075b5961e0198c5576d38fd828d",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "AT_069",
+      "dbfId": 2733,
+      "name": "대련 상대",
+      "type": "MINION",
+      "cardClass": "WARRIOR",
+      "rarity": "RARE",
+      "collectible": true,
+      "cost": 2,
+      "text": "<b>도발</b>, <b>전투의 함성:</b> 하수인에게 <b>도발</b>을 부여합니다.",
+      "attack": 3,
+      "health": 2,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "\"부모님 안부는 묻지 마십시오. 그건 도발이 아니라 패륜입니다.\"",
+      "spellSchool": "",
+      "portrait": "HS5-054_D.psd:c6ab4c0c299456f48b6eb26572fd9324",
+      "set": "TGT",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/AT_069.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS5-054_D.psd:c6ab4c0c299456f48b6eb26572fd9324",
+      "goldenMaterial": "AT_069_PremiumCard.mat:65ebdd7f80f59c149adb8b418857cf71",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "AT_069",
+    "dbfId": 2733,
+    "name": "대련 상대",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>도발</b>, <b>전투의 함성:</b> 하수인에게 <b>도발</b>을 부여합니다.",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"부모님 안부는 묻지 마십시오. 그건 도발이 아니라 패륜입니다.\"",
+    "spellSchool": "",
+    "portrait": "HS5-054_D.psd:c6ab4c0c299456f48b6eb26572fd9324",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_069.png"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/tgt-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "BATTLECRY",
+      "TAUNT"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/AT_069.json",
+    "document": {
+      "schemaVersion": 2,
+      "mode": "constructed",
+      "card": {
+        "id": "AT_069",
+        "dbfId": 2733,
+        "name": "대련 상대",
+        "type": "MINION",
+        "cardClass": "WARRIOR",
+        "rarity": "RARE",
+        "collectible": true,
+        "cost": 2,
+        "text": "<b>도발</b>, <b>전투의 함성:</b> 하수인에게 <b>도발</b>을 부여합니다.",
+        "attack": 3,
+        "health": 2,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "\"부모님 안부는 묻지 마십시오. 그건 도발이 아니라 패륜입니다.\"",
+        "spellSchool": "",
+        "portrait": "HS5-054_D.psd:c6ab4c0c299456f48b6eb26572fd9324",
+        "set": "TGT",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 2
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 3
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 190,
+            "name": "도발",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 10
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/AT_069.png",
+        "patches": [],
+        "releasedAt": "2015-08-25",
+        "releaseStatus": "verified",
+        "initialSpecStatus": "partially_verified"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS5-054_D.psd:c6ab4c0c299456f48b6eb26572fd9324",
+        "goldenMaterial": "AT_069_PremiumCard.mat:65ebdd7f80f59c149adb8b418857cf71",
+        "goldenAnimation": ""
+      },
+      "historicalTextObservations": [
+        {
+          "build": "3.0.0.9786",
+          "name": "대련 상대",
+          "rawText": "<b>도발</b>\n<b>전투의 함성:</b> 하수인 하나에게 <b>도발</b>을 부여합니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+          "lastObservedBuild": "8.0.0.18336"
+        },
+        {
+          "build": "9.0.0.20457",
+          "name": "대련 상대",
+          "rawText": "<b>도발</b>, <b>전투의 함성:</b>\n하수인 하나에게\n<b>도발</b>을 부여합니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+          "lastObservedBuild": "12.0.0.25770"
+        },
+        {
+          "build": "12.2.0.26996",
+          "name": "대련 상대",
+          "rawText": "<b>도발</b>, <b>전투의 함성:</b> 하수인에게 <b>도발</b>을 부여합니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ]
+    },
+    "meaning": "Preserved vetted audit, never published under sourceCommit. Source-backed reconstruction supplies initial and later specs, while originalSource is the actual published original."
+  },
+  "availabilityScope": "Korean ordinary constructed-match use; excludes preview, preload and early adventure use. No new default visibility gate.",
+  "dateRecheckEvidence": "tools/tgt-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "3.0.0.9786",
+        "name": "대련 상대",
+        "rawText": "<b>도발</b>\n<b>전투의 함성:</b> 하수인 하나에게 <b>도발</b>을 부여합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+        "lastObservedBuild": "8.0.0.18336"
+      },
+      {
+        "build": "9.0.0.20457",
+        "name": "대련 상대",
+        "rawText": "<b>도발</b>, <b>전투의 함성:</b>\n하수인 하나에게\n<b>도발</b>을 부여합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+        "lastObservedBuild": "12.0.0.25770"
+      },
+      {
+        "build": "12.2.0.26996",
+        "name": "대련 상대",
+        "rawText": "<b>도발</b>, <b>전투의 함성:</b> 하수인에게 <b>도발</b>을 부여합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "knownUnmodeledIntervals": "tools/tgt-known-unmodeled-intervals.json",
+    "missingIDs": "tools/tgt-missing-ids.json"
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "3.0.0.9786",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "Tag": {
+        "190": "1",
+        "218": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "13.0.0.27845"
+    },
+    {
+      "build": "13.2.0.28855",
+      "source": "https://github.com/HearthSim/hsdata/blob/aeffaf09cdbba14654c4543792558fab68cee363/CardDefs.xml",
+      "Tag": {
+        "218": "1"
+      },
+      "ReferencedTag": {
+        "190": "1"
+      },
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "35.0.3.239422"
+    },
+    {
+      "build": "37.0.2.256589",
+      "source": "https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml",
+      "Tag": {
+        "190": "1",
+        "218": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change"
+    }
+  ]
+}

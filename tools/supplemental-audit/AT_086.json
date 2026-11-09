@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_086",
+    "dbfId": 2576,
+    "name": "파괴공작원",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>전투의 함성:</b> 다음 턴에 상대편이 사용하는 영웅 능력의 비용이 (5) 증가합니다.",
+    "attack": 4,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "여러 공작에 능통합니다. 날카롭게 깎여 있는 연필 부러뜨리기, 흰 옷에 커피 쏟기, 책 맨 앞장에 결말 적어놓기 등등...",
+    "spellSchool": "",
+    "portrait": "W2_182_D.psd:ce826b9a0c77eea449b8ddb0f0c9679d",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_086.png",
+    "patches": [],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W2_182_D.psd:ce826b9a0c77eea449b8ddb0f0c9679d",
+    "goldenMaterial": "AT_086_PremiumCard.mat:245226e45c8ff1244b4b73b3b6ec593d",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "파괴공작원",
+      "rawText": "<b>전투의 함성:</b> 다음 턴에 상대편이 쓰는 영웅 능력의 비용이 (5) 증가합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "4.1.0.10956"
+    },
+    {
+      "build": "5.0.0.12574",
+      "name": "파괴공작원",
+      "rawText": "<b>전투의 함성:</b> 다음 턴에 상대편이 사용하는 영웅 능력의 비용이 (5) 증가합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/4f7206f440ab05115824b7263aa36cd94a96327f/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

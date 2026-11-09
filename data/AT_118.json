@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_118","dbfId":2510,"name":"고위 성전사","type":"MINION","cardClass":"NEUTRAL","rarity":"EPIC","collectible":true,"cost":6,"text":"[x]<b>전투의 함성:</b>\n무작위 성기사 카드를\n내 손으로 가져옵니다.","attack":5,"health":5,"durability":0,"armor":0,"flavor":"수많은 성전을 수행한 그녀는 빛과 정의를 수호합니다. 가장 최근에 참전한 성전에서는 악명 높은 고블린 영업 사원들을 상대했다는군요.","spellSchool":"","portrait":"HS5-024_D.psd:039dbf22dab420944b32d2e4d105ed70","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":6},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_118.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-024_D.psd:039dbf22dab420944b32d2e4d105ed70","goldenMaterial":"AT_118_PremiumCard.mat:16028be810e4f734fada2f07f98977ad","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_118",
+    "dbfId": 2510,
+    "name": "고위 성전사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "[x]<b>전투의 함성:</b><br></br>무작위 성기사 카드를<br></br>내 손으로 가져옵니다.",
+    "attack": 5,
+    "health": 5,
+    "classes": [],
+    "mechanics": [
+      "BATTLECRY"
+    ]
+  }
+}

@@ -1,1 +1,21 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_020","dbfId":2624,"name":"무시무시한 파멸수호병","type":"MINION","cardClass":"WARLOCK","rarity":"COMMON","collectible":true,"cost":7,"text":"","attack":6,"health":8,"durability":0,"armor":0,"flavor":"원래 이름은 푹신푹신 수호병이었는데 적정량의 두려움을 불러일으키지 않는다고 하여 개명했습니다.","spellSchool":"","portrait":"W20_a147_D.psd:1cf67de2f980e8544a35947bd806d238","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":8},{"id":47,"name":"공격력","value":6},{"id":48,"name":"마나 비용","value":7},{"id":199,"name":"직업","value":9},{"id":200,"name":"종족","value":15},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["DEMON"],"race":"악마","classes":[],"art":"art/AT_020.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W20_a147_D.psd:1cf67de2f980e8544a35947bd806d238","goldenMaterial":"AT_020_PremiumCard.mat:3b34b41c172b2f04aafac1fd0f97bb08","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_020",
+    "dbfId": 2624,
+    "name": "무시무시한 파멸수호병",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 7,
+    "text": "",
+    "attack": 6,
+    "health": 8,
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "classes": [],
+    "mechanics": []
+  }
+}

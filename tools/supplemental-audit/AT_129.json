@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_129",
+    "dbfId": 2748,
+    "name": "피욜라 라이트베인",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 3,
+    "text": "내가 주문의 대상으로 이 하수인을 지정할 때마다 <b>천상의 보호막</b>을 얻습니다.",
+    "attack": 3,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "\"베인 자매\"라고 불리는 걸 매우 좋아합니다.",
+    "spellSchool": "",
+    "portrait": "HS5-062_D.psd:25a497b636606634296fce58aa38f43d",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_129.png",
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "언데드"
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2022-11-30": "https://hearthstone.blizzard.com/ko-kr/news/23882860"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS5-062_D.psd:25a497b636606634296fce58aa38f43d",
+    "goldenMaterial": "AT_129_PremiumCard.mat:b912f062dc9c93d4e893c19759517c8f",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "피욜라 라이트베인",
+      "rawText": "내가 주문의 대상으로 이 하수인을 지정할 때마다 <b>천상의 보호막</b>을 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

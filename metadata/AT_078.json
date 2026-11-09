@@ -1,0 +1,324 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "AT_078",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-08-25",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
+  "sourceCommit": "d04048e30e0ac075b5961e0198c5576d38fd828d",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "AT_078",
+      "dbfId": 2654,
+      "name": "경기장 입장",
+      "type": "SPELL",
+      "cardClass": "PALADIN",
+      "rarity": "EPIC",
+      "collectible": true,
+      "cost": 3,
+      "text": "각 플레이어의 전장에서 공격력이 가장 높은 하수인을 제외한 <b>모든</b> 하수인을 처치합니다.",
+      "attack": 0,
+      "health": 0,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "가는 길에 있는 행상인들을 조심하세요. 마구 사다보면 헤어나올 수 없을 겁니다...",
+      "spellSchool": "",
+      "portrait": "HS5-067_D.psd:68a6aca218aadce4d8d8fa53fec38dad",
+      "set": "TGT",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/AT_078.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS5-067_D.psd:68a6aca218aadce4d8d8fa53fec38dad",
+      "goldenMaterial": "AT_078_PremiumCard.mat:7e1a6b28c6314bb44b0cb74fa649768f",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "AT_078",
+    "dbfId": 2654,
+    "name": "경기장 입장",
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "각 플레이어의 전장에서 공격력이 가장 높은 하수인을 제외한 <b>모든</b> 하수인을 처치합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "가는 길에 있는 행상인들을 조심하세요. 마구 사다보면 헤어나올 수 없을 겁니다...",
+    "spellSchool": "",
+    "portrait": "HS5-067_D.psd:68a6aca218aadce4d8d8fa53fec38dad",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_078.png"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "attack",
+    "durability",
+    "flavor",
+    "health",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/tgt-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": []
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/AT_078.json",
+    "document": {
+      "schemaVersion": 2,
+      "mode": "constructed",
+      "card": {
+        "id": "AT_078",
+        "dbfId": 2654,
+        "name": "경기장 입장",
+        "type": "SPELL",
+        "cardClass": "PALADIN",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 6,
+        "text": "각 플레이어의 전장에서 공격력이 가장 높은 하수인을 제외한 <b>모든</b> 하수인을 처치합니다.",
+        "attack": 0,
+        "health": 0,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "가는 길에 있는 행상인들을 조심하세요. 마구 사다보면 헤어나올 수 없을 겁니다...",
+        "spellSchool": "",
+        "portrait": "HS5-067_D.psd:68a6aca218aadce4d8d8fa53fec38dad",
+        "set": "TGT",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 3
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 5
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 4
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/AT_078.png",
+        "patches": [
+          {
+            "date": "2023-08-23",
+            "changes": {
+              "cost": 3
+            }
+          }
+        ],
+        "releasedAt": "2015-08-25",
+        "releaseStatus": "verified",
+        "initialSpecStatus": "partially_verified",
+        "patchSources": {
+          "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+        }
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS5-067_D.psd:68a6aca218aadce4d8d8fa53fec38dad",
+        "goldenMaterial": "AT_078_PremiumCard.mat:7e1a6b28c6314bb44b0cb74fa649768f",
+        "goldenAnimation": ""
+      },
+      "historicalTextObservations": [
+        {
+          "build": "3.0.0.9786",
+          "name": "경기장 입장",
+          "rawText": "각 플레이어의 전장에서 공격력이 가장 높은 하수인 하나씩을 제외한 <b>모든</b> 하수인을 처치합니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+          "lastObservedBuild": "5.0.0.12574"
+        },
+        {
+          "build": "6.0.0.13921",
+          "name": "경기장 입장",
+          "rawText": "[x]각 플레이어의 전장에서\n공격력이 가장 높은 하수인\n하나씩을 제외한 <b>모든</b>\n하수인을 처치합니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+          "lastObservedBuild": "12.0.0.25770"
+        },
+        {
+          "build": "12.2.0.26996",
+          "name": "경기장 입장",
+          "rawText": "각 플레이어의 전장에서 공격력이 가장 높은 하수인을 제외한 <b>모든</b> 하수인을 처치합니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ]
+    },
+    "meaning": "Preserved vetted audit, never published under sourceCommit. Source-backed reconstruction supplies initial and later specs, while originalSource is the actual published original."
+  },
+  "availabilityScope": "Korean ordinary constructed-match use; excludes preview, preload and early adventure use. No new default visibility gate.",
+  "dateRecheckEvidence": "tools/tgt-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "3.0.0.9786",
+        "name": "경기장 입장",
+        "rawText": "각 플레이어의 전장에서 공격력이 가장 높은 하수인 하나씩을 제외한 <b>모든</b> 하수인을 처치합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+        "lastObservedBuild": "5.0.0.12574"
+      },
+      {
+        "build": "6.0.0.13921",
+        "name": "경기장 입장",
+        "rawText": "[x]각 플레이어의 전장에서\n공격력이 가장 높은 하수인\n하나씩을 제외한 <b>모든</b>\n하수인을 처치합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "lastObservedBuild": "12.0.0.25770"
+      },
+      {
+        "build": "12.2.0.26996",
+        "name": "경기장 입장",
+        "rawText": "각 플레이어의 전장에서 공격력이 가장 높은 하수인을 제외한 <b>모든</b> 하수인을 처치합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "knownUnmodeledIntervals": "tools/tgt-known-unmodeled-intervals.json",
+    "missingIDs": "tools/tgt-missing-ids.json"
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "3.0.0.9786",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "Tag": {},
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

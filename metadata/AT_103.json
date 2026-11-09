@@ -1,0 +1,381 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "AT_103",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-08-25",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
+  "sourceCommit": "d04048e30e0ac075b5961e0198c5576d38fd828d",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "AT_103",
+      "dbfId": 2520,
+      "name": "북해 크라켄",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 9,
+      "text": "<b>전투의 함성:</b>\n피해를 4 줍니다.",
+      "attack": 9,
+      "health": 7,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "가끔은 그냥 북해에서 조용히 지냈으면 하는 생각을 한다는군요.",
+      "spellSchool": "",
+      "portrait": "W16_a176_D.psd:7a0a8b9aab5fca946a1fb16aa9d14f52",
+      "set": "TGT",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 9
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 9
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "races": [
+        "BEAST"
+      ],
+      "race": "야수",
+      "classes": [],
+      "art": "art/AT_103.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "W16_a176_D.psd:7a0a8b9aab5fca946a1fb16aa9d14f52",
+      "goldenMaterial": "AT_103_PremiumCard.mat:da07552a3245e4f43834fc0af7c1b559",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "AT_103",
+    "dbfId": 2520,
+    "name": "북해 크라켄",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 9,
+    "text": "<b>전투의 함성:</b>\n피해를 4 줍니다.",
+    "attack": 9,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "가끔은 그냥 북해에서 조용히 지냈으면 하는 생각을 한다는군요.",
+    "spellSchool": "",
+    "portrait": "W16_a176_D.psd:7a0a8b9aab5fca946a1fb16aa9d14f52",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 9
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 9
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/AT_103.png"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/tgt-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "BATTLECRY"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/AT_103.json",
+    "document": {
+      "schemaVersion": 2,
+      "mode": "constructed",
+      "card": {
+        "id": "AT_103",
+        "dbfId": 2520,
+        "name": "북해 크라켄",
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 9,
+        "text": "<b>전투의 함성:</b><br></br>피해를 4 줍니다.",
+        "attack": 9,
+        "health": 7,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "가끔은 그냥 북해에서 조용히 지냈으면 하는 생각을 한다는군요.",
+        "spellSchool": "",
+        "portrait": "W16_a176_D.psd:7a0a8b9aab5fca946a1fb16aa9d14f52",
+        "set": "TGT",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 7
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 9
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 9
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 20
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/AT_103.png",
+        "patches": [
+          {
+            "date": "2018-07-11",
+            "changes": {
+              "races": [
+                "BEAST"
+              ],
+              "race": "야수"
+            }
+          }
+        ],
+        "releasedAt": "2015-08-25",
+        "releaseStatus": "verified",
+        "initialSpecStatus": "partially_verified",
+        "patchSources": {
+          "2018-07-11": "https://hearthstone.blizzard.com/ko-kr/news/21943493"
+        }
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "W16_a176_D.psd:7a0a8b9aab5fca946a1fb16aa9d14f52",
+        "goldenMaterial": "AT_103_PremiumCard.mat:da07552a3245e4f43834fc0af7c1b559",
+        "goldenAnimation": ""
+      },
+      "historicalTextObservations": [
+        {
+          "build": "3.0.0.9786",
+          "name": "북해 크라켄",
+          "rawText": "<b>전투의 함성:</b> 피해를 4 줍니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+          "lastObservedBuild": "5.0.0.12574"
+        },
+        {
+          "build": "6.0.0.13921",
+          "name": "북해 크라켄",
+          "rawText": "<b>전투의 함성:</b>\n피해를 4 줍니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ]
+    },
+    "meaning": "Preserved vetted audit, never published under sourceCommit. Source-backed reconstruction supplies initial and later specs, while originalSource is the actual published original."
+  },
+  "availabilityScope": "Korean ordinary constructed-match use; excludes preview, preload and early adventure use. No new default visibility gate.",
+  "dateRecheckEvidence": "tools/tgt-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "3.0.0.9786",
+        "name": "북해 크라켄",
+        "rawText": "<b>전투의 함성:</b> 피해를 4 줍니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+        "lastObservedBuild": "5.0.0.12574"
+      },
+      {
+        "build": "6.0.0.13921",
+        "name": "북해 크라켄",
+        "rawText": "<b>전투의 함성:</b>\n피해를 4 줍니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "knownUnmodeledIntervals": "tools/tgt-known-unmodeled-intervals.json",
+    "missingIDs": "tools/tgt-missing-ids.json"
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "3.0.0.9786",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "Tag": {
+        "218": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

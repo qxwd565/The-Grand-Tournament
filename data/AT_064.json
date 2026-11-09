@@ -1,1 +1,18 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_064","dbfId":2729,"name":"강타","type":"SPELL","cardClass":"WARRIOR","rarity":"COMMON","collectible":true,"cost":2,"text":"[x]피해를 $3 줍니다.\n방어도를 +3 얻습니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"적을 강타하는 게 쉽다고 생각하세요? 네, 쉬운 거 맞습니다.","spellSchool":"","portrait":"W21_A062_D.psd:c0fa0e9a38b962747926902405b8f3d4","set":"TGT","nativeTags":[{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":10},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_064.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W21_A062_D.psd:c0fa0e9a38b962747926902405b8f3d4","goldenMaterial":"AT_064_PremiumCard.mat:075ad0572fbbe3e4cb76933cb3bbf37b","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_064",
+    "dbfId": 2729,
+    "name": "강타",
+    "type": "SPELL",
+    "cardClass": "WARRIOR",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "[x]피해를 $3 줍니다.<br></br>방어도를 +3 얻습니다.",
+    "classes": [],
+    "mechanics": []
+  },
+  "2022-08-17": {
+    "cost": 2
+  }
+}

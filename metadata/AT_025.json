@@ -1,0 +1,354 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "AT_025",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-08-25",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
+  "sourceCommit": "d04048e30e0ac075b5961e0198c5576d38fd828d",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "AT_025",
+      "dbfId": 2632,
+      "name": "어둠의 거래",
+      "type": "SPELL",
+      "cardClass": "WARLOCK",
+      "rarity": "EPIC",
+      "collectible": true,
+      "cost": 4,
+      "text": "무작위 적 하수인 둘을 처치합니다. 무작위로 카드를\n2장 버립니다.",
+      "attack": 0,
+      "health": 0,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "거래이긴 하지만 양쪽 다 잃기만 할 뿐 얻는 건 없습니다.",
+      "spellSchool": "SHADOW",
+      "portrait": "W17_a153_D.psd:ab83e6dd27b5c9a4588a9bf7e283bd07",
+      "set": "TGT",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 890,
+          "name": "게임 태그 890",
+          "value": 2
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/AT_025.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "W17_a153_D.psd:ab83e6dd27b5c9a4588a9bf7e283bd07",
+      "goldenMaterial": "AT_025_PremiumCard.mat:69515cf5900ecda42a9a1dd0be025c13",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "AT_025",
+    "dbfId": 2632,
+    "name": "어둠의 거래",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "무작위 적 하수인 둘을 처치합니다. 무작위로 카드를\n2장 버립니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "거래이긴 하지만 양쪽 다 잃기만 할 뿐 얻는 건 없습니다.",
+    "spellSchool": "SHADOW",
+    "portrait": "W17_a153_D.psd:ab83e6dd27b5c9a4588a9bf7e283bd07",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 890,
+        "name": "게임 태그 890",
+        "value": 2
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_025.png"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "attack",
+    "durability",
+    "flavor",
+    "health",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "spellSchool",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/tgt-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": []
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/AT_025.json",
+    "document": {
+      "schemaVersion": 2,
+      "mode": "constructed",
+      "card": {
+        "id": "AT_025",
+        "dbfId": 2632,
+        "name": "어둠의 거래",
+        "type": "SPELL",
+        "cardClass": "WARLOCK",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 6,
+        "text": "무작위 적 하수인 둘을 처치합니다. 무작위로 카드를<br></br>2장 버립니다.",
+        "attack": 0,
+        "health": 0,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "거래이긴 하지만 양쪽 다 잃기만 할 뿐 얻는 건 없습니다.",
+        "spellSchool": "",
+        "portrait": "W17_a153_D.psd:ab83e6dd27b5c9a4588a9bf7e283bd07",
+        "set": "TGT",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 4
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 9
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 4
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 890,
+            "name": "게임 태그 890",
+            "value": 2
+          },
+          {
+            "id": 1635,
+            "name": "주문 속성",
+            "value": 6
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/AT_025.png",
+        "patches": [
+          {
+            "date": "2021-03-26",
+            "changes": {
+              "spellSchool": "SHADOW"
+            }
+          },
+          {
+            "date": "2023-08-23",
+            "changes": {
+              "cost": 3
+            }
+          },
+          {
+            "date": "2023-09-29",
+            "changes": {
+              "cost": 4
+            }
+          }
+        ],
+        "releasedAt": "2015-08-25",
+        "releaseStatus": "verified",
+        "initialSpecStatus": "partially_verified",
+        "patchSources": {
+          "2021-03-26": "https://hearthstone.blizzard.com/ko-kr/news/23642550",
+          "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537",
+          "2023-09-29": "https://hearthstone.blizzard.com/ko-kr/news/23999072"
+        }
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "W17_a153_D.psd:ab83e6dd27b5c9a4588a9bf7e283bd07",
+        "goldenMaterial": "AT_025_PremiumCard.mat:69515cf5900ecda42a9a1dd0be025c13",
+        "goldenAnimation": ""
+      },
+      "historicalTextObservations": [
+        {
+          "build": "3.0.0.9786",
+          "name": "어둠의 거래",
+          "rawText": "무작위 적 하수인 둘을 처치합니다. 무작위로 카드를 2장 버립니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+          "lastObservedBuild": "5.0.0.12574"
+        },
+        {
+          "build": "6.0.0.13921",
+          "name": "어둠의 거래",
+          "rawText": "무작위 적 하수인 둘을 처치합니다. 무작위로 카드를\n2장 버립니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ]
+    },
+    "meaning": "Preserved vetted audit, never published under sourceCommit. Source-backed reconstruction supplies initial and later specs, while originalSource is the actual published original."
+  },
+  "availabilityScope": "Korean ordinary constructed-match use; excludes preview, preload and early adventure use. No new default visibility gate.",
+  "dateRecheckEvidence": "tools/tgt-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "3.0.0.9786",
+        "name": "어둠의 거래",
+        "rawText": "무작위 적 하수인 둘을 처치합니다. 무작위로 카드를 2장 버립니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+        "lastObservedBuild": "5.0.0.12574"
+      },
+      {
+        "build": "6.0.0.13921",
+        "name": "어둠의 거래",
+        "rawText": "무작위 적 하수인 둘을 처치합니다. 무작위로 카드를\n2장 버립니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "knownUnmodeledIntervals": "tools/tgt-known-unmodeled-intervals.json",
+    "missingIDs": "tools/tgt-missing-ids.json"
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "3.0.0.9786",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "Tag": {},
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

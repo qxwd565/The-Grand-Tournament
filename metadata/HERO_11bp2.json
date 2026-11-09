@@ -1,0 +1,297 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "HERO_11bp2",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2022-12-07",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
+  "sourceCommit": "d04048e30e0ac075b5961e0198c5576d38fd828d",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "HERO_11bp2",
+      "dbfId": 79943,
+      "name": "구울의 광기",
+      "type": "HERO_POWER",
+      "cardClass": "DEATHKNIGHT",
+      "rarity": null,
+      "collectible": false,
+      "cost": 2,
+      "text": "<b>영웅 능력</b>\n<b>돌진</b> 능력이 있는 2/1\n구울을 소환합니다.\n턴이 끝날 때 죽습니다.",
+      "attack": 0,
+      "health": 0,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "",
+      "spellSchool": "",
+      "portrait": "HS27-112_HP.tif:2fedfbb5f8bc41e087b2674fec1ca6f5",
+      "set": "BASIC",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 197,
+          "name": "돌진",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 10
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/HERO_11bp2.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS27-112_HP.tif:2fedfbb5f8bc41e087b2674fec1ca6f5",
+      "goldenMaterial": "HERO_11bp2_PremiumCard.mat:694d5ca8fd6a11c42998d96ad485ae02",
+      "goldenAnimation": "HERO_11bp2_PremiumCard.asset:4ff262e04f10273449d29e23b78c6942"
+    }
+  },
+  "currentCatalog": {
+    "id": "HERO_11bp2",
+    "dbfId": 79943,
+    "name": "구울의 광기",
+    "type": "HERO_POWER",
+    "cardClass": "DEATHKNIGHT",
+    "rarity": null,
+    "collectible": false,
+    "cost": 2,
+    "text": "<b>영웅 능력</b>\n<b>돌진</b> 능력이 있는 2/1\n구울을 소환합니다.\n턴이 끝날 때 죽습니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS27-112_HP.tif:2fedfbb5f8bc41e087b2674fec1ca6f5",
+    "set": "BASIC",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 197,
+        "name": "돌진",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 1
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 10
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/HERO_11bp2.png"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "attack",
+    "durability",
+    "flavor",
+    "health",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/tgt-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": []
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/HERO_11bp2.json",
+    "document": {
+      "schemaVersion": 2,
+      "mode": "constructed",
+      "card": {
+        "id": "HERO_11bp2",
+        "dbfId": 79943,
+        "name": "구울의 광기",
+        "type": "HERO_POWER",
+        "cardClass": "DEATHKNIGHT",
+        "rarity": null,
+        "collectible": false,
+        "cost": 2,
+        "text": "<b>영웅 능력</b><br></br><b>돌진</b> 능력이 있는 2/1<br></br>구울을 소환합니다.<br></br>턴이 끝날 때 죽습니다.",
+        "attack": 0,
+        "health": 0,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "",
+        "spellSchool": "",
+        "portrait": "HS27-112_HP.tif:2fedfbb5f8bc41e087b2674fec1ca6f5",
+        "set": "BASIC",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 197,
+            "name": "돌진",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 1
+          },
+          {
+            "id": 201,
+            "name": "진영",
+            "value": 3
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 10
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/HERO_11bp2.png",
+        "patches": [],
+        "releasedAt": "2022-12-07",
+        "releaseStatus": "verified",
+        "initialSpecStatus": "partially_verified"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS27-112_HP.tif:2fedfbb5f8bc41e087b2674fec1ca6f5",
+        "goldenMaterial": "HERO_11bp2_PremiumCard.mat:694d5ca8fd6a11c42998d96ad485ae02",
+        "goldenAnimation": "HERO_11bp2_PremiumCard.asset:4ff262e04f10273449d29e23b78c6942"
+      },
+      "historicalTextObservations": [
+        {
+          "build": "25.0.0.158725",
+          "name": "구울의 광기",
+          "rawText": "<b>영웅 능력</b>\n<b>돌진</b> 능력이 있는 2/1\n구울을 소환합니다.\n턴이 끝날 때 죽습니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml",
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ]
+    },
+    "meaning": "Preserved vetted audit, never published under sourceCommit. Source-backed reconstruction supplies initial and later specs, while originalSource is the actual published original."
+  },
+  "availabilityScope": "Korean ordinary constructed-match use; excludes preview, preload and early adventure use. No new default visibility gate.",
+  "dateRecheckEvidence": "tools/tgt-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "25.0.0.158725",
+        "name": "구울의 광기",
+        "rawText": "<b>영웅 능력</b>\n<b>돌진</b> 능력이 있는 2/1\n구울을 소환합니다.\n턴이 끝날 때 죽습니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "knownUnmodeledIntervals": "tools/tgt-known-unmodeled-intervals.json",
+    "missingIDs": "tools/tgt-missing-ids.json"
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "25.0.0.158725",
+      "source": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml",
+      "Tag": {},
+      "ReferencedTag": {
+        "197": "1"
+      },
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ],
+  "rarityPresenceEvidence": {
+    "status": "unknown",
+    "value": null,
+    "meaning": "Explicit null from source is preserved as unknown; not a fabricated absence or default rarity."
+  },
+  "heroEvidence": {
+    "role": "base-class-hero-entity",
+    "meaning": "Not a playable replacement hero card. Source-backed health is retained; no inferred armor or unrelated combat stats."
+  }
+}

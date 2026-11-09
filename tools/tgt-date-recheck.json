@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "availability": "Actual Korean ordinary constructed-match use, not preload/preview/adventure early use.",
+  "verified": [
+    {
+      "topic": "TGT launch",
+      "date": "2015-08-25",
+      "source": "tools/tgt-release-audit.json"
+    },
+    {
+      "topic": "Death Knight upgraded power and ghoul",
+      "date": "2022-12-07",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/23882860",
+      "meaning": "25.0 preload Nov30 is not class unlock."
+    },
+    {
+      "topic": "Demon Hunter class availability, contextual only; no missing IDs invented",
+      "date": "2020-04-08",
+      "source": "https://news.blizzard.com/ko-kr/article/23357896/17-0-3-27",
+      "meaning": "Mar27 client preload and Apr3 prologue differ from ordinary-match class unlock."
+    },
+    {
+      "topic": "31.0 Draenei race introduction on AT_047/094",
+      "date": "2024-10-30",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24149389",
+        "https://hearthstone.blizzard.com/ko-kr/expansions-adventures/the-great-dark-beyond",
+        "https://www.inven.co.kr/board/hs/3508/22026"
+      ],
+      "meaning": "Korean patch schedule plus original-ID XML; not Nov6 expansion unlock."
+    }
+  ],
+  "retainedQualifiedDates": [
+    {
+      "id": "AT_045",
+      "date": "2018-10-19",
+      "meaning": "Prior KST inference retained; official header states Oct18 Pacific, not direct Korean completion proof."
+    },
+    {
+      "id": "AT_043",
+      "date": "2026-04-03",
+      "meaning": "Prior qualified effective-date evidence retained, not newly promoted to direct Korean completion."
+    },
+    {
+      "id": "AT_012",
+      "date": "2023-09-07",
+      "meaning": "27.2.3 requires both client and server fix for original version health. Cost/text change remains Aug23; collection-only earlier health is not server state."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "AT_037",
+      "startDate": "2020-03-27",
+      "restoredBuild": "17.0.0.44582",
+      "restoredKoreanDate": null,
+      "meaning": "Official hotfix planned Monday does not establish Korean completion. Purple-gem bug kept explicit outside canonical dated changes; no open-ended EPIC interval invented."
+    },
+    {
+      "ids": [
+        "AT_037a",
+        "AT_037b",
+        "AT_037t",
+        "AT_042a",
+        "AT_042b"
+      ],
+      "meaning": "Early class/rarity observations do not prove exact live-date boundaries."
+    },
+    {
+      "id": "AT_132_SHAMANe",
+      "meaning": "Missing original record/art/provenance/first-use unresolved. No synthetic ID or artwork mapping."
+    }
+  ],
+  "scope": "Independent date recheck plus preserved source evidence. Not exhaustive every-build or live UI proof."
+}

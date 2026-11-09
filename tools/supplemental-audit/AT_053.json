@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_053",
+    "dbfId": 2514,
+    "name": "선조의 지혜",
+    "type": "SPELL",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "카드를 2장 뽑습니다. <b>과부하:</b> (2)",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "엄마아아아아아아아아!!!",
+    "spellSchool": "",
+    "portrait": "WOW_ARM_037_D.psd:81d7340f8b13a6644aa64e8c0485cea0",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 215,
+        "name": "과부하",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_053.png",
+    "patches": [
+      {
+        "date": "2023-04-05",
+        "changes": {
+          "text": "카드를 2장 뽑습니다.<br></br><b>과부하:</b> (1)"
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2023-04-05": "https://hearthstone.blizzard.com/ko-kr/news/23934449"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "WOW_ARM_037_D.psd:81d7340f8b13a6644aa64e8c0485cea0",
+    "goldenMaterial": "AT_053_PremiumCard.mat:6a81422930250774198fc441e331efd6",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "선조의 지혜",
+      "rawText": "카드를 2장 뽑습니다. <b>과부하:</b> (2)",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "선조의 지혜",
+      "rawText": "[x]카드를 2장 뽑습니다.\n<b>과부하:</b> (2)",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "25.6.2.170126"
+    },
+    {
+      "build": "26.0.0.170824",
+      "name": "선조의 지혜",
+      "rawText": "카드를 2장 뽑습니다.\n<b>과부하:</b> (1)",
+      "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

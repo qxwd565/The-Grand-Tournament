@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_085",
+    "dbfId": 2488,
+    "name": "호수의 여신",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "내 영웅 능력의 비용이 (1)이 됩니다.",
+    "attack": 2,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "여자가 아니었다면 검 대신에 도끼를 가지고 있었겠죠.",
+    "spellSchool": "",
+    "portrait": "HS5-037_D.psd:3e5c8a82fd273754cb9f7ff40712c2af",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_085.png",
+    "patches": [],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS5-037_D.psd:3e5c8a82fd273754cb9f7ff40712c2af",
+    "goldenMaterial": "AT_085_PremiumCard.mat:79f140bfb6807d5419b29a1cb8204f6c",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "호수의 여신",
+      "rawText": "내 영웅 능력의 비용이 (1)이 됩니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

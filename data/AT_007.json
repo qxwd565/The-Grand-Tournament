@@ -1,1 +1,22 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_007","dbfId":2571,"name":"주문사수","type":"MINION","cardClass":"MAGE","rarity":"COMMON","collectible":true,"cost":3,"text":"<b>전투의 함성:</b> 두 플레이어 모두 무작위 주문을 얻습니다. 내가 얻은 주문의 비용이 (2) 감소합니다.","attack":3,"health":4,"durability":0,"armor":0,"flavor":"내게는 토템의 힘을, 상대에게는 불덩이 작렬을.","spellSchool":"","portrait":"W4_288_D.psd:091fb3fdc60486944a2b1d3e3b36bab8","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":4},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_007.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W4_288_D.psd:091fb3fdc60486944a2b1d3e3b36bab8","goldenMaterial":"AT_007_PremiumCard.mat:5916f1ac3d0511e47b5cb4f0e4850bf0","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_007",
+    "dbfId": 2571,
+    "name": "주문사수",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>전투의 함성:</b> 각 플레이어가 무작위 주문 카드를 1장씩 손으로 가져옵니다.",
+    "attack": 3,
+    "health": 4,
+    "classes": [],
+    "mechanics": [
+      "BATTLECRY"
+    ]
+  },
+  "2023-08-23": {
+    "text": "<b>전투의 함성:</b> 두 플레이어 모두 무작위 주문을 얻습니다. 내가 얻은 주문의 비용이 (2) 감소합니다."
+  }
+}

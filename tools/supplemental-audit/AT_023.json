@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_023",
+    "dbfId": 2537,
+    "name": "공허파괴자",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>격려:</b> 각 플레이어의 전장에서 무작위 하수인을 처치합니다.",
+    "attack": 5,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "왜 이름이 공허파괴자냐고요? 가끔은 자신도 파괴하거든요.",
+    "spellSchool": "",
+    "portrait": "HS5-003_D.psd:1128a44d101e66d4da7d7b23d9b06b1f",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 403,
+        "name": "INSPIRE",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "classes": [],
+    "art": "art/AT_023.png",
+    "patches": [],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS5-003_D.psd:1128a44d101e66d4da7d7b23d9b06b1f",
+    "goldenMaterial": "AT_023_PremiumCard.mat:6f637b809b36cd046945896c748af361",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "공허파괴자",
+      "rawText": "<b>격려:</b> 각 플레이어의 전장에서 무작위 하수인을 하나씩 처치합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "공허파괴자",
+      "rawText": "[x]<b>격려:</b> 각 플레이어의\n전장에서 무작위 하수인을\n하나씩 처치합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "12.0.0.25770"
+    },
+    {
+      "build": "12.2.0.26996",
+      "name": "공허파괴자",
+      "rawText": "<b>격려:</b> 각 플레이어의 전장에서 무작위 하수인을 처치합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

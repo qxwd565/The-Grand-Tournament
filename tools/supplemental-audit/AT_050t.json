@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_050t",
+    "dbfId": 2803,
+    "name": "번개 충격",
+    "type": "HERO_POWER",
+    "cardClass": "SHAMAN",
+    "rarity": null,
+    "collectible": false,
+    "cost": 2,
+    "text": "<b>영웅 능력</b><br></br>피해를 $2 줍니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "W13_271_D.psd:526b0cd082a2f6048ab8a762004d6103",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 10
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_050t.png",
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "text": "피해를 $2 줍니다."
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2022-11-30": "https://hearthstone.blizzard.com/ko-kr/news/23882860"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W13_271_D.psd:526b0cd082a2f6048ab8a762004d6103",
+    "goldenMaterial": "EX1_238_PremiumCard.mat:51dd39e355223dd47b7e5e89e6bb7900",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "번개 충격",
+      "rawText": "<b>영웅 능력</b>\n피해를 $2 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "24.0.3.147348"
+    },
+    {
+      "build": "25.0.0.158725",
+      "name": "번개 충격",
+      "rawText": "피해를 $2 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_033",
+    "dbfId": 2770,
+    "name": "도둑질",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "<i>상대편 직업</i>의 카드 2장을 무작위로 내 손에 가져옵니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "슬쩍!",
+    "spellSchool": "",
+    "portrait": "W21_A069_D.psd:c3c4f1717722e19418a6418405d86400",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_033.png",
+    "patches": [
+      {
+        "date": "2023-08-23",
+        "changes": {
+          "text": "<i>상대편 직업</i>의 무작위 카드 3장을 얻습니다."
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W21_A069_D.psd:c3c4f1717722e19418a6418405d86400",
+    "goldenMaterial": "AT_033_PremiumCard.mat:2fb33d8dabfb915419a46e9d40fa3969",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "도둑질",
+      "rawText": "<i>상대편 직업</i>의 카드 2장을 무작위로 내 손에 가져옵니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "10.2.0.23180"
+    },
+    {
+      "build": "11.0.0.23966",
+      "name": "도둑질",
+      "rawText": "<i>상대편 직업</i>의 무작위 카드 2장을\n내 손으로 가져옵니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "lastObservedBuild": "27.0.0.181554"
+    },
+    {
+      "build": "27.2.0.183876",
+      "name": "도둑질",
+      "rawText": "<i>상대편 직업</i>의 무작위 카드 3장을 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

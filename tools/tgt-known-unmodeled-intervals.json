@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "intervals": [
+    {
+      "id": "AT_037",
+      "field": "rarity",
+      "normalValue": "COMMON",
+      "temporaryValue": "EPIC",
+      "status": "Verified real temporary display bug; Korean restoration date pending, not modeled as an open-ended canonical patch.",
+      "startDate": "2020-03-27",
+      "startDateStatus": "verified",
+      "startBuild": "17.0.0.44222",
+      "restoredBuild": "17.0.0.44582",
+      "restoredDate": null,
+      "restoreDateStatus": "US2020-03-30 known; Korean day not directly verified. Do not assume KST03-31 from US date alone.",
+      "intermediateObservation": {
+        "date": "2020-03-29",
+        "region": "Korea",
+        "rarityGem": "purple/EPIC",
+        "craftCost": 40,
+        "disenchantValue": 5,
+        "meaning": "Server dust repair had occurred while client gem still wrong."
+      },
+      "sources": [
+        "https://news.blizzard.com/ko-kr/article/23357896/17-0-3-27",
+        "https://us.forums.blizzard.com/en/hearthstone/t/170-hotfix-update/27437",
+        "https://kr.forums.blizzard.com/ko/hearthstone/t/드루이드카드-살아있는뿌리-영웅등급카드-버그/1601",
+        "https://hearthstone.wiki.gg/wiki/Living_Roots",
+        "https://github.com/HearthSim/hsdata/blob/682af4a038a26cc2f8ba383cdd639c21900f69a2/CardDefs.xml"
+      ],
+      "canonicalLimitation": "Historical API keeps COMMON across this interval; do not call all historical rarity values verified."
+    }
+  ]
+}

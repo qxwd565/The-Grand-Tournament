@@ -1,1 +1,18 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_022","dbfId":2628,"name":"자락서스의 주먹","type":"SPELL","cardClass":"WARLOCK","rarity":"RARE","collectible":true,"cost":4,"text":"이 카드를 내거나 버릴 때, 무작위 적에게 피해를 $4 줍니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"진짜 주먹은 아닙니다. 불타는 군단의 에레다르 군주도 손은 두 개거든요.","spellSchool":"FEL","portrait":"W21_A135_D.psd:5cf7ceb5727ef534da760246be6267e2","set":"TGT","nativeTags":[{"id":48,"name":"마나 비용","value":4},{"id":199,"name":"직업","value":9},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":335,"name":"게임 태그 335","value":1},{"id":1635,"name":"주문 속성","value":7}],"races":[],"race":"","classes":[],"art":"art/AT_022.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W21_A135_D.psd:5cf7ceb5727ef534da760246be6267e2","goldenMaterial":"AT_022_PremiumCard.mat:d2be2f8558ce86a40ace1acec4b0c89b","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_022",
+    "dbfId": 2628,
+    "name": "자락서스의 주먹",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "이 카드를 내거나 버릴 때, 무작위 적에게 피해를 $4 줍니다.",
+    "classes": [],
+    "mechanics": []
+  },
+  "2021-03-26": {
+    "spellSchool": "FEL"
+  }
+}

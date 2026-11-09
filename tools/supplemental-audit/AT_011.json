@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_011",
+    "dbfId": 2555,
+    "name": "신성한 용사",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "캐릭터가 하나 치유될 때마다 공격력을 +2 얻습니다.",
+    "attack": 3,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "치료하는 걸 좋아합니다. 그래서 우선 다치게 하죠.",
+    "spellSchool": "",
+    "portrait": "R8_A040_D.psd:605b1db2a84b3ab4789c2230a36afa1d",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 2821,
+        "name": "OVERHEAL",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_011.png",
+    "patches": [
+      {
+        "date": "2023-04-05",
+        "changes": {
+          "cost": 2,
+          "attack": 1,
+          "health": 4,
+          "text": "<b>초과 치유:</b> 공격력을 +2 얻습니다."
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2023-04-05": "https://hearthstone.blizzard.com/ko-kr/news/23934449"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "R8_A040_D.psd:605b1db2a84b3ab4789c2230a36afa1d",
+    "goldenMaterial": "AT_011_PremiumCard.mat:a9731b8fb7d6e004a893d524320c284b",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "신성한 용사",
+      "rawText": "캐릭터가 하나 치유될 때마다 공격력을 +2 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "4.1.0.10956"
+    },
+    {
+      "build": "5.0.0.12574",
+      "name": "신성한 용사",
+      "rawText": "캐릭터가 치유될 때마다 공격력을 +2 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/4f7206f440ab05115824b7263aa36cd94a96327f/CardDefs.xml",
+      "lastObservedBuild": "25.6.2.170126"
+    },
+    {
+      "build": "26.0.0.170824",
+      "name": "신성한 용사",
+      "rawText": "<b>초과 치유:</b> 공격력을 +2 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

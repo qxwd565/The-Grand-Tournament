@@ -1,1 +1,24 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_037b","dbfId":2791,"name":"파릇파릇","type":"SPELL","cardClass":"DRUID","rarity":null,"collectible":false,"cost":1,"text":"1/1 묘목을 둘 소환합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"","spellSchool":"NATURE","portrait":"HS17-095.psd:1da439a0db8848119a59c14f70a6c909","set":"TGT","nativeTags":[{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":2},{"id":202,"name":"카드 유형","value":5},{"id":1635,"name":"주문 속성","value":4}],"races":[],"race":"","classes":[],"art":"art/AT_037b.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS17-095.psd:1da439a0db8848119a59c14f70a6c909","goldenMaterial":"AT_037b_PremiumCard.mat:876d7698c618075439eeace51037459a","goldenAnimation":"AT_037b_PremiumCard.asset:e16f97fed5baaad4485658ef6fba9be1"}}
+{
+  "2015-08-25": {
+    "id": "AT_037b",
+    "dbfId": 2791,
+    "name": "살아있는 뿌리",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "rarity": null,
+    "collectible": false,
+    "cost": 0,
+    "text": "1/1 묘목을 둘 소환합니다.",
+    "classes": [],
+    "mechanics": []
+  },
+  "2019-04-05": {
+    "name": "파릇파릇"
+  },
+  "2019-05-15": {
+    "cost": 1
+  },
+  "2021-03-26": {
+    "spellSchool": "NATURE"
+  }
+}

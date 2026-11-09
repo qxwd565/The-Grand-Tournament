@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "OG_044c",
+    "dbfId": 38321,
+    "name": "칼날이빨의 드루이드",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 2,
+    "text": "<b>돌진</b><br></br><b>은신</b>",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS7-071_D.psd:883bef255f1ac444483f5f8d086cc6ef",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      },
+      {
+        "id": 197,
+        "name": "돌진",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/OG_044c.png",
+    "patches": [],
+    "releasedAt": "2016-04-27",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS7-071_D.psd:883bef255f1ac444483f5f8d086cc6ef",
+    "goldenMaterial": "OG_044c_PremiumCard.mat:fdddcf1eeacd0904ca47df03c5e2cb45",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "5.0.0.12574",
+      "name": "호랑이 변신",
+      "rawText": "<b>돌진</b>\n<b>은신</b>",
+      "source": "https://github.com/HearthSim/hsdata/blob/4f7206f440ab05115824b7263aa36cd94a96327f/CardDefs.xml"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "칼날이빨 호랑이",
+      "rawText": "<b>돌진</b>\n<b>은신</b>",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "12.2.0.27358"
+    },
+    {
+      "build": "13.0.0.27845",
+      "name": "칼날이빨의 드루이드",
+      "rawText": "<b>돌진</b>\n<b>은신</b>",
+      "source": "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

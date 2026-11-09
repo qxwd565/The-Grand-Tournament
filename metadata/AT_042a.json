@@ -1,0 +1,395 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "AT_042a",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-08-25",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
+  "sourceCommit": "d04048e30e0ac075b5961e0198c5576d38fd828d",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "AT_042a",
+      "dbfId": 2861,
+      "name": "사자 변신",
+      "type": "MINION",
+      "cardClass": "DRUID",
+      "rarity": "COMMON",
+      "collectible": false,
+      "cost": 2,
+      "text": "<b>돌진</b>",
+      "attack": 2,
+      "health": 1,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "",
+      "spellSchool": "",
+      "portrait": "W9_a025_D.psd:12ce645c26307804680e70c29a6e1693",
+      "set": "TGT",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 197,
+          "name": "돌진",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 1584,
+          "name": "게임 태그 1584",
+          "value": 1
+        }
+      ],
+      "races": [
+        "BEAST"
+      ],
+      "race": "야수",
+      "classes": [],
+      "art": "art/AT_042a.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "W9_a025_D.psd:12ce645c26307804680e70c29a6e1693",
+      "goldenMaterial": "AT_042a_PremiumCard.mat:ddb3d508ee25b2b4987f1eae35e28f04",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "AT_042a",
+    "dbfId": 2861,
+    "name": "사자 변신",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 2,
+    "text": "<b>돌진</b>",
+    "attack": 2,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "W9_a025_D.psd:12ce645c26307804680e70c29a6e1693",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 197,
+        "name": "돌진",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/AT_042a.png"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/tgt-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "CHARGE"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/AT_042a.json",
+    "document": {
+      "schemaVersion": 2,
+      "mode": "constructed",
+      "card": {
+        "id": "AT_042a",
+        "dbfId": 2861,
+        "name": "사자 변신",
+        "type": "SPELL",
+        "cardClass": "DRUID",
+        "rarity": "COMMON",
+        "collectible": false,
+        "cost": 0,
+        "text": "<b>돌진</b>",
+        "attack": 0,
+        "health": 0,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "",
+        "spellSchool": "",
+        "portrait": "W9_a025_D.psd:12ce645c26307804680e70c29a6e1693",
+        "set": "TGT",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 1
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 2
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 197,
+            "name": "돌진",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 2
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 20
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 1584,
+            "name": "게임 태그 1584",
+            "value": 1
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/AT_042a.png",
+        "patches": [
+          {
+            "date": "2018-11-30",
+            "changes": {
+              "cost": 2,
+              "attack": 2,
+              "health": 1,
+              "type": "MINION",
+              "races": [
+                "BEAST"
+              ],
+              "race": "야수"
+            }
+          }
+        ],
+        "releasedAt": "2015-08-25",
+        "releaseStatus": "verified",
+        "initialSpecStatus": "partially_verified",
+        "patchSources": {
+          "2018-11-30": "https://hearthstone.blizzard.com/ko-kr/news/22788307"
+        }
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "W9_a025_D.psd:12ce645c26307804680e70c29a6e1693",
+        "goldenMaterial": "AT_042a_PremiumCard.mat:ddb3d508ee25b2b4987f1eae35e28f04",
+        "goldenAnimation": ""
+      },
+      "historicalTextObservations": [
+        {
+          "build": "3.0.0.9786",
+          "name": "사자 변신",
+          "rawText": "<b>돌진</b>",
+          "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ]
+    },
+    "meaning": "Preserved vetted audit, never published under sourceCommit. Source-backed reconstruction supplies initial and later specs, while originalSource is the actual published original."
+  },
+  "availabilityScope": "Korean ordinary constructed-match use; excludes preview, preload and early adventure use. No new default visibility gate.",
+  "dateRecheckEvidence": "tools/tgt-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "3.0.0.9786",
+        "name": "사자 변신",
+        "rawText": "<b>돌진</b>",
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "knownUnmodeledIntervals": "tools/tgt-known-unmodeled-intervals.json",
+    "missingIDs": "tools/tgt-missing-ids.json"
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "3.0.0.9786",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "Tag": {},
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "29.0.0.195635"
+    },
+    {
+      "build": "30.6.0.208591",
+      "source": "https://github.com/HearthSim/hsdata/blob/37797c6c5e9af546306299ade90189454f2b16ac/CardDefs.xml",
+      "Tag": {},
+      "ReferencedTag": {
+        "197": "1"
+      },
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "35.0.3.239422"
+    },
+    {
+      "build": "37.0.2.256589",
+      "source": "https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml",
+      "Tag": {
+        "197": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change"
+    }
+  ],
+  "fieldUncertainty": {
+    "rarityAndClass": {
+      "status": "partial",
+      "meaning": "Preserved provisional display values; archive tags may describe implementation changes. No invented live restoration or early generated-option boundary.",
+      "source": "tools/tgt-known-unmodeled-intervals.json"
+    }
+  }
+}

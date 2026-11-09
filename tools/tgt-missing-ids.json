@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "scope": "Verified missing-ID candidate outside the152 existing API records; not published as a fabricated native-asset card.",
+  "cards": [
+    {
+      "id": "AT_132_SHAMANe",
+      "dbfId": 72268,
+      "name": "힘의 토템",
+      "role": "Uncollectible Totemic Slam choice entity; summons Strength Totem. The choice entity is distinct from CS2_058 gameplay minion.",
+      "set": "TGT",
+      "cardSetEnum": 15,
+      "collectible": false,
+      "firstObservedBuild": "20.0.0.77662",
+      "releaseDateStatus": "20.0 introduction supported; exact first constructed choice availability should be distinguished from new-core rotation before adding a new API record.",
+      "generatedPathSource": "https://hearthstone.wiki.gg/wiki/Strength_Totem_%28Totemic_Slam%29",
+      "remoteAssetsAtHead": "No AT_132_SHAMANe or CS2_058 art/golden files found in full recursive tree at d04048e30e0ac075b5961e0198c5576d38fd828d.",
+      "blocker": "No installed portrait/material provenance or verified compatible artwork reference in this repository. Do not invent nativeTags, art path or provenance.",
+      "nextStep": "Obtain native asset/provenance mapping, verify first usable upgraded-power choice date and pool changes; then add a matching canonical record and rebuild all indexes.",
+      "observations": [
+        {
+          "build": "20.0.0.77662",
+          "id": "AT_132_SHAMANe",
+          "dbfId": 72268,
+          "name": "힘의 토템",
+          "rawText": "[x]내 턴이 끝날 때,\n다른 무작위 아군\n하수인에게 공격력을\n+1 부여합니다.",
+          "nativeNumericObservations": {
+            "45": 2,
+            "48": 1,
+            "183": 15,
+            "199": 8,
+            "202": 4
+          },
+          "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml"
+        },
+        {
+          "build": "37.0.2.256589",
+          "id": "AT_132_SHAMANe",
+          "dbfId": 72268,
+          "name": "힘의 토템",
+          "rawText": "[x]내 턴이 끝날 때,\n다른 무작위 아군\n하수인에게 공격력을\n+1 부여합니다.",
+          "nativeNumericObservations": {
+            "45": 2,
+            "48": 1,
+            "183": 15,
+            "199": 8,
+            "202": 4
+          },
+          "source": "https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml"
+        }
+      ]
+    }
+  ]
+}

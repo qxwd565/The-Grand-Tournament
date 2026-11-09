@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_091","dbfId":2575,"name":"마상시합장 의무관","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":4,"text":"<b>격려:</b> 내 영웅의 생명력을 #2 회복시킵니다.","attack":1,"health":8,"durability":0,"armor":0,"flavor":"한때는 각지의 의무관들이 참여하는 대 치유시합도 있었습니다. 심판은 하루 종일 두드려 맞고 치유를 받는 게 임무였죠.","spellSchool":"","portrait":"W11_157_D.psd:9177ba6ce3ada1f47b11ee9fc8108a65","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":8},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":4},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":403,"name":"INSPIRE","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_091.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W11_157_D.psd:9177ba6ce3ada1f47b11ee9fc8108a65","goldenMaterial":"AT_091_PremiumCard.mat:b80cee8f8659aec4f80f6eb462063e62","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_091",
+    "dbfId": 2575,
+    "name": "마상시합장 의무관",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>격려:</b> 내 영웅의 생명력을 #2 회복시킵니다.",
+    "attack": 1,
+    "health": 8,
+    "classes": [],
+    "mechanics": [
+      "INSPIRE"
+    ]
+  }
+}

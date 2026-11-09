@@ -1,1 +1,21 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_029","dbfId":2715,"name":"해적단원","type":"MINION","cardClass":"ROGUE","rarity":"COMMON","collectible":true,"cost":1,"text":"내가 무기를 장착할 때마다 무기에 공격력을 +1 부여합니다.","attack":2,"health":1,"durability":0,"armor":0,"flavor":"해적들은 죽은 다음에도 일자리가 많습니다. 블랙하트 항만이라는 곳에서요.","spellSchool":"","portrait":"HS5-046_D.psd:1e2d504326b4e8643b059d0bbfacddc7","set":"TGT","nativeTags":[{"id":32,"name":"발동 효과 표시","value":1},{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":7},{"id":200,"name":"종족","value":23},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["PIRATE"],"race":"해적","classes":[],"art":"art/AT_029.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-046_D.psd:1e2d504326b4e8643b059d0bbfacddc7","goldenMaterial":"AT_029_PremiumCard.mat:63eccc6b49fd25a40a04392a3cffeebd","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_029",
+    "dbfId": 2715,
+    "name": "해적단원",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "내가 무기를 장착할 때마다 무기에 공격력을 +1 부여합니다.",
+    "attack": 2,
+    "health": 1,
+    "races": [
+      "PIRATE"
+    ],
+    "race": "해적",
+    "classes": [],
+    "mechanics": []
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_054",
+    "dbfId": 2618,
+    "name": "안개소환사",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>전투의 함성:</b> 내 손과 덱에 있는 모든 하수인에게 +1/+1을 부여합니다.",
+    "attack": 4,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "안개를 소환하면 어떻게 되냐고요? \"눅눅해져.\"",
+    "spellSchool": "",
+    "portrait": "HS5-008_D.psd:5fa6e558023793a4f96a10d0c2f8b904",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_054.png",
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "언데드"
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2022-11-30": "https://hearthstone.blizzard.com/ko-kr/news/23882860"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS5-008_D.psd:5fa6e558023793a4f96a10d0c2f8b904",
+    "goldenMaterial": "AT_054_PremiumCard.mat:a33d813493139b244840402c62d32353",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "안개소환사",
+      "rawText": "<b>전투의 함성:</b> 내 손과 덱에 있는 모든 하수인들에게 +1/+1을 부여합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "4.1.0.10956"
+    },
+    {
+      "build": "5.0.0.12574",
+      "name": "안개소환사",
+      "rawText": "<b>전투의 함성:</b> 내 손과 덱에 있는 모든 하수인에게 +1/+1을 부여합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/4f7206f440ab05115824b7263aa36cd94a96327f/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

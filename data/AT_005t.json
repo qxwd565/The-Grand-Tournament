@@ -1,1 +1,26 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_005t","dbfId":2543,"name":"멧돼지","type":"MINION","cardClass":"MAGE","rarity":null,"collectible":false,"cost":3,"text":"<b>돌진</b>","attack":4,"health":2,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS5-064b_D.psd:434d042490976ef4bae529429e64d31d","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":3},{"id":197,"name":"돌진","value":1},{"id":199,"name":"직업","value":4},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/AT_005t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-064b_D.psd:434d042490976ef4bae529429e64d31d","goldenMaterial":"AT_005t_PremiumCard.mat:fc2d26482d5d1cb4aa4e3713a54801dd","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_005t",
+    "dbfId": 2543,
+    "name": "멧돼지",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": null,
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>돌진</b>",
+    "attack": 4,
+    "health": 2,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "mechanics": [
+      "CHARGE"
+    ]
+  },
+  "2023-07-26": {
+    "cardClass": "MAGE"
+  }
+}

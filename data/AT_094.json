@@ -1,1 +1,25 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_094","dbfId":2580,"name":"불꽃 곡예사","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":2,"text":"<b>전투의 함성:</b>\n무작위 적에게\n피해를 1 줍니다.","attack":2,"health":3,"durability":0,"armor":0,"flavor":"처음에는 톱날로 곡예를 부렸지만 최근에 불꽃으로 갈아탔습니다. \"더 화끈하니까!\"","spellSchool":"","portrait":"W3_208_D.psd:325310d55e111294581273198b9385cb","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":2},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["DRAENEI"],"race":"드레나이","classes":[],"art":"art/AT_094.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W3_208_D.psd:325310d55e111294581273198b9385cb","goldenMaterial":"AT_094_PremiumCard.mat:31a8fdf273302ae438991b883787f518","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_094",
+    "dbfId": 2580,
+    "name": "불꽃 곡예사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>전투의 함성:</b><br></br>무작위 적에게<br></br>피해를 1 줍니다.",
+    "attack": 2,
+    "health": 3,
+    "classes": [],
+    "mechanics": [
+      "BATTLECRY"
+    ]
+  },
+  "2024-10-30": {
+    "races": [
+      "DRAENEI"
+    ],
+    "race": "드레나이"
+  }
+}

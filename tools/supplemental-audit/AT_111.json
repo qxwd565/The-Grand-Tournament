@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_111",
+    "dbfId": 2704,
+    "name": "투스카르 행상인",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b><br></br>각 영웅의 생명력을<br></br>#4씩 회복시킵니다.",
+    "attack": 3,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "메뉴: 어육 완자, 당근, 팝콘, 요르문가르 스테이크. 여러 손님이 방문하는 만큼 음식도 다양합니다.",
+    "spellSchool": "",
+    "portrait": "HS5-042_D.psd:3b031598e8b61074f96d6c2dcbd4b1ef",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_111.png",
+    "patches": [],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS5-042_D.psd:3b031598e8b61074f96d6c2dcbd4b1ef",
+    "goldenMaterial": "AT_111_PremiumCard.mat:04c6fa05c39b6cd46bfb18a5e8d86074",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "투스카르 행상인",
+      "rawText": "<b>전투의 함성:</b> 각 영웅의 생명력을 4씩 회복시킵니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "투스카르 행상인",
+      "rawText": "<b>전투의 함성:</b>\n각 영웅의 생명력을\n4씩 회복시킵니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "11.4.0.25252"
+    },
+    {
+      "build": "12.0.0.25770",
+      "name": "투스카르 행상인",
+      "rawText": "<b>전투의 함성:</b>\n각 영웅의 생명력을\n#4씩 회복시킵니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/48d8f8261c56e0b5109f5e363cd47c000585857f/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

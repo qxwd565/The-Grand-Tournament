@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_012",
+    "dbfId": 2551,
+    "name": "어둠의 종복",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>격려:</b> 각 영웅에게 피해를 4씩 줍니다.",
+    "attack": 5,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "분명 격려를 했는데 왜 내 명치가 아플까요.",
+    "spellSchool": "",
+    "portrait": "w9_a029_D.psd:0f7660b0bae3e9f4db31b13227566b5e",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 403,
+        "name": "INSPIRE",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_012.png",
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "언데드"
+        }
+      },
+      {
+        "date": "2023-08-23",
+        "changes": {
+          "cost": 5,
+          "text": "[x]<b>전투의 함성과 격려:</b><br></br>각 영웅에게 피해를<br></br>4씩 줍니다."
+        }
+      },
+      {
+        "date": "2023-09-07",
+        "changes": {
+          "health": 5
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2022-11-30": "https://hearthstone.blizzard.com/ko-kr/news/23882860",
+      "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537",
+      "2023-09-07": "https://us.forums.blizzard.com/en/hearthstone/t/2723-patch-notes/113008"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "w9_a029_D.psd:0f7660b0bae3e9f4db31b13227566b5e",
+    "goldenMaterial": "AT_012_PremiumCard.mat:4d3514e1174a6464982ea7982977e8f6",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "어둠의 종복",
+      "rawText": "<b>격려:</b> 각 영웅에게 피해를 4씩 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "어둠의 종복",
+      "rawText": "<b>격려:</b> 각 영웅에게\n피해를 4씩 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "27.0.0.181554"
+    },
+    {
+      "build": "27.2.0.183876",
+      "name": "어둠의 종복",
+      "rawText": "[x]<b>전투의 함성과 격려:</b>\n각 영웅에게 피해를\n4씩 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

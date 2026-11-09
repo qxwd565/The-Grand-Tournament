@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_082","dbfId":2486,"name":"풋내기 종자","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":1,"text":"<b>격려:</b> 공격력을 +1 얻습니다.","attack":1,"health":2,"durability":0,"armor":0,"flavor":"풋내기지만 꿈을 간직하고 있습니다!","spellSchool":"","portrait":"HS5-014_D.psd:3c873d94ed02f2b4a94ff14182b43be2","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":403,"name":"INSPIRE","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_082.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-014_D.psd:3c873d94ed02f2b4a94ff14182b43be2","goldenMaterial":"AT_082_PremiumCard.mat:d643a14de4943904482e519b0db59e59","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_082",
+    "dbfId": 2486,
+    "name": "풋내기 종자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>격려:</b> 공격력을 +1 얻습니다.",
+    "attack": 1,
+    "health": 2,
+    "classes": [],
+    "mechanics": [
+      "INSPIRE"
+    ]
+  }
+}

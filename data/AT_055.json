@@ -1,1 +1,18 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_055","dbfId":2582,"name":"순간 치유","type":"SPELL","cardClass":"PRIEST","rarity":"COMMON","collectible":true,"cost":1,"text":"생명력을 #5 회복시킵니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"별명은 번쩍 치유입니다.","spellSchool":"HOLY","portrait":"W17_a110_D.psd:967721d9490ae4a4c815531c1db5740a","set":"TGT","nativeTags":[{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":6},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":5}],"races":[],"race":"","classes":[],"art":"art/AT_055.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W17_a110_D.psd:967721d9490ae4a4c815531c1db5740a","goldenMaterial":"AT_055_PremiumCard.mat:7c3ddf4c9be740745b31567e98d3abdb","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_055",
+    "dbfId": 2582,
+    "name": "순간 치유",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "생명력을 #5 회복시킵니다.",
+    "classes": [],
+    "mechanics": []
+  },
+  "2021-03-26": {
+    "spellSchool": "HOLY"
+  }
+}

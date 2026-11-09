@@ -1,1 +1,29 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_036","dbfId":2586,"name":"아눕아락","type":"MINION","cardClass":"ROGUE","rarity":"LEGENDARY","collectible":true,"cost":8,"text":"<b>죽음의 메아리:</b> \"<b>죽음의_메아리:</b> 아눕아락을 소환함\" 능력이 있는 4/4 네루비안을 소환합니다.","attack":8,"health":4,"durability":0,"armor":0,"flavor":"아움 날락크, 쉬! 일어나라, 부하들아. 먹어치워라!","spellSchool":"","portrait":"HS5-049_D.psd:e6f64e6408522d74198744821e9695d4","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":8},{"id":48,"name":"마나 비용","value":8},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":7},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":217,"name":"죽음의 메아리","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1452,"name":"수집품 관련 카드 데이터베이스 ID","value":3010}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/AT_036.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-049_D.psd:e6f64e6408522d74198744821e9695d4","goldenMaterial":"AT_036_PremiumCard.mat:1608109507e8d0d43b2a8abd228ec13a","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_036",
+    "dbfId": 2586,
+    "name": "아눕아락",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 9,
+    "text": "<b>죽음의 메아리:</b> 이 하수인을 다시 내 손으로 가져오고 4/4 네루비안을 하나 소환합니다.",
+    "attack": 8,
+    "health": 4,
+    "classes": [],
+    "mechanics": [
+      "DEATHRATTLE"
+    ]
+  },
+  "2022-11-30": {
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드"
+  },
+  "2023-08-23": {
+    "cost": 8,
+    "text": "<b>죽음의 메아리:</b> \"<b>죽음의_메아리:</b> 아눕아락을 소환함\" 능력이 있는 4/4 네루비안을 소환합니다."
+  }
+}

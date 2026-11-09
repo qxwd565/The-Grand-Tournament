@@ -1,0 +1,1 @@
+Unpublished supplemental reconstruction from the preserved TGT audit. These wrappers were never main at d04048e30e0ac075b5961e0198c5576d38fd828d. Immutable actual pinned originals remain in metadata.originalSource. The 104 dated changes and their evidence are inputs for reproducible migration, not a previously published source commit.

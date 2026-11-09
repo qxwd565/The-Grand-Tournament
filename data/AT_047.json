@@ -1,1 +1,28 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_047","dbfId":2613,"name":"드레나이 토템술사","type":"MINION","cardClass":"SHAMAN","rarity":"RARE","collectible":true,"cost":4,"text":"<b>전투의 함성:</b>\n내 토템 하나당\n+1/+1을 얻습니다.","attack":4,"health":5,"durability":0,"armor":0,"flavor":"대량 생산의 시대인 지금, 오직 가내 수공업만으로 토템을 제작하는 장인입니다.","spellSchool":"","portrait":"W8_089_D.psd:9e194e05bc905d645b523c877cac884c","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":4},{"id":199,"name":"직업","value":8},{"id":200,"name":"종족","value":2},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["DRAENEI"],"race":"드레나이","classes":[],"art":"art/AT_047.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W8_089_D.psd:9e194e05bc905d645b523c877cac884c","goldenMaterial":"AT_047_PremiumCard.mat:e982b2ec178e30c4faa2f7e539840a5b","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_047",
+    "dbfId": 2613,
+    "name": "드레나이 토템술사",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>전투의 함성:</b><br></br>내 토템 하나당<br></br>+1/+1을 얻습니다.",
+    "attack": 4,
+    "health": 4,
+    "classes": [],
+    "mechanics": [
+      "BATTLECRY"
+    ]
+  },
+  "2021-03-26": {
+    "health": 5
+  },
+  "2024-10-30": {
+    "races": [
+      "DRAENEI"
+    ],
+    "race": "드레나이"
+  }
+}

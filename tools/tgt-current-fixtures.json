@@ -1,0 +1,1224 @@
+{
+  "schema": 1,
+  "hashEncoding": "SHA256 UTF8 JSON ensure_ascii=False sort_keys=True compact",
+  "currentGameplaySpecChanges": 0,
+  "cards": {
+    "AT_001": {
+      "dbfId": 2539,
+      "originalCurrentHash": "06c08d1d2aa583be6119481637b72524fb46976a1a3b54236a76c55bd58ae6b2",
+      "expectedNormalizedCurrentHash": "9abb644eec368764d3c43c5390d073dec280b21301f7fb9821abcec9dfe32c3d",
+      "nativeSourceHash": "29e2c941fb90b7daccbee23bd003e460d3aac4f40f30151d5fcb87b8c8493b67",
+      "currentNativeTagsHash": "ae82ca262c11ecc12b797bc4f8f7ef74e6287c83687a7d9bcce8c0652cc8b40d",
+      "historicalTextObservationsHash": "44fd324ce6e680b1af5ea503f4bb342600b2c47bb494335766827523ee903014"
+    },
+    "AT_002": {
+      "dbfId": 2541,
+      "originalCurrentHash": "e2e55dc08ce1455e3c64d5a95f1b3175451c9a7040f4c6df67fac83ee4d31ff8",
+      "expectedNormalizedCurrentHash": "c87b14d8088006d5d4926883c1386c372568db10de2a428aae86b0b7c35a319c",
+      "nativeSourceHash": "690dd2ace9d766bc79c922b11517786e7033a49ae99c4088b64cf4f709994484",
+      "currentNativeTagsHash": "4ac1a2ea1c5f2f2a7aaa32daf3621efaf9522ff1d3164a6cf7a73716044cd72b",
+      "historicalTextObservationsHash": "604a9bcaaa1d38e781707dfbe133e3639d5f65896349de87fd49acdbe2099e41"
+    },
+    "AT_003": {
+      "dbfId": 2545,
+      "originalCurrentHash": "1c7ad77be57779aff2a6d7d4c0c3ac904bbe9f3b7f804401d3e8af0e3d0715df",
+      "expectedNormalizedCurrentHash": "4e0c72c7bcbb88220335e0cf72c87b5ed2264b37dfd680780006d121749dc008",
+      "nativeSourceHash": "d1d7398e6e08beda89f518520ba90eeeba4ebd6227762f2d4c76079b0be215da",
+      "currentNativeTagsHash": "262240c3bfc839638992ddc9528c958d69503a2fa83db03d29924ee57f634db5",
+      "historicalTextObservationsHash": "5135f33c031134737e97d118f179c346ff3a5453c34b8767888927a6bd8bdb53"
+    },
+    "AT_004": {
+      "dbfId": 2572,
+      "originalCurrentHash": "31e6c288c50118fd4466c4aee695fac4df4dade52ea30dcbaea036a564a6851d",
+      "expectedNormalizedCurrentHash": "f15f1539c62fbbd18dfca3d4d9ba8dd758a28193d298519451d5eabd267ebe62",
+      "nativeSourceHash": "c91127f7f5cda17d8eefdeedd4bf83f4e030349f2b3a432506d68829dfbece68",
+      "currentNativeTagsHash": "aaf7ecd63bee2c7f4aab2d9dfde55809de29a9b1b81e752007a5d1aca98802fe",
+      "historicalTextObservationsHash": "ae1d9e154deb520efd5aa432d2e57d00116460f6f0cd41b8c6e4b6fc70fe4b9e"
+    },
+    "AT_005": {
+      "dbfId": 2542,
+      "originalCurrentHash": "779d196fe47f5272e27b831e20cf07458e47a5beecfa1d6a3a6b3b41a6f487d5",
+      "expectedNormalizedCurrentHash": "7c9a6028405d455f5fa8a24d8afd0f432fd6c13db17d11a8a30ff41cb58df1b0",
+      "nativeSourceHash": "bff5b1cf6da54a06aae3e2667d780a4ea520279e7799a71dc373e3fd1a15e8b6",
+      "currentNativeTagsHash": "c0706c9db74b6dc4febb7580805d8f4398c169539e510d69f26dfcf7849a6f6d",
+      "historicalTextObservationsHash": "76e2f8b356d312146959109995a06e17609e4ca18d43feaa1d24f13bf9d9db13"
+    },
+    "AT_005t": {
+      "dbfId": 2543,
+      "originalCurrentHash": "42ae0f64c146d2b1131cb3f5fe5556dbc5c30a700078b040c46c0ad611b33160",
+      "expectedNormalizedCurrentHash": "c5c7a8c34bdd37f1b4df78f666da1e52f5b3191deb2229e22cbf2a801e6f15c3",
+      "nativeSourceHash": "d4f1427103abc91eee961a7a67c8160e76428eb30739cfb44446707ff5c92f2d",
+      "currentNativeTagsHash": "acf6186d91b19e6a86c92fa1a7a1e68bc096a7d7ed1c477f1622fba16b1aacf3",
+      "historicalTextObservationsHash": "4860b2257de6407ba3f235d14358448f68098f33310353072c36e930c9d77eff"
+    },
+    "AT_006": {
+      "dbfId": 2549,
+      "originalCurrentHash": "f85ce02a8abaf6d8f61e97b2abe87afab76162b182a7a0add27d75d6dba92bcc",
+      "expectedNormalizedCurrentHash": "0e934557e76f79a9ba06a785031dbb6bd49ce74b78b454d0be8348a52099fcf6",
+      "nativeSourceHash": "7772ea6f02fa4cf3d4fdbb4c5298754a011640fe55f0d4e91b6759f86e63e9bd",
+      "currentNativeTagsHash": "8a0370a2f78e340786d26b9e6dad5fe5f7607ccffb1c0b962092d9c674d7bb3e",
+      "historicalTextObservationsHash": "bdd706ef6ec08ee6254156c6a01d550df5df33965850b3693148a18086a31597"
+    },
+    "AT_007": {
+      "dbfId": 2571,
+      "originalCurrentHash": "bb8e5040adfb7749cca81a6da40ad5afc92d44a213dcd8d4094f855ea56d4885",
+      "expectedNormalizedCurrentHash": "513596b5f79717e39e6c0ef91d3ac92c4a081bacdd998a9cc869c354bd3c4780",
+      "nativeSourceHash": "21370119c393888ca1cd30afb083b2fd0a710caef7b1f322507a31954040eeec",
+      "currentNativeTagsHash": "851bb48c4fd415eab8e3359542a3db06b5e801baa1bc592492eb5cc3311beebe",
+      "historicalTextObservationsHash": "e1b3e448d321c0a5eefd985d946989fd29629eae6cd4e937f481fe2ea9ab4d94"
+    },
+    "AT_008": {
+      "dbfId": 2544,
+      "originalCurrentHash": "ff74241b8a82aa2075196183a6203cd20430430ca6147264c2e3deb891d7a223",
+      "expectedNormalizedCurrentHash": "f5269ea47c90a626ddb10e9f4c0c60ced5d5371a1047106fb4af0cdcd0001458",
+      "nativeSourceHash": "0e63cdf2b86ebd9e810bcf5ad19a9e11937ccdfdfa795c18e2fa26ad02993081",
+      "currentNativeTagsHash": "267f7e8b166372cd41a690c37ac4de3f43655ac940001268c60b44511e5aa92e",
+      "historicalTextObservationsHash": "483d1db153361440fc9e5551c662241162dd52c70bceaaae7271987f54418d87"
+    },
+    "AT_009": {
+      "dbfId": 2546,
+      "originalCurrentHash": "acb10328f747c1e3d544964764e78cc0b848c7489d2df3c419242eb29e9755ed",
+      "expectedNormalizedCurrentHash": "46ec8b7ed1efad4bee1e9d5b628b3608cf711fc7c49e4d7493217bea59865934",
+      "nativeSourceHash": "a6e4d7e4d3e8c6637bf957f23a0eadcc0926cca5e9059ab0457ac1c183f55f38",
+      "currentNativeTagsHash": "e6e0d761118ddf7d19485fb94c552b5d047194aeb0f793b809a416aabf2a989e",
+      "historicalTextObservationsHash": "4dd48aedda62f1d4b25e8cbd36988ecfb05be9dc9203afe591c7bc135c2c7a41"
+    },
+    "AT_010": {
+      "dbfId": 2552,
+      "originalCurrentHash": "72be2259d5efd555ce97e5058f95b72ef81c52de13e26449fb69b06688beeb85",
+      "expectedNormalizedCurrentHash": "598ac74b300caa7ff5bcb5863525af43d7f318c9d7f9a9b49b355a944afbf2ed",
+      "nativeSourceHash": "af95ab555efa8bf53246c7673460a07d3a1aea5e0b8ca28eaa0a166b35693458",
+      "currentNativeTagsHash": "93e8a9f9f8c1f6aa9eee041f071b9c08b253d99b6e2ca9c5a4bed2bd08fd6c3c",
+      "historicalTextObservationsHash": "012313a2729e7bb3adddfb81dc3ab9f0737fd0cdcb494fd45a1acce82d41f662"
+    },
+    "AT_011": {
+      "dbfId": 2555,
+      "originalCurrentHash": "8d6f6f2cb05850fac83782c802dcd82a07b349add85f169677f535652bd14b6e",
+      "expectedNormalizedCurrentHash": "268cd34af964f6c1da4aa205e079d2b3b900329b24b0888e30bfacec22cffe73",
+      "nativeSourceHash": "0ac41377be2df0de0d09a5660e6c34b0629924cbb3a7227777fbc78119ac96b6",
+      "currentNativeTagsHash": "57bd523194ff43aa0fafef72c85147b4caf459100461331ddd78888f643bd45a",
+      "historicalTextObservationsHash": "e796093a540447a203851d0edaa47c8d505b09c908d51d9df365dd18c349dbb5"
+    },
+    "AT_012": {
+      "dbfId": 2551,
+      "originalCurrentHash": "15de6b4b15ba7ae5b55723f1f470315dc2e3a5d0fef9ce21eb3172ae816c49dd",
+      "expectedNormalizedCurrentHash": "92e39accbae9754e474fbc420a6f9d961f7b35e2e31d9bcf3f1106195f20d6a3",
+      "nativeSourceHash": "cd650b5afbbb38434576d3fa269d347cbb238edf81731935860415edd0d51dc7",
+      "currentNativeTagsHash": "ee55e27f15a1bdf16bc4c610a4d9f662809c5054e700a8ce0147fe4320e04eee",
+      "historicalTextObservationsHash": "badc33c05be62bb6b3cbb886296a24ca06b47c07791043ac377239aa0a61bf1a"
+    },
+    "AT_013": {
+      "dbfId": 2568,
+      "originalCurrentHash": "1162877fc04ef80d21965469ec7b302d6d62b1ad3cce4138c844e013eceba23a",
+      "expectedNormalizedCurrentHash": "469075f2de1e4baf49daa1483650ab435cf4943077ac36beabbc570ee78c99bc",
+      "nativeSourceHash": "cda4fba774bd719486397f74c0322a8c9d04d37e79156d5f99027f69d2e74ac7",
+      "currentNativeTagsHash": "48785da8aea6d4d75cd904d0cb68c9f123ba99054910a1330a1954708cac8a0b",
+      "historicalTextObservationsHash": "f13c0213fa7bbc995b8dd2d58537d19665f8fd508f2c59de670277cd5104c45b"
+    },
+    "AT_014": {
+      "dbfId": 2566,
+      "originalCurrentHash": "42ae944bd1416778e5d5df98c38c2d0ca21ca3a25c2cd0b5a5dcbda29b72000a",
+      "expectedNormalizedCurrentHash": "8fe52a9060e7a375c1dffcc271b16c23df0544b93e0f2b9cbc132ee4f0aa23c4",
+      "nativeSourceHash": "43db2d5108cfda4596be94f121094ddf29a06c3a063c70f87ed16aa87392e168",
+      "currentNativeTagsHash": "9e65412c811502b458a98a44d08b8c7d5373e62db56f3622a1f4be7be5664b15",
+      "historicalTextObservationsHash": "cd51fce76dfd94c6141fed5c316668b7f449ed4747625942bb1b93760f29d889"
+    },
+    "AT_015": {
+      "dbfId": 2563,
+      "originalCurrentHash": "d0cf49a4c6ae315afa913d3aeff9ecf49133a0848680ed848c0c54676de4bc5e",
+      "expectedNormalizedCurrentHash": "51cb431f00df93c656f65c719c457e69735c8d3a89b6d4051bcc1d68032ac13a",
+      "nativeSourceHash": "e9a2ce684844c94a5fb60ab8e7e3d87415539041c9179b0f18c86b5dc4b4b398",
+      "currentNativeTagsHash": "ca2f6ca7ca65da74650ed3c93ec7b283a62638ba0ce13191c3bda090dbc85967",
+      "historicalTextObservationsHash": "c130508faf575f014be5c87b44fd24a9c9ae28cae993251896432f3de34c3c59"
+    },
+    "AT_016": {
+      "dbfId": 2564,
+      "originalCurrentHash": "617b9f7285a84fbdb6092e5d546871951c13ac0f2c64e49e96929b64d7be9a87",
+      "expectedNormalizedCurrentHash": "51fad7583881957bf4dbba2a02ec4a48ba419491b733bbcedb013721138e8582",
+      "nativeSourceHash": "955e07e19cf6f7d8a0af29423545cbc825a40ab794e1ef65bdcedad31b088d0e",
+      "currentNativeTagsHash": "926a015f69b3186d1433435574aa653cb4c2278dc19abcbd03c42eb78014992c",
+      "historicalTextObservationsHash": "f6be4b5f4277b520e681ad5382d53a549d55cc746678318891161cf280fa983e"
+    },
+    "AT_017": {
+      "dbfId": 2569,
+      "originalCurrentHash": "1998a34e9f0113b170c94e0693009c197d2940a090166e8123cb622667a8276b",
+      "expectedNormalizedCurrentHash": "7dd9fea27d38b6f97f94b9abf28a3d6159807b68dca840c19e6ef9be5d03f240",
+      "nativeSourceHash": "608d0393679efbcaab8ee81bcf1b32874a2b82d7432acf046c03f3467aec1461",
+      "currentNativeTagsHash": "399a5dd71e5dde50a60c1c8872324d94db46679255568d386bf15b1a0d2fa48f",
+      "historicalTextObservationsHash": "71c90ce2917100dd75be62428b3c64ce89c55e633155d2766f51e46fc5c995de"
+    },
+    "AT_018": {
+      "dbfId": 2556,
+      "originalCurrentHash": "89ea8529504ec2cbf2ff5510166a268954dffe8f50854f190bf9f41bec26f6f4",
+      "expectedNormalizedCurrentHash": "ed6c5010b13d4c16ae2a75cfc5b747ab72ccbdb92f4f0b9b93cae638db93dd09",
+      "nativeSourceHash": "a04de06cf5d456425a8eaeb86b2badf3d66d7814ad1e8f97696e829cac7898b9",
+      "currentNativeTagsHash": "ac00fc3387c6b83c20727dee15ab1ab505956ec7754ad1113227615925c46dbb",
+      "historicalTextObservationsHash": "319336b82a2784f240005abfe2c5c65236afedfaccf61b97a9c2171252d35748"
+    },
+    "AT_019": {
+      "dbfId": 2822,
+      "originalCurrentHash": "354821cddfb523339a756fdf1dbf39f13e9c0c77563c9af1b062433ca7bce4c1",
+      "expectedNormalizedCurrentHash": "7aa138abec1ac7bbed4a2e1f30bf5c022aef5340297784fd0aa371e06826f453",
+      "nativeSourceHash": "1647c33a4fcd4fa7bfbd3ff6f5aed1e85a68c1a9cbf96355f3be307266e33446",
+      "currentNativeTagsHash": "c27c799ccc65085dad9d49c3c42ff27be61e130a41e08bc9613012fd92cfd788",
+      "historicalTextObservationsHash": "c1da84671aeae93647476727a6cbeadce4f3863481306d36a4e2029343e312f9"
+    },
+    "AT_020": {
+      "dbfId": 2624,
+      "originalCurrentHash": "8f58edb1bc18ecd29a8da8864b14fcbfae115e5313162560a2e724c9ce6dd620",
+      "expectedNormalizedCurrentHash": "bd2b4571a8ed1d15d18fecaba0772ec377a9296a462acbae42740eb00200d9b7",
+      "nativeSourceHash": "77e83689a25da3c1c53783f17cc5b9c28fb138858d7a80bd8a91dd38a0bfdbca",
+      "currentNativeTagsHash": "d8f9925f72082ba7564d9dcf4a4d47c461abf63977ce23f939492ab9fd165354",
+      "historicalTextObservationsHash": "cde0df2e9a5da4726556439450bc8a768156ab4a53567aa2e009c2b081aef562"
+    },
+    "AT_021": {
+      "dbfId": 2777,
+      "originalCurrentHash": "57ad3bfb0c1463d2fdffceed70e2f77331646b9ab869f6594220e32f5371df8c",
+      "expectedNormalizedCurrentHash": "ea9dea8afe89894640a392e6122e97f700a87fa15afe73e22fc9aa5a1b5b27e3",
+      "nativeSourceHash": "53e83fdb248327bcdc0025861a357b718491b059c8be3be2e0cdc9c1d22aa590",
+      "currentNativeTagsHash": "c52720d404fd4008c1ae1c610672b698b238e9b26bcdaf8ebec83047df666c47",
+      "historicalTextObservationsHash": "2bb5b8ea2e604a4f30782d32178a1cc6588d902b5943d96dfb876d3c5d4d3577"
+    },
+    "AT_022": {
+      "dbfId": 2628,
+      "originalCurrentHash": "bff4ec45ca63ba7b9cb832cbe1d054231e776f754027291f2d604ed7ebacb888",
+      "expectedNormalizedCurrentHash": "bdd674954e6fc07e72ef069968948c8dd11647970262f69aabd0ea503e4d8933",
+      "nativeSourceHash": "f4ddf02679b17df338320003a306ea768446ac25d5c694fec43c9d99c261b6ca",
+      "currentNativeTagsHash": "5147d52ff847f76f92efe758117876ab6231ea1d125cd2afe1df736c882735e1",
+      "historicalTextObservationsHash": "e47cd141f0c8f175dfdf09dd4b816d761057fd53ba9a037c3d3153e5b4887891"
+    },
+    "AT_023": {
+      "dbfId": 2537,
+      "originalCurrentHash": "5c2adf5408c7b363f305791a9fa250e44cf26303de09d679fb6c72e14b02c302",
+      "expectedNormalizedCurrentHash": "538728c8592a359373b55e8facc4b92e019a6dd2ecfb5bc914a76fca8953b5ca",
+      "nativeSourceHash": "28af850ed3fbb01f1c9700f387e9c53d0428574bf70c7c9b45cbd202030622e7",
+      "currentNativeTagsHash": "056cb0f5482ab6983dca194e21bb1c4d17e07f2b19b8a700ea8b85a1083c9d6c",
+      "historicalTextObservationsHash": "0b200a3b058f3eb65815fc3e8de22acc93e77d64bec92789a3241a16b83c7b52"
+    },
+    "AT_024": {
+      "dbfId": 2535,
+      "originalCurrentHash": "b09ce7fad43dfe813b75f1fc68f28ae775b970c4887fd25e1a26e1afa800051d",
+      "expectedNormalizedCurrentHash": "5fc49c50e2b25beee906f1609860d78fc95733adbf2d28c0005447f14747b4ab",
+      "nativeSourceHash": "4a8b8b90ae816646a9a39010628b876dd5a92ffa89e56baf48844fa3aeb78554",
+      "currentNativeTagsHash": "dc3fd9a2136124d252cb0f080b6ff72f69b19a321f583f164c78c6feb842d1a9",
+      "historicalTextObservationsHash": "829f6bcd04bd4822abd6e3f55dfbd2e89aa4e57a71cc4b2f9ab2003833b11d66"
+    },
+    "AT_025": {
+      "dbfId": 2632,
+      "originalCurrentHash": "8dc356119026029fb6e460f03e5302d76f354047829588a2c38ab3025705820c",
+      "expectedNormalizedCurrentHash": "5ff4dc2194b2e678a5b9c709ca7d182e5608f62a36ee567d97bb899f1ee39cf1",
+      "nativeSourceHash": "76e5551e20d5c8b94b802b44784086d68941eabd657ca80dfac2df4fc7ed8449",
+      "currentNativeTagsHash": "263fc923c577a1c0f4e2fb31902d2d2605531e10ad928b559e19f787604eaec0",
+      "historicalTextObservationsHash": "88983d60c48f41f2e2e6e87e170b17477d17d8a80760376660aa89890f086327"
+    },
+    "AT_026": {
+      "dbfId": 2623,
+      "originalCurrentHash": "6c5079fde61eee11e59ee6170910632453cce4d9d70be94ebb7666d7f98d6c65",
+      "expectedNormalizedCurrentHash": "bda31c4c8bc154a776cdece7b0753d1266b82e5c951db35a05709e824547be61",
+      "nativeSourceHash": "9b7a5df4df5e3be8a7fe1f0262ac6a73db8b28ed91b376e15d9f4baccc01afff",
+      "currentNativeTagsHash": "5ec1080009926e0ff7428abb179bb5f1648c35b7263789df35e22fac82393783",
+      "historicalTextObservationsHash": "51e6576f27502cf74d46a6a132dbd8fad6552037617af0a7a3966c832ddfbf3b"
+    },
+    "AT_027": {
+      "dbfId": 2621,
+      "originalCurrentHash": "fb5d1bb6c8eb6bea1ef2cb5dbda9046bff7acefa068aa9d0d735d687151de141",
+      "expectedNormalizedCurrentHash": "814b9a0aa35e8dcf45766cfb3d8e468983c4a0976286806dcc3b9879415e4e58",
+      "nativeSourceHash": "481a53b0a0ae8862e9af6742fe55cfc22475356029e99064c39cb5d6299e5282",
+      "currentNativeTagsHash": "d64580437a852ffe9c8f4f66e102f08e6117670ae6e34f23247755d0b22e9e71",
+      "historicalTextObservationsHash": "abe0d8a8352587feb2596cdedaccd4cb2fd72be9e2cb4952e352fcb916956c5d"
+    },
+    "AT_028": {
+      "dbfId": 2765,
+      "originalCurrentHash": "450c1c7781d6d694a452241f6d1d41bbd94a42a01d163e8c1d1116c58b7b453b",
+      "expectedNormalizedCurrentHash": "f30c40dce893c7d92c6aede0222b7e8dee96a06547bdfd6dfee4e496c4394004",
+      "nativeSourceHash": "7a93a0b3fc92eeb89f2874d5a528cebb6b9157dbe1e1511531ab73b25c1ccf3c",
+      "currentNativeTagsHash": "b4aafe37ccfa89a416f9dbaa2eff652ae23a759e76d6adb48a5c68fa7c6c64ec",
+      "historicalTextObservationsHash": "9ff5b13da11c62bb331cc696a94c7347850e5c95502a0a34dfb29c783fbe3090"
+    },
+    "AT_029": {
+      "dbfId": 2715,
+      "originalCurrentHash": "914122d9df121422783c16b6c38882ac19313597ba3f87830cf7bc5834516630",
+      "expectedNormalizedCurrentHash": "6093c37a6c5b8b58d8993d25fe262eaa44dc6942eec747fcab3d5e3c854fb2c7",
+      "nativeSourceHash": "f18f8486b02bb2398bdb0171e60ca69f4a56dbce037e52e52db23b5490120460",
+      "currentNativeTagsHash": "09d96e0873df25e87a6900508f85ab78d55326846fd35d7ebf2fc3376ef50052",
+      "historicalTextObservationsHash": "2ff549184c1894af63edc17282d320e0b77e0b8fb7396fd53658679d9274bb78"
+    },
+    "AT_030": {
+      "dbfId": 2767,
+      "originalCurrentHash": "f4b2097f08535aa66e372fe6898d982afa283850325a6ee1b1cc142b0cfe6d0a",
+      "expectedNormalizedCurrentHash": "e2c62b381a1c3f0d5bed9aebeea8bb71e1df86a045da0f0c045af23269687f2c",
+      "nativeSourceHash": "e1a0e30f7971c5b601d7d54b77dff5bca3ea83cb9c2e08e56714cb2a08995ce9",
+      "currentNativeTagsHash": "fe441cbe857004592b468cc2270ed03cd3e8970851c24090b2788154a17278d4",
+      "historicalTextObservationsHash": "8e1619af7ab03dcf3f057052bf69713cba1a34cfbefa4f93f0df5a410cc62920"
+    },
+    "AT_031": {
+      "dbfId": 2766,
+      "originalCurrentHash": "1fabd248ceabdc571571a516fc1c4c7cade7be54c673df29c5603f3b563ac5ab",
+      "expectedNormalizedCurrentHash": "35b602c2b67e4ec6e37872f6698386d76a9d8fd8815ae94ef37bcf02792c9616",
+      "nativeSourceHash": "0f3f46af5244afd70854485041a70e6efa1a8c7899ef7c46792e1b92750fa4c6",
+      "currentNativeTagsHash": "d1db41ee3f03f9b25f8cfd994fad202c4e663e375e8cbf3196fdcd68fb328ff9",
+      "historicalTextObservationsHash": "206c304710ed956bacec4e52ad82d4fb0e6d74e1646b6aa9bc7a3376af99cb94"
+    },
+    "AT_032": {
+      "dbfId": 2768,
+      "originalCurrentHash": "5fb94fb7395af32ebe545ecd2fbf7110aef82e3f31d02016db33266026e17337",
+      "expectedNormalizedCurrentHash": "924e01cfc7aa5ab44b45702ba6efceb87c2d1d85ed9581bf3aff442ccf947eb5",
+      "nativeSourceHash": "49d44c3457d8892a466232473640fd233154f6c2308c7e6f2c3ccafec8a67973",
+      "currentNativeTagsHash": "2addfddd2058ad5d9b8f9ff4b4f82e97b21103ce76206cb9900ea66165a2f7d8",
+      "historicalTextObservationsHash": "979d50e0f46bc17508dc659475ca9b2fb5fbdaa8c96437a717da5effcd820d22"
+    },
+    "AT_033": {
+      "dbfId": 2770,
+      "originalCurrentHash": "a389fb6f850ca09276fdf70202bb5345ebac616a886507c0bd3d09992c481aad",
+      "expectedNormalizedCurrentHash": "a50e12806668e81c308f29de78210a140a6f5694db3dad5ac56382f6f7a6326d",
+      "nativeSourceHash": "caaa91dbeb915157266330d05d47654b9dacc95635900f971b6e03874a055de4",
+      "currentNativeTagsHash": "1a1a5b1dd124ac4f92044c3b8925ef8187d77984b44e4db543e87f249aaa5e6a",
+      "historicalTextObservationsHash": "efbd1abaffccf7aea68c57923bf03b7508f3e66f6466d1f9da33f4e7baea53ae"
+    },
+    "AT_034": {
+      "dbfId": 2763,
+      "originalCurrentHash": "c8fbb86bd9e5a18e1cf2ee14d0b32eab66623fb9765a578de347eec9befa04e0",
+      "expectedNormalizedCurrentHash": "0afe9bb6fd5bbc0202014f57bad87e020ea67b4896f5b3ce5a1bf4c456a75285",
+      "nativeSourceHash": "c98d7a3e652e0e896a2e6cf5d206b55a2899f0f16b61b30ff9f3e1b30b3170b0",
+      "currentNativeTagsHash": "62c6bb7d6e46541b9e3caac00827236071426b77587e3ccdb5d91f2ea2ab4343",
+      "historicalTextObservationsHash": "8cd4c6fb5017d6851cf42e993d449aef91c5c77d59c636a7ea9bb0201fde40ea"
+    },
+    "AT_035": {
+      "dbfId": 2587,
+      "originalCurrentHash": "3fbe1f4705f586600f9f28a14c5083f5161ec4264c21f3d7aa93c7755bda5703",
+      "expectedNormalizedCurrentHash": "5fe8a5db78dce7a601ba613d06598208cf53511e327e38d6a2ca606cfa46d08b",
+      "nativeSourceHash": "dfa9a9d2cdfc620f9d0d93c79d075526e4ff388af7714d7551375277e640c917",
+      "currentNativeTagsHash": "178d9947d362da2a1a1637400e890fcf257c65b4772566bec29e67b7504f3512",
+      "historicalTextObservationsHash": "e9ba93b6397ae3dd416406458393f8169ebdc137ead2c84e82790586083e2189"
+    },
+    "AT_035t": {
+      "dbfId": 2847,
+      "originalCurrentHash": "6076a73bba86114a907c4fa82a0b688ad2e460a189637e3f961264dacc97988d",
+      "expectedNormalizedCurrentHash": "b73156d9015f54d441311f06973712007762044ee0a999a2bfc3e5b5fed02678",
+      "nativeSourceHash": "b1edcec5e3b25c34c8148e1c8aa97093cc6c5b58916616ce423ca0e3d80c75f4",
+      "currentNativeTagsHash": "7c150f48c3b1ef8d4a40b48c238df4004f6f50b1473805a37741c5e5367b786e",
+      "historicalTextObservationsHash": "a8b07faca1e3a77a18f36cf223552d072c08633c46b9090eb85d419d2b4394af"
+    },
+    "AT_036": {
+      "dbfId": 2586,
+      "originalCurrentHash": "b9940d0a7bb18701263c3aadc76078700c14f11390621ac0b7759b58fa4a1b79",
+      "expectedNormalizedCurrentHash": "c959523be6fff541596980df4cd9f5211e2baa847d764061406de1f9b472b8f7",
+      "nativeSourceHash": "51a0dac3f2d746cfcfd2b75bfe95ce1e15e579b134af465baf8aeb63b0939889",
+      "currentNativeTagsHash": "f1d83e9fbe5c3555bbe4a0f3a589070c72f10d5c07705ddd3cd521468310961c",
+      "historicalTextObservationsHash": "1129e8a6bc7b70206209eb887d8f50b9f66b8e487ffc693ac71eca5142922823"
+    },
+    "AT_036t": {
+      "dbfId": 3010,
+      "originalCurrentHash": "aa63434a237b2e209d92ca35a4edb3ca7ccb547b838cc008bcb7b5409637bb12",
+      "expectedNormalizedCurrentHash": "8e4228472e57521a3577c143984d2501045745c8c0720fe238595a56f0ab736d",
+      "nativeSourceHash": "ee1a6f8358b56b2aa7810c381563f16575c4e718a219fcf0acd88193b853a062",
+      "currentNativeTagsHash": "98e5991d10765490f052a3ac5f5ed36ea38da4dcd860b15c99c79647d02bc6e9",
+      "historicalTextObservationsHash": "cca9a6568683ffaac9d02d993d0cafb02622556d9676057133adbbe30ee23a74"
+    },
+    "AT_037": {
+      "dbfId": 2792,
+      "originalCurrentHash": "16503bb55d95fca73dbe98a886100115feb9f684fd27f67ecddd6a4639e7528e",
+      "expectedNormalizedCurrentHash": "b76f903eb142b9483cd30ba1b57684437e6b7d5d8a4ee7c6a8d9c75806065339",
+      "nativeSourceHash": "07f863613b5a9945745281ad8b2aaa7f2b10693f45620f0a26f43037d19ac006",
+      "currentNativeTagsHash": "cfe8b2bbaa35c95641d9e023bb95d4b2b663bb9ab4a769d901566249f31ab4d7",
+      "historicalTextObservationsHash": "9dd62b287b3ba6983030590cf550cd54a1ad869df82642cf12e227d85b3774ee"
+    },
+    "AT_037a": {
+      "dbfId": 2789,
+      "originalCurrentHash": "6cadf15455a0596f09a48547a959cc834266cc4ca83f3706a73ffa34d2655998",
+      "expectedNormalizedCurrentHash": "bd5eb0b26fc5a38f877060728b667fab67467346649958172ee49e93c3ca37bf",
+      "nativeSourceHash": "cfee8c9dcfd6222f59f2049d44d2216196ca86051f0d530ac98daec105207d84",
+      "currentNativeTagsHash": "ec9cd2ffc67986a7deca0c71d61fb4737cb73b617d0d56526192f46ff346b9cd",
+      "historicalTextObservationsHash": "e116e88518c88267975900135940f54bad01fd5c62d614989aab267b3d74be7f"
+    },
+    "AT_037b": {
+      "dbfId": 2791,
+      "originalCurrentHash": "df27c673bc37278da810a1498525f40555340f1a0c84dad28871e11f23b4b12b",
+      "expectedNormalizedCurrentHash": "be6bf22ca68b80ed9e8a040a714102c47de0060db020174efd08fb6a75d3f275",
+      "nativeSourceHash": "cfee8c9dcfd6222f59f2049d44d2216196ca86051f0d530ac98daec105207d84",
+      "currentNativeTagsHash": "ec9cd2ffc67986a7deca0c71d61fb4737cb73b617d0d56526192f46ff346b9cd",
+      "historicalTextObservationsHash": "8bc5148c0cfd207acc10dfe90df1065d6c871abead4f73ec217734325bc79531"
+    },
+    "AT_037t": {
+      "dbfId": 2790,
+      "originalCurrentHash": "4a077ad2c4c59a221274fe7fe1d6f93fc76dd13f441d6685c9e18b012ba6b1b2",
+      "expectedNormalizedCurrentHash": "a5cfc3c6c9ed4c9074b07542c714a34f4ba23f7b0cc6d5dbc0a5e6e91466b164",
+      "nativeSourceHash": "386629548ef46178dd7e8442ffc9a3313c6d0c2b99765ceac169307dfd4b7a64",
+      "currentNativeTagsHash": "9799e4f0609933a5181ac10a8233c7044c520c78bf25b043698c91333a071cc6",
+      "historicalTextObservationsHash": "9e466ef38d8e0fbd59c5d80289b578e419e49979918ed6bbe877099d22d632bb"
+    },
+    "AT_038": {
+      "dbfId": 2782,
+      "originalCurrentHash": "4e84d2ba843cdff2324ce3742b7b621addd24e0cee3d4cf82d18431efa7592e4",
+      "expectedNormalizedCurrentHash": "be960d8ae5961ab063a2679e15c1786e77de1ffd7c01596d0c9f70ba8b39ec13",
+      "nativeSourceHash": "8853aad6f2bed288c534557e7ea81c5788005f8f2f4744fb6f6a4b673730280e",
+      "currentNativeTagsHash": "18793fed6fd50430c7caa029f57ce923e5302fa8e18feadc2a68e2e5375f1b1c",
+      "historicalTextObservationsHash": "4c4702654434ba2bbcebba6912037d3ee020bc318354e4bc3f19d675f1bb5187"
+    },
+    "AT_039": {
+      "dbfId": 2780,
+      "originalCurrentHash": "8389a410e3ed6bb9e00152c16f1a41b747e21f44a1a84f7461a018dd46172321",
+      "expectedNormalizedCurrentHash": "5361db3c514b29b217422a0cd97571bdda7e66e815a3513b4d5ce9642ccbcb0f",
+      "nativeSourceHash": "32d84bc95c8c1e2928f55622f0fa4749c269cb57e8a6836cb14b100203c355d3",
+      "currentNativeTagsHash": "f8141e2b0a215aadcdd6ce71607b79b02eb2d5254179a1415a8e9a65b43b3673",
+      "historicalTextObservationsHash": "7177a0aaac9d5fafc139c0ed53d0bab5ab1601b6af3c88b6d987d20380611c59"
+    },
+    "AT_040": {
+      "dbfId": 2786,
+      "originalCurrentHash": "a394758adafb1c4571d96c34c08990f5d7351d5d3faa799a9524a19ac61ab406",
+      "expectedNormalizedCurrentHash": "23fcec29e19fec6df9e07352cb8673cb5e81db0535838f30426845181d078eaa",
+      "nativeSourceHash": "9492fd6a4cfbbb07c6dfbd798a0d667d9f019db5d0791f2b15d5e78db90b3b9b",
+      "currentNativeTagsHash": "9937717218eb5ce71ef3c2e72dd3c5bdb4634b10c37fe1b0fc2a5b41f8f4686b",
+      "historicalTextObservationsHash": "e9629e6ce21c95aea17dd499ca3051bc346c7a980f282fe1daa65c53c7051355"
+    },
+    "AT_041": {
+      "dbfId": 2788,
+      "originalCurrentHash": "636777521c425f370d202e26522fef45e7c4ccc9f1707a68411d1195bb3578fb",
+      "expectedNormalizedCurrentHash": "96c563a56ebd9649be16848e7eea2237486703de492d5febdc29366f5f4a1e33",
+      "nativeSourceHash": "7e00a1e0658dc6ac43fb290a646fac72d113f5057d8836c2908921514d79fe2b",
+      "currentNativeTagsHash": "3180a37c26b0babf95c4ea181e54f8860d12107c727365702ea3a93ba0ea8791",
+      "historicalTextObservationsHash": "5b184d49f74af620a6c3616e1a552a05b99544c35370dd8a6ed46d4a363a029a"
+    },
+    "AT_042": {
+      "dbfId": 2783,
+      "originalCurrentHash": "e4fc9104e4c4fb53f9cf53354fd57c5213fce39b6d4c2033c15754e1e3214a93",
+      "expectedNormalizedCurrentHash": "ebd578e2abc45c8419489bba755b9a0bc67230be579fc527773c6d6fa3996bd2",
+      "nativeSourceHash": "dad6bec53fda4b15c6aab145eeda8a5cefc39b47eb37144e8da28cd0b55b7898",
+      "currentNativeTagsHash": "c23bb4f47ea9dd1e524a3fb18edd4052f5d7e3dc9ec4179d397f60be6e2f900b",
+      "historicalTextObservationsHash": "99d395a3990361a73e77ebffba73131387e999dff6f75caa7fad6dcf20d0579a"
+    },
+    "AT_042a": {
+      "dbfId": 2861,
+      "originalCurrentHash": "0f45e7f9501a0abc87cacc20bb08ddd53853a42fa61a3f9749947a878d368f34",
+      "expectedNormalizedCurrentHash": "81bc22a619f415fcad739413d2f0ef4686a3ee9c3bc25742326ffc5d8204094e",
+      "nativeSourceHash": "a5ec3ddee7c98bb016a78f38aaa09ca86853c29620697397f662399a3358675c",
+      "currentNativeTagsHash": "e2c464afd849ac12889d88a90bee0241ff928409f062b3dc4356ff743600ee28",
+      "historicalTextObservationsHash": "12694e736fb695b0fc402496609c1c12b06f0bae6aeef5ed39003a25b3ebcb3e"
+    },
+    "AT_042b": {
+      "dbfId": 2862,
+      "originalCurrentHash": "e13a534d19fa1e6c5c0144b720e5d9c51be25cc96f459cbd74fe5f7f7757dd06",
+      "expectedNormalizedCurrentHash": "fbffeb8dff47970e43848a5f321c0af72210effde398ddfe6a992bad77266dbf",
+      "nativeSourceHash": "19e04cd8f88b40e52cbee4fe647705caaac4352fca7967a0d1fe88d6d8a86020",
+      "currentNativeTagsHash": "b8161ff373b3e6088d851ead8415e0b53c247b066c7d8adc78c658bbe2b9d57a",
+      "historicalTextObservationsHash": "b9f63c678bf275d3003b1fea3e42a1c1ee28e14b9d963569d298d2a9eab00a23"
+    },
+    "AT_042t": {
+      "dbfId": 2784,
+      "originalCurrentHash": "0a705d9c8c334c8886ef4a25458125f88063af40283c97793533f4985ba12b76",
+      "expectedNormalizedCurrentHash": "9f946357fd5ed5ac83304949b2ffdb6ae5cb39dc20a67b624247737e12076723",
+      "nativeSourceHash": "a5ec3ddee7c98bb016a78f38aaa09ca86853c29620697397f662399a3358675c",
+      "currentNativeTagsHash": "e2c464afd849ac12889d88a90bee0241ff928409f062b3dc4356ff743600ee28",
+      "historicalTextObservationsHash": "c7e1a23756bfae83420b6d530c1806daab6fec5d0f796144f531d4413c2c433c"
+    },
+    "AT_042t2": {
+      "dbfId": 2860,
+      "originalCurrentHash": "ebdb03cdbba2da90f9f7a19d30384824986c47b321a6cc3f0bd8085b88d7c93f",
+      "expectedNormalizedCurrentHash": "7b1ed503ccafae886e3dd4bd8af34857c76e710a6e269fd0bd94a10cb3f715fe",
+      "nativeSourceHash": "19e04cd8f88b40e52cbee4fe647705caaac4352fca7967a0d1fe88d6d8a86020",
+      "currentNativeTagsHash": "b8161ff373b3e6088d851ead8415e0b53c247b066c7d8adc78c658bbe2b9d57a",
+      "historicalTextObservationsHash": "9c38099f16b9547e1338b6bbe7539aae2622cd09e0d7cbe0d21d23e2bb07dfa6"
+    },
+    "AT_043": {
+      "dbfId": 2785,
+      "originalCurrentHash": "790cc233da9ac800285995ff687cc0c26c729f7d0b1009927fbb3eeffdcc37af",
+      "expectedNormalizedCurrentHash": "14c597be2bb5824824654c64dc0430b122a29c9a85b26a27f84519ae256e4132",
+      "nativeSourceHash": "24d21eda2dce9922ee767c1510403a27bb969d654974d1d391b7c131e47c1f02",
+      "currentNativeTagsHash": "4222a107d764e5dfad2ccbcc3333897c18484c16c3e5ddc5c7ac65f5d668ba2a",
+      "historicalTextObservationsHash": "45a8918397eec95c8f0798c2cbb7d1d1e14ab74941c65be964ff75a7b56be654"
+    },
+    "AT_044": {
+      "dbfId": 2793,
+      "originalCurrentHash": "7b74abd7dbbd949713f6e0683e58ddb82d104099138f213c5ec7fe466eca9950",
+      "expectedNormalizedCurrentHash": "290cd9e476db02381d05a257232582a0906cbef7d51dfa959ebec56b654cba92",
+      "nativeSourceHash": "27a347480afa6ef95719d1e3c89ad7d65f5cdb4460d225ddb42fcfbe7113690b",
+      "currentNativeTagsHash": "43418a77eb74a4745c05dab0e288f613685a5f6797dc9ef092791588b8405b59",
+      "historicalTextObservationsHash": "1e87930696e81990751d63793ac8acd894a01afe838d436c2041f748e7edee16"
+    },
+    "AT_045": {
+      "dbfId": 2796,
+      "originalCurrentHash": "14f60e0bd53dfbf7c53d166612772a5724ad9e921bde18a89dc38063955c4f4e",
+      "expectedNormalizedCurrentHash": "c40b7c8a9c682e5e1729a263d700def6ce32116a4416e144a4671261d1d17db3",
+      "nativeSourceHash": "6166c205c5865d90836fdf7f062278954ce9afa3903cd2360de81b5c0371994e",
+      "currentNativeTagsHash": "3377863bfba72894e125a0e8cf555e8e688939ed6f7396222c2ad23a559994df",
+      "historicalTextObservationsHash": "62a824e37499aafc0a11f84f1a7d4f1bdcdecc9519a98d3ebb563b6b72c58653"
+    },
+    "AT_046": {
+      "dbfId": 2513,
+      "originalCurrentHash": "d0d5f4e6354648fa8d9a74b3a4709788a0b36816b81f4cca35a9ea3eada9bad5",
+      "expectedNormalizedCurrentHash": "094726c44d10cf8c9bfb0161c79de87d23e3d7646890c94e6e2378b5e0b8d65f",
+      "nativeSourceHash": "3f49056c95cb8e8a0bfeb2407c23c1ff8907c65739ba22443698286e9da16901",
+      "currentNativeTagsHash": "497f9c38d9a06f0328ca0dcd5f56e9b803f89b986ebf62b38d92cf14794bc8a7",
+      "historicalTextObservationsHash": "75b86ac0c640c834106bc86d6cbd7f8188804ee183e9403f9f96ba4c440ca20c"
+    },
+    "AT_047": {
+      "dbfId": 2613,
+      "originalCurrentHash": "4092c97a3322d90557a6c1a3a61ed34d5950e3d374c3ec6c01c6067ea450c52b",
+      "expectedNormalizedCurrentHash": "cad3fa972f9555ca32110830d6eb1e815f0d0941b56fd343f7399b8eabbbb901",
+      "nativeSourceHash": "4d677aa8d99f16fe817b975c573c6179d66fac2b74bdcbb6c02039c1fc0c8f89",
+      "currentNativeTagsHash": "ea5257c675045a2805ed120722b6f208a9d59abb9ea3f44e1d9a8d391654cd2f",
+      "historicalTextObservationsHash": "005485ad3aaefa6dcc83fdaf5c740f8e3f5e294dd15e3c4dfa022260caf3b5fc"
+    },
+    "AT_048": {
+      "dbfId": 2612,
+      "originalCurrentHash": "f1d5a8255054ef79bd8bd479f323a557fecfe6e75f0cfac7147228d20941d9be",
+      "expectedNormalizedCurrentHash": "f0630badd981d9bfefb901665e3af66ec940db4e648871f9a1e96d7e18196a2f",
+      "nativeSourceHash": "5701767f7388a8afee55dbb2be9d8928c5b22ae88c923048b7ec17f3ddbc3641",
+      "currentNativeTagsHash": "c46b688de575068d4d3bda124dc68bb556544745eb6c29f68c79222f0d9af24a",
+      "historicalTextObservationsHash": "23d8d775a97f1c1a3fb8766e2e24dbf7480d0062e54c1b4ad387ae4dd8e91a15"
+    },
+    "AT_049": {
+      "dbfId": 2615,
+      "originalCurrentHash": "eedcb32e91226f6cc245a3d5b5a3e2d2d486b81c7ba63b7c9f598275e5c78870",
+      "expectedNormalizedCurrentHash": "91aed1d7aa3abd9378316067d63b29f39e8cade413a3fdfde73b8106b33d0b29",
+      "nativeSourceHash": "621f26e9aa0184c5aa3f35a827cf3b5e903eb42ca655d7b10ada50cd20a75c84",
+      "currentNativeTagsHash": "88aa1e7d80a9579c3f19fea6c3b2477332608b34d1ac0aaff9294d56e80cac92",
+      "historicalTextObservationsHash": "bdbf76ddb80f588f5e979b6a8a854f9a15d3a93a5041407c00c852d911f87537"
+    },
+    "AT_050": {
+      "dbfId": 2617,
+      "originalCurrentHash": "6facd1440118801cecb8a4ff7861718a325e22f26f51caf6917049b6436d75ba",
+      "expectedNormalizedCurrentHash": "cd8738183e804f92aaf9cb6122df0ca4e1c0cc375d8139dcd5399fd459911d3c",
+      "nativeSourceHash": "a1b77d158d3abd4862d0a1a98d3657d75202f6c93c4d34dc7d761bdf766173e4",
+      "currentNativeTagsHash": "6137706ba690a2b04cddbd4a4ae73ed14036479bd1bfab8086f8abb1837cc3ff",
+      "historicalTextObservationsHash": "0892efdabcd86d39e042a4a9427f073cd12e9dfc2a48c87967344cbc9946effd"
+    },
+    "AT_050t": {
+      "dbfId": 2803,
+      "originalCurrentHash": "a90f3aa3a85143834a00d58176a9b1e7c062cfc37c68e219af070dac64c0442b",
+      "expectedNormalizedCurrentHash": "2e6799c6ecb623d8373e224050f00cd13efdc2dd61001a6fa57cf346d56b744d",
+      "nativeSourceHash": "f6cf22d05c7835af4b090dc086982205ea73a8d73b1615404fcb28f9fa2ba0b1",
+      "currentNativeTagsHash": "a7130a4297094357e8d95354e976a52b8ade8551ee7c3c82ed5d5714a306aaff",
+      "historicalTextObservationsHash": "5021d6a67a185d9a6684fa28dd511569fef82875f0f80cd891d4bca5bbbf6609"
+    },
+    "AT_051": {
+      "dbfId": 2620,
+      "originalCurrentHash": "56faec49f3f5decf86908649d4d985caf1718fc910a2e61fcac4685df27c4784",
+      "expectedNormalizedCurrentHash": "1b0cb919a170b70707e2bdcba5b93b5cc17489792d8d6a5856595d75f80cff57",
+      "nativeSourceHash": "a2e8b548773796b1d1e4e4480225bb0a99a470a320ac70b524b96fa38edb6921",
+      "currentNativeTagsHash": "27d18e0100bac5536c92c33363ac953b0b007bdadc1f62183c1133884acfb2e3",
+      "historicalTextObservationsHash": "cc8cb72e4564f5a36b2046357dd9f0cbe4eb92f37a00aa02db01707085c21694"
+    },
+    "AT_052": {
+      "dbfId": 2610,
+      "originalCurrentHash": "483a136cc662fe943859dd181d085907fe8e07b102e1ecc56a6a116193b7de29",
+      "expectedNormalizedCurrentHash": "8154d6a12f0096e65207ffdc6fb6add752895a3b94dc50979501ad676f7322fc",
+      "nativeSourceHash": "35a42df52aed123977c31ae5f8386ce16d2cb4451f8e7839f068b5251d608193",
+      "currentNativeTagsHash": "334c322497bacf94c06ec835c5b71bf09e192e73a04b8c1738766fdcb61956e0",
+      "historicalTextObservationsHash": "e3a5a82a11647ce39fe7e8b5276883ee775e6d6168350befbfe86bb6a939a776"
+    },
+    "AT_053": {
+      "dbfId": 2514,
+      "originalCurrentHash": "9f142d7029b63e0df79329646888dc83652f5a82be8b6c89b54abe2b1d2d85d8",
+      "expectedNormalizedCurrentHash": "392a5498ed28d465c15727c63b5cfe454206c88ad6aa0469a3496df10e54482e",
+      "nativeSourceHash": "da0b78e1ebfb6100f2c0e4f3c399cf352407db9192e5d0f7367f4571043c1b93",
+      "currentNativeTagsHash": "2bed068d05597989fbfd75fc48b1c461dcda0554d86b8c0e72b476e553186c26",
+      "historicalTextObservationsHash": "94f9227c7d27a53e98b288a1ada7f34a7aa6099998b48e7e6a7c41e7e81b8b7b"
+    },
+    "AT_054": {
+      "dbfId": 2618,
+      "originalCurrentHash": "7591f99fd4853e98b95a258bfc0a91c8f7f420793868f369efbf9ba0d292fc4f",
+      "expectedNormalizedCurrentHash": "fdcc27eabdbb8ac101b2ad026c375ab86e9645c36fb7ffbe6af4b5584009f9dd",
+      "nativeSourceHash": "9e09ed7017baa1c19187c5ce410c221868bca8ec04d0e97abbca0575f75d30e9",
+      "currentNativeTagsHash": "3598338bf8c69afb1f347fef21e0c36f244e7517e686d1e7bc05ec7155d0a7f6",
+      "historicalTextObservationsHash": "82a82a76aa108ae1ce7ecb0b3363a8a86e7f16650448cd55b2cf7818d68c544a"
+    },
+    "AT_055": {
+      "dbfId": 2582,
+      "originalCurrentHash": "59570b71836ffcb2649419368c7412b1484b33876470fae6c3b7c4cdd1560f07",
+      "expectedNormalizedCurrentHash": "3822e305f61aa88969d217ae522fed48977a97ad5a7afc1f64b386d526ac4bed",
+      "nativeSourceHash": "cda4fba774bd719486397f74c0322a8c9d04d37e79156d5f99027f69d2e74ac7",
+      "currentNativeTagsHash": "48785da8aea6d4d75cd904d0cb68c9f123ba99054910a1330a1954708cac8a0b",
+      "historicalTextObservationsHash": "75cbe51d522200e5baf84e647aec1a0979c1debd656910e95424b79e7c966ab3"
+    },
+    "AT_056": {
+      "dbfId": 2638,
+      "originalCurrentHash": "1a80cd45b6db4f2210002bda2951ed5f6f821c4df5d7480f1f44f5b17b7287eb",
+      "expectedNormalizedCurrentHash": "4762eec25b82be0017f8448ab90acba863473766eff34eebf1026f6007536df8",
+      "nativeSourceHash": "e3532faa46ac34d6168c2ce124fa978438b31835f20ae75b9bf9e4443c66f3f6",
+      "currentNativeTagsHash": "94b4e2c99b97f6eebcdbb87683b96e0aea16680e23ae4d2f7dc82daa76f97a8d",
+      "historicalTextObservationsHash": "7fb22720a02ad98b79ffb7c6c7926f9672472e618e82d4d2a03d1f3af9469e9f"
+    },
+    "AT_057": {
+      "dbfId": 2639,
+      "originalCurrentHash": "d384dedfa37a704355e04c484a06e6921a7da59b572e3b6d93c7ee86230b779a",
+      "expectedNormalizedCurrentHash": "9941816cb27a2da365a187c011a25214dda654d4e9489130f97c16678ba5146f",
+      "nativeSourceHash": "c915d4c24408474276b74bd4e37badcddedf88022e9a00f10d7b2a9a62e3a28c",
+      "currentNativeTagsHash": "b96b6f91965c4b8531e3184ce34679ca1ba48fc89569cc113376caec256b4725",
+      "historicalTextObservationsHash": "a3b68463f643b3ea137434c7df91d5db8862e74dd6380e273e59185df5721f26"
+    },
+    "AT_058": {
+      "dbfId": 2635,
+      "originalCurrentHash": "972cc15b3073453093ad48f70dd351a4ac408982aa7b56ae603e19db88f1d345",
+      "expectedNormalizedCurrentHash": "7018b2f8da69b8b31c062ac3dd243dc2784fb643fd66d0d998526df351f329b0",
+      "nativeSourceHash": "90c05a4beedff1e928e9d74c9473e4133d012584278eb6f7db19ef7db08d68b9",
+      "currentNativeTagsHash": "fb7fd45b849c5e8c6c4b8d0bbc6267e83073aac55156feff847b3b3fa1199cbd",
+      "historicalTextObservationsHash": "7aefa5a5d0a81420a466b69887636a3b4ed96fa14e4daaeab11127512c5fcdc1"
+    },
+    "AT_059": {
+      "dbfId": 2642,
+      "originalCurrentHash": "577f298ade686bf40f17833ba59281f66880fb77db60e9bb1e4e9f5d4e15d524",
+      "expectedNormalizedCurrentHash": "d37d8881c7c137babbe0f74246403582ffe67379c4debdebe7e9c01c86ae4146",
+      "nativeSourceHash": "d14bf79565d45af8ca6247fb91fd0c07486d588058f28ddca36acae76fb5f5bc",
+      "currentNativeTagsHash": "36e7cffa5e305ba0e615666b894f968ed220b04f734aa4553626f7860fb4e839",
+      "historicalTextObservationsHash": "6a11d205c295c8400be5a168576f757b08b528667067dc344296cbeb7a43f4a8"
+    },
+    "AT_060": {
+      "dbfId": 2641,
+      "originalCurrentHash": "c07a455ae440bce8b3d67b4619b5aceadcca0042c27ebf548b61a5bc19713b52",
+      "expectedNormalizedCurrentHash": "60f23d0ad70cc482430bf445cf5a97d80fe8e9b39a388e743626f21451971e4e",
+      "nativeSourceHash": "792e53e60e78d071d567437665c789be77b51d5aa6a1606e0b82fa71a1e293d2",
+      "currentNativeTagsHash": "ef3555e2dac2618ac2d01b99c83aa6317b0e0de7076d19471e7b18eb632ad85b",
+      "historicalTextObservationsHash": "087f278c5da01ed52fe804427edcb383227ce157236313c25d87e8538cc4ab63"
+    },
+    "AT_061": {
+      "dbfId": 2484,
+      "originalCurrentHash": "3aee78fd992b252cb774f9f7c54b0d80a5813bfbe5729aad787198bb970535b9",
+      "expectedNormalizedCurrentHash": "47d92fb3e38fbd323d772c27ad9e72fc90e516f654c85acc1e2deb1b44a38a3d",
+      "nativeSourceHash": "e61adbdf39542187be3ab1c6042a8d85dc0c31c63b72979593fbb1b3be6d4610",
+      "currentNativeTagsHash": "4d6722e5dc7dedf5bb0a5938981fce3726350a39d0dd251460033e8e79771c07",
+      "historicalTextObservationsHash": "baeee1fababfe7260b1508f06db81e7a700b226cb1ca874941e0d18546801a08"
+    },
+    "AT_062": {
+      "dbfId": 2483,
+      "originalCurrentHash": "496fb29851969c8dae5595a019383a85100ca5dd93f46df673bab7f8c52625f2",
+      "expectedNormalizedCurrentHash": "8f1213284b30076bc3d0f61de094671c8ac31c3ea7d130766a8d2be4ac1bd6fe",
+      "nativeSourceHash": "e14d4e4e18394c806f83be4939170c3f582c897319fe66f56278008799f089ee",
+      "currentNativeTagsHash": "69fe4313f2baa7aefff926d946ebf210d5c1a7472210c908b990b1147c98d174",
+      "historicalTextObservationsHash": "d3218b8d5aa48eea52d19594a32745bce0ca9b38f2f2ce919c355450b1d992a3"
+    },
+    "AT_063": {
+      "dbfId": 2633,
+      "originalCurrentHash": "788f6410c32202de590b489e0d8e7f3377833efd3ac4047921c52c4968f0d004",
+      "expectedNormalizedCurrentHash": "173decca74302f7c4acc472c60c1a58b822d1768d96eae73f9c179af263ab7fe",
+      "nativeSourceHash": "38c6558cc8858a389990f0747c6d029a9ede43db22576e1dc4db58863f71704e",
+      "currentNativeTagsHash": "c219555405a938e5f604e01988a88e972c563a6592bc941f25eb93981bc681be",
+      "historicalTextObservationsHash": "5522628072a5209fe299b9735b541b77fac80480be153694e30d09039e1264c8"
+    },
+    "AT_063t": {
+      "dbfId": 2634,
+      "originalCurrentHash": "8bbb8136e2135faff06e9f24a1db2c5367732ccb200988b8a0cd2805d043d7e3",
+      "expectedNormalizedCurrentHash": "31bdd8e2d13b9e3d92964dd98efcfcdcbe4664cfe7b15a4f1f38bae3a76bf32b",
+      "nativeSourceHash": "38c6558cc8858a389990f0747c6d029a9ede43db22576e1dc4db58863f71704e",
+      "currentNativeTagsHash": "c219555405a938e5f604e01988a88e972c563a6592bc941f25eb93981bc681be",
+      "historicalTextObservationsHash": "d4353d947422bdc6d4ec5cdcd7b8e5234e8d96f4daec9798ec88970e41afb6ae"
+    },
+    "AT_064": {
+      "dbfId": 2729,
+      "originalCurrentHash": "ac0b750e01e3fb87b50063928842401e6e47d6b5640e18115f466f03e5207753",
+      "expectedNormalizedCurrentHash": "5c218d97deb5f4656c9474afa597c3a486eb015e6982021c30fbe4780a82b0b0",
+      "nativeSourceHash": "0981deb128ca36eac505e43b4599ff0a096bddaea356e6a6a1850c01b91eb7a6",
+      "currentNativeTagsHash": "eeab3b4e00c85f5b78611194bae278a0bbd78c38272bfe5178b527bb24ef3123",
+      "historicalTextObservationsHash": "4ceafe115d564be6f7d913bfd01bdb18c71c78d0422b9671e5105049a5ab84be"
+    },
+    "AT_065": {
+      "dbfId": 2756,
+      "originalCurrentHash": "2634c600535a162c708c52e0e09ed208e404e4970136e070985e041e3d5e3d07",
+      "expectedNormalizedCurrentHash": "5952d99508872e520b8823441d7f2441568cb5bb2bcf5518405c499a02962fcb",
+      "nativeSourceHash": "1dee12c067cd6e0fe68dbb31ea6f99a54e6e7ae1f2b00b4058ecc32a3ad60720",
+      "currentNativeTagsHash": "3a5ce06bfa9587549eef649c6d42ca99030e7499cdb4da816ebdcdfcc51ad7f5",
+      "historicalTextObservationsHash": "a1e993ce037af5cf56bc39488063d770fae346e0106776b4eb6e0dc942b80293"
+    },
+    "AT_066": {
+      "dbfId": 2711,
+      "originalCurrentHash": "89c7aae7137f4419d3ffc0530f8320b32626d045f152957e7e0e19a3d343a1f8",
+      "expectedNormalizedCurrentHash": "9a00745f493187a1ccdd3bf088809b4b71d5d3618e3b93242312ab3c89e1e221",
+      "nativeSourceHash": "85cb517d6e259cdcb7d8d8316c7d77900d6e7811af19abec4fd985029ee0c29a",
+      "currentNativeTagsHash": "033b366cb4ab7e3cfa0d49ad77f0259e8c1866ef81efd30cd2050a2cf77f6d9c",
+      "historicalTextObservationsHash": "f680b3b6dc429440490279035028f214a024ebb3b0cb5cf9a8d11c50ca55f453"
+    },
+    "AT_067": {
+      "dbfId": 2753,
+      "originalCurrentHash": "14a608b0ddb6e13c6bf812e3e648cf41125860ddfbb6c6dabad0f7a5b136172c",
+      "expectedNormalizedCurrentHash": "a4ffbb0cc122686dede5ec1b8e32f68d6791fb4865ca712b49f18f5ad619e9ba",
+      "nativeSourceHash": "4c649a6f3e489bd5a94cf71d7ee4a55b3387de734aa5ae939cc0f94a64f3b9b7",
+      "currentNativeTagsHash": "3e79ea3b2076c52f77887592c840837cf2f921b86dde64ce66e90fd8c03f0ace",
+      "historicalTextObservationsHash": "1bf358e5e9da8b4ea2882cbe14b360da7c46ca950c781a3ae9ba518098e0638a"
+    },
+    "AT_068": {
+      "dbfId": 2754,
+      "originalCurrentHash": "0bfb7c1f8a4ad0b532709e380a9b3c4424326ba8cce18f8b44bacd604fc9ad63",
+      "expectedNormalizedCurrentHash": "ed0d5b0c46d7ab448725621cf2274377fff1af54dd73d0f31e6200aead589166",
+      "nativeSourceHash": "e889574b55dad475fa9742559570be9321f2d6bc13e4bd9cb76fc933f6b0a141",
+      "currentNativeTagsHash": "c0926c7f59c87f3710749e35bb8e50b35d85987e2d3ed4ed0c5067c587e86978",
+      "historicalTextObservationsHash": "3771143beb97be878fd9920e5f5454039aaaf88038ec104ea7c107412d6b7117"
+    },
+    "AT_069": {
+      "dbfId": 2733,
+      "originalCurrentHash": "51cc3f49a556246f4054772fdbdf08ca123c19376b7555c3f6ac7a9ba16165e2",
+      "expectedNormalizedCurrentHash": "fb62fc412f5782054082f9e7fece9819a6c534c6bb9c6878fcf8af728fcc4ea5",
+      "nativeSourceHash": "9c5a998f458bc2264e169ff96866b1957fe56e5e96e5aec5fa166a9368293643",
+      "currentNativeTagsHash": "a40d3ed4357e94417e3abec27aa8ebda3cccc5fcb188af5da243847d8d960ad2",
+      "historicalTextObservationsHash": "778040181819e81e32f2fcdd14dcdb14811130b7602ae7f5d0026401affeb1e9"
+    },
+    "AT_070": {
+      "dbfId": 2757,
+      "originalCurrentHash": "5a3eb497c90f28be677e362c6747379a9fb18265cdc89efc9338999dfe6a2719",
+      "expectedNormalizedCurrentHash": "e684c0f5b1254aa086569c1b2381a2a0d8ee0e34c853507589bcdc79d4a10262",
+      "nativeSourceHash": "fa4199c4747c72f6610b48a5b4172af5d6d9530a20d8bcef8d0dce996cfd23e0",
+      "currentNativeTagsHash": "88a4b3871e9bc8edc2bd9958ddec4f9089cebf8b44bbba5820fc06dcb9e22b05",
+      "historicalTextObservationsHash": "58e0e6b103044881ca824a7f1c63c6f9a211db17579b194ea182e1ef8e90e223"
+    },
+    "AT_071": {
+      "dbfId": 2758,
+      "originalCurrentHash": "c948cef74604190b64d8436a50681cedf90115499ea968b0d746e573797bb9ee",
+      "expectedNormalizedCurrentHash": "cdebd06f91e977756d851e2234abfaf58bc8e91421c1ac3d42a8403fd2f317af",
+      "nativeSourceHash": "7317f6a3b407ddf911ccaea5d29b477f60e11bb7570ed4701d23354f612c4db5",
+      "currentNativeTagsHash": "e460cf54b721df7f61cbe72e83db43ed2b652b631ca0d864cab4098a42bbdcdf",
+      "historicalTextObservationsHash": "a0f316674696a09cff1ff54bdf4995213e727c2350592143b325e2d2e4e56078"
+    },
+    "AT_072": {
+      "dbfId": 2760,
+      "originalCurrentHash": "a7ee7816013dca463496696069d948511e84afa4252ac060053e25ae0979a0c7",
+      "expectedNormalizedCurrentHash": "8b5aebeb2e580ac7c184dd87da380dd7d240532b557317a7fbe6fc33911d188a",
+      "nativeSourceHash": "22fdfe8bfa13f6291101718ffd434301a966dab31bb194907fe98fdc447a871b",
+      "currentNativeTagsHash": "8d6974819b5f63e78a0e449a1353bca3e9390a89123f2e7f4224b3b4c5b625ce",
+      "historicalTextObservationsHash": "b05fa30fecf9fad674ef45c46cfc2e7d9aa3cc86e89eea19420a5f82c9c9d461"
+    },
+    "AT_073": {
+      "dbfId": 2648,
+      "originalCurrentHash": "45c8a410036d1b21763beba6f99eb5f44ff7f428bc6a7e95b906f912e6bfa8cc",
+      "expectedNormalizedCurrentHash": "64789ebaa7bb4aa5c7072a5fed3120bd7539dcd2715c2be6b6f9cab96630339f",
+      "nativeSourceHash": "f70b86a24672f3f0bd7a2cc410b9ab49c772d0103ce7dc85537b067ff47c5e63",
+      "currentNativeTagsHash": "fd0d03736e38d5bf4e5331ac1a939f7fd38f9d01c32f8159737f8fe0c2872bcc",
+      "historicalTextObservationsHash": "f9b37e47836c4679172497264dae3ec32d7407adb43f35dd8055c31cf4bc3b8a"
+    },
+    "AT_074": {
+      "dbfId": 2717,
+      "originalCurrentHash": "77c64552303e36ca75b24158e3b1d4b4ba3dc0c6d727b1dfd441986231fec8cc",
+      "expectedNormalizedCurrentHash": "65efed00ee90d403240f10cc470e18f520d1165d4285812ff8837e399fa3c1dc",
+      "nativeSourceHash": "fca49e47a49ef550e6c2677f7016b84adb6bce7f59ed3e396edabdb963c5e5de",
+      "currentNativeTagsHash": "347eba5769f79ae58406430a5ac1006673df4c28a2d2e596641e845f83fc9a2a",
+      "historicalTextObservationsHash": "79c8bb69e6475775cba7cfbf5e9a9518d66102e3152b4661a4205b198974dc32"
+    },
+    "AT_075": {
+      "dbfId": 2515,
+      "originalCurrentHash": "b103a41cfe67c9f3474905cdbabab9f1d71b52481a2bf4845dcdb94fc465bd31",
+      "expectedNormalizedCurrentHash": "0b41a57452d673f64e5ea327e424d0c23174c1c6e4e6d4651c2fdfd1c6c841e1",
+      "nativeSourceHash": "64bdd364c8bcb6f7149f4cf8edbf82a696c68512fdf97130962c0a7d85cc5d12",
+      "currentNativeTagsHash": "35954e4d2eb8cb8a3f0c6f2b832de6231798bf3a4f4037e6b64b505aac4a5c9b",
+      "historicalTextObservationsHash": "78778ca8cb0b50c5325dba6c4b9ea261d48d66dac05eff3fabb948d8b96b1f9f"
+    },
+    "AT_076": {
+      "dbfId": 2655,
+      "originalCurrentHash": "49a0e4a82b31c3e6e698891463c41cfef7b84b904f9704a08bd98ddb2845ad60",
+      "expectedNormalizedCurrentHash": "6265a517d356f7dc906017bac593d7897adbb37d5a813406c580f6d596d1345c",
+      "nativeSourceHash": "08f050f80b4778d4f69c1c525f66bdb6bd123f1312fe9e9eea12a37e1e3acff8",
+      "currentNativeTagsHash": "fb29c86d532e6cdb32ac6e0a26c5d1c2568fa881bf91f85d65d4652e0fa7a01b",
+      "historicalTextObservationsHash": "653f228c986a5f68eb372a6e80f4f18ceabb5ad96c09a2c022e9e921ecbc4a93"
+    },
+    "AT_077": {
+      "dbfId": 2720,
+      "originalCurrentHash": "8d7bdb43c28bd125d32e9d708c21512287f1c4ad4e6f5d72ca958add33d9e99d",
+      "expectedNormalizedCurrentHash": "0d99d698d113e27191a3181ecf9d46a2de8c9d691bd9e11cdfe7aa70f5229dac",
+      "nativeSourceHash": "22e9155ff733bfde7d94daf30aaf6e1e73639da703f6452727042631e65f4d73",
+      "currentNativeTagsHash": "d4ad3c4fbc10be94f5ca0515883747a0560129f83e7e5fcb00ecfe41a8ef57ae",
+      "historicalTextObservationsHash": "d9274b93c345f26cddcc48939ec8a7c6b7435400692305ff6a0be10ab8cbc8c7"
+    },
+    "AT_078": {
+      "dbfId": 2654,
+      "originalCurrentHash": "0fc043fda49ca27138b45983df34ca9c42c0407c6164a4f89b38729d406260df",
+      "expectedNormalizedCurrentHash": "f5541c4996d676df49b18b272658eccc780542c27038a38aa00dfa20202a4987",
+      "nativeSourceHash": "fa7a72aaa3ad944b648d81a9c93a9d347dac2095c77b01d072c35d255a3f4be4",
+      "currentNativeTagsHash": "968c8f3e379919e34cd20f2b74b0723435c049825a35d79ab0855558b68699ce",
+      "historicalTextObservationsHash": "b86fd6385597731f7bab73d2c514979892b9a42d3a6b98d12369705a5fe8789d"
+    },
+    "AT_079": {
+      "dbfId": 2726,
+      "originalCurrentHash": "49b6912a08207719eb461c47ae1200bf71fe96fd561751bbf3e03f3e6de74e0f",
+      "expectedNormalizedCurrentHash": "c085537f4553a7437bbfabfe0e66cef137687a85508ae53f915c5e47f245862b",
+      "nativeSourceHash": "29be4e7b0951b374540a93031e5ce6a779cdc2dd1ad2c6ecbdf0a1f6b3a673c6",
+      "currentNativeTagsHash": "6cedfd04852f32a91a26f18aecaf340dbd6497598bf252ee18e87fb01e169f2a",
+      "historicalTextObservationsHash": "696431b0fe97760626a8a25be4f2dba2377eabf081632240a2a0eb899a59b0e0"
+    },
+    "AT_080": {
+      "dbfId": 2517,
+      "originalCurrentHash": "3a15905afe5ff0b83835776522d160b9d6f6d13653a346d91ce7b173cfa6f66d",
+      "expectedNormalizedCurrentHash": "6a47dbbe1fe4c5ebda44d5602ada5ff4c35bae0233b5b6d84533eeca7e51fe06",
+      "nativeSourceHash": "7f381ccab32ef844325010ae486bb11d06a58205d01c1de69c98a5ed493b4127",
+      "currentNativeTagsHash": "2a96b5f201b55c12d40096f16b46849b9ccb540dae6523c372fcc068c3782e2b",
+      "historicalTextObservationsHash": "87d069898a8677e5fa6daa1ae605ea5e20abdac12aeb05cfa0be34c2528bce3c"
+    },
+    "AT_081": {
+      "dbfId": 2727,
+      "originalCurrentHash": "0b52efdf3f33f47b7def43698ff80e0afed2a61e88cebe5a29842cf646f17e40",
+      "expectedNormalizedCurrentHash": "1ddbf211bc72d047911a5d4bd2eab0879911496fb3b5c63db376bf9bc6c78a7d",
+      "nativeSourceHash": "c492d4721e73a8fb00d74118226c5e23d978ebed338c6eb97352b9d4458098fc",
+      "currentNativeTagsHash": "96e9dd2ea65a47d4b230e8a49e70918d039b6e59400eaf0182474c52328e8cc7",
+      "historicalTextObservationsHash": "e7a121e3c4520124e2f2808093265a192bc6335a129dc68f1b8b09bc5c429003"
+    },
+    "AT_082": {
+      "dbfId": 2486,
+      "originalCurrentHash": "80cd26c3e7de7320f561ae5c28fab16639da5768995517e32ad908e579ed9b4b",
+      "expectedNormalizedCurrentHash": "e60bcaba0484ad77d5308835a99d9f8166e2bbd63b85cb70aed1d4a7f9387582",
+      "nativeSourceHash": "bcd7174994ab16efbc65e603c6673a203c8c6dd08e45710a7ee587edc4a102ee",
+      "currentNativeTagsHash": "16b41df7d1491382786f0f1ed1c35d6aad717bd3bc1fffd33bf3ac998f275ac0",
+      "historicalTextObservationsHash": "50dcdee7705f444f5aff82fd15e0ac0b0da07094040ba2a55b44377a73047b08"
+    },
+    "AT_083": {
+      "dbfId": 2533,
+      "originalCurrentHash": "57fd7eee00a6515b62ff6e342ca94227230d6ecff893a250ea51b22bf99f95cb",
+      "expectedNormalizedCurrentHash": "37c7307e3f1cc0cd9b4c3412d2575409f93b79ac9f43b104b1ebc59ac0536d71",
+      "nativeSourceHash": "d193847a66d9a0762b5a47df0d9e7ad65263e6eb9cc6cd676f509af1751de16c",
+      "currentNativeTagsHash": "45ed53c1c96e2219035ebbb87259ada720f9f062b2911e5bb219c9ea6185c90e",
+      "historicalTextObservationsHash": "aa7e1c4050ac01907efe226ab0e278340db742f7c9e4edb254c2adeabbfbc057"
+    },
+    "AT_084": {
+      "dbfId": 2577,
+      "originalCurrentHash": "a426b4950e578a9d255c5259b89af3b57d9903eb2811310f8013cbaa0420bfe8",
+      "expectedNormalizedCurrentHash": "841149c480710c802357d033bba13c41b0823e6e0ee6a824dc6affc1cb4a3fa5",
+      "nativeSourceHash": "d8afc201089a22af8418ff238e7f25b5693b49ba681537d0fc32ac8821a69501",
+      "currentNativeTagsHash": "652742d3740f83af5a03447ef24e7e751360c75c573e19d85de237fab6d8b0f2",
+      "historicalTextObservationsHash": "96ee430f3a1cf0e23d51a092a313a4662eb6e5c8d618873255520d15835eba10"
+    },
+    "AT_085": {
+      "dbfId": 2488,
+      "originalCurrentHash": "23f21e3a33b0124719d387ba66885f465dd1590393a903a7a36f1b255c264e7e",
+      "expectedNormalizedCurrentHash": "463b43d20e8e508c40463a3f58c179cd82671b902a8941f1754ad27befaf60cf",
+      "nativeSourceHash": "a68dba5a819e644bc7ba04ce8a24ee981ba06a09386c9e384f326cf4488fc57a",
+      "currentNativeTagsHash": "7de2e9472a72f30cdcad500efca75f7fe1baf9a6cdf81f0c172bf6e5a1533707",
+      "historicalTextObservationsHash": "792d88428ad23eb2af5eba5ead6792036cde7530df8679389e0b0a3f991ec3da"
+    },
+    "AT_086": {
+      "dbfId": 2576,
+      "originalCurrentHash": "ea52ff322029256110fdd578eaf4fe215d1f3a9e6ff608d5b86ce9de1bc40768",
+      "expectedNormalizedCurrentHash": "2bf7d50ac7ac2cf9237d5729e93b2ab8d18345c6dfc8c231ceddea58c81b7421",
+      "nativeSourceHash": "ce299558b922d975affe68f14e2c2240f22cb20e9ae124a89d9f37dd58210b81",
+      "currentNativeTagsHash": "c12af6d482af4f4a12ad8133157b486e1365a3cb4204687fd76ca00e3327eb78",
+      "historicalTextObservationsHash": "5869fcdaeddd80f6cd93f90090513a9a4821b8ea6d0d010109c23b87b42065b4"
+    },
+    "AT_087": {
+      "dbfId": 2490,
+      "originalCurrentHash": "cdf580f494fc3f2f14529ca15902184a74f8b30e9fb1394a54c546e814c71210",
+      "expectedNormalizedCurrentHash": "8f4d2642dd1d47e3aa78aeed16f60a56f0e8742c42dcdf50ceb9482b7dd14254",
+      "nativeSourceHash": "e5c122ac9d9a4081a8dd7c83744adb1685b88e001eb7f3d8384e0b5cbfd94517",
+      "currentNativeTagsHash": "5bd95c68c88fd6cc2c4b4cb99cc3948e7d9b98cbdbb5e5f6fc61c6b25ed611b4",
+      "historicalTextObservationsHash": "e927d373975632a4472769ba92100a7d2e9227ccdff063c617b67c8029e02b5c"
+    },
+    "AT_088": {
+      "dbfId": 2491,
+      "originalCurrentHash": "5a404af65f2f56123822faa06af9cffceed9252a4f398004bd56ba6545274ad3",
+      "expectedNormalizedCurrentHash": "e48a08e725dd3c9ca040a861db9ce7f5d13a824aabd2d439090c92c705e8bb90",
+      "nativeSourceHash": "8e38d27b9ee3d2e612240b88e03051458bc45565b944899a52a11a7e3e61ecec",
+      "currentNativeTagsHash": "277d2114c0d016b00af71ce218f146be88bb0daaa7c806b49cbba81fb78df20b",
+      "historicalTextObservationsHash": "d0bc355b1062a09da4ffbf218c0a13dda5724e65b3aca996c31ceb27f076ceae"
+    },
+    "AT_089": {
+      "dbfId": 2495,
+      "originalCurrentHash": "e28674f6a67db74403345406016dc74fa8bcef22facb80236f211d00fbac15a2",
+      "expectedNormalizedCurrentHash": "beb700783349532218b8eb7864cfe81c18e48aa790e741b449d9de38beedf72f",
+      "nativeSourceHash": "5aea441bc082e0b5f7774d03c5ad5ece306ae6a6e76b2ea8b10d40a18050ac3a",
+      "currentNativeTagsHash": "44f9464c28119f5cf99a35acc46909dd316c8670e4f1d60c8ea5d5540e9c4308",
+      "historicalTextObservationsHash": "1e1de8e296c54e3d2477e1314fa219f42ff4e51e60b58277398f5f771f090be7"
+    },
+    "AT_090": {
+      "dbfId": 2497,
+      "originalCurrentHash": "2fef9d3bfe8af3710bbd6ae2ba7157f3f79fdb58fb6d682d200ac3a3739ab40c",
+      "expectedNormalizedCurrentHash": "11e01b0de17c56df7b904e3a4c5b174a6da49e693baf7d2bc7d1055f33c5979b",
+      "nativeSourceHash": "c63c53abc2c5cb784f630155a63e64a89e21435bae8dc2d8cf6e8ef3ad2fd273",
+      "currentNativeTagsHash": "9dd84536e035dfd15fe8101f93aec16d1623b873db4c9c3866aae9135133a6a6",
+      "historicalTextObservationsHash": "ddbc688ec42cde6ebc6830d8e9f1f3dfd7db4cdc4440e75e27041fdc350b7376"
+    },
+    "AT_091": {
+      "dbfId": 2575,
+      "originalCurrentHash": "746542c37e4dd551bcb657a1fc1907d5488e884be245bd23137ed6143e3dca48",
+      "expectedNormalizedCurrentHash": "e29535cf5656b7cce41041cb7467926597472a3fc8dc807ff89d341c7e1b394c",
+      "nativeSourceHash": "cc094b7a78994199538d2f16c10140d54f1c040c196b26c8f8aba1b2ce7e85ec",
+      "currentNativeTagsHash": "51ac145922ba3caac3ee3d7e30bfe21cc690345460c2d2050969cfc4a34c4ecc",
+      "historicalTextObservationsHash": "cbd0b56fb9c4f724477723b3e31710ff1c428bc4e3b2d0c7807ea8ccca10f98e"
+    },
+    "AT_092": {
+      "dbfId": 2594,
+      "originalCurrentHash": "45abebecffb319e9f4fb36ef4ae949b90cf461bd5caaf02e968224faa17c00b2",
+      "expectedNormalizedCurrentHash": "e4745d18f3d76c29367d77c750285940e43b9a35c8199b850c2ae028f3e11491",
+      "nativeSourceHash": "4e9ad8efa2845220f9c72364ba699a5e69dc0e04741e967b9054f7d817155055",
+      "currentNativeTagsHash": "ce9d48b48913d28610dd55473efe5f3f814025d4ab42ee6f2f75cbf3dd91e038",
+      "historicalTextObservationsHash": "af62249b09fd0b584e79b8b949fe9f482e4abc8a6e90caea1881d5f2d21dbd48"
+    },
+    "AT_093": {
+      "dbfId": 2532,
+      "originalCurrentHash": "b39ff67836dc2126f47f5f0b4bdd96b058a7fd02a2060b874215d5e92d237474",
+      "expectedNormalizedCurrentHash": "46c738c3d47ace28a37b8dcce26998c7425cdacd93146cc7e15a1a09932e57fe",
+      "nativeSourceHash": "b495afb8b7391335337be5386ff99bcd95ce008712be31e4b4a57f5a5508b8a4",
+      "currentNativeTagsHash": "3296bfa276d5b29e21474e3a34070764dd8e7fbb841c9be27938a3e49b363152",
+      "historicalTextObservationsHash": "f7be7ded935454df6b06bdf51d0b1efd62ee0d1713a12963cb339008b07e6559"
+    },
+    "AT_094": {
+      "dbfId": 2580,
+      "originalCurrentHash": "09e469fed892900ff7ba535aad278494d92d6c71b8dda6d2ecbdad839028745a",
+      "expectedNormalizedCurrentHash": "de4b33639f1bf17c0c90754dfd52f8b8777c4a8ceb4b36e81680ecd2b5f3537d",
+      "nativeSourceHash": "d28d85da5e9413d9ff30aa6b0f1011e8b9a6c7a0f4342b251e4721eb1c05c09c",
+      "currentNativeTagsHash": "ad88db40e17a89e67f7992f972ff6664831987c6eb713f1ba3f6f90de3d0da1f",
+      "historicalTextObservationsHash": "512b4eaaa97dd5eb08acbc4736df2bfd3e4fe42ab287b4e0ead6e499de497e47"
+    },
+    "AT_095": {
+      "dbfId": 2579,
+      "originalCurrentHash": "24da5470b03261a425a38d924225959d9956a92e98465a9063377b90301cbd28",
+      "expectedNormalizedCurrentHash": "5b70d1e166a451efa65b3559f2e3f75c996f486dbc926a4d4c36f587787906b1",
+      "nativeSourceHash": "523f6db8981d287cecb816903bfc5a81403501bf164361d705146bca9d135d5f",
+      "currentNativeTagsHash": "d7cd2f7563038608f21364cbb66becfe1c06c7ef17d8772c685e6d6c8bb09e77",
+      "historicalTextObservationsHash": "6004d8fc128464771a48e78d0bf6e44c2dfec88727892696c36b2eeee7d1f48b"
+    },
+    "AT_096": {
+      "dbfId": 2500,
+      "originalCurrentHash": "53db3968c5061f428f7b1dc69fdadc08b0385b8cbfe8e5714ba4f6e2d41776e1",
+      "expectedNormalizedCurrentHash": "1b0c9a96ddc579f8bf1e50a1ef5889a84d7e40973a895848885beafd00cadb6e",
+      "nativeSourceHash": "7ffe1712b2de4b3c9e579eaf6fc5634cb193da1209a8f4b080f900f9c943c7c2",
+      "currentNativeTagsHash": "c58b89961528534c0c9fb53fc3ff4b8c9de9f89f81c540d8186c8c220f94a500",
+      "historicalTextObservationsHash": "945a3309ce66ecdfcb4deed9df5ce9ee691ee1b8055dfd6c2a6ef82d88f2781e"
+    },
+    "AT_097": {
+      "dbfId": 2499,
+      "originalCurrentHash": "71a4e3b47fc50158750ce27cba9bcc73fe322add5af19513d476fd56fbd5d157",
+      "expectedNormalizedCurrentHash": "c4ea986fdd5188b11b510e451f087e3cfae27f1b238994a6c821b2903ec4fb77",
+      "nativeSourceHash": "ff6197c50aaa30084c84afa1caed82b3a2ce030b4d63c5bfb0edc53ef80083e6",
+      "currentNativeTagsHash": "00d0b37f54e274bd32421ae055215a20c9e01b66abdf772aa78e447cb14b332a",
+      "historicalTextObservationsHash": "d68a3eee7b79117ab1304e6ac8ed7884fdfc18887ec6ef2c4c0ea4688425bc0f"
+    },
+    "AT_098": {
+      "dbfId": 2573,
+      "originalCurrentHash": "c2f772467493867ec9b80cc6f32617bcdd2a08236fff9b63a343f7107f686aee",
+      "expectedNormalizedCurrentHash": "f55cb368ef363854e621721ba42e96385300aad7f523d39d04816f7279944984",
+      "nativeSourceHash": "b03b7ec7b963b487bbce46f50fbc687ab3c355dea472427b8775aa6db3980a1c",
+      "currentNativeTagsHash": "e910baeb238dc35f4de548d60313566dbd49bf719b67e6dcd076cb0cb2ef3542",
+      "historicalTextObservationsHash": "694fc1098ca2435f966644646f323457012aea9e4a1186e1de37a13e02b6a2a3"
+    },
+    "AT_099": {
+      "dbfId": 2598,
+      "originalCurrentHash": "5ed7fa84283aba125b146c66b8b25b41919e12f7379ae6d83fe627e017836b09",
+      "expectedNormalizedCurrentHash": "a5204a129c2d45ae6cce55a3f4e44dd2fbb0374abd49d7cf3dace4f23c087979",
+      "nativeSourceHash": "83f99439b785b50606ddd44bdb6375718427c1b6c85959f046d9f6eefa152a88",
+      "currentNativeTagsHash": "8e06e5462663221d5e969a2a6f4a4d417c91a9eb9331e557830790f5c20a6afa",
+      "historicalTextObservationsHash": "fcf0bb82c7dee3b2ba91645cc16adcb15e73bb39341d32ffdd866350e3189e28"
+    },
+    "AT_099t": {
+      "dbfId": 2799,
+      "originalCurrentHash": "6dfb3c311579233c9f0831c3d28e07f52cf6064baab75f720ea397205279891a",
+      "expectedNormalizedCurrentHash": "b262c1ac086c023af66061a543dcd84112e7b276565606ba9d018b57ceb2e72b",
+      "nativeSourceHash": "b5821137b0fd3af208abd3cbc9e5724e58398ff0bafb7ebd0973718d6b4a8b9e",
+      "currentNativeTagsHash": "f4a6d23812c6f9e292e86203eab02394de41b2ab74695946657a0703ff64e062",
+      "historicalTextObservationsHash": "65e2da7832b89600159edb6e5effa16d584eccb309b6f8a3f2e67d09f7bf9d8d"
+    },
+    "AT_100": {
+      "dbfId": 2503,
+      "originalCurrentHash": "7ebad1a7698ca1ea7a71ae3310f5e19f8d5acce1319d8568a7a4709520e74ecf",
+      "expectedNormalizedCurrentHash": "e1358cc7815f3fdf6348d3ae6c98b31e55086865621fb7a851d24a2f2fa69ac5",
+      "nativeSourceHash": "cea95bf9732d787e49dab62279fc2fb443e9c10eedfd08f08f7c3fa6cf85a1e5",
+      "currentNativeTagsHash": "612e401c360df9023ba7d6e6cb53ce9bf02eff3d60281d837e7155e27fb4c7e7",
+      "historicalTextObservationsHash": "b2139f70ca21cc5931bfaf5d636a5ec5e1da20aa425662f5320c713bdb6746c9"
+    },
+    "AT_101": {
+      "dbfId": 2521,
+      "originalCurrentHash": "90ce20877a24cb1f89eb9972e518043b96f886cfd263d1586b9786994c790758",
+      "expectedNormalizedCurrentHash": "de325bd29bc7e1d2138a7b6275a8ceae15d6ecfac245b7e03a71f76100397c07",
+      "nativeSourceHash": "853ed022c732b19b6a1544c549cc0e5fd12753e80a6408ccf24ce3d42c29d3c2",
+      "currentNativeTagsHash": "4b1788a723134caf3837f9de407afa0c57108553fabc14775d206fe6bbd77946",
+      "historicalTextObservationsHash": "8f37780c89a033021ee762db33fd95c4ce6bea745f6732090ff5781879afd1bc"
+    },
+    "AT_102": {
+      "dbfId": 2522,
+      "originalCurrentHash": "6091d0114dc898a6d6bf2189cd17c72626dfa67d6f139a0598f49ec17e616ff3",
+      "expectedNormalizedCurrentHash": "25c0fa19a6931c4de467b24d48d0cba0e029eafa39e76bd2e3b738f28d447ab8",
+      "nativeSourceHash": "d9154f97508169ac018a6085ae3c98ebad837ec6e8c3e8cdfbd66efc7ee0b6da",
+      "currentNativeTagsHash": "d3fa8ec8b94de44003a434ca26832ced6c5d2469881a7354723aa3bb3970b3f7",
+      "historicalTextObservationsHash": "763a3f265de424150f58e67ad2d602f8b0774d2aadc6d582b485a72de576da19"
+    },
+    "AT_103": {
+      "dbfId": 2520,
+      "originalCurrentHash": "59214a51a213edf8d30eff7880add18f537065997caa2cdb9e257f00438bf031",
+      "expectedNormalizedCurrentHash": "23267fd07648a10a50213956019d0c87e280857118c1c82f5a82091e9d06a36f",
+      "nativeSourceHash": "4609e5fa662c694176f28e7dfabd37bff599c39420b5947f4f7e9f2c9a90d544",
+      "currentNativeTagsHash": "3c9f25c4c8a663550b0b2996e940143c1e30b5caf1db9624e0632b9166748ace",
+      "historicalTextObservationsHash": "c60cdabcb0061fc87e95d5faa9fb95ccbab792f15c66fc387a1932b28486fef0"
+    },
+    "AT_104": {
+      "dbfId": 2504,
+      "originalCurrentHash": "94bac655edd50153e9dd6328c98083263de5a968206d85d4f1a24cf8618123a2",
+      "expectedNormalizedCurrentHash": "12ba509c03302b9f8133454c1f78494349a33f2114d018a1986f896d4b8d3ae1",
+      "nativeSourceHash": "4b28a706f9315bb3c23187cc21e7af9004cef535028e63ffb165f5c658148418",
+      "currentNativeTagsHash": "dbaed1af9de35168b141763f3a749a1da3296021ebe7b8fb4a7d6ecbf5c63386",
+      "historicalTextObservationsHash": "a543f642bcb408cef4dd28d1d2de0411ab08daa49d5b8b9cf96994f6d6bc7dff"
+    },
+    "AT_105": {
+      "dbfId": 2502,
+      "originalCurrentHash": "3290ea4467d0341bcfd9bea19eb0d709663f7af461eff0102f62b23bc16af407",
+      "expectedNormalizedCurrentHash": "3284beeeb46aa9a4071c28e2d33522379c298b476a316db51ff782c99b9b569b",
+      "nativeSourceHash": "75da094271be7be13c9b4f5576e130d682095436ad9790cb8400aef0fed70814",
+      "currentNativeTagsHash": "56545e803580089da16b6d9949a9be5504d6625ab7bb005a47888f4467f43c87",
+      "historicalTextObservationsHash": "a3875bbc5639de22609103b8d7201b73f6274356567a653a9ab837ec69571703"
+    },
+    "AT_106": {
+      "dbfId": 2259,
+      "originalCurrentHash": "4de6c073b1f57090902ea4fd43ecdcb300e348fe941343a0897623c9660b3a42",
+      "expectedNormalizedCurrentHash": "810896808ea425d425b735d9570a7662bbd82f710df506083946fe7d70667336",
+      "nativeSourceHash": "e472181e49abe95049e74640220ba980dc4e14fbdf15e09e70a70068835344fa",
+      "currentNativeTagsHash": "519993e5187f47e7cdfa10b7eec0ab18959b9c81fe8b4333bc3b338812cbc6ae",
+      "historicalTextObservationsHash": "53c9c7a232e9689ead581d3647b0a34f7af007b5cfdaa10478f05559dc6ecff8"
+    },
+    "AT_108": {
+      "dbfId": 2627,
+      "originalCurrentHash": "78320c195c973611efa9163797f79b6881d83dcc028feb7293673dcc071bae12",
+      "expectedNormalizedCurrentHash": "3686d4bfbf9c59d80bc91181e4fc664f824b91d82ab702ee0448f963c5d40c0e",
+      "nativeSourceHash": "7a000423e0158ab99dc5d4f32d81a4ec41f68fdc3a85165252d222fc6736e13a",
+      "currentNativeTagsHash": "4731f4c98fc97eb05cfca6cea43a063c0e2a5aa01aa43ecf3a5b8f07a55e03f1",
+      "historicalTextObservationsHash": "5c50773245602b94d701b74f39e5af61bf387bf3661e3923efa1a6c893d9e073"
+    },
+    "AT_109": {
+      "dbfId": 2505,
+      "originalCurrentHash": "5d3a0fd33f91b77ad23db9053c0753ab47a6f3570bba491614a73aa880d85918",
+      "expectedNormalizedCurrentHash": "6ac278251be329a77bd8d0f9c6a3337b1a77c80f2114d7c246d894cffb182f17",
+      "nativeSourceHash": "aa8faed83fa44cae8e207d74b19c3fa8175837af17704dbbb359cbe2b7159f58",
+      "currentNativeTagsHash": "62d43d029a037326076bc2f55ee6072be1c336f34701ded19e0aa62ffb6c840a",
+      "historicalTextObservationsHash": "450534b61e4f3f8f1af895dcfe154e636cdbbd7cefe4ebb0d64b677a8da67964"
+    },
+    "AT_110": {
+      "dbfId": 2585,
+      "originalCurrentHash": "3d30716b9e1045397bb85e9350ae7761efb30aef07ed3205a4a1df5cb0b8bf9d",
+      "expectedNormalizedCurrentHash": "23042969ff58dd6d8da4a192a33d73925e5aaf1dbf4c20e416e02c46b3c5c128",
+      "nativeSourceHash": "05a00d4a56a0f868e56f196cf6a19db748e053d37152e2d27aba42ce32ea8f54",
+      "currentNativeTagsHash": "679166d3c970e37a9b313c383f1fbaf39fdfd2c7da79dbbdef58ac35c28adef6",
+      "historicalTextObservationsHash": "2c2ee6a9530d5bc1e9f6ac6f097d311468db4bd7f5460b9e4f6aa8bda22fa63e"
+    },
+    "AT_111": {
+      "dbfId": 2704,
+      "originalCurrentHash": "b045e8439c59bf826f45cbcbc03e0c2fdf711e63d390a532272b609bf03c3fc6",
+      "expectedNormalizedCurrentHash": "f43af877a924083275843dc3f2d2815fec0904b1d95b5fd270e1a12e06ae3d31",
+      "nativeSourceHash": "9847aa564c3c927c211067ca8195724ecc0e9483918161faff9f23a81999f798",
+      "currentNativeTagsHash": "fcc7f08369f9770a0a9501fef0e1121469e5f5305baf00f6afda9b34f9317f4c",
+      "historicalTextObservationsHash": "c821e9284a5fcc25c8ec6e5ed5bfdbf9a1646b269775e96428889640f362744a"
+    },
+    "AT_112": {
+      "dbfId": 2507,
+      "originalCurrentHash": "00a0d2c5c626377c7c4edffc83b42f060bb1f28691b04a10560551a73d548586",
+      "expectedNormalizedCurrentHash": "107426c204392c9b989cd26376a27bafeb6b1f5cdf8979bc4b4c873a48796e78",
+      "nativeSourceHash": "df990968e74e167705562240409f78dc2eccf06fe590db2de5c16ba27bf3e1c5",
+      "currentNativeTagsHash": "ffd1f69d38f38ecea320404e4cad4994de84b498e3b8a534d9a554c40e01bbdc",
+      "historicalTextObservationsHash": "b3907698c5b10a2c00ba9ec8d7c7c749bcb4a5738c412670b614ef8ada702a5b"
+    },
+    "AT_113": {
+      "dbfId": 2509,
+      "originalCurrentHash": "092d0052a096eaca42946baf660e6d26e3d404788603a02f796365f649070b56",
+      "expectedNormalizedCurrentHash": "1b89785b03e254243c91d015dca9ae4fa951680c2dd2205042f64681347ca4a4",
+      "nativeSourceHash": "1bc6538b9ab1476bf53068b797063f43fd0624ec8cabc628fecbbb58eeecca93",
+      "currentNativeTagsHash": "c2f9d0a76147764509ff1ab7b40ac6cacb041f6a060bdf43162670f04688ec75",
+      "historicalTextObservationsHash": "1f7d6be7231a63c359301037084af01ea537614183f12da26ce27b45aa988303"
+    },
+    "AT_114": {
+      "dbfId": 2752,
+      "originalCurrentHash": "e57156bf508f21b961150818b56e79a590892cb5d9cf3cd8eaa31fc4b13c9512",
+      "expectedNormalizedCurrentHash": "e349a987f839446d8d16c04a417b2d9d86f7099d496c9b048b38bc8c5390f6c5",
+      "nativeSourceHash": "a6c2c6561f2def62429e094ef09c9f628cab85e366ac6fcb07a52d2dca7e8b3c",
+      "currentNativeTagsHash": "321bc0164bf26f915e17a3ed2715b35f8dbc28b06ed5c638770af7bb4dd0f995",
+      "historicalTextObservationsHash": "3e9f494291ec6a7bee0385342c771b04aad47d962d392181e31a2ef2848ca899"
+    },
+    "AT_115": {
+      "dbfId": 2581,
+      "originalCurrentHash": "c97c6754b72cf77aea8cbb9995bb3dc9ae095efbbcceeefdfc05ddff1164a29e",
+      "expectedNormalizedCurrentHash": "5452f20c2c34018a5b34646ad47e17544333f12f0be4f1ea829ee29212cbc60f",
+      "nativeSourceHash": "4527a2359bac39ce7b28aabbe90b0b8b86b0f9ec8179cd0394c1df468a5e424b",
+      "currentNativeTagsHash": "0bac31311698fc8c6094fa16460d4b804ced6855405e38f65bf55f7b882badcc",
+      "historicalTextObservationsHash": "304b275c855f3555ef2ba4762c6276e2e85be472a6c4433ffc8029685296d915"
+    },
+    "AT_116": {
+      "dbfId": 2596,
+      "originalCurrentHash": "8a9ea0a4a9d9f5847fbfaa72ed805c6a0b07e92d59c9bbc34182974753872be5",
+      "expectedNormalizedCurrentHash": "eaa7882d4ac1f4c4df01b111d88bc0923a7810b634128fbc1ad93b3ab773976e",
+      "nativeSourceHash": "7294f582a4323070d8d3fd6971323412610ad3c75def49103339027aa36b89f5",
+      "currentNativeTagsHash": "d3309860b12e1446cb700c620bbcd96f21973c770c126bd3be52f5ed9d2be0c4",
+      "historicalTextObservationsHash": "1930d31e7786211f56cff0acc2945f39c8279258749f7d4048d053d12c7bed2f"
+    },
+    "AT_117": {
+      "dbfId": 2493,
+      "originalCurrentHash": "cfb038d735317610d35090260817f60c02ee2d8e8d3c9ac340d98fbf52149b4a",
+      "expectedNormalizedCurrentHash": "f42b8e764402bff2d6bb5b16ad17d6b43d72436d10ee39dfc457c0c45b00b3c9",
+      "nativeSourceHash": "d02997b731c22b97698780d97e27b59e1c86ffd658724c1f787683fbbc6e44c5",
+      "currentNativeTagsHash": "77fb3891e4378e7d615ec59f226384f7add83a97ce79f5a5149a5635204f2e7c",
+      "historicalTextObservationsHash": "f239473c34e6fb264dbcae569a562811c78fd2c3bdb8cfbab3676d050e97803a"
+    },
+    "AT_118": {
+      "dbfId": 2510,
+      "originalCurrentHash": "c2b8b4e666e2410e5848371568fb2ea4213f6e3cbbcd4ff5c7863e7d992b5a4a",
+      "expectedNormalizedCurrentHash": "7c6937f1bf22a43bdc282dc1636e83f2bfc46ace4eedf8dd03905d7b370b8b39",
+      "nativeSourceHash": "486ce8bdd3cde5d2647b66171f9672f2bb220f86fcb9ba23df481bc5cc3d3ece",
+      "currentNativeTagsHash": "09491da8a65656f70411e638d4db110e89ddf498797254728601a1f199b8995c",
+      "historicalTextObservationsHash": "81f1e425009f073c3c14e7ee3f52a5c6b52e34c0c78757f53bcd6f2b36eea1bf"
+    },
+    "AT_119": {
+      "dbfId": 2511,
+      "originalCurrentHash": "04f2aa8782d81673bc6b9c2fd9e17635aab1b6b12bccdb4869c67cba53b15ed4",
+      "expectedNormalizedCurrentHash": "0638d58e1157ad7a4d41ebe3e14596ddea34403eddfc5ba98e46467c9e085a34",
+      "nativeSourceHash": "4dce5fad243caa391098fbd46519aaea23485cc7ef187d29f78d815879e8e368",
+      "currentNativeTagsHash": "fb78dca654cfe85677ad05a021e3c180897627ba0c42126047aa9ae053581947",
+      "historicalTextObservationsHash": "8855e414b6f778a4ed5c2bc088f73b35e29c24f54e60047fa738b323536a1af7"
+    },
+    "AT_120": {
+      "dbfId": 2512,
+      "originalCurrentHash": "261dd06fb6e27dd54d9df5bbde904498e6b74892a498a299e4f40145d58dd392",
+      "expectedNormalizedCurrentHash": "000629bb7c2980c5791a0c29f63ce94e11f46223e2c03deb1fe902bd86cdb805",
+      "nativeSourceHash": "21ae0bf98581331ceec9f98f2f2eb0bcbf22b45c191726a46de43550f574e7fa",
+      "currentNativeTagsHash": "0e99b0a20d275f6a6056606d21308a0fd36aea76c6d40d41d0b7a5a43c745a6e",
+      "historicalTextObservationsHash": "55c2cfe34104780113f557ac05b71b6dab48b6fadeaa6c033ba96a2b63167d3e"
+    },
+    "AT_121": {
+      "dbfId": 2518,
+      "originalCurrentHash": "7697f0073e30d883cc7bcb15bbb4e77db00d1f61291ac711e91682641a8510bf",
+      "expectedNormalizedCurrentHash": "799517b28a2c9ea14dac2da9d2cb0724909b6fef275fbec8e4bd8c716de9ed24",
+      "nativeSourceHash": "8c6a34f353964e23cbf39ca000b3a33a12f791333c7c59813ed260b935038daf",
+      "currentNativeTagsHash": "c0d8980b7cddad3f09e0aa0a3148d61f260eab7dceff4a86b0f6beaca9badb95",
+      "historicalTextObservationsHash": "966bddd38ef22dee0f0eaeef292c98de2cafafc8c666bb87e931867678bec5b2"
+    },
+    "AT_122": {
+      "dbfId": 2724,
+      "originalCurrentHash": "e436896d233eb713835b7ded096365df7bff269724eb27c8776f522931db1449",
+      "expectedNormalizedCurrentHash": "2f21fd85ce5a8c50c2149445fcfd3cb26f80e98c76fdffa07d8be59f434baece",
+      "nativeSourceHash": "d9bb6531bdf34cbfb9b6b52d04ca882e6aebe6f1f0509f7198deea9e8a8ee38b",
+      "currentNativeTagsHash": "73cc7f5d332ad2735d67924f08820f5d805dcef8eb5cdbc2b19745d92230cfc6",
+      "historicalTextObservationsHash": "aceeeecf363b83726f6ae799519d4ce599a3601ddfe49d80e34f92663fd05e3f"
+    },
+    "AT_123": {
+      "dbfId": 2682,
+      "originalCurrentHash": "fed875cd3ea22a1f831951f163b1dcbc94dcab61378cb6ac89ff555c6483e080",
+      "expectedNormalizedCurrentHash": "5fbe1c602a405bf9a25eaf5c9c067f9980f08138d084bb57a12a7ad4e7fa57cb",
+      "nativeSourceHash": "ff6885530561e3ccb7ee6684e8fb69b257b7d089c585f6dcaaaaabce81567261",
+      "currentNativeTagsHash": "7d049fc8d0266a0b4ae0b681d1b75967916b60e30068f4e6cb73ad4d56749e1a",
+      "historicalTextObservationsHash": "b8d35963596288695958dfe2fbfec57edfeca69698eb005cb050b86d6a17fceb"
+    },
+    "AT_124": {
+      "dbfId": 2595,
+      "originalCurrentHash": "24be2f41bb575eeac7c819bf8171c131525e89f14e8a0f1c8b7952f7beac58ab",
+      "expectedNormalizedCurrentHash": "22b9a1141a27719cb6e1a877ae3e1c219aeadfab4c710417026611c843aeab6f",
+      "nativeSourceHash": "0ea232a23f57e9f6784bada99a1095ad40e825ee3b73bdc94fa8ec8dd66d7c8c",
+      "currentNativeTagsHash": "5b7d2d9f9ccbc3c07d4d8c22141ed22ff3fb929f5d66f157c60ca617717db32a",
+      "historicalTextObservationsHash": "8459d25faf32920cf8df0492806b969abfebfc53bf060bbd8b610575801156ce"
+    },
+    "AT_125": {
+      "dbfId": 2725,
+      "originalCurrentHash": "9fb748677b5d7b4272627363f88e15fbc7ed27ccd3811eaf5cd1148b1f108ae3",
+      "expectedNormalizedCurrentHash": "737921b4d544c7cf53b08a599d726f35656caf62da150b8627d20838ed451ce7",
+      "nativeSourceHash": "6f43215b80641fb0b02437fcfae22bb836b4a3f81f4c971830fdf91552098538",
+      "currentNativeTagsHash": "7ce3f01a2f818f83f1d106c1ea9bfdc282ac8b44aa13027bd94a1481a61d470d",
+      "historicalTextObservationsHash": "f6a87596bce9470603220baa668c88eec1d0eb3971b2c658d6c65f043395c4e4"
+    },
+    "AT_127": {
+      "dbfId": 2683,
+      "originalCurrentHash": "6e8147fd403da5dfadbfe63f4acbcda6c76bf4d55acad3e9260e5d087f84e029",
+      "expectedNormalizedCurrentHash": "757257e5e45db6dcb8a6b06f8307deff0c4977319686c0620f3795ffedce3638",
+      "nativeSourceHash": "1f6ba234b0dd4cbfe97bd4d38f24b10c513b5aa32f4fedfb7e514c532b637779",
+      "currentNativeTagsHash": "3bd7c8e609251888ed0d9322a1e2badc2f8676ba84e4f2e1a216baae42e46541",
+      "historicalTextObservationsHash": "fcf9a3a01e7515c6100416e08224bd72653caf20e943792c3fb31f28d2f112ed"
+    },
+    "AT_128": {
+      "dbfId": 2681,
+      "originalCurrentHash": "a1ae87a494a73f363505eba7daf507ceb91daa8e2b07169ea583ead99b41c498",
+      "expectedNormalizedCurrentHash": "ec01b5aa28f975d8ebd57284c835ce77ee3fde14d05cca5c5a52c2e16cf6221c",
+      "nativeSourceHash": "64d8deae644623936ade6b7c3be13ab625bd5c37eb39a529b1455d7a8ea54fcd",
+      "currentNativeTagsHash": "1b1dbcb530588d6f20b68d6c3e6e133ccbe23868e0ad510b02eb4a70a22c5aa7",
+      "historicalTextObservationsHash": "beb1316b3bf0983ab3377d1904adc3b31d63dacee150493a7989a1b6d28030cb"
+    },
+    "AT_129": {
+      "dbfId": 2748,
+      "originalCurrentHash": "9f25ea9d340c308182c6b9d6b73e2b3b30c87192258beb08c1ad17e678eb8045",
+      "expectedNormalizedCurrentHash": "821827a35cb0ad825b8b6f387675ab764774a978cfd6bfe564788f6207d1190e",
+      "nativeSourceHash": "2d52020d2d5ca06aa465f03fbe0d36f0ab6d2c01514d9dfe9d5f73ed3ca48948",
+      "currentNativeTagsHash": "fd7fe70c644cf191e6d0e06dae027f3dd75c53807fdd459a3b3d21a1d8a5354c",
+      "historicalTextObservationsHash": "b7d8fa304567d5dd995360618fd84079ad1c26820188c4f71509641233c83445"
+    },
+    "AT_130": {
+      "dbfId": 2723,
+      "originalCurrentHash": "455f2289d7c76b54ca6d804e5c201dc5c439ba9118c9db78bc1f77cb9e716be6",
+      "expectedNormalizedCurrentHash": "caadeaad3bc48eb22a7bdc377432658681367b1631bec972ecbb14013286e15f",
+      "nativeSourceHash": "f68e3655d6261e21acd6a23e162915500ada66909985cadb7d66475e4b0ffb71",
+      "currentNativeTagsHash": "f3051d8acc50ffdf7902855e3eccbd847f1fda57e6e93053e0b708b9bb3fa7e0",
+      "historicalTextObservationsHash": "aa3f3132828ba3eca6d29c3fe4346459f291beb5229676545ab7f40365329183"
+    },
+    "AT_131": {
+      "dbfId": 2519,
+      "originalCurrentHash": "4d705f6aaec6fc75f1efca6a99fa6291910cc6e4ffa263c29d3ced189dc69bb5",
+      "expectedNormalizedCurrentHash": "5f956418e461c692119f41d4f64b9f90a2cc9ba00cb6a27552caca8bce5bd063",
+      "nativeSourceHash": "3cd333ac5fae073ed72bcee24b45d12a73c792d3626cd9c9b385455e9058f4e7",
+      "currentNativeTagsHash": "98d49567fa916053c8ce54e73a2c7110bc88ad9a42a4c8a12a96f5d6aadc4f4f",
+      "historicalTextObservationsHash": "5156abe6d86ac363b046556cdb5dd351229b445b97dd28939c62cca227cd6c61"
+    },
+    "AT_132": {
+      "dbfId": 2736,
+      "originalCurrentHash": "546d2af7cad3e290d181b70e27968a57388ad4a7aae938f61b34dbee97e50935",
+      "expectedNormalizedCurrentHash": "9345bb449f898cbac533efeac0502d7ef3993a05401f769088bffe8e9fec600b",
+      "nativeSourceHash": "7170ffb778bfa7f2419e5fbe7eebae0389498eb5e5ece0b5dbc7c17bb02cd381",
+      "currentNativeTagsHash": "377aaa5d679fa61b57b43e68d0b84f5053122846eb735fc5e3be96d390068c9f",
+      "historicalTextObservationsHash": "65f5bbb1d28d77d668dc6d873fe571639b5751631891064860a37be9cbd73ae1"
+    },
+    "AT_132_ROGUEt": {
+      "dbfId": 2746,
+      "originalCurrentHash": "10dc1273ae65bc4b5bd95241e0cbb4e924d5cda1fe9fe6786634a2531118cdab",
+      "expectedNormalizedCurrentHash": "c3e5b11c6b876abe5bf4ad68d1c4e2d02b8fb46b0cfc2f48dde3dc305c84f277",
+      "nativeSourceHash": "95b2d0b973916f835bc8b318bf0e6febec5d42fe636440017225c449fe55ed60",
+      "currentNativeTagsHash": "126784d5a8ef233137422e3a49076a53abab3030d8d7cecc0a55a01d64f8de11",
+      "historicalTextObservationsHash": "ba5ac23c3c08364ca7ab8a02f0de40e0b2d3f5f12b94b781b36c801d4792a54c"
+    },
+    "AT_132_SHAMANa": {
+      "dbfId": 16221,
+      "originalCurrentHash": "fa3a9fae4ba11b2071b249c0354a98e4d61527433444cbeaa6e07984ed747892",
+      "expectedNormalizedCurrentHash": "fc6f6a16a4b98ddb1245f9f8ef6357d096b00f78548b81405213ceb4be4ef2f9",
+      "nativeSourceHash": "2d51019816603745851d1a7f72ad75e19acdeaa47af0f075d102310f7a7ff823",
+      "currentNativeTagsHash": "bcb1772c34b9e12eb9eb478eeac65da8f882bc09d8abe1ccc9aa05b8ef869723",
+      "historicalTextObservationsHash": "57715baf843eff385f00e1d7ac3ead57a4eb9bad7923fb42c4e684491687ddd3"
+    },
+    "AT_132_SHAMANb": {
+      "dbfId": 16222,
+      "originalCurrentHash": "57bec3e8970dec9bbc5c092d67d9f0ccc79bca2933ee9667a6566664ea25cf19",
+      "expectedNormalizedCurrentHash": "9138b23c62e2633667ac8388999101d9b49a8351a53726abecf99e2593d68097",
+      "nativeSourceHash": "fc7a09388adc6c76889da9323eea833ffb27a4a711eb6ce4c3b61261f4bde694",
+      "currentNativeTagsHash": "a4ca66b6e49fa46ae24e91f92c3fa0550c866b358713bf93f36389cf3907c9ab",
+      "historicalTextObservationsHash": "191b06509265e8ab2784b5d605d7f0129fd9aa790bb7f13f53393fa0c2fc04f4"
+    },
+    "AT_132_SHAMANc": {
+      "dbfId": 16223,
+      "originalCurrentHash": "b7626e643d54ceac71f807d44e1cc0315bc77cac227cd4721638d9564b57a300",
+      "expectedNormalizedCurrentHash": "7ea947f96b50a3aba2d37769777e456ea03ae24e7633d47f748cd7ac58cf8eb1",
+      "nativeSourceHash": "2d51019816603745851d1a7f72ad75e19acdeaa47af0f075d102310f7a7ff823",
+      "currentNativeTagsHash": "bcb1772c34b9e12eb9eb478eeac65da8f882bc09d8abe1ccc9aa05b8ef869723",
+      "historicalTextObservationsHash": "90bf348cb42eb5eaa304b6359afd58dbdb2280e195b141d10875f11ddb932feb"
+    },
+    "AT_132_SHAMANd": {
+      "dbfId": 16225,
+      "originalCurrentHash": "c981984e4624c9d83f448d4298e60ea0574686a3340858c58311dcc7abf03894",
+      "expectedNormalizedCurrentHash": "84e651ee21525c1e7486411fa86fb8108bd8695554737145b1b29507d97a8ef4",
+      "nativeSourceHash": "2d51019816603745851d1a7f72ad75e19acdeaa47af0f075d102310f7a7ff823",
+      "currentNativeTagsHash": "bcb1772c34b9e12eb9eb478eeac65da8f882bc09d8abe1ccc9aa05b8ef869723",
+      "historicalTextObservationsHash": "3004e96220dffb59b4fccaf07b76999cc2c022b9d060bccd25d16dc1a55d8691"
+    },
+    "AT_133": {
+      "dbfId": 2818,
+      "originalCurrentHash": "0b5db3eaa25a581154b524e459d170abfdddfbc3959b81ef3bd3d229f1d4d3f2",
+      "expectedNormalizedCurrentHash": "f72be2c72b3f4743705a01d1c29ed730226537d1c9d16549ef9dff4b3700cc40",
+      "nativeSourceHash": "cf6ff791f9c89d9ea5f32e2fe65353277739bd97af10ef91115d55271fdd0aaf",
+      "currentNativeTagsHash": "151805f6949767812daeab440a1b6e75611d0317f3aed9a11fd726bf5ee30d2b",
+      "historicalTextObservationsHash": "3190c513c8049ef7f3041ebfb7df4be6d5250615fae5fe2c0983693e3a22aad1"
+    },
+    "HERO_11bp2": {
+      "dbfId": 79943,
+      "originalCurrentHash": "baae91bf56692c573be9957cb8ddf5021331da9bba97261dfbacec1d735a4c3c",
+      "expectedNormalizedCurrentHash": "b8d8f85e42662fe0a1fc159938bdd4575928487ace32a815c941b813612c15bc",
+      "nativeSourceHash": "22b6595121c237366a428b6f4f79c36a457de3bb40f2110b1f2427e398e26583",
+      "currentNativeTagsHash": "dca14ba7905a969294cb424429770266c5e920e47f687f5efd2a96705134d1fe",
+      "historicalTextObservationsHash": "7154097025050e1347f10c91e4d3733bb4a5a2004938e929d3f82f7b4a4196ec"
+    },
+    "HERO_11bp2t": {
+      "dbfId": 87918,
+      "originalCurrentHash": "3667260cc3eb4caae7491680c1bb012569327c0ff5efb6ae445ee97ceabc3203",
+      "expectedNormalizedCurrentHash": "002aa5bb0a7026889114a84c6fe2324ee2b2a4950534b6d4f3b0dcd6e9972c93",
+      "nativeSourceHash": "f24ee08a52ef5dcf8128ca8365800404d2067436cf4eaf0b24b8ba43d9272302",
+      "currentNativeTagsHash": "4f8156b03fbad849b058b513192d31f352997e03432abd0849a12f8c5585b9be",
+      "historicalTextObservationsHash": "1ba97e9918cc28ea16eea94f5383caa38b5dcbfc0d1a48a08dbb6b8dd7e78095"
+    },
+    "OG_044c": {
+      "dbfId": 38321,
+      "originalCurrentHash": "a553a813a89597e3d2723e14fa4c4963a2702a4062ddc6731c404d845b17c9a9",
+      "expectedNormalizedCurrentHash": "af934dbeb04b03e61930b7adb8a9a0b6cac3ecd29f9f8f41abb47636bf23d9d1",
+      "nativeSourceHash": "da6eb7add290e82b5e0b4d10ff2f43c8a2244c765593735f97f1f32d4bb98af8",
+      "currentNativeTagsHash": "8324d9f1c0606124ab3dd06910a57178386e07a14869f125127c9c521ab0d107",
+      "historicalTextObservationsHash": "fdcf6ab26c898413420b4b390b735def74eddaccdaa66cc86c3a2e6c68c144a7"
+    }
+  },
+  "originalDateFirstHistorySHA256": "2e77cd858824879b824499bad39bf7ef705c0885204983f6bfe2a38494850638"
+}

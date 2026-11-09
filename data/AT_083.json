@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_083","dbfId":2533,"name":"용매 기수","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":3,"text":"<b>격려:</b> 이번 턴에\n<b>질풍</b>을 얻습니다.","attack":3,"health":3,"durability":0,"armor":0,"flavor":"곡예 비행도 마음껏 할 수 있답니다!","spellSchool":"","portrait":"HS5-056_D.psd:6aa3f2fd47976104bb5663640ad3005e","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":3},{"id":189,"name":"질풍","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":403,"name":"INSPIRE","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_083.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-056_D.psd:6aa3f2fd47976104bb5663640ad3005e","goldenMaterial":"AT_083_PremiumCard.mat:60c13eeea207d144e96363451359ac41","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_083",
+    "dbfId": 2533,
+    "name": "용매 기수",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>격려:</b> 이번 턴에<br></br><b>질풍</b>을 얻습니다.",
+    "attack": 3,
+    "health": 3,
+    "classes": [],
+    "mechanics": [
+      "INSPIRE"
+    ]
+  }
+}

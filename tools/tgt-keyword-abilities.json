@@ -1,0 +1,424 @@
+{
+  "schema": 1,
+  "vocabulary": [
+    "BATTLECRY",
+    "CANT_BE_TARGETED_BY_HERO_POWERS",
+    "CANT_BE_TARGETED_BY_SPELLS",
+    "CASTS_WHEN_DRAWN",
+    "CHARGE",
+    "CHOOSE_ONE",
+    "COMBO",
+    "DEATHRATTLE",
+    "DIVINE_SHIELD",
+    "ELUSIVE",
+    "ENRAGED",
+    "FREEZE",
+    "INSPIRE",
+    "LIFESTEAL",
+    "MEGA_WINDFURY",
+    "OVERHEAL",
+    "OVERLOAD",
+    "POISONOUS",
+    "RUSH",
+    "SECRET",
+    "SPELLPOWER",
+    "STEALTH",
+    "TAUNT",
+    "WINDFURY"
+  ],
+  "scope": "Bounded intrinsic keyword vocabulary, not every free-text effect. Joust comparisons, conditional keyword grants, hero-power improvements and amount-bearing effects remain in text. Implementation/reference tags are separately preserved.",
+  "baseline": {
+    "AT_001": [],
+    "AT_002": [
+      "SECRET"
+    ],
+    "AT_003": [],
+    "AT_004": [],
+    "AT_005": [],
+    "AT_005t": [
+      "CHARGE"
+    ],
+    "AT_006": [
+      "INSPIRE"
+    ],
+    "AT_007": [
+      "BATTLECRY"
+    ],
+    "AT_008": [],
+    "AT_009": [
+      "DEATHRATTLE"
+    ],
+    "AT_010": [
+      "BATTLECRY"
+    ],
+    "AT_011": [],
+    "AT_012": [
+      "INSPIRE"
+    ],
+    "AT_013": [],
+    "AT_014": [],
+    "AT_015": [],
+    "AT_016": [],
+    "AT_017": [
+      "BATTLECRY"
+    ],
+    "AT_018": [
+      "INSPIRE"
+    ],
+    "AT_019": [
+      "DEATHRATTLE"
+    ],
+    "AT_020": [],
+    "AT_021": [],
+    "AT_022": [],
+    "AT_023": [
+      "INSPIRE"
+    ],
+    "AT_024": [],
+    "AT_025": [],
+    "AT_026": [],
+    "AT_027": [],
+    "AT_028": [
+      "COMBO"
+    ],
+    "AT_029": [],
+    "AT_030": [
+      "COMBO"
+    ],
+    "AT_031": [],
+    "AT_032": [
+      "BATTLECRY"
+    ],
+    "AT_033": [],
+    "AT_034": [],
+    "AT_035": [],
+    "AT_035t": [],
+    "AT_036": [
+      "DEATHRATTLE"
+    ],
+    "AT_036t": [],
+    "AT_037": [
+      "CHOOSE_ONE"
+    ],
+    "AT_037a": [],
+    "AT_037b": [],
+    "AT_037t": [],
+    "AT_038": [
+      "BATTLECRY",
+      "DEATHRATTLE"
+    ],
+    "AT_039": [
+      "INSPIRE"
+    ],
+    "AT_040": [
+      "BATTLECRY"
+    ],
+    "AT_041": [],
+    "AT_042": [
+      "CHOOSE_ONE"
+    ],
+    "AT_042a": [],
+    "AT_042b": [],
+    "AT_042t": [
+      "CHARGE"
+    ],
+    "AT_042t2": [
+      "STEALTH"
+    ],
+    "AT_043": [],
+    "AT_044": [],
+    "AT_045": [],
+    "AT_046": [
+      "BATTLECRY"
+    ],
+    "AT_047": [
+      "BATTLECRY"
+    ],
+    "AT_048": [],
+    "AT_049": [
+      "INSPIRE"
+    ],
+    "AT_050": [
+      "DEATHRATTLE"
+    ],
+    "AT_050t": [],
+    "AT_051": [
+      "OVERLOAD"
+    ],
+    "AT_052": [
+      "OVERLOAD"
+    ],
+    "AT_053": [
+      "OVERLOAD"
+    ],
+    "AT_054": [
+      "BATTLECRY"
+    ],
+    "AT_055": [],
+    "AT_056": [],
+    "AT_057": [
+      "BATTLECRY"
+    ],
+    "AT_058": [
+      "BATTLECRY"
+    ],
+    "AT_059": [
+      "INSPIRE"
+    ],
+    "AT_060": [
+      "SECRET"
+    ],
+    "AT_061": [],
+    "AT_062": [],
+    "AT_063": [],
+    "AT_063t": [],
+    "AT_064": [],
+    "AT_065": [
+      "BATTLECRY"
+    ],
+    "AT_066": [
+      "INSPIRE"
+    ],
+    "AT_067": [],
+    "AT_068": [],
+    "AT_069": [
+      "BATTLECRY",
+      "TAUNT"
+    ],
+    "AT_070": [
+      "CHARGE"
+    ],
+    "AT_071": [
+      "BATTLECRY"
+    ],
+    "AT_072": [
+      "BATTLECRY"
+    ],
+    "AT_073": [
+      "SECRET"
+    ],
+    "AT_074": [],
+    "AT_075": [],
+    "AT_076": [
+      "INSPIRE"
+    ],
+    "AT_077": [
+      "BATTLECRY"
+    ],
+    "AT_078": [],
+    "AT_079": [
+      "BATTLECRY"
+    ],
+    "AT_080": [],
+    "AT_081": [
+      "BATTLECRY"
+    ],
+    "AT_082": [
+      "INSPIRE"
+    ],
+    "AT_083": [
+      "INSPIRE"
+    ],
+    "AT_084": [
+      "BATTLECRY"
+    ],
+    "AT_085": [],
+    "AT_086": [
+      "BATTLECRY"
+    ],
+    "AT_087": [
+      "CHARGE",
+      "DIVINE_SHIELD"
+    ],
+    "AT_088": [],
+    "AT_089": [
+      "INSPIRE"
+    ],
+    "AT_090": [
+      "INSPIRE"
+    ],
+    "AT_091": [
+      "INSPIRE"
+    ],
+    "AT_092": [],
+    "AT_093": [
+      "SPELLPOWER"
+    ],
+    "AT_094": [
+      "BATTLECRY"
+    ],
+    "AT_095": [
+      "DIVINE_SHIELD",
+      "STEALTH"
+    ],
+    "AT_096": [
+      "BATTLECRY"
+    ],
+    "AT_097": [
+      "TAUNT"
+    ],
+    "AT_098": [
+      "BATTLECRY"
+    ],
+    "AT_099": [
+      "INSPIRE"
+    ],
+    "AT_099t": [],
+    "AT_100": [
+      "INSPIRE"
+    ],
+    "AT_101": [],
+    "AT_102": [],
+    "AT_103": [
+      "BATTLECRY"
+    ],
+    "AT_104": [
+      "BATTLECRY"
+    ],
+    "AT_105": [
+      "BATTLECRY"
+    ],
+    "AT_106": [
+      "BATTLECRY"
+    ],
+    "AT_108": [
+      "BATTLECRY"
+    ],
+    "AT_109": [
+      "INSPIRE"
+    ],
+    "AT_110": [
+      "INSPIRE"
+    ],
+    "AT_111": [
+      "BATTLECRY"
+    ],
+    "AT_112": [
+      "BATTLECRY"
+    ],
+    "AT_113": [
+      "INSPIRE"
+    ],
+    "AT_114": [
+      "TAUNT"
+    ],
+    "AT_115": [
+      "BATTLECRY"
+    ],
+    "AT_116": [
+      "BATTLECRY"
+    ],
+    "AT_117": [
+      "BATTLECRY"
+    ],
+    "AT_118": [
+      "BATTLECRY"
+    ],
+    "AT_119": [
+      "INSPIRE"
+    ],
+    "AT_120": [],
+    "AT_121": [],
+    "AT_122": [
+      "BATTLECRY"
+    ],
+    "AT_123": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
+    "AT_124": [],
+    "AT_125": [
+      "CHARGE"
+    ],
+    "AT_127": [
+      "INSPIRE"
+    ],
+    "AT_128": [
+      "DEATHRATTLE"
+    ],
+    "AT_129": [],
+    "AT_130": [],
+    "AT_131": [],
+    "AT_132": [
+      "BATTLECRY"
+    ],
+    "AT_132_ROGUEt": [],
+    "AT_132_SHAMANa": [],
+    "AT_132_SHAMANb": [],
+    "AT_132_SHAMANc": [],
+    "AT_132_SHAMANd": [],
+    "AT_133": [
+      "BATTLECRY"
+    ],
+    "HERO_11bp2": [],
+    "HERO_11bp2t": [
+      "CHARGE"
+    ],
+    "OG_044c": [
+      "CHARGE",
+      "STEALTH"
+    ]
+  },
+  "events": {
+    "AT_006": {
+      "2023-08-23": [
+        "INSPIRE",
+        "SPELLPOWER"
+      ]
+    },
+    "AT_011": {
+      "2023-04-05": [
+        "OVERHEAL"
+      ]
+    },
+    "AT_012": {
+      "2023-08-23": [
+        "BATTLECRY",
+        "INSPIRE"
+      ]
+    },
+    "AT_018": {
+      "2023-08-23": [
+        "BATTLECRY",
+        "INSPIRE"
+      ]
+    },
+    "AT_035t": {
+      "2018-10-03": [
+        "CASTS_WHEN_DRAWN"
+      ]
+    },
+    "AT_036t": {
+      "2023-08-23": [
+        "DEATHRATTLE"
+      ]
+    },
+    "AT_042a": {
+      "2018-11-30": [
+        "CHARGE"
+      ]
+    },
+    "AT_042b": {
+      "2018-11-30": [
+        "STEALTH"
+      ]
+    },
+    "AT_049": {
+      "2023-08-23": [
+        "BATTLECRY",
+        "INSPIRE"
+      ]
+    }
+  },
+  "semanticExceptions": {
+    "AT_004": "Benefits from Spell Damage; does not supply Spell Damage.",
+    "AT_005": "References transformed token Charge; token AT_005t owns it.",
+    "HERO_11bp2": "Summons Charge ghoul; power does not own Charge.",
+    "AT_006": "Gains own Spell Damage on2023-08-23 despite missing actual tag.",
+    "AT_035t": "Historical automatic draw effect predates formal Casts When Drawn text; list acquires displayed keyword with2018-10-03 text.",
+    "AT_130": "Minion with a draw trigger, not a Casts When Drawn spell. Later implementation flag is excluded.",
+    "AT_042a/b": "Choice spells describe output form; own keywords begin with2018-11-30 MINION previews.",
+    "AT_037/042": "Choose One in release text before dedicated tag443.",
+    "AT_051/069/132": "Temporary missing engine tags do not remove unchanged own text keywords."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_084",
+    "dbfId": 2577,
+    "name": "창 운반꾼",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "[x]<b>전투의 함성:</b> 아군<br></br>하수인에게 공격력을<br></br>+2 부여합니다.",
+    "attack": 1,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "창 운반꾼은 오크가 입대를 하면 처음으로 복무하게 되는 직책입니다. 창을 쓰는 오크가 별로 없는데 왜 저런 직책이 있는지 모르겠네요.",
+    "spellSchool": "",
+    "portrait": "HS5-015_D.psd:829667389e20e8c4cacc0c8a3cced0a7",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_084.png",
+    "patches": [],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS5-015_D.psd:829667389e20e8c4cacc0c8a3cced0a7",
+    "goldenMaterial": "AT_084_PremiumCard.mat:70309eedad1c34149bc16fc8b243b4ac",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "창 운반꾼",
+      "rawText": "<b>전투의 함성:</b> 아군 하수인 하나에게 공격력을 +2 부여합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "창 운반꾼",
+      "rawText": "<b>전투의 함성:</b> 아군 하수인 하나에게 공격력을\n+2 부여합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "12.0.0.25770"
+    },
+    {
+      "build": "12.2.0.26996",
+      "name": "창 운반꾼",
+      "rawText": "[x]<b>전투의 함성:</b> 아군\n하수인에게 공격력을\n+2 부여합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

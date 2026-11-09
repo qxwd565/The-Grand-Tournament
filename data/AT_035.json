@@ -1,1 +1,15 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_035","dbfId":2587,"name":"땅속의 위협","type":"SPELL","cardClass":"ROGUE","rarity":"EPIC","collectible":true,"cost":3,"text":"상대편의 덱에 잠복을 셋 섞어 넣습니다. 상대편이 잠복을 뽑으면, 내가 4/4 네루비안을 소환합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"이 알 좀 들어주실래요? 절대로 언데드 거미가 들어있거나 하는 일은 없을 겁니다.","spellSchool":"","portrait":"W10_A026_D.psd:b40ac69e0e4e6b44b92c34c3d99068d5","set":"TGT","nativeTags":[{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":7},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_035.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W10_A026_D.psd:b40ac69e0e4e6b44b92c34c3d99068d5","goldenMaterial":"AT_035_PremiumCard.mat:500823ae2055d5348b5edcd23f338ff8","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_035",
+    "dbfId": 2587,
+    "name": "땅속의 위협",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "상대편의 덱에 잠복을 셋 섞어 넣습니다. 상대편이 잠복을 뽑으면, 내가 4/4 네루비안을 소환합니다.",
+    "classes": [],
+    "mechanics": []
+  }
+}

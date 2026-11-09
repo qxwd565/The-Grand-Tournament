@@ -1,0 +1,873 @@
+{
+  "scope": "The Grand Tournament only; independent launch and27.2 official-note/original-entity checks. Not a complete chronology.",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-08-25",
+    "official": "https://hearthstone.blizzard.com/ko-kr/news/19843162",
+    "basis": "Official Korean announcement explicitly names Asia region2015-08-25 for132 cards and pack opening.",
+    "corroboratingAppliedArticle": "https://www.inven.co.kr/webzine/news/?news=141239&vtype=pc",
+    "corroborationReadStatus": "Indexed search body directly says applied2015-08-25 Korean time; directarticleopen502.",
+    "excludes": "3.0 client preload2015-08-19 and preview brawl are not constructed collection release."
+  },
+  "patch272": {
+    "date": "2023-08-23",
+    "official": "https://hearthstone.blizzard.com/ko-kr/news/23987537",
+    "rawCommit": "0403e1f741685c19216e432ca8f097e07c7ff32e",
+    "method": "Compare cached26.0 against first27.2 client XML; independently match all27 changed collectible entities against official wild-card table, plus Anubarak generated token. Enchantment changes excluded if not repository scope.",
+    "matchedCollectibleCount": 27,
+    "differences": [
+      {
+        "id": "AT_001",
+        "before26_0": {
+          "name": "화염창",
+          "text": "하수인에게 피해를 $8 줍니다.",
+          "cost": "5",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "화염창",
+          "text": "하수인에게 피해를 $25 줍니다.",
+          "cost": "5",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_006",
+        "before26_0": {
+          "name": "달라란 지원자",
+          "text": "<b>격려:</b> <b>주문 공격력 +1</b>을 얻습니다.",
+          "cost": "4",
+          "attack": "3",
+          "health": "5",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "달라란 지원자",
+          "text": "<b>주문 공격력 +1</b>\n<b>격려:</b> <b>주문 공격력 +1</b>을 얻습니다.",
+          "cost": "4",
+          "attack": "3",
+          "health": "5",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_007",
+        "before26_0": {
+          "name": "주문사수",
+          "text": "<b>전투의 함성:</b> 각 플레이어가 무작위 주문을 손으로 가져옵니다.",
+          "cost": "3",
+          "attack": "3",
+          "health": "4",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "주문사수",
+          "text": "<b>전투의 함성:</b> 두 플레이어 모두 무작위 주문을 얻습니다. 내가 얻은 주문의 비용이 (2) 감소합니다.",
+          "cost": "3",
+          "attack": "3",
+          "health": "4",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_012",
+        "before26_0": {
+          "name": "어둠의 종복",
+          "text": "<b>격려:</b> 각 영웅에게\n피해를 4씩 줍니다.",
+          "cost": "4",
+          "attack": "5",
+          "health": "4",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "어둠의 종복",
+          "text": "[x]<b>전투의 함성과 격려:</b>\n각 영웅에게 피해를\n4씩 줍니다.",
+          "cost": "5",
+          "attack": "5",
+          "health": "4",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_014",
+        "before26_0": {
+          "name": "어둠의 마귀",
+          "text": "내가 카드를 뽑을 때마다 그 카드의 비용이 (1) 감소합니다.",
+          "cost": "3",
+          "attack": "3",
+          "health": "3",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "어둠의 마귀",
+          "text": "내가 카드를 뽑을 때마다 그 카드의 비용이 (1) 감소합니다.",
+          "cost": "2",
+          "attack": "2",
+          "health": "3",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_015",
+        "before26_0": {
+          "name": "교화",
+          "text": "[x]적 하수인을 복사하여\n내 손으로 가져옵니다.",
+          "cost": "2",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "교화",
+          "text": "적 하수인을 복사하여 내 손으로 가져옵니다. 그 하수인의 비용이 (1)이 됩니다.",
+          "cost": "3",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_018",
+        "before26_0": {
+          "name": "고해사제 페일트레스",
+          "text": "<b>격려:</b> 무작위 <b>전설</b> 하수인을 소환합니다.",
+          "cost": "7",
+          "attack": "5",
+          "health": "4",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "고해사제 페일트레스",
+          "text": "<b>전투의 함성과 격려:</b> 무작위 <b>전설</b> 하수인을 소환합니다.",
+          "cost": "7",
+          "attack": "5",
+          "health": "4",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_021",
+        "before26_0": {
+          "name": "작고 사악한 창기사",
+          "text": "내가 카드를 버릴 때마다 +1/+1을 얻습니다.",
+          "cost": "2",
+          "attack": "3",
+          "health": "2",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "작고 사악한 창기사",
+          "text": "내가 카드를 버릴 때마다 +2/+2를 얻습니다.",
+          "cost": "2",
+          "attack": "3",
+          "health": "2",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_024",
+        "before26_0": {
+          "name": "악마의 기운",
+          "text": "악마에게 +3/+3을 부여합니다. 상대편에게 마나 수정을 줍니다.",
+          "cost": "2",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "악마의 기운",
+          "text": "[x]악마에게 +3/+3을\n부여합니다.",
+          "cost": "2",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_025",
+        "before26_0": {
+          "name": "어둠의 거래",
+          "text": "무작위 적 하수인 둘을 처치합니다. 무작위로 카드를\n2장 버립니다.",
+          "cost": "6",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "어둠의 거래",
+          "text": "무작위 적 하수인 둘을 처치합니다. 무작위로 카드를\n2장 버립니다.",
+          "cost": "3",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_028",
+        "before26_0": {
+          "name": "음영파 기수",
+          "text": "<b>연계:</b> 공격력을 +3 얻습니다.",
+          "cost": "5",
+          "attack": "3",
+          "health": "7",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "음영파 기수",
+          "text": "<b>연계:</b> 공격력을 +4 얻습니다.",
+          "cost": "5",
+          "attack": "3",
+          "health": "7",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_028e",
+        "before26_0": {
+          "name": "기의 창",
+          "text": "공격력 +3",
+          "cost": null,
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "6",
+          "collectible": null
+        },
+        "observed27_2": {
+          "name": "기의 창",
+          "text": "공격력 +4",
+          "cost": null,
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "6",
+          "collectible": null
+        }
+      },
+      {
+        "id": "AT_033",
+        "before26_0": {
+          "name": "도둑질",
+          "text": "<i>상대편 직업</i>의 무작위 카드 2장을\n내 손으로 가져옵니다.",
+          "cost": "3",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "도둑질",
+          "text": "<i>상대편 직업</i>의 무작위 카드 3장을 얻습니다.",
+          "cost": "3",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_034",
+        "before26_0": {
+          "name": "독 묻은 칼",
+          "text": "[x]내가 영웅 능력을 사용하면\n무기를 교체하는 대신,\n이 무기에 공격력을\n+1 부여합니다.",
+          "cost": "4",
+          "attack": "1",
+          "health": null,
+          "durability": "3",
+          "type": "7",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "독 묻은 칼",
+          "text": "[x]내가 영웅 능력을 사용하면\n무기를 교체하는 대신,\n이 무기에 공격력을\n+1 부여합니다.",
+          "cost": "2",
+          "attack": "1",
+          "health": null,
+          "durability": "3",
+          "type": "7",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_036",
+        "before26_0": {
+          "name": "아눕아락",
+          "text": "<b>죽음의 메아리:</b> 이 하수인을 내 손으로 다시 가져오고 4/4 네루비안을 소환합니다.",
+          "cost": "9",
+          "attack": "8",
+          "health": "4",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "아눕아락",
+          "text": "<b>죽음의 메아리:</b> \"<b>죽음의_메아리:</b> 아눕아락을 소환함\" 능력이 있는 4/4 네루비안을 소환합니다.",
+          "cost": "8",
+          "attack": "8",
+          "health": "4",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_036t",
+        "before26_0": {
+          "name": "네루비안",
+          "text": "",
+          "cost": "4",
+          "attack": "4",
+          "health": "4",
+          "durability": null,
+          "type": "4",
+          "collectible": null
+        },
+        "observed27_2": {
+          "name": "네루비안",
+          "text": "<b>죽음의 메아리:</b> 아눕아락을 소환합니다.",
+          "cost": "4",
+          "attack": "4",
+          "health": "4",
+          "durability": null,
+          "type": "4",
+          "collectible": null
+        }
+      },
+      {
+        "id": "AT_041",
+        "before26_0": {
+          "name": "야생의 기사",
+          "text": "내가 야수를 소환할 때마다 이 카드의 비용이 (1) 감소합니다.",
+          "cost": "7",
+          "attack": "6",
+          "health": "6",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "야생의 기사",
+          "text": "이번 게임에서 내가 소환한 야수 하나당 비용이 (1)씩 감소합니다.",
+          "cost": "7",
+          "attack": "6",
+          "health": "6",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_045",
+        "before26_0": {
+          "name": "아비아나",
+          "text": "내 하수인들의 비용이\n(1)이 됩니다.",
+          "cost": "10",
+          "attack": "5",
+          "health": "5",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "아비아나",
+          "text": "내 하수인들의 비용이\n(1)이 됩니다.",
+          "cost": "9",
+          "attack": "5",
+          "health": "5",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_046",
+        "before26_0": {
+          "name": "투스카르 토템지기",
+          "text": "<b>전투의 함성:</b> 무작위 기본 토템을 소환합니다.",
+          "cost": "3",
+          "attack": "3",
+          "health": "2",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "투스카르 토템지기",
+          "text": "<b>전투의 함성:</b> 무작위 기본 토템을 소환합니다.",
+          "cost": "2",
+          "attack": "3",
+          "health": "2",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_048",
+        "before26_0": {
+          "name": "치유의 물결",
+          "text": "생명력을 #7 회복시킵니다. 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, 생명력을 #14 회복시킵니다.",
+          "cost": "3",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "치유의 물결",
+          "text": "생명력을 #8 회복시킵니다. 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, 생명력을 #16 회복시킵니다.",
+          "cost": "3",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_049",
+        "before26_0": {
+          "name": "썬더 블러프 용맹전사",
+          "text": "<b>격려:</b> 내 토템들에게 공격력을 +2 부여합니다.",
+          "cost": "5",
+          "attack": "3",
+          "health": "6",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "썬더 블러프 용맹전사",
+          "text": "<b>전투의 함성과 격려:</b>\n내 토템들에게 공격력을 +2 부여합니다.",
+          "cost": "5",
+          "attack": "3",
+          "health": "6",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_050",
+        "before26_0": {
+          "name": "충전된 망치",
+          "text": "<b>죽음의 메아리:</b>\n내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다.",
+          "cost": "4",
+          "attack": "2",
+          "health": null,
+          "durability": "4",
+          "type": "7",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "충전된 망치",
+          "text": "<b>죽음의 메아리:</b>\n내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다.",
+          "cost": "3",
+          "attack": "2",
+          "health": null,
+          "durability": "3",
+          "type": "7",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_061",
+        "before26_0": {
+          "name": "실탄 장전",
+          "text": "이번 턴에 내가 주문을 시전할 때마다 무작위 사냥꾼 카드를 내 손으로 가져옵니다.",
+          "cost": "1",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "실탄 장전",
+          "text": "이번 턴에 내가 주문을 시전할 때마다 무작위 사냥꾼 카드를 얻습니다.",
+          "cost": null,
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_062",
+        "before26_0": {
+          "name": "거미떼",
+          "text": "1/1 그물거미를 3마리 소환합니다.",
+          "cost": "6",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "거미떼",
+          "text": "\"<b>죽음의 메아리:</b> 무작위 야수를 얻음\" 능력이 있는 1/1 그물거미를 셋 소환합니다.",
+          "cost": "3",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_063",
+        "before26_0": {
+          "name": "산성아귀",
+          "text": "다른 하수인이 피해를 받을 때마다, 그 하수인을 처치합니다.",
+          "cost": "7",
+          "attack": "4",
+          "health": "2",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "산성아귀",
+          "text": "적 하수인이 피해를 받을 때마다 그 하수인을 처치합니다.",
+          "cost": "3",
+          "attack": "4",
+          "health": "2",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_063t",
+        "before26_0": {
+          "name": "공포비늘",
+          "text": "내 턴이 끝날 때, 다른 <b>모든</b> 하수인에게 피해를 1 줍니다.",
+          "cost": "3",
+          "attack": "4",
+          "health": "2",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "공포비늘",
+          "text": "내 턴이 끝날 때, 모든 적에게 피해를 1 줍니다.",
+          "cost": "3",
+          "attack": "4",
+          "health": "2",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_078",
+        "before26_0": {
+          "name": "경기장 입장",
+          "text": "각 플레이어의 전장에서 공격력이 가장 높은 하수인을 제외한 <b>모든</b> 하수인을 처치합니다.",
+          "cost": "6",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "경기장 입장",
+          "text": "각 플레이어의 전장에서 공격력이 가장 높은 하수인을 제외한 <b>모든</b> 하수인을 처치합니다.",
+          "cost": "3",
+          "attack": null,
+          "health": null,
+          "durability": null,
+          "type": "5",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_079",
+        "before26_0": {
+          "name": "수수께끼의 도전자",
+          "text": "<b>전투의 함성:</b> 내 덱에 있는 모든 종류의 <b>비밀</b>을 하나씩 시전합니다.",
+          "cost": "6",
+          "attack": "6",
+          "health": "6",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "수수께끼의 도전자",
+          "text": "<b>전투의 함성:</b> 내 덱에 있는 모든 종류의 <b>비밀</b>을 하나씩 시전합니다.",
+          "cost": "5",
+          "attack": "5",
+          "health": "5",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      },
+      {
+        "id": "AT_090",
+        "before26_0": {
+          "name": "무클라의 용사",
+          "text": "<b>격려:</b> 내 다른 하수인들에게 +1/+1을 부여합니다.",
+          "cost": "5",
+          "attack": "4",
+          "health": "3",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        },
+        "observed27_2": {
+          "name": "무클라의 용사",
+          "text": "<b>격려:</b> 내 다른 하수인들에게 +1/+1을 부여합니다.",
+          "cost": "5",
+          "attack": "5",
+          "health": "3",
+          "durability": null,
+          "type": "4",
+          "collectible": "1"
+        }
+      }
+    ],
+    "exception": {
+      "id": "AT_012",
+      "name": "어둠의 종복",
+      "dateCostAndBattlecry": "2023-08-23",
+      "healthBefore": 4,
+      "healthAfter": 5,
+      "dateHealthChange": "2023-09-07",
+      "healthOfficialAnnouncementWasEarlier": true,
+      "knownIssues": "https://us.forums.blizzard.com/en/hearthstone/t/272-known-issues/112122",
+      "actualServerFix": "https://us.forums.blizzard.com/en/hearthstone/t/2723-patch-notes/113008",
+      "KoreanDateSource": "https://www.inven.co.kr/board/hs/3508?mskin=&p=31",
+      "KoreanDateBasis": "Previously verified GvG source row19969 dated09-07; officialSep6hotfix says client plus server portions both needed for Spawn of Shadows and Soot Spewer.",
+      "note": "AT_014 is Shadowfiend, not Spawn of Shadows; cost3→2 andattack3→2 had no observed delayed health exception."
+    },
+    "otherNotes": [
+      "AT_063t Dreadscale is collectible despite suffix t; retain scope by collectible flag, not suffix.",
+      "AT_036t Anubarak Nerubian gets Deathrattle on27.2; include token change separately.",
+      "AT_028e is an enchantment, not assumed part of constructed repository.",
+      "COST absent in AT_06127.2 means0, not unknown; weapon durability uses tag187 here."
+    ]
+  },
+  "additionalPatchDates": [
+    {
+      "ids": [
+        "AT_064",
+        "AT_075"
+      ],
+      "build": "24.0.3.147348",
+      "date": "2022-08-17",
+      "changes": "Bash cost3→2; Warhorse Trainer Silver Hand Recruit aura attack+1→attack+2 andTaunt.",
+      "official": "https://hearthstone.blizzard.com/ko-kr/news/23840665/24-0-3",
+      "contemporaryKorean": "https://www.inven.co.kr/board/hs/3508/19122",
+      "dateBasis": "Korean repost2022-08-17 01:01. Board19120 on8/16 said nextday immediate release after notes;19124on8/17 documents live refund behavior.",
+      "metadataCaveat": "Official page metadata08/16 is not Korean application day."
+    },
+    {
+      "ids": [
+        "AT_011",
+        "AT_053"
+      ],
+      "build": "26.0.0.170824",
+      "date": "2023-04-05",
+      "changes": "Holy Champion Overheal attack+2; Ancestral Knowledge Overload1. Holy Champion numeric rework separately supported by raw26.0; Korean PDF text lists effect only.",
+      "official": "https://hearthstone.blizzard.com/ko-kr/news/23934449",
+      "officialChangesPDF": "https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/J81FFJK7HBIY1679513476057.pdf",
+      "dateBasis": "Official Korean note explicitly says adjustments4/5 and Core roster rotation4/12."
+    },
+    {
+      "ids": [
+        "AT_132"
+      ],
+      "build": "29.0.0.195635",
+      "date": "2024-03-12",
+      "changes": "Justicar Trueheart cost6→5 health3→4,attack6 unchanged.",
+      "official": "https://hearthstone.blizzard.com/ko-kr/news/24064735",
+      "officialChangesPDF": "https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/PWXNR8C30NNJ1707514840395.pdf",
+      "dateBasis": "Official29.0 lists card adjustments3/12, Core roster rotation3/20; linkedPDFp2 says5mana6/4."
+    },
+    {
+      "ids": [
+        "AT_046"
+      ],
+      "build": "6.1.3.14830",
+      "date": "2016-10-04",
+      "changes": "Tuskarr Totemic limited to Basic Totems.",
+      "official": "https://hearthstone.blizzard.com/ko-kr/news/20303030",
+      "contemporaryKorean": "https://www.inven.co.kr/webzine/news/?news=164859&vtype=pc",
+      "dateBasis": "Official Korean title10/4; contemporaneous article2016-10-04 12:49 explicitly says applied10/4 and lists Tuskarr change."
+    },
+    {
+      "ids": [
+        "AT_021",
+        "AT_025",
+        "AT_051"
+      ],
+      "build": "27.4.2.186852",
+      "date": "2023-09-29",
+      "changes": "Dark Bargain cost3→4; Tiny Knight of Evil buff+2/+2→+2/+1; Elemental Destruction Overload5→2.",
+      "official": "https://news.blizzard.com/ko-kr/article/23999072/27-4-2",
+      "contemporaryKorean": "https://www.inven.co.kr/board/hs/3508/20029",
+      "dateBasis": "Korean repost2023-09-29 04:01 says data-only patch launching today. Exact Korean server completion minute not located."
+    },
+    {
+      "ids": [
+        "AT_045"
+      ],
+      "build": "12.2.0.27358",
+      "date": "2018-10-19",
+      "changes": "Aviana cost9→10.",
+      "official": "https://news.blizzard.com/ko-kr/article/22549775/2018-10",
+      "corroboration": [
+        "https://www.hearthpwn.com/news/6027-october-card-nerfs-are-now-live?page=6",
+        "https://www.inven.co.kr/webzine/news/?news=209024&site=hs",
+        "https://www.readonly.wiki/w/%ED%8F%AD%EC%8B%AC%EB%A7%8C%EB%A7%8C%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8"
+      ],
+      "dateBasis": "Official scheduled10/18 Pacific; contemporary global now-live report is10/19 Korean morning; Korean10/19 tournament article reflects same nerfs; Korean retrospective explicitly says10/19 live server patch with temporary client/server cost discrepancy.",
+      "caveat": "Korean server operator completed notice not located. Pre-announcement Inven208696 repeats10/18 without timezone and is not actual application evidence. Initial candidate12.2.2.27257 was wrong; raw27358 is being checked."
+    }
+  ],
+  "extraDateReviews": {
+    "11.4.0.25252": {
+      "koreanDate": "2018-07-11",
+      "cardIds": [
+        "AT_103"
+      ],
+      "change": "North Sea Kraken gains BEAST",
+      "official": "https://hearthstone.blizzard.com/ko-kr/news/21943493",
+      "basis": "Official Korean title explicitly July 11; body explicitly North Sea Kraken changes to Beast. Metadata July 10 is not Korean title date.",
+      "caveat": "Inven202972 published July11 12:02 but body says July10 without timezone; official Korean title takes precedence."
+    },
+    "31.0.0.210009": {
+      "koreanDate": "2024-10-30",
+      "cardIds": [
+        "AT_047",
+        "AT_094"
+      ],
+      "change": "DRAENEI race added",
+      "official": "https://hearthstone.blizzard.com/ko-kr/news/24149389",
+      "basis": "Independent raw observation review: both no race tag in30.6.0.208591; both race=2 in31.0.0.210009."
+    },
+    "35.0.3.239422": {
+      "koreanDate": "2026-04-03",
+      "cardIds": [
+        "AT_043"
+      ],
+      "change": "Astral Communion cost4 to5",
+      "official": "https://hearthstone.blizzard.com/ko-kr/news/24271854/35-0-3",
+      "confidence": "High cross-source inference; exact Korean deployment completion not directly established",
+      "corroboration": [
+        "https://www.hearthpwn.com/news/12336-35-0-3-patch-notes-standard-wild-battlegrounds?comment=3",
+        "https://www.inven.co.kr/board/hs/3508/24039",
+        "https://gall.dcinside.com/board/view/?id=hearthstone&no=2680220&page=7"
+      ],
+      "basis": "Official note rolling out, not completion. HearthPwn commenter after KSTmidnight April3 asks when live, Korean advance schedule April3 and same-day Korean nerf responses support date."
+    },
+    "3.1.0.10357": {
+      "koreanDate": "2015-09-30",
+      "cardIds": [
+        "AT_024"
+      ],
+      "change": "Demonfuse old DEMON tag removed, resolving Sense Demons interaction",
+      "official": "https://hearthstone.blizzard.com/ko-kr/news/19899927",
+      "corroboration": [
+        "https://hearthstone.wiki.gg/wiki/Demonfuse",
+        "https://m.inven.co.kr/webzine/wznews.php?idx=143939&l=120572&p=55&site=hs"
+      ],
+      "basis": "Official Korean patch page9/30, contemporary Korean article explicitly says3.1 deployed9/30. Per-card wiki says3.1 removed DEMON and fixed Sense Demons drawing spell; raw3.1 comparison delegated.",
+      "sourceAccess": "Official directly read; article and per-card wiki text search-indexed (direct502/403)."
+    },
+    "26.0.0.170824-demonfuse": {
+      "koreanDate": "2023-04-05",
+      "cardIds": [
+        "AT_024"
+      ],
+      "change": "Spell school FEL to SHADOW",
+      "corroboration": "https://hearthstone.wiki.gg/wiki/Demonfuse",
+      "basis": "Per-card wiki search-indexed patch history explicitly assigns26.0.0.170824; raw25.4 FEL versus26.0 SHADOW observed. Official26.0 supplies Korean date but not this individual change."
+    }
+  },
+  "additionalFindings": {
+    "AT_037": {
+      "issue": "Temporary rarity bug genuinely changed display COMMON toEPIC, then reverted.",
+      "start": {
+        "koreanDate": "2020-03-27",
+        "build": "17.0.0.44222",
+        "source": "https://news.blizzard.com/ko-kr/article/23357896/17-0-3-27",
+        "basis": "Official Korean titleMarch27 and today applied statement."
+      },
+      "dustFix": {
+        "koreanDate": null,
+        "candidate": "2020-03-28",
+        "verifiedByKoreanObservation": "2020-03-29",
+        "source": "https://kr.forums.blizzard.com/ko/hearthstone/t/드루이드카드-살아있는뿌리-영웅등급카드-버그/1601",
+        "details": "Korean user observes purple gem but crafting40/disenchant5, demonstrating serverdust fixed before clientgem."
+      },
+      "displayEnd": {
+        "koreanDate": null,
+        "candidate": "2020-03-31",
+        "build": "17.0.0.44582",
+        "source": "https://hearthstone.wiki.gg/wiki/Living_Roots",
+        "limitation": "USMarch30 actualbuild wiki and official plannedMonday30 deployment, but noKorean completionday evidence. Do not publish guessedend."
+      },
+      "officialHotfix": "https://us.forums.blizzard.com/en/hearthstone/t/170-hotfix-update/27437",
+      "handling": "Both canonical rarity events withheld until Korean enddate verified; publishingstartalone would corruptlatestreplay. Preserve interval and evidence in audit."
+    }
+  }
+}

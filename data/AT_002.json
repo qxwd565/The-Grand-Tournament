@@ -1,1 +1,20 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_002","dbfId":2541,"name":"인형 의식","type":"SPELL","cardClass":"MAGE","rarity":"RARE","collectible":true,"cost":3,"text":"<b>비밀:</b>\n아군 하수인이 죽으면, 같은 비용의 무작위 하수인을 소환합니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"날 기억해줘!","spellSchool":"FIRE","portrait":"W20_a224_D.psd:273ee28617d9e8f4dbfe95869e1f3fa0","set":"TGT","nativeTags":[{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":4},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":3},{"id":219,"name":"비밀","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1635,"name":"주문 속성","value":2}],"races":[],"race":"","classes":[],"art":"art/AT_002.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W20_a224_D.psd:273ee28617d9e8f4dbfe95869e1f3fa0","goldenMaterial":"AT_002_PremiumCard.mat:23869f46f72491c4b8599118e75249f5","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_002",
+    "dbfId": 2541,
+    "name": "인형 의식",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>비밀:</b><br></br>아군 하수인이 죽으면, 같은 비용의 무작위 하수인을 소환합니다.",
+    "classes": [],
+    "mechanics": [
+      "SECRET"
+    ]
+  },
+  "2021-03-26": {
+    "spellSchool": "FIRE"
+  }
+}

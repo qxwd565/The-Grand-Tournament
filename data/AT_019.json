@@ -1,1 +1,26 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_019","dbfId":2822,"name":"공포마","type":"MINION","cardClass":"WARLOCK","rarity":"EPIC","collectible":true,"cost":4,"text":"<b>죽음의 메아리:</b>\n턴이 끝날 때, 공포마를 소환합니다.","attack":1,"health":1,"durability":0,"armor":0,"flavor":"전설적인 용사 크레센도는 대 마상시합에 출전할 때 이 탈것을 소환했습니다. 그가 경기장을 누빌 때마다 수많은 기수들이 그의 뒤를 따랐습니다.","spellSchool":"","portrait":"W10_A131_D.psd:9632b0171efe10944b3e028cb3e7de4d","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":4},{"id":199,"name":"직업","value":9},{"id":200,"name":"종족","value":15},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":217,"name":"죽음의 메아리","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["DEMON"],"race":"악마","classes":[],"art":"art/AT_019.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W10_A131_D.psd:9632b0171efe10944b3e028cb3e7de4d","goldenMaterial":"AT_019_PremiumCard.mat:4757bf1711726c9428ff74cd20534e28","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_019",
+    "dbfId": 2822,
+    "name": "공포마",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "<b>죽음의 메아리:</b> 공포마를 하나 소환합니다.",
+    "attack": 1,
+    "health": 1,
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "classes": [],
+    "mechanics": [
+      "DEATHRATTLE"
+    ]
+  },
+  "2017-08-09": {
+    "text": "<b>죽음의 메아리:</b><br></br>턴이 끝날 때, 공포마를 소환합니다."
+  }
+}

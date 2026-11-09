@@ -1,0 +1,388 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "AT_057",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-08-25",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
+  "sourceCommit": "d04048e30e0ac075b5961e0198c5576d38fd828d",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "AT_057",
+      "dbfId": 2639,
+      "name": "마구간지기",
+      "type": "MINION",
+      "cardClass": "HUNTER",
+      "rarity": "EPIC",
+      "collectible": true,
+      "cost": 3,
+      "text": "<b>전투의 함성:</b> 이번 턴에 아군 야수에게 <b>면역</b>을 부여합니다.",
+      "attack": 4,
+      "health": 2,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "유니콘 말고도 여러 야수들을 관리합니다. 마구간보다 더 큰 녀석들도 말이죠.",
+      "spellSchool": "",
+      "portrait": "HS5-051_D.psd:3e201f0fb6222054b9d56a357486c532",
+      "set": "TGT",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 240,
+          "name": "면역",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/AT_057.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS5-051_D.psd:3e201f0fb6222054b9d56a357486c532",
+      "goldenMaterial": "AT_057_PremiumCard.mat:24e334c1dccc67141a20e09232fec6a0",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "AT_057",
+    "dbfId": 2639,
+    "name": "마구간지기",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>전투의 함성:</b> 이번 턴에 아군 야수에게 <b>면역</b>을 부여합니다.",
+    "attack": 4,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "유니콘 말고도 여러 야수들을 관리합니다. 마구간보다 더 큰 녀석들도 말이죠.",
+    "spellSchool": "",
+    "portrait": "HS5-051_D.psd:3e201f0fb6222054b9d56a357486c532",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 240,
+        "name": "면역",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_057.png"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/tgt-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "BATTLECRY"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/AT_057.json",
+    "document": {
+      "schemaVersion": 2,
+      "mode": "constructed",
+      "card": {
+        "id": "AT_057",
+        "dbfId": 2639,
+        "name": "마구간지기",
+        "type": "MINION",
+        "cardClass": "HUNTER",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 3,
+        "text": "<b>전투의 함성:</b> 이번 턴에 아군 야수 1마리에게 <b>피해 면역</b>을 부여합니다.",
+        "attack": 4,
+        "health": 2,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "유니콘 말고도 여러 야수들을 관리합니다. 마구간보다 더 큰 녀석들도 말이죠.",
+        "spellSchool": "",
+        "portrait": "HS5-051_D.psd:3e201f0fb6222054b9d56a357486c532",
+        "set": "TGT",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 2
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 4
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 3
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 3
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 4
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 240,
+            "name": "면역",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/AT_057.png",
+        "patches": [
+          {
+            "date": "2017-08-09",
+            "changes": {
+              "text": "<b>전투의 함성:</b> 이번 턴에 아군 야수에게 <b>면역</b>을 부여합니다."
+            }
+          }
+        ],
+        "releasedAt": "2015-08-25",
+        "releaseStatus": "verified",
+        "initialSpecStatus": "partially_verified",
+        "patchSources": {
+          "2017-08-09": "https://hearthstone.blizzard.com/ko-kr/news/20944006"
+        }
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS5-051_D.psd:3e201f0fb6222054b9d56a357486c532",
+        "goldenMaterial": "AT_057_PremiumCard.mat:24e334c1dccc67141a20e09232fec6a0",
+        "goldenAnimation": ""
+      },
+      "historicalTextObservations": [
+        {
+          "build": "3.0.0.9786",
+          "name": "마구간지기",
+          "rawText": "<b>전투의 함성:</b> 이번 턴에 아군 야수 1마리에게 <b>피해 면역</b>을 부여합니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+          "lastObservedBuild": "8.0.0.18336"
+        },
+        {
+          "build": "9.0.0.20457",
+          "name": "마구간지기",
+          "rawText": "<b>전투의 함성:</b> 이번 턴에 아군 야수 1마리에게 <b>면역</b>을 부여합니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+          "lastObservedBuild": "12.0.0.25770"
+        },
+        {
+          "build": "12.2.0.26996",
+          "name": "마구간지기",
+          "rawText": "<b>전투의 함성:</b> 이번 턴에 아군 야수에게 <b>면역</b>을 부여합니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ]
+    },
+    "meaning": "Preserved vetted audit, never published under sourceCommit. Source-backed reconstruction supplies initial and later specs, while originalSource is the actual published original."
+  },
+  "availabilityScope": "Korean ordinary constructed-match use; excludes preview, preload and early adventure use. No new default visibility gate.",
+  "dateRecheckEvidence": "tools/tgt-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "3.0.0.9786",
+        "name": "마구간지기",
+        "rawText": "<b>전투의 함성:</b> 이번 턴에 아군 야수 1마리에게 <b>피해 면역</b>을 부여합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+        "lastObservedBuild": "8.0.0.18336"
+      },
+      {
+        "build": "9.0.0.20457",
+        "name": "마구간지기",
+        "rawText": "<b>전투의 함성:</b> 이번 턴에 아군 야수 1마리에게 <b>면역</b>을 부여합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+        "lastObservedBuild": "12.0.0.25770"
+      },
+      {
+        "build": "12.2.0.26996",
+        "name": "마구간지기",
+        "rawText": "<b>전투의 함성:</b> 이번 턴에 아군 야수에게 <b>면역</b>을 부여합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "knownUnmodeledIntervals": "tools/tgt-known-unmodeled-intervals.json",
+    "missingIDs": "tools/tgt-missing-ids.json"
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "3.0.0.9786",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "Tag": {
+        "218": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

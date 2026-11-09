@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_072",
+    "dbfId": 2760,
+    "name": "바리안 린",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 10,
+    "text": "<b>전투의 함성:</b> 카드를 3장 뽑습니다. 하수인을 뽑으면, 그 하수인을 소환합니다.",
+    "attack": 7,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "얼라이언스의 지도자! 안두인의 아버지! 그리고 투기장의 전설이라 불립니다. 한 번 입장하면 12승은 기본이라는군요.",
+    "spellSchool": "",
+    "portrait": "varian_D.psd:add5ce7271957204994de827d116a5e3",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 7
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 10
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_072.png",
+    "patches": [],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "varian_D.psd:add5ce7271957204994de827d116a5e3",
+    "goldenMaterial": "AT_072_PremiumCard.mat:f285d125a46b6cf47906bcca60cce6e2",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "바리안 린",
+      "rawText": "<b>전투의 함성:</b> 카드를 3장 뽑습니다. 하수인을 뽑으면 바로 내 전장에 놓습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "14.6.0.31761"
+    },
+    {
+      "build": "17.0.0.44222",
+      "name": "바리안 린",
+      "rawText": "<b>전투의 함성:</b> 카드를 3장 뽑습니다. 하수인을 뽑으면, 그 하수인을 소환합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/fc67953f6f6eee064badde3f4a7bd07011508642/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

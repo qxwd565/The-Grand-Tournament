@@ -1,0 +1,405 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "AT_051",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-08-25",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
+  "sourceCommit": "d04048e30e0ac075b5961e0198c5576d38fd828d",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "AT_051",
+      "dbfId": 2620,
+      "name": "파괴의 정기",
+      "type": "SPELL",
+      "cardClass": "SHAMAN",
+      "rarity": "EPIC",
+      "collectible": true,
+      "cost": 3,
+      "text": "모든 하수인에게 피해를 $4-$5 줍니다. <b>과부하:</b> (2)",
+      "attack": 0,
+      "health": 0,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "이쯤되면 정령들이 이렇게나 과격한 존재였는지 생각하게 됩니다.",
+      "spellSchool": "NATURE",
+      "portrait": "W5_245_D.psd:f40db359136334c4296dae0486c97c05",
+      "set": "TGT",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 215,
+          "name": "과부하",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 4
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/AT_051.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "W5_245_D.psd:f40db359136334c4296dae0486c97c05",
+      "goldenMaterial": "AT_051_PremiumCard.mat:e4023327e4af9414fabb0e118c0ba369",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "AT_051",
+    "dbfId": 2620,
+    "name": "파괴의 정기",
+    "type": "SPELL",
+    "cardClass": "SHAMAN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 3,
+    "text": "모든 하수인에게 피해를 $4-$5 줍니다. <b>과부하:</b> (2)",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "이쯤되면 정령들이 이렇게나 과격한 존재였는지 생각하게 됩니다.",
+    "spellSchool": "NATURE",
+    "portrait": "W5_245_D.psd:f40db359136334c4296dae0486c97c05",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 215,
+        "name": "과부하",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 4
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_051.png"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "attack",
+    "durability",
+    "flavor",
+    "health",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "spellSchool",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/tgt-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "OVERLOAD"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/AT_051.json",
+    "document": {
+      "schemaVersion": 2,
+      "mode": "constructed",
+      "card": {
+        "id": "AT_051",
+        "dbfId": 2620,
+        "name": "파괴의 정기",
+        "type": "SPELL",
+        "cardClass": "SHAMAN",
+        "rarity": "EPIC",
+        "collectible": true,
+        "cost": 3,
+        "text": "<b>모든</b> 하수인에게 피해를 $4-$5 줍니다. <b>과부하:</b> (5)",
+        "attack": 0,
+        "health": 0,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "이쯤되면 정령들이 이렇게나 과격한 존재였는지 생각하게 됩니다.",
+        "spellSchool": "",
+        "portrait": "W5_245_D.psd:f40db359136334c4296dae0486c97c05",
+        "set": "TGT",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 3
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 8
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 4
+          },
+          {
+            "id": 215,
+            "name": "과부하",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 1635,
+            "name": "주문 속성",
+            "value": 4
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/AT_051.png",
+        "patches": [
+          {
+            "date": "2021-03-26",
+            "changes": {
+              "spellSchool": "NATURE"
+            }
+          },
+          {
+            "date": "2023-09-29",
+            "changes": {
+              "text": "모든 하수인에게 피해를 $4-$5 줍니다. <b>과부하:</b> (2)"
+            }
+          }
+        ],
+        "releasedAt": "2015-08-25",
+        "releaseStatus": "verified",
+        "initialSpecStatus": "partially_verified",
+        "patchSources": {
+          "2021-03-26": "https://hearthstone.blizzard.com/ko-kr/news/23642550",
+          "2023-09-29": "https://hearthstone.blizzard.com/ko-kr/news/23999072"
+        }
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "W5_245_D.psd:f40db359136334c4296dae0486c97c05",
+        "goldenMaterial": "AT_051_PremiumCard.mat:e4023327e4af9414fabb0e118c0ba369",
+        "goldenAnimation": ""
+      },
+      "historicalTextObservations": [
+        {
+          "build": "3.0.0.9786",
+          "name": "파괴의 정기",
+          "rawText": "<b>모든</b> 하수인에게 피해를 $4-$5 줍니다. <b>과부하:</b> (5)",
+          "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+          "lastObservedBuild": "27.2.2.185054"
+        },
+        {
+          "build": "27.4.2.186852",
+          "name": "파괴의 정기",
+          "rawText": "모든 하수인에게 피해를 $4-$5 줍니다. <b>과부하:</b> (2)",
+          "source": "https://github.com/HearthSim/hsdata/blob/8ccc0f4629c876f2491af3ed8ae42b93877f98c7/CardDefs.xml"
+        },
+        {
+          "build": "28.6.0.193541",
+          "name": "파괴의 정기",
+          "rawText": "<b>모든</b> 하수인에게 피해를 $4-$5 줍니다.\n<b>과부하:</b> (2)",
+          "source": "https://github.com/HearthSim/hsdata/blob/c3b395eca877e283473a9b7e9a8e851e9bb8cd0d/CardDefs.xml",
+          "lastObservedBuild": "29.0.0.195635"
+        },
+        {
+          "build": "30.6.0.208591",
+          "name": "파괴의 정기",
+          "rawText": "모든 하수인에게 피해를 $4-$5 줍니다. <b>과부하:</b> (2)",
+          "source": "https://github.com/HearthSim/hsdata/blob/37797c6c5e9af546306299ade90189454f2b16ac/CardDefs.xml",
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ]
+    },
+    "meaning": "Preserved vetted audit, never published under sourceCommit. Source-backed reconstruction supplies initial and later specs, while originalSource is the actual published original."
+  },
+  "availabilityScope": "Korean ordinary constructed-match use; excludes preview, preload and early adventure use. No new default visibility gate.",
+  "dateRecheckEvidence": "tools/tgt-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "3.0.0.9786",
+        "name": "파괴의 정기",
+        "rawText": "<b>모든</b> 하수인에게 피해를 $4-$5 줍니다. <b>과부하:</b> (5)",
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+        "lastObservedBuild": "27.2.2.185054"
+      },
+      {
+        "build": "27.4.2.186852",
+        "name": "파괴의 정기",
+        "rawText": "모든 하수인에게 피해를 $4-$5 줍니다. <b>과부하:</b> (2)",
+        "source": "https://github.com/HearthSim/hsdata/blob/8ccc0f4629c876f2491af3ed8ae42b93877f98c7/CardDefs.xml"
+      },
+      {
+        "build": "28.6.0.193541",
+        "name": "파괴의 정기",
+        "rawText": "<b>모든</b> 하수인에게 피해를 $4-$5 줍니다.\n<b>과부하:</b> (2)",
+        "source": "https://github.com/HearthSim/hsdata/blob/c3b395eca877e283473a9b7e9a8e851e9bb8cd0d/CardDefs.xml",
+        "lastObservedBuild": "29.0.0.195635"
+      },
+      {
+        "build": "30.6.0.208591",
+        "name": "파괴의 정기",
+        "rawText": "모든 하수인에게 피해를 $4-$5 줍니다. <b>과부하:</b> (2)",
+        "source": "https://github.com/HearthSim/hsdata/blob/37797c6c5e9af546306299ade90189454f2b16ac/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "knownUnmodeledIntervals": "tools/tgt-known-unmodeled-intervals.json",
+    "missingIDs": "tools/tgt-missing-ids.json"
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "3.0.0.9786",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "Tag": {
+        "215": "5"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "9.0.0.20457"
+    },
+    {
+      "build": "10.0.0.22611",
+      "source": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+      "Tag": {},
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "10.2.0.23180"
+    },
+    {
+      "build": "11.0.0.23966",
+      "source": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "Tag": {
+        "215": "5"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "27.2.2.185054"
+    },
+    {
+      "build": "27.4.2.186852",
+      "source": "https://github.com/HearthSim/hsdata/blob/8ccc0f4629c876f2491af3ed8ae42b93877f98c7/CardDefs.xml",
+      "Tag": {
+        "215": "2"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

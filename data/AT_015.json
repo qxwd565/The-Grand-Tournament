@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_015","dbfId":2563,"name":"교화","type":"SPELL","cardClass":"PRIEST","rarity":"RARE","collectible":true,"cost":3,"text":"적 하수인을 복사하여 내 손으로 가져옵니다. 그 하수인의 비용이 (1)이 됩니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"\"좋은 말씀 전하러 왔습니다...\"","spellSchool":"","portrait":"w3_136_D.psd:a28ed400d51ff694f8afc5d509745e99","set":"TGT","nativeTags":[{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":6},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_015.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"w3_136_D.psd:a28ed400d51ff694f8afc5d509745e99","goldenMaterial":"AT_015_PremiumCard.mat:811cf1a6c14c3234ab12b2ada77d92f7","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_015",
+    "dbfId": 2563,
+    "name": "교화",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "적 하수인 하나를 복사하여 내 손으로 가져옵니다.",
+    "classes": [],
+    "mechanics": []
+  },
+  "2023-08-23": {
+    "cost": 3,
+    "text": "적 하수인을 복사하여 내 손으로 가져옵니다. 그 하수인의 비용이 (1)이 됩니다."
+  }
+}

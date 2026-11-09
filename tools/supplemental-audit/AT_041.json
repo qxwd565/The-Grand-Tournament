@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_041",
+    "dbfId": 2788,
+    "name": "야생의 기사",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 7,
+    "text": "내가 야수 1마리를 소환할 때마다 이 카드의 비용이 (1) 감소합니다.",
+    "attack": 6,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "여관주인들이 객실을 내줘야 할지 마굿간을 내줘야 할지 고민하게 만드는 손님입니다.",
+    "spellSchool": "",
+    "portrait": "HS5-050_D.psd:307a924611d303840b9e00a5a0886836",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_041.png",
+    "patches": [
+      {
+        "date": "2023-08-23",
+        "changes": {
+          "text": "이번 게임에서 내가 소환한 야수 하나당 비용이 (1)씩 감소합니다."
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS5-050_D.psd:307a924611d303840b9e00a5a0886836",
+    "goldenMaterial": "AT_041_PremiumCard.mat:8cb103a19f8b78046bf5c593c637c7c4",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "야생의 기사",
+      "rawText": "내가 야수 1마리를 소환할 때마다 이 카드의 비용이 (1) 감소합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "4.1.0.10956"
+    },
+    {
+      "build": "5.0.0.12574",
+      "name": "야생의 기사",
+      "rawText": "내가 야수를 소환할 때마다 이 카드의 비용이 (1) 감소합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/4f7206f440ab05115824b7263aa36cd94a96327f/CardDefs.xml",
+      "lastObservedBuild": "27.0.0.181554"
+    },
+    {
+      "build": "27.2.0.183876",
+      "name": "야생의 기사",
+      "rawText": "이번 게임에서 내가 소환한 야수 하나당 비용이 (1)씩 감소합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

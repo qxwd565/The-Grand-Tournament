@@ -1,0 +1,13 @@
+{
+  "result": "pass",
+  "php": "8.5.12",
+  "checks": 12617,
+  "importedCards": 152,
+  "pluginCommit": "78ce6fdc4e70f689880a70d6f22aa77a6c75e337",
+  "verifiedBlobs": {
+    "includes/class-card-history.php": "e2382b0d1f25aa3ab27f6adce096f8d3f58d013f",
+    "includes/class-set-api.php": "1e26fd05afc62278d49af12ad07dddd5fc043dd4"
+  },
+  "comparison": "Original current import with reviewed text normalization and release metadata; all dated expectations from independently retained supplemental schema1 audit.",
+  "scope": "Offline unchanged PHP parser, not live WordPress/rendering/site/import/database proof."
+}

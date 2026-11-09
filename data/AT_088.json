@@ -1,1 +1,17 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_088","dbfId":2491,"name":"모고르의 용사","type":"MINION","cardClass":"NEUTRAL","rarity":"RARE","collectible":true,"cost":6,"text":"50%의 확률로 엉뚱한 적을 공격합니다.","attack":8,"health":5,"durability":0,"armor":0,"flavor":"매우 출중한 실력을 가진 용사입니다. 상대방 대신에 기둥을 향해 돌진하는 일이 잦아서 문제죠.","spellSchool":"","portrait":"HS5-057_D.psd:ee6cf1257368cff4b93e9b9534cd26e9","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":8},{"id":48,"name":"마나 비용","value":6},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":389,"name":"FORGETFUL","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_088.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-057_D.psd:ee6cf1257368cff4b93e9b9534cd26e9","goldenMaterial":"AT_088_PremiumCard.mat:ece382d0737b2fa4db65d695c24741c2","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_088",
+    "dbfId": 2491,
+    "name": "모고르의 용사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 6,
+    "text": "50%의 확률로 엉뚱한 적을 공격합니다.",
+    "attack": 8,
+    "health": 5,
+    "classes": [],
+    "mechanics": []
+  }
+}

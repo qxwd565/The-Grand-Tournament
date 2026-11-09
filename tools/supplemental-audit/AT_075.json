@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_075",
+    "dbfId": 2515,
+    "name": "전투마 조련사",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "내 은빛 성기사단 신병들이 공격력을 +1 얻습니다.",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "주말에도 말을 달리느라 바쁘다고 합니다.",
+    "spellSchool": "",
+    "portrait": "W11_085_D.psd:7c12e0be81ec52c4e8ab17afc29c01e7",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 1652
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_075.png",
+    "patches": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "attack": 3
+        }
+      },
+      {
+        "date": "2022-08-17",
+        "changes": {
+          "text": "내 은빛 성기사단 신병들이 공격력 +2와 <b>도발</b>을 얻습니다."
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2021-03-26": "https://hearthstone.blizzard.com/ko-kr/news/23642550",
+      "2022-08-17": "https://hearthstone.blizzard.com/ko-kr/news/23840665"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W11_085_D.psd:7c12e0be81ec52c4e8ab17afc29c01e7",
+    "goldenMaterial": "AT_075_PremiumCard.mat:01f24382f416ecb439648b4acad2bc51",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "전투마 조련사",
+      "rawText": "내 은빛 성기사단 신병들이 공격력을 +1 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "전투마 조련사",
+      "rawText": "내 은빛 성기사단 신병들이 공격력을\n+1 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "23.0.0.135540"
+    },
+    {
+      "build": "24.0.3.147348",
+      "name": "전투마 조련사",
+      "rawText": "내 은빛 성기사단 신병들이 공격력 +2와 <b>도발</b>을 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/fa264cc2d1267d71a8de6f5163f3e0b6550bba4a/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

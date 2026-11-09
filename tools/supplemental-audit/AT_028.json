@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_028",
+    "dbfId": 2765,
+    "name": "음영파 기수",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>연계:</b> 공격력을 +3 얻습니다.",
+    "attack": 3,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "영원꽃 골짜기에서 일어난 대참사 이후에 심신의 안정을 위해 휴가를 냈습니다. 그래서 이 얼음뿐인 황무지에서 괴물을 사냥하고 있습니다.",
+    "spellSchool": "",
+    "portrait": "HS5-048_D.psd:60b1c58e136db6f45a5aff91eb00fe88",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 220,
+        "name": "연계",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_028.png",
+    "patches": [
+      {
+        "date": "2023-08-23",
+        "changes": {
+          "text": "<b>연계:</b> 공격력을 +4 얻습니다."
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS5-048_D.psd:60b1c58e136db6f45a5aff91eb00fe88",
+    "goldenMaterial": "AT_028_PremiumCard.mat:17b62f61e041eef459aad626c4e459a9",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "음영파 기수",
+      "rawText": "<b>연계:</b> 공격력을 +3 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "27.0.0.181554"
+    },
+    {
+      "build": "27.2.0.183876",
+      "name": "음영파 기수",
+      "rawText": "<b>연계:</b> 공격력을 +4 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

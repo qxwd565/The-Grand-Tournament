@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_063t",
+    "dbfId": 2634,
+    "name": "공포비늘",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 3,
+    "text": "내 턴이 끝날 때, 다른 <b>모든</b> 하수인에게 피해를 1 줍니다.",
+    "attack": 4,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "이거 하나는 확실하게 하죠. <i>산성아귀</i>가 공포비늘의 졸개입니다.",
+    "spellSchool": "",
+    "portrait": "HS5-011_D.psd:f33e475cfad458a42ac0cb82842602df",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/AT_063t.png",
+    "patches": [
+      {
+        "date": "2023-08-23",
+        "changes": {
+          "text": "내 턴이 끝날 때, 모든 적에게 피해를 1 줍니다."
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS5-011_D.psd:f33e475cfad458a42ac0cb82842602df",
+    "goldenMaterial": "AT_063t_PremiumCard.mat:a99d01ebe1407a148a01a1e2eb7ed8d9",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "공포비늘",
+      "rawText": "내 턴이 끝날 때, 다른 <b>모든</b> 하수인에게 피해를 1 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "공포비늘",
+      "rawText": "내 턴이 끝날 때,\n다른 <b>모든</b> 하수인에게 피해를 1 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "10.2.0.23180"
+    },
+    {
+      "build": "11.0.0.23966",
+      "name": "공포비늘",
+      "rawText": "내 턴이 끝날 때, 다른 <b>모든</b> 하수인에게 피해를 1 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "lastObservedBuild": "27.0.0.181554"
+    },
+    {
+      "build": "27.2.0.183876",
+      "name": "공포비늘",
+      "rawText": "내 턴이 끝날 때, 모든 적에게 피해를 1 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

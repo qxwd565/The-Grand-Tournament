@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_038",
+    "dbfId": 2782,
+    "name": "다르나서스 지원자",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "[x]<b>전투의 함성:</b> 빈<br></br>마나 수정을 얻습니다.<br></br><b>죽음의 메아리:</b> 마나<br></br>수정을 잃습니다.",
+    "attack": 2,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "마나 수정을 좋아하면서도 싫어합니다. 변덕스러운 나이트 엘프 같으니.",
+    "spellSchool": "",
+    "portrait": "HS5-005_D.psd:51e95cd660ed1524aab5b380d66ae3d4",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_038.png",
+    "patches": [],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS5-005_D.psd:51e95cd660ed1524aab5b380d66ae3d4",
+    "goldenMaterial": "AT_038_PremiumCard.mat:76965ce3ff6a6d244b1f5cc3a6fcd1a1",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "다르나서스 지원자",
+      "rawText": "<b>전투의 함성:</b> 빈 마나 수정을 1개 획득합니다.\n<b>죽음의 메아리:</b> 마나 수정을 1개 파괴합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "8.0.0.18336"
+    },
+    {
+      "build": "9.0.0.20457",
+      "name": "다르나서스 지원자",
+      "rawText": "[x]<b>전투의 함성:</b> 빈 마나\n수정을 1개 획득합니다.\n<b>죽음의 메아리:</b> 마나 수정을\n1개 파괴합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "lastObservedBuild": "12.0.0.25770"
+    },
+    {
+      "build": "12.2.0.26996",
+      "name": "다르나서스 지원자",
+      "rawText": "[x]<b>전투의 함성:</b> 빈\n마나 수정을 얻습니다.\n<b>죽음의 메아리:</b> 마나\n수정을 잃습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

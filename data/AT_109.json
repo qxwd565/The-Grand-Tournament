@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_109","dbfId":2505,"name":"은빛십자군 경비병","type":"MINION","cardClass":"NEUTRAL","rarity":"RARE","collectible":true,"cost":2,"text":"공격할 수 없습니다.\n<b>격려:</b> 이번 턴에는 공격할 수 있습니다.","attack":2,"health":4,"durability":0,"armor":0,"flavor":"격려를 받아야 움직이는 게으른 경비병이라니!","spellSchool":"","portrait":"HS5-071_D.psd:27745a73c9937ea4da4b36ad4a04c205","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":403,"name":"INSPIRE","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_109.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-071_D.psd:27745a73c9937ea4da4b36ad4a04c205","goldenMaterial":"AT_109_PremiumCard.mat:3897524dfa6640044bcc2b70ba5257db","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_109",
+    "dbfId": 2505,
+    "name": "은빛십자군 경비병",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "공격할 수 없습니다.<br></br><b>격려:</b> 이번 턴에는 공격할 수 있습니다.",
+    "attack": 2,
+    "health": 4,
+    "classes": [],
+    "mechanics": [
+      "INSPIRE"
+    ]
+  }
+}

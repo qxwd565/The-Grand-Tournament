@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_005",
+    "dbfId": 2542,
+    "name": "변이: 멧돼지",
+    "type": "SPELL",
+    "cardClass": "MAGE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "[x]하수인을 <b>돌진</b> 능력이<br></br>있는 4/2 멧돼지로<br></br>변신시킵니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "걱정마세요. 레오크는 나오지 않습니다. 진짜로요.",
+    "spellSchool": "",
+    "portrait": "HS5-064a_D.psd:5cc00ed8578904b4486eec2e1359c7f7",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 197,
+        "name": "돌진",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "수집품 관련 카드 데이터베이스 ID",
+        "value": 2543
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_005.png",
+    "patches": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "ARCANE"
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2021-03-26": "https://hearthstone.blizzard.com/ko-kr/news/23642550"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS5-064a_D.psd:5cc00ed8578904b4486eec2e1359c7f7",
+    "goldenMaterial": "AT_005_PremiumCard.mat:866360d0a4387bd40a311fd6297fcec5",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "변이: 멧돼지",
+      "rawText": "하수인 하나를 <b>돌진</b> 능력이 있는 4/2 멧돼지로 변신시킵니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "12.0.0.25770"
+    },
+    {
+      "build": "12.2.0.26996",
+      "name": "변이: 멧돼지",
+      "rawText": "[x]하수인을 <b>돌진</b> 능력이\n있는 4/2 멧돼지로\n변신시킵니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

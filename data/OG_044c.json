@@ -1,1 +1,24 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"OG_044c","dbfId":38321,"name":"칼날이빨의 드루이드","type":"MINION","cardClass":"DRUID","rarity":"COMMON","collectible":false,"cost":2,"text":"<b>돌진</b>\n<b>은신</b>","attack":3,"health":2,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"HS7-071_D.psd:883bef255f1ac444483f5f8d086cc6ef","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":2},{"id":191,"name":"은신","value":1},{"id":197,"name":"돌진","value":1},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":1584,"name":"게임 태그 1584","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/OG_044c.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS7-071_D.psd:883bef255f1ac444483f5f8d086cc6ef","goldenMaterial":"OG_044c_PremiumCard.mat:fdddcf1eeacd0904ca47df03c5e2cb45","goldenAnimation":""}}
+{
+  "2016-04-27": {
+    "id": "OG_044c",
+    "dbfId": 38321,
+    "name": "칼날이빨의 드루이드",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 2,
+    "text": "<b>돌진</b><br></br><b>은신</b>",
+    "attack": 3,
+    "health": 2,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "mechanics": [
+      "CHARGE",
+      "STEALTH"
+    ]
+  }
+}

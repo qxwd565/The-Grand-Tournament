@@ -1,0 +1,410 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "AT_128",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-08-25",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
+  "sourceCommit": "d04048e30e0ac075b5961e0198c5576d38fd828d",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "AT_128",
+      "dbfId": 2681,
+      "name": "해골 기사",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "LEGENDARY",
+      "collectible": true,
+      "cost": 6,
+      "text": "<b>죽음의 메아리:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, 이 하수인을 내 손으로 다시 가져옵니다.",
+      "attack": 7,
+      "health": 4,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "썩어가는 살점 따위는 방해만 될 뿐이다!",
+      "spellSchool": "",
+      "portrait": "HS5-029_D.psd:70c2292919d80c548b4454fa44d7331f",
+      "set": "TGT",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 7
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드",
+      "classes": [],
+      "art": "art/AT_128.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS5-029_D.psd:70c2292919d80c548b4454fa44d7331f",
+      "goldenMaterial": "AT_128_PremiumCard.mat:d743ef513fb9f614f8c31d0cf4d2b57a",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "AT_128",
+    "dbfId": 2681,
+    "name": "해골 기사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>죽음의 메아리:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, 이 하수인을 내 손으로 다시 가져옵니다.",
+    "attack": 7,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "썩어가는 살점 따위는 방해만 될 뿐이다!",
+    "spellSchool": "",
+    "portrait": "HS5-029_D.psd:70c2292919d80c548b4454fa44d7331f",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 7
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/AT_128.png"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/tgt-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "DEATHRATTLE"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/AT_128.json",
+    "document": {
+      "schemaVersion": 2,
+      "mode": "constructed",
+      "card": {
+        "id": "AT_128",
+        "dbfId": 2681,
+        "name": "해골 기사",
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "LEGENDARY",
+        "collectible": true,
+        "cost": 6,
+        "text": "<b>죽음의 메아리:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, 이 하수인을 내 손으로 다시 가져옵니다.",
+        "attack": 7,
+        "health": 4,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "썩어가는 살점 따위는 방해만 될 뿐이다!",
+        "spellSchool": "",
+        "portrait": "HS5-029_D.psd:70c2292919d80c548b4454fa44d7331f",
+        "set": "TGT",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 4
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 7
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 6
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 11
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 5
+          },
+          {
+            "id": 217,
+            "name": "죽음의 메아리",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/AT_128.png",
+        "patches": [
+          {
+            "date": "2022-11-30",
+            "changes": {
+              "races": [
+                "UNDEAD"
+              ],
+              "race": "언데드"
+            }
+          }
+        ],
+        "releasedAt": "2015-08-25",
+        "releaseStatus": "verified",
+        "initialSpecStatus": "partially_verified",
+        "patchSources": {
+          "2022-11-30": "https://hearthstone.blizzard.com/ko-kr/news/23882860"
+        }
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS5-029_D.psd:70c2292919d80c548b4454fa44d7331f",
+        "goldenMaterial": "AT_128_PremiumCard.mat:d743ef513fb9f614f8c31d0cf4d2b57a",
+        "goldenAnimation": ""
+      },
+      "historicalTextObservations": [
+        {
+          "build": "3.0.0.9786",
+          "name": "해골 기사",
+          "rawText": "<b>죽음의 메아리:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, 이 하수인을 다시 내 손으로 가져옵니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+          "lastObservedBuild": "6.2.0.15181"
+        },
+        {
+          "build": "7.0.0.15590",
+          "name": "해골 기사",
+          "rawText": "<b>죽음의 메아리:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, 이 하수인을 내 손으로 다시 가져옵니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/2155786e4175c66348b73037d3799c3fe96eeb6d/CardDefs.xml",
+          "lastObservedBuild": "12.0.0.25770"
+        },
+        {
+          "build": "12.2.0.26996",
+          "name": "해골 기사",
+          "rawText": "<b>죽음의 메아리:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, 이 하수인을 내 손으로 다시 가져옵니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ]
+    },
+    "meaning": "Preserved vetted audit, never published under sourceCommit. Source-backed reconstruction supplies initial and later specs, while originalSource is the actual published original."
+  },
+  "availabilityScope": "Korean ordinary constructed-match use; excludes preview, preload and early adventure use. No new default visibility gate.",
+  "dateRecheckEvidence": "tools/tgt-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "3.0.0.9786",
+        "name": "해골 기사",
+        "rawText": "<b>죽음의 메아리:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, 이 하수인을 다시 내 손으로 가져옵니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+        "lastObservedBuild": "6.2.0.15181"
+      },
+      {
+        "build": "7.0.0.15590",
+        "name": "해골 기사",
+        "rawText": "<b>죽음의 메아리:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, 이 하수인을 내 손으로 다시 가져옵니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/2155786e4175c66348b73037d3799c3fe96eeb6d/CardDefs.xml",
+        "lastObservedBuild": "12.0.0.25770"
+      },
+      {
+        "build": "12.2.0.26996",
+        "name": "해골 기사",
+        "rawText": "<b>죽음의 메아리:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, 이 하수인을 내 손으로 다시 가져옵니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "knownUnmodeledIntervals": "tools/tgt-known-unmodeled-intervals.json",
+    "missingIDs": "tools/tgt-missing-ids.json"
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "3.0.0.9786",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "Tag": {
+        "217": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_132_SHAMANd",
+    "dbfId": 16225,
+    "name": "천벌의 토템",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": null,
+    "collectible": false,
+    "cost": 0,
+    "text": "<b>주문 공격력 +1</b>",
+    "attack": 0,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "W8_A194_D.psd:fba77793c0d4d784a8627e788d8154e6",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_132_SHAMANd.png",
+    "patches": [
+      {
+        "date": "2019-02-06",
+        "changes": {
+          "cost": 1
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2019-02-06": "https://hearthstone.blizzard.com/ko-kr/news/22882146"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W8_A194_D.psd:fba77793c0d4d784a8627e788d8154e6",
+    "goldenMaterial": "CS2_052_PremiumCard.mat:76cb7c87d34e31e4ea2785da7adee6cc",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "천벌의 토템",
+      "rawText": "<b>주문 공격력 +1</b>",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

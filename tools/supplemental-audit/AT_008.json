@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_008",
+    "dbfId": 2544,
+    "name": "콜다라 비룡",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "내 영웅 능력을<br></br>여러 번 쓸 수 있습니다.",
+    "attack": 6,
+    "health": 6,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "콜라 비룡이 아닙니다. 하지만 다들 그렇게 부르겠죠. 불쌍한 녀석...",
+    "spellSchool": "",
+    "portrait": "W14_a063_D.psd:85d68de6cb20a764a882887467a5e9cd",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 6
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DRAGON"
+    ],
+    "race": "용족",
+    "classes": [],
+    "art": "art/AT_008.png",
+    "patches": [
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "health": 7
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2021-03-26": "https://hearthstone.blizzard.com/ko-kr/news/23642550"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W14_a063_D.psd:85d68de6cb20a764a882887467a5e9cd",
+    "goldenMaterial": "AT_008_PremiumCard.mat:1240dfb795c73564f845d8368825191d",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "콜다라 비룡",
+      "rawText": "내 영웅 능력을 여러 번 쓸 수 있습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "콜다라 비룡",
+      "rawText": "내 영웅 능력을\n여러 번 쓸 수 있습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

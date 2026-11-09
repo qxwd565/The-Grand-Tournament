@@ -1,0 +1,360 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "AT_035t",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-08-25",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
+  "sourceCommit": "d04048e30e0ac075b5961e0198c5576d38fd828d",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "AT_035t",
+      "dbfId": 2847,
+      "name": "네루비안 잠복!",
+      "type": "SPELL",
+      "cardClass": "ROGUE",
+      "rarity": null,
+      "collectible": false,
+      "cost": 3,
+      "text": "<b>뽑을 때 시전</b>\n상대편에게\n4/4 네루비안을\n소환해 줍니다.",
+      "attack": 0,
+      "health": 0,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "",
+      "spellSchool": "",
+      "portrait": "W11_210_D.psd:5c718d1be27d3a746aef4158d2d13692",
+      "set": "TGT",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 1077,
+          "name": "뽑을 때 시전",
+          "value": 1
+        },
+        {
+          "id": 1107,
+          "name": "HIDE_WATERMARK",
+          "value": 1
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/AT_035t.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "W11_210_D.psd:5c718d1be27d3a746aef4158d2d13692",
+      "goldenMaterial": "AT_035t_PremiumCard.mat:01f48cf768be33f42a941c7f3f2fbda3",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "AT_035t",
+    "dbfId": 2847,
+    "name": "네루비안 잠복!",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "rarity": null,
+    "collectible": false,
+    "cost": 3,
+    "text": "<b>뽑을 때 시전</b>\n상대편에게\n4/4 네루비안을\n소환해 줍니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "W11_210_D.psd:5c718d1be27d3a746aef4158d2d13692",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 1077,
+        "name": "뽑을 때 시전",
+        "value": 1
+      },
+      {
+        "id": 1107,
+        "name": "HIDE_WATERMARK",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_035t.png"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "attack",
+    "durability",
+    "flavor",
+    "health",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/tgt-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "CASTS_WHEN_DRAWN"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/AT_035t.json",
+    "document": {
+      "schemaVersion": 2,
+      "mode": "constructed",
+      "card": {
+        "id": "AT_035t",
+        "dbfId": 2847,
+        "name": "잠복!",
+        "type": "SPELL",
+        "cardClass": "ROGUE",
+        "rarity": null,
+        "collectible": false,
+        "cost": 0,
+        "text": "이 카드를 뽑을 때, 상대편에게 4/4 네루비안을 하나 소환해 줍니다. 카드를 1장 뽑습니다.",
+        "attack": 0,
+        "health": 0,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "",
+        "spellSchool": "",
+        "portrait": "W11_210_D.psd:5c718d1be27d3a746aef4158d2d13692",
+        "set": "TGT",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 3
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 7
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 1077,
+            "name": "뽑을 때 시전",
+            "value": 1
+          },
+          {
+            "id": 1107,
+            "name": "HIDE_WATERMARK",
+            "value": 1
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/AT_035t.png",
+        "patches": [
+          {
+            "date": "2017-12-07",
+            "changes": {
+              "cost": 3,
+              "text": "상대편에게 4/4 네루비안을 하나 소환해 줍니다. 카드를 1장 뽑습니다. 이 카드를 뽑아도 시전합니다.",
+              "name": "네루비안 잠복!"
+            }
+          },
+          {
+            "date": "2018-10-03",
+            "changes": {
+              "text": "<b>뽑을 때 시전</b><br></br>상대편에게<br></br>4/4 네루비안을<br></br>소환해 줍니다."
+            }
+          }
+        ],
+        "releasedAt": "2015-08-25",
+        "releaseStatus": "verified",
+        "initialSpecStatus": "partially_verified",
+        "patchSources": {
+          "2017-12-07": "https://hearthstone.blizzard.com/ko-kr/news/21274279",
+          "2018-10-03": "https://hearthstone.blizzard.com/ko-kr/news/22546493"
+        }
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "W11_210_D.psd:5c718d1be27d3a746aef4158d2d13692",
+        "goldenMaterial": "AT_035t_PremiumCard.mat:01f48cf768be33f42a941c7f3f2fbda3",
+        "goldenAnimation": ""
+      },
+      "historicalTextObservations": [
+        {
+          "build": "3.0.0.9786",
+          "name": "잠복!",
+          "rawText": "이 카드를 뽑을 때, 상대편에게 4/4 네루비안을 하나 소환해 줍니다. 카드를 1장 뽑습니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+          "lastObservedBuild": "9.0.0.20457"
+        },
+        {
+          "build": "10.0.0.22611",
+          "name": "네루비안 잠복!",
+          "rawText": "상대편에게 4/4 네루비안을 하나 소환해 줍니다. 카드를 1장 뽑습니다. 이 카드를 뽑아도 시전합니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+          "lastObservedBuild": "12.0.0.25770"
+        },
+        {
+          "build": "12.2.0.26996",
+          "name": "네루비안 잠복!",
+          "rawText": "<b>뽑을 때 시전</b>\n상대편에게\n4/4 네루비안을\n소환해 줍니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ]
+    },
+    "meaning": "Preserved vetted audit, never published under sourceCommit. Source-backed reconstruction supplies initial and later specs, while originalSource is the actual published original."
+  },
+  "availabilityScope": "Korean ordinary constructed-match use; excludes preview, preload and early adventure use. No new default visibility gate.",
+  "dateRecheckEvidence": "tools/tgt-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "3.0.0.9786",
+        "name": "잠복!",
+        "rawText": "이 카드를 뽑을 때, 상대편에게 4/4 네루비안을 하나 소환해 줍니다. 카드를 1장 뽑습니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+        "lastObservedBuild": "9.0.0.20457"
+      },
+      {
+        "build": "10.0.0.22611",
+        "name": "네루비안 잠복!",
+        "rawText": "상대편에게 4/4 네루비안을 하나 소환해 줍니다. 카드를 1장 뽑습니다. 이 카드를 뽑아도 시전합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+        "lastObservedBuild": "12.0.0.25770"
+      },
+      {
+        "build": "12.2.0.26996",
+        "name": "네루비안 잠복!",
+        "rawText": "<b>뽑을 때 시전</b>\n상대편에게\n4/4 네루비안을\n소환해 줍니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "knownUnmodeledIntervals": "tools/tgt-known-unmodeled-intervals.json",
+    "missingIDs": "tools/tgt-missing-ids.json"
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "3.0.0.9786",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "Tag": {},
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "12.0.0.25770"
+    },
+    {
+      "build": "12.2.0.26996",
+      "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+      "Tag": {},
+      "ReferencedTag": {
+        "1077": "1"
+      },
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "17.0.0.44582"
+    },
+    {
+      "build": "20.0.0.77662",
+      "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "Tag": {
+        "1077": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ],
+  "rarityPresenceEvidence": {
+    "status": "unknown",
+    "value": null,
+    "meaning": "Explicit null from source is preserved as unknown; not a fabricated absence or default rarity."
+  }
+}

@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_127","dbfId":2683,"name":"연합용사 사라아드","type":"MINION","cardClass":"NEUTRAL","rarity":"LEGENDARY","collectible":true,"cost":5,"text":"<b>격려:</b> 무작위 주문을\n내 손으로 가져옵니다.","attack":4,"health":5,"durability":0,"armor":0,"flavor":"연합의 용사가 주문을 원하노라.","spellSchool":"","portrait":"HS5-043_D.psd:1d615703bce71cf4db3dc1a3edbefb15","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":5},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":321,"name":"수집 가능","value":1},{"id":403,"name":"INSPIRE","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_127.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-043_D.psd:1d615703bce71cf4db3dc1a3edbefb15","goldenMaterial":"AT_127_PremiumCard.mat:2b3ff2258d9f502499f19cd05adfd713","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_127",
+    "dbfId": 2683,
+    "name": "연합용사 사라아드",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>격려:</b> 무작위 주문을<br></br>내 손으로 가져옵니다.",
+    "attack": 4,
+    "health": 5,
+    "classes": [],
+    "mechanics": [
+      "INSPIRE"
+    ]
+  }
+}

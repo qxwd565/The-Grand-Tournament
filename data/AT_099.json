@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_099","dbfId":2598,"name":"코도 기수","type":"MINION","cardClass":"NEUTRAL","rarity":"EPIC","collectible":true,"cost":6,"text":"<b>격려:</b> 3/5 전투코도를 소환합니다.","attack":3,"health":5,"durability":0,"armor":0,"flavor":"코뿔소 기수라고 부르면 화를 냅니다.","spellSchool":"","portrait":"w14_a188_D.psd:361847cd5cdee5540a6fcc9f080b8110","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":6},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1},{"id":403,"name":"INSPIRE","value":1},{"id":1452,"name":"수집품 관련 카드 데이터베이스 ID","value":2799}],"races":[],"race":"","classes":[],"art":"art/AT_099.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"w14_a188_D.psd:361847cd5cdee5540a6fcc9f080b8110","goldenMaterial":"AT_099_PremiumCard.mat:b91fb0cc179d0b344ba2d7547b237c8e","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_099",
+    "dbfId": 2598,
+    "name": "코도 기수",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>격려:</b> 3/5 전투코도를 소환합니다.",
+    "attack": 3,
+    "health": 5,
+    "classes": [],
+    "mechanics": [
+      "INSPIRE"
+    ]
+  }
+}

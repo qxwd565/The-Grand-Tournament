@@ -1,1 +1,18 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_050t","dbfId":2803,"name":"번개 충격","type":"HERO_POWER","cardClass":"SHAMAN","rarity":null,"collectible":false,"cost":2,"text":"피해를 $2 줍니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"W13_271_D.psd:526b0cd082a2f6048ab8a762004d6103","set":"TGT","nativeTags":[{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":8},{"id":202,"name":"카드 유형","value":10}],"races":[],"race":"","classes":[],"art":"art/AT_050t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W13_271_D.psd:526b0cd082a2f6048ab8a762004d6103","goldenMaterial":"EX1_238_PremiumCard.mat:51dd39e355223dd47b7e5e89e6bb7900","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_050t",
+    "dbfId": 2803,
+    "name": "번개 충격",
+    "type": "HERO_POWER",
+    "cardClass": "SHAMAN",
+    "rarity": null,
+    "collectible": false,
+    "cost": 2,
+    "text": "<b>영웅 능력</b><br></br>피해를 $2 줍니다.",
+    "classes": [],
+    "mechanics": []
+  },
+  "2022-11-30": {
+    "text": "피해를 $2 줍니다."
+  }
+}

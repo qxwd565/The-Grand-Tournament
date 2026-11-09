@@ -1,1 +1,23 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_003","dbfId":2545,"name":"영웅의 넋","type":"MINION","cardClass":"MAGE","rarity":"RARE","collectible":true,"cost":2,"text":"[x]내 영웅 능력의\n피해량이 1 증가합니다.","attack":3,"health":2,"durability":0,"armor":0,"flavor":"백골이 진토되어도 넋은 사라지지 않는군요.","spellSchool":"","portrait":"HS5-044_D.psd:f769590b40f46054ba8c404d20384364","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":3},{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":4},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":321,"name":"수집 가능","value":1},{"id":396,"name":"HEROPOWER_DAMAGE","value":1}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/AT_003.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-044_D.psd:f769590b40f46054ba8c404d20384364","goldenMaterial":"AT_003_PremiumCard.mat:d30875409df1a034e92eaa5cccb7ff2a","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_003",
+    "dbfId": 2545,
+    "name": "영웅의 넋",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "[x]내 영웅 능력의<br></br>피해량이 1 증가합니다.",
+    "attack": 3,
+    "health": 2,
+    "classes": [],
+    "mechanics": []
+  },
+  "2022-11-30": {
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드"
+  }
+}

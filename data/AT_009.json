@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_009","dbfId":2546,"name":"로닌","type":"MINION","cardClass":"MAGE","rarity":"LEGENDARY","collectible":true,"cost":8,"text":"<b>죽음의 메아리:</b>\n신비한 화살 셋을\n내 손으로 가져옵니다.","attack":7,"health":7,"durability":0,"armor":0,"flavor":"분명 우리의 삶은 살 가치가 있습니다.","spellSchool":"","portrait":"W12_A073_D.psd:a7b35de3bd4ccec459ac5608c2f643aa","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":7},{"id":47,"name":"공격력","value":7},{"id":48,"name":"마나 비용","value":8},{"id":114,"name":"전설 속성","value":1},{"id":199,"name":"직업","value":4},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":217,"name":"죽음의 메아리","value":1},{"id":321,"name":"수집 가능","value":1},{"id":1452,"name":"수집품 관련 카드 데이터베이스 ID","value":564}],"races":[],"race":"","classes":[],"art":"art/AT_009.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W12_A073_D.psd:a7b35de3bd4ccec459ac5608c2f643aa","goldenMaterial":"AT_009_PremiumCard.mat:7b4c3e3b6a523fb47ab87069b30b026f","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_009",
+    "dbfId": 2546,
+    "name": "로닌",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 8,
+    "text": "<b>죽음의 메아리:</b><br></br>신비한 화살 셋을<br></br>내 손으로 가져옵니다.",
+    "attack": 7,
+    "health": 7,
+    "classes": [],
+    "mechanics": [
+      "DEATHRATTLE"
+    ]
+  }
+}

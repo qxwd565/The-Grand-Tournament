@@ -1,1 +1,23 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_092","dbfId":2594,"name":"얼음 광전사","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":3,"text":"","attack":5,"health":2,"durability":0,"armor":0,"flavor":"생명력은 더 높지만 용암 광전사의 명성을 넘어서진 못했습니다. 평등하지도 않고, 참회할 것도 많은 하수인이거든요.","spellSchool":"","portrait":"HS5-018_D.psd:50e94389aa2bdfb439bd26f744899122","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":18},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["ELEMENTAL"],"race":"정령","classes":[],"art":"art/AT_092.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-018_D.psd:50e94389aa2bdfb439bd26f744899122","goldenMaterial":"AT_092_PremiumCard.mat:23aac6bfc461cba4a97637d6ee865e8e","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_092",
+    "dbfId": 2594,
+    "name": "얼음 광전사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "",
+    "attack": 5,
+    "health": 2,
+    "classes": [],
+    "mechanics": []
+  },
+  "2017-04-05": {
+    "races": [
+      "ELEMENTAL"
+    ],
+    "race": "정령"
+  }
+}

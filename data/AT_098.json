@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_098","dbfId":2573,"name":"공연장 주문탐식자","type":"MINION","cardClass":"NEUTRAL","rarity":"EPIC","collectible":true,"cost":6,"text":"<b>전투의 함성:</b> 상대편의 영웅 능력을 복사합니다.","attack":6,"health":5,"durability":0,"armor":0,"flavor":"그거 참 맛나겠군요...","spellSchool":"","portrait":"W4_303_D.psd:c37f2f187663d4d4aaf598b42a163a41","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":6},{"id":48,"name":"마나 비용","value":6},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_098.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W4_303_D.psd:c37f2f187663d4d4aaf598b42a163a41","goldenMaterial":"AT_098_PremiumCard.mat:5d58d1033b700304fab9955a32198c3a","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_098",
+    "dbfId": 2573,
+    "name": "공연장 주문탐식자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>전투의 함성:</b> 상대편의 영웅 능력을 복사합니다.",
+    "attack": 6,
+    "health": 5,
+    "classes": [],
+    "mechanics": [
+      "BATTLECRY"
+    ]
+  }
+}

@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_104","dbfId":2504,"name":"투스카르 창기사","type":"MINION","cardClass":"PALADIN","rarity":"RARE","collectible":true,"cost":5,"text":"<b>전투의 함성:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, 내 영웅의 생명력을 #7 회복시킵니다.","attack":5,"health":5,"durability":0,"armor":0,"flavor":"다른 탈것을 제공해주겠다고 했는데 꼭 자신의 거북이를 데리고 오고 싶다네요.","spellSchool":"","portrait":"HS5-066_D.psd:702c56d7949ce6e4b84d8a24f287ef3e","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":5},{"id":199,"name":"직업","value":5},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_104.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-066_D.psd:702c56d7949ce6e4b84d8a24f287ef3e","goldenMaterial":"AT_104_PremiumCard.mat:1477a4c31e8b49e488f2d6c20673e2bc","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_104",
+    "dbfId": 2504,
+    "name": "투스카르 창기사",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의 함성:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, 내 영웅의 생명력을 #7 회복시킵니다.",
+    "attack": 5,
+    "health": 5,
+    "classes": [],
+    "mechanics": [
+      "BATTLECRY"
+    ]
+  }
+}

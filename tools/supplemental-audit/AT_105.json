@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_105",
+    "dbfId": 2502,
+    "name": "부상당한 크발디르",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>전투의 함성:</b> 자신에게 피해를 3 줍니다.",
+    "attack": 2,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "걱정 마세요. 빨간 약만 있으면 충분히 치료할 수 있습니다.",
+    "spellSchool": "",
+    "portrait": "HS5-021_D.psd:e07d3183d6a00544dbf211d83e4153dc",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_105.png",
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "언데드"
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2022-11-30": "https://hearthstone.blizzard.com/ko-kr/news/23882860"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS5-021_D.psd:e07d3183d6a00544dbf211d83e4153dc",
+    "goldenMaterial": "AT_105_PremiumCard.mat:5ff77611e16c66940aa72cfb1d2b74c8",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "부상당한 크발디르",
+      "rawText": "<b>전투의 함성:</b> 자신에게 피해를 3 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

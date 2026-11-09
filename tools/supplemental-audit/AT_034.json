@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_034",
+    "dbfId": 2763,
+    "name": "독 묻은 칼",
+    "type": "WEAPON",
+    "cardClass": "ROGUE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "[x]내가 영웅 능력을 사용하면<br></br>무기를 교체하는 대신,<br></br>이 무기에 공격력을<br></br>+1 부여합니다.",
+    "attack": 1,
+    "health": 3,
+    "durability": 3,
+    "armor": 0,
+    "flavor": "독이 묻을 때마다 상대의 얼굴은 창백해집니다.",
+    "spellSchool": "",
+    "portrait": "HS3-075_D.psd:f85cb4a4f979adc478bdb3022252914a",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_034.png",
+    "patches": [
+      {
+        "date": "2023-08-23",
+        "changes": {
+          "cost": 2
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS3-075_D.psd:f85cb4a4f979adc478bdb3022252914a",
+    "goldenMaterial": "AT_034_PremiumCard.mat:8e515c8887a12df40b228955246e4a71",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "독 묻은 칼",
+      "rawText": "영웅 능력을 사용하면 무기를 교체하는 대신, 이 무기에 공격력을 +1 부여합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml"
+    },
+    {
+      "build": "3.1.0.10357",
+      "name": "독 묻은 칼",
+      "rawText": "내가 영웅 능력을 사용하면 무기를 교체하는 대신, 이 무기에 공격력을 +1 부여합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/42df0292653dc4448e26887807970a0c5db8ce4b/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "독 묻은 칼",
+      "rawText": "[x]내가 영웅 능력을 사용하면\n 무기를 교체하는 대신,\n이 무기에 공격력을\n+1 부여합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "9.0.0.20457"
+    },
+    {
+      "build": "10.0.0.22611",
+      "name": "독 묻은 칼",
+      "rawText": "[x]내가 영웅 능력을 사용하면\n무기를 교체하는 대신,\n이 무기에 공격력을\n+1 부여합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

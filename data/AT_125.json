@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_125","dbfId":2725,"name":"얼음울음","type":"MINION","cardClass":"NEUTRAL","rarity":"LEGENDARY","collectible":true,"cost":9,"text":"<b>돌진</b>\n영웅을 공격할 수 없습니다.","attack":10,"health":10,"durability":0,"armor":0,"flavor":"하지만 모고르가 출동하면 어떨까?","spellSchool":"","portrait":"HS5-028_D.psd:a58aafb6bced55644be010d1441f6dad","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":10},{"id":47,"name":"공격력","value":10},{"id":48,"name":"마나 비용","value":9},{"id":114,"name":"전설 속성","value":1},{"id":197,"name":"돌진","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":5},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_125.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-028_D.psd:a58aafb6bced55644be010d1441f6dad","goldenMaterial":"AT_125_PremiumCard.mat:59bbcc761e46ca643a702ab07a4d37b2","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_125",
+    "dbfId": 2725,
+    "name": "얼음울음",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 9,
+    "text": "<b>돌진</b><br></br>영웅을 공격할 수 없습니다.",
+    "attack": 10,
+    "health": 10,
+    "classes": [],
+    "mechanics": [
+      "CHARGE"
+    ]
+  }
+}

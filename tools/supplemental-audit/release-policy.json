@@ -1,0 +1,624 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "basis": "First constructed collection availability in Korea. Excludes client preload, reveal, preview Brawl and Arena. Later generated IDs use first legal generating path.",
+  "default": {
+    "date": null,
+    "status": "pending"
+  },
+  "cards": {
+    "AT_001": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_002": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_003": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_004": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_005": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_005t": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_006": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_007": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_008": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_009": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_010": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_011": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_012": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_013": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_014": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_015": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_016": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_017": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_018": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_019": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_020": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_021": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_022": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_023": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_024": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_025": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_026": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_027": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_028": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_029": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_030": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_031": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_032": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_033": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_034": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_035": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_035t": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_036": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_036t": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_037": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_037a": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_037b": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_037t": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_038": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_039": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_040": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_041": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_042": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_042a": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_042b": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_042t": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_042t2": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_043": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_044": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_045": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_046": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_047": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_048": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_049": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_050": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_050t": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_051": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_052": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_053": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_054": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_055": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_056": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_057": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_058": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_059": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_060": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_061": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_062": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_063": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_063t": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_064": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_065": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_066": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_067": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_068": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_069": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_070": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_071": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_072": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_073": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_074": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_075": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_076": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_077": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_078": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_079": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_080": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_081": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_082": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_083": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_084": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_085": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_086": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_087": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_088": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_089": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_090": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_091": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_092": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_093": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_094": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_095": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_096": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_097": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_098": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_099": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_099t": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_100": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_101": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_102": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_103": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_104": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_105": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_106": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_108": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_109": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_110": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_111": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_112": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_113": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_114": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_115": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_116": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_117": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_118": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_119": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_120": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_121": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_122": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_123": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_124": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_125": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_127": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_128": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_129": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_130": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_131": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_132": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_132_ROGUEt": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_132_SHAMANa": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_132_SHAMANb": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_132_SHAMANc": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_132_SHAMANd": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "AT_133": {
+      "date": "2015-08-25",
+      "status": "verified"
+    },
+    "HERO_11bp2": {
+      "date": "2022-12-07",
+      "status": "verified"
+    },
+    "HERO_11bp2t": {
+      "date": "2022-12-07",
+      "status": "verified"
+    },
+    "OG_044c": {
+      "date": "2016-04-27",
+      "status": "verified"
+    }
+  },
+  "sources": {
+    "2015-08-25": "https://hearthstone.blizzard.com/ko-kr/news/19843162",
+    "2016-04-27": "https://hearthstone.blizzard.com/ko-kr/news/20097359",
+    "2022-12-07": "https://hearthstone.blizzard.com/ko-kr/news/23873896"
+  }
+}

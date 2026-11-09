@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_073",
+    "dbfId": 2648,
+    "name": "경쟁심",
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 1,
+    "text": "[x]<b>비밀:</b> 내 턴이 시작될<br></br>때, 내 하수인들에게<br></br>+1/+1을 부여합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "경쟁에서 이기는 방법은 두 가지입니다. 내 실력을 연마하거나 경쟁자를 모두 죽이는 거죠.",
+    "spellSchool": "",
+    "portrait": "W8_054_D.psd:917f72479ce3bba478221664c260142e",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_073.png",
+    "patches": [],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W8_054_D.psd:917f72479ce3bba478221664c260142e",
+    "goldenMaterial": "AT_073_PremiumCard.mat:f32c978a86a3cd842803a0b1667367da",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "경쟁심",
+      "rawText": "<b>비밀:</b> 내 턴이 시작될 때, 내 하수인들에게 +1/+1을 부여합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "경쟁심",
+      "rawText": "[x]<b>비밀:</b> 내 턴이 시작될\n때, 내 하수인들에게\n+1/+1을 부여합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

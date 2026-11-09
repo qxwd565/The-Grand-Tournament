@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_097","dbfId":2499,"name":"마상시합 관중","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":1,"text":"<b>도발</b>","attack":2,"health":1,"durability":0,"armor":0,"flavor":"올해에는 오우거에게 강매를 당하지 않고 입장권을 구해서 너무나 기쁘다고 합니다.","spellSchool":"","portrait":"W11_052_D.psd:3146c54b9fb203349ab9ba1498ef40d1","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":1},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_097.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W11_052_D.psd:3146c54b9fb203349ab9ba1498ef40d1","goldenMaterial":"AT_097_PremiumCard.mat:6fae873749456164c921b82626dbdebd","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_097",
+    "dbfId": 2499,
+    "name": "마상시합 관중",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "<b>도발</b>",
+    "attack": 2,
+    "health": 1,
+    "classes": [],
+    "mechanics": [
+      "TAUNT"
+    ]
+  }
+}

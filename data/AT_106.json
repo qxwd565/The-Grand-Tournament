@@ -1,1 +1,19 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_106","dbfId":2259,"name":"빛의 용사","type":"MINION","cardClass":"NEUTRAL","rarity":"RARE","collectible":true,"cost":3,"text":"<b>전투의 함성:</b>\n악마를 <b>침묵</b>시킵니다.","attack":4,"health":3,"durability":0,"armor":0,"flavor":"힘은 빛을 만든다! 그리고 난 힘찬 기분이 든다!","spellSchool":"","portrait":"R8_A039_D.psd:04cfbedde96be784b84e0ce4d6093f2b","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":4},{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":12},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":3},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":339,"name":"침묵","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_106.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"R8_A039_D.psd:04cfbedde96be784b84e0ce4d6093f2b","goldenMaterial":"AT_106_PremiumCard.mat:9f47552fd49b4914faf08d6a7fad75f2","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_106",
+    "dbfId": 2259,
+    "name": "빛의 용사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>전투의 함성:</b><br></br>악마를 <b>침묵</b>시킵니다.",
+    "attack": 4,
+    "health": 3,
+    "classes": [],
+    "mechanics": [
+      "BATTLECRY"
+    ]
+  }
+}

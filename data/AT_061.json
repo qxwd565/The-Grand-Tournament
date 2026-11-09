@@ -1,1 +1,22 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_061","dbfId":2484,"name":"실탄 장전","type":"SPELL","cardClass":"HUNTER","rarity":"EPIC","collectible":true,"cost":0,"text":"이번 턴에 내가 주문을 시전할 때마다 무작위 사냥꾼 카드를 얻습니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"렉사르는 눈을 가늘게 뜨고 상대방을 노려보며 말했습니다. \"이렇게 된 이상, 명치를 친다.\"","spellSchool":"","portrait":"HS5-009_D.psd:45c5068829d017f46bb876a01f152826","set":"TGT","nativeTags":[{"id":199,"name":"직업","value":3},{"id":202,"name":"카드 유형","value":5},{"id":203,"name":"희귀도","value":4},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_061.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-009_D.psd:45c5068829d017f46bb876a01f152826","goldenMaterial":"AT_061_PremiumCard.mat:83030c992090c4847a2a504e9781bf75","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_061",
+    "dbfId": 2484,
+    "name": "실탄 장전",
+    "type": "SPELL",
+    "cardClass": "HUNTER",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 2,
+    "text": "이번 턴에 내가 주문을 시전할 때마다 사냥꾼 카드 1장을 무작위로 내 손에 가져옵니다.",
+    "classes": [],
+    "mechanics": []
+  },
+  "2021-03-26": {
+    "cost": 1
+  },
+  "2023-08-23": {
+    "cost": 0,
+    "text": "이번 턴에 내가 주문을 시전할 때마다 무작위 사냥꾼 카드를 얻습니다."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_042",
+    "dbfId": 2783,
+    "name": "칼날이빨의 드루이드",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>선택 -</b> <b>돌진</b> 또는 +1/+1과 <b>은신</b>을 얻습니다.",
+    "attack": 2,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "사나워 보이지만 사실은 치과에 가는 걸 매우 무서워합니다.",
+    "spellSchool": "",
+    "portrait": "W20_a104_D.psd:31cd9ada1904e2947aa18d6bc16e70e6",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      },
+      {
+        "id": 197,
+        "name": "돌진",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 443,
+        "name": "선택",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_042.png",
+    "patches": [
+      {
+        "date": "2017-04-05",
+        "changes": {
+          "text": "<b>선택 - </b><b>돌진</b> 능력이 있는 2/1 하수인 또는 <b>은신</b> 능력이 있는 3/2 하수인으로 변신합니다."
+        }
+      },
+      {
+        "date": "2017-08-09",
+        "changes": {
+          "text": "[x]<b>선택 - </b>2/1 <b>돌진</b> 하수인<br></br>또는 3/2 <b>은신</b> 하수인으로<br></br>변신합니다."
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2017-04-05": "https://hearthstone.blizzard.com/ko-kr/news/20678265",
+      "2017-08-09": "https://hearthstone.blizzard.com/ko-kr/news/20944006"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W20_a104_D.psd:31cd9ada1904e2947aa18d6bc16e70e6",
+    "goldenMaterial": "AT_042_PremiumCard.mat:1aacb1aad98d4fe47b0bc9fb88ffbb0f",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "칼날이빨의 드루이드",
+      "rawText": "<b>선택 -</b> <b>돌진</b> 또는 +1/+1과 <b>은신</b>을 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "7.1.0.17720"
+    },
+    {
+      "build": "8.0.0.18336",
+      "name": "칼날이빨의 드루이드",
+      "rawText": "<b>선택 - </b><b>돌진</b> 능력이 있는 2/1 하수인 또는 <b>은신</b> 능력이 있는 3/2 하수인으로 변신합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/085f915af6c4374ac2a7088862390ebea44eb6c9/CardDefs.xml"
+    },
+    {
+      "build": "9.0.0.20457",
+      "name": "칼날이빨의 드루이드",
+      "rawText": "[x]<b>선택 - </b>2/1 <b>돌진</b> 하수인\n또는 3/2 <b>은신</b> 하수인으로\n변신합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

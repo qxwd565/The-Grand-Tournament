@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_036t",
+    "dbfId": 3010,
+    "name": "네루비안",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "rarity": null,
+    "collectible": false,
+    "cost": 3,
+    "text": "",
+    "attack": 4,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "W11_210_D.psd:5c718d1be27d3a746aef4158d2d13692",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 217,
+        "name": "죽음의 메아리",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_036t.png",
+    "patches": [
+      {
+        "date": "2016-08-10",
+        "changes": {
+          "cost": 4
+        }
+      },
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "언데드"
+        }
+      },
+      {
+        "date": "2023-08-23",
+        "changes": {
+          "text": "<b>죽음의 메아리:</b> 아눕아락을 소환합니다."
+        }
+      }
+    ],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified",
+    "patchSources": {
+      "2016-08-10": "https://hearthstone.blizzard.com/ko-kr/news/20228506",
+      "2022-11-30": "https://hearthstone.blizzard.com/ko-kr/news/23882860",
+      "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+    }
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W11_210_D.psd:5c718d1be27d3a746aef4158d2d13692",
+    "goldenMaterial": "FP1_007t_PremiumCard.mat:ba85f499117b490438a537905cefd0e6",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "네루비안",
+      "rawText": "",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "27.0.0.181554"
+    },
+    {
+      "build": "27.2.0.183876",
+      "name": "네루비안",
+      "rawText": "<b>죽음의 메아리:</b> 아눕아락을 소환합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

@@ -1,1 +1,20 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_132_SHAMANa","dbfId":16221,"name":"치유 토템","type":"MINION","cardClass":"SHAMAN","rarity":null,"collectible":false,"cost":1,"text":"내 턴이 끝날 때, 모든 아군 하수인의 생명력을 #1 회복시킵니다.","attack":0,"health":2,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"W17_A170_D.psd:499261f62215f99408c998ccfd4b6ae5","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":2},{"id":48,"name":"마나 비용","value":1},{"id":199,"name":"직업","value":8},{"id":202,"name":"카드 유형","value":4}],"races":[],"race":"","classes":[],"art":"art/AT_132_SHAMANa.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W17_A170_D.psd:499261f62215f99408c998ccfd4b6ae5","goldenMaterial":"NEW1_009_PremiumCard.mat:a4b9cca923f29db4395ca0be93665076","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_132_SHAMANa",
+    "dbfId": 16221,
+    "name": "치유 토템",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": null,
+    "collectible": false,
+    "cost": 0,
+    "text": "내 턴이 끝날 때, 모든 아군 하수인의 생명력을 #1 회복시킵니다.",
+    "attack": 0,
+    "health": 2,
+    "classes": [],
+    "mechanics": []
+  },
+  "2019-02-06": {
+    "cost": 1
+  }
+}

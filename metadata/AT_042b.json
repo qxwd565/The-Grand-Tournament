@@ -1,0 +1,410 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "AT_042b",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-08-25",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
+  "sourceCommit": "d04048e30e0ac075b5961e0198c5576d38fd828d",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "AT_042b",
+      "dbfId": 2862,
+      "name": "흑표범 변신",
+      "type": "MINION",
+      "cardClass": "DRUID",
+      "rarity": "COMMON",
+      "collectible": false,
+      "cost": 2,
+      "text": "<b>은신</b>",
+      "attack": 3,
+      "health": 2,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "",
+      "spellSchool": "",
+      "portrait": "W20_a104_D2.psd:43abfdfe4d8c7c8408387ea8ebcf41c9",
+      "set": "TGT",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 191,
+          "name": "은신",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 1584,
+          "name": "게임 태그 1584",
+          "value": 1
+        }
+      ],
+      "races": [
+        "BEAST"
+      ],
+      "race": "야수",
+      "classes": [],
+      "art": "art/AT_042b.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "W20_a104_D2.psd:43abfdfe4d8c7c8408387ea8ebcf41c9",
+      "goldenMaterial": "AT_042b_PremiumCard.mat:386e9d09e400b964687d95f1f61a1dec",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "AT_042b",
+    "dbfId": 2862,
+    "name": "흑표범 변신",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 2,
+    "text": "<b>은신</b>",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "W20_a104_D2.psd:43abfdfe4d8c7c8408387ea8ebcf41c9",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 1584,
+        "name": "게임 태그 1584",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/AT_042b.png"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/tgt-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "STEALTH"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/AT_042b.json",
+    "document": {
+      "schemaVersion": 2,
+      "mode": "constructed",
+      "card": {
+        "id": "AT_042b",
+        "dbfId": 2862,
+        "name": "흑표범 변신",
+        "type": "SPELL",
+        "cardClass": "DRUID",
+        "rarity": "COMMON",
+        "collectible": false,
+        "cost": 0,
+        "text": "+1/+1, <b>은신</b>",
+        "attack": 0,
+        "health": 0,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "",
+        "spellSchool": "",
+        "portrait": "W20_a104_D2.psd:43abfdfe4d8c7c8408387ea8ebcf41c9",
+        "set": "TGT",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 2
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 3
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 2
+          },
+          {
+            "id": 191,
+            "name": "은신",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 2
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 20
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 1584,
+            "name": "게임 태그 1584",
+            "value": 1
+          }
+        ],
+        "races": [],
+        "race": "",
+        "classes": [],
+        "art": "art/AT_042b.png",
+        "patches": [
+          {
+            "date": "2018-11-30",
+            "changes": {
+              "cost": 2,
+              "attack": 3,
+              "health": 2,
+              "type": "MINION",
+              "races": [
+                "BEAST"
+              ],
+              "race": "야수",
+              "text": "<b>은신</b>"
+            }
+          }
+        ],
+        "releasedAt": "2015-08-25",
+        "releaseStatus": "verified",
+        "initialSpecStatus": "partially_verified",
+        "patchSources": {
+          "2018-11-30": "https://hearthstone.blizzard.com/ko-kr/news/22788307"
+        }
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "W20_a104_D2.psd:43abfdfe4d8c7c8408387ea8ebcf41c9",
+        "goldenMaterial": "AT_042b_PremiumCard.mat:386e9d09e400b964687d95f1f61a1dec",
+        "goldenAnimation": ""
+      },
+      "historicalTextObservations": [
+        {
+          "build": "3.0.0.9786",
+          "name": "흑표범 변신",
+          "rawText": "+1/+1, <b>은신</b>",
+          "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+          "lastObservedBuild": "12.2.0.27358"
+        },
+        {
+          "build": "13.0.0.27845",
+          "name": "흑표범 변신",
+          "rawText": "<b>은신</b>",
+          "source": "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml",
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ]
+    },
+    "meaning": "Preserved vetted audit, never published under sourceCommit. Source-backed reconstruction supplies initial and later specs, while originalSource is the actual published original."
+  },
+  "availabilityScope": "Korean ordinary constructed-match use; excludes preview, preload and early adventure use. No new default visibility gate.",
+  "dateRecheckEvidence": "tools/tgt-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "3.0.0.9786",
+        "name": "흑표범 변신",
+        "rawText": "+1/+1, <b>은신</b>",
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+        "lastObservedBuild": "12.2.0.27358"
+      },
+      {
+        "build": "13.0.0.27845",
+        "name": "흑표범 변신",
+        "rawText": "<b>은신</b>",
+        "source": "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "knownUnmodeledIntervals": "tools/tgt-known-unmodeled-intervals.json",
+    "missingIDs": "tools/tgt-missing-ids.json"
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "3.0.0.9786",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "Tag": {},
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "29.0.0.195635"
+    },
+    {
+      "build": "30.6.0.208591",
+      "source": "https://github.com/HearthSim/hsdata/blob/37797c6c5e9af546306299ade90189454f2b16ac/CardDefs.xml",
+      "Tag": {},
+      "ReferencedTag": {
+        "191": "1"
+      },
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "35.0.3.239422"
+    },
+    {
+      "build": "37.0.2.256589",
+      "source": "https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml",
+      "Tag": {
+        "191": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change"
+    }
+  ],
+  "fieldUncertainty": {
+    "rarityAndClass": {
+      "status": "partial",
+      "meaning": "Preserved provisional display values; archive tags may describe implementation changes. No invented live restoration or early generated-option boundary.",
+      "source": "tools/tgt-known-unmodeled-intervals.json"
+    }
+  }
+}

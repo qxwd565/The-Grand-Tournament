@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_110",
+    "dbfId": 2585,
+    "name": "경기장 관리자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "<b>격려:</b> 이 하수인을 내 손으로 다시 가져옵니다.",
+    "attack": 2,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "틈만 나면 퇴근하고 싶어합니다.",
+    "spellSchool": "",
+    "portrait": "W11_220_D.psd:1072bbfb27003ad4a988c2d960cdb1bf",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 403,
+        "name": "INSPIRE",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_110.png",
+    "patches": [],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W11_220_D.psd:1072bbfb27003ad4a988c2d960cdb1bf",
+    "goldenMaterial": "AT_110_PremiumCard.mat:3e91adeeecdf40e49a6ee2ad0b96d6a0",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "경기장 관리자",
+      "rawText": "<b>격려:</b> 이 하수인을 다시 내 손으로 가져옵니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "경기장 관리자",
+      "rawText": "<b>격려:</b> 이 하수인을 다시\n내 손으로 가져옵니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "6.2.0.15181"
+    },
+    {
+      "build": "7.0.0.15590",
+      "name": "경기장 관리자",
+      "rawText": "<b>격려:</b> 이 하수인을 내 손으로 다시 가져옵니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/2155786e4175c66348b73037d3799c3fe96eeb6d/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

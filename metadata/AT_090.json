@@ -1,0 +1,394 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "AT_090",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-08-25",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
+  "sourceCommit": "d04048e30e0ac075b5961e0198c5576d38fd828d",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "AT_090",
+      "dbfId": 2497,
+      "name": "무클라의 용사",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "COMMON",
+      "collectible": true,
+      "cost": 5,
+      "text": "<b>격려:</b> 내 다른 하수인들에게 +1/+1을 부여합니다.",
+      "attack": 5,
+      "health": 3,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "고상한 시대에 어울리는 우아한 고릴라입니다.",
+      "spellSchool": "",
+      "portrait": "HS5-058_D.psd:6e0d5b7104f7805429c448d39798c5e5",
+      "set": "TGT",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 403,
+          "name": "INSPIRE",
+          "value": 1
+        }
+      ],
+      "races": [
+        "BEAST"
+      ],
+      "race": "야수",
+      "classes": [],
+      "art": "art/AT_090.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS5-058_D.psd:6e0d5b7104f7805429c448d39798c5e5",
+      "goldenMaterial": "AT_090_PremiumCard.mat:4a0cd7f3d6cd3394eb31e3004eb3d2d2",
+      "goldenAnimation": ""
+    }
+  },
+  "currentCatalog": {
+    "id": "AT_090",
+    "dbfId": 2497,
+    "name": "무클라의 용사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>격려:</b> 내 다른 하수인들에게 +1/+1을 부여합니다.",
+    "attack": 5,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "고상한 시대에 어울리는 우아한 고릴라입니다.",
+    "spellSchool": "",
+    "portrait": "HS5-058_D.psd:6e0d5b7104f7805429c448d39798c5e5",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 403,
+        "name": "INSPIRE",
+        "value": 1
+      }
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "art": "art/AT_090.png"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/tgt-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "INSPIRE"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/AT_090.json",
+    "document": {
+      "schemaVersion": 2,
+      "mode": "constructed",
+      "card": {
+        "id": "AT_090",
+        "dbfId": 2497,
+        "name": "무클라의 용사",
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "rarity": "COMMON",
+        "collectible": true,
+        "cost": 5,
+        "text": "<b>격려:</b> 내 다른 하수인들에게 +1/+1을 부여합니다.",
+        "attack": 4,
+        "health": 3,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "고상한 시대에 어울리는 우아한 고릴라입니다.",
+        "spellSchool": "",
+        "portrait": "HS5-058_D.psd:6e0d5b7104f7805429c448d39798c5e5",
+        "set": "TGT",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 3
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 5
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 5
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 20
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 403,
+            "name": "INSPIRE",
+            "value": 1
+          }
+        ],
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수",
+        "classes": [],
+        "art": "art/AT_090.png",
+        "patches": [
+          {
+            "date": "2023-08-23",
+            "changes": {
+              "attack": 5
+            }
+          }
+        ],
+        "releasedAt": "2015-08-25",
+        "releaseStatus": "verified",
+        "initialSpecStatus": "partially_verified",
+        "patchSources": {
+          "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+        }
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS5-058_D.psd:6e0d5b7104f7805429c448d39798c5e5",
+        "goldenMaterial": "AT_090_PremiumCard.mat:4a0cd7f3d6cd3394eb31e3004eb3d2d2",
+        "goldenAnimation": ""
+      },
+      "historicalTextObservations": [
+        {
+          "build": "3.0.0.9786",
+          "name": "무클라의 용사",
+          "rawText": "<b>격려:</b> 내 다른 하수인들에게 +1/+1을 부여합니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+          "lastObservedBuild": "5.0.0.12574"
+        },
+        {
+          "build": "6.0.0.13921",
+          "name": "무클라의 용사",
+          "rawText": "[x]<b>격려:</b>\n내 다른 하수인들에게\n+1/+1을 부여합니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+          "lastObservedBuild": "10.2.0.23180"
+        },
+        {
+          "build": "11.0.0.23966",
+          "name": "무클라의 용사",
+          "rawText": "<b>격려:</b> 내 다른 하수인들에게 +1/+1을 부여합니다.",
+          "source": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ]
+    },
+    "meaning": "Preserved vetted audit, never published under sourceCommit. Source-backed reconstruction supplies initial and later specs, while originalSource is the actual published original."
+  },
+  "availabilityScope": "Korean ordinary constructed-match use; excludes preview, preload and early adventure use. No new default visibility gate.",
+  "dateRecheckEvidence": "tools/tgt-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "3.0.0.9786",
+        "name": "무클라의 용사",
+        "rawText": "<b>격려:</b> 내 다른 하수인들에게 +1/+1을 부여합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+        "lastObservedBuild": "5.0.0.12574"
+      },
+      {
+        "build": "6.0.0.13921",
+        "name": "무클라의 용사",
+        "rawText": "[x]<b>격려:</b>\n내 다른 하수인들에게\n+1/+1을 부여합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+        "lastObservedBuild": "10.2.0.23180"
+      },
+      {
+        "build": "11.0.0.23966",
+        "name": "무클라의 용사",
+        "rawText": "<b>격려:</b> 내 다른 하수인들에게 +1/+1을 부여합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "knownUnmodeledIntervals": "tools/tgt-known-unmodeled-intervals.json",
+    "missingIDs": "tools/tgt-missing-ids.json"
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "3.0.0.9786",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "Tag": {
+        "403": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only; not an asserted Korean gameplay change",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

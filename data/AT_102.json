@@ -1,1 +1,21 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_102","dbfId":2522,"name":"사로잡힌 요르문가르","type":"MINION","cardClass":"NEUTRAL","rarity":"COMMON","collectible":true,"cost":7,"text":"","attack":5,"health":9,"durability":0,"armor":0,"flavor":"애완용으로 기르는 것도 가능합니다. 매일 동물원 하나를 먹일 식량을 제공하고 집채만 한 수조를 청소할 각오가 되어있다면요.","spellSchool":"","portrait":"HS5-035_D.psd:1547d3d298f85ed408e78f3b18d29097","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":9},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":7},{"id":199,"name":"직업","value":12},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/AT_102.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-035_D.psd:1547d3d298f85ed408e78f3b18d29097","goldenMaterial":"AT_102_PremiumCard.mat:a922a7dd131caf04285fe6a3a34a775d","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_102",
+    "dbfId": 2522,
+    "name": "사로잡힌 요르문가르",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 7,
+    "text": "",
+    "attack": 5,
+    "health": 9,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "classes": [],
+    "mechanics": []
+  }
+}

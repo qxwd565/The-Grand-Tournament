@@ -1,1 +1,24 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_079","dbfId":2726,"name":"수수께끼의 도전자","type":"MINION","cardClass":"PALADIN","rarity":"EPIC","collectible":true,"cost":5,"text":"<b>전투의 함성:</b> 내 덱에 있는 모든 종류의 <b>비밀</b>을 하나씩 시전합니다.","attack":5,"health":5,"durability":0,"armor":0,"flavor":"겉으로는 차갑지만 당신에게 자신의 비밀을 털어놓고 싶어합니다.","spellSchool":"","portrait":"HS5-040_D.psd:6c6b1bc149e1c094db3597d1ef33afe7","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":5},{"id":47,"name":"공격력","value":5},{"id":48,"name":"마나 비용","value":5},{"id":199,"name":"직업","value":5},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":4},{"id":218,"name":"전투의 함성","value":1},{"id":219,"name":"비밀","value":1},{"id":321,"name":"수집 가능","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_079.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS5-040_D.psd:6c6b1bc149e1c094db3597d1ef33afe7","goldenMaterial":"AT_079_PremiumCard.mat:8473c8837835de84d8fc43de1dea7883","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_079",
+    "dbfId": 2726,
+    "name": "수수께끼의 도전자",
+    "type": "MINION",
+    "cardClass": "PALADIN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "<b>전투의 함성:</b> 내 덱에 있는 모든 종류의 <b>비밀</b>을 하나씩 시전합니다.",
+    "attack": 6,
+    "health": 6,
+    "classes": [],
+    "mechanics": [
+      "BATTLECRY"
+    ]
+  },
+  "2023-08-23": {
+    "cost": 5,
+    "attack": 5,
+    "health": 5
+  }
+}

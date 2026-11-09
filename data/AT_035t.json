@@ -1,1 +1,26 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_035t","dbfId":2847,"name":"네루비안 잠복!","type":"SPELL","cardClass":"ROGUE","rarity":null,"collectible":false,"cost":3,"text":"<b>뽑을 때 시전</b>\n상대편에게\n4/4 네루비안을\n소환해 줍니다.","attack":0,"health":0,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"W11_210_D.psd:5c718d1be27d3a746aef4158d2d13692","set":"TGT","nativeTags":[{"id":48,"name":"마나 비용","value":3},{"id":199,"name":"직업","value":7},{"id":202,"name":"카드 유형","value":5},{"id":1077,"name":"뽑을 때 시전","value":1},{"id":1107,"name":"HIDE_WATERMARK","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_035t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W11_210_D.psd:5c718d1be27d3a746aef4158d2d13692","goldenMaterial":"AT_035t_PremiumCard.mat:01f48cf768be33f42a941c7f3f2fbda3","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_035t",
+    "dbfId": 2847,
+    "name": "잠복!",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "rarity": null,
+    "collectible": false,
+    "cost": 0,
+    "text": "이 카드를 뽑을 때, 상대편에게 4/4 네루비안을 하나 소환해 줍니다. 카드를 1장 뽑습니다.",
+    "classes": [],
+    "mechanics": []
+  },
+  "2017-12-07": {
+    "name": "네루비안 잠복!",
+    "cost": 3,
+    "text": "상대편에게 4/4 네루비안을 하나 소환해 줍니다. 카드를 1장 뽑습니다. 이 카드를 뽑아도 시전합니다."
+  },
+  "2018-10-03": {
+    "text": "<b>뽑을 때 시전</b><br></br>상대편에게<br></br>4/4 네루비안을<br></br>소환해 줍니다.",
+    "mechanics": [
+      "CASTS_WHEN_DRAWN"
+    ]
+  }
+}

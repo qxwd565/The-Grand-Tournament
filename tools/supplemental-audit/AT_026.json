@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_026",
+    "dbfId": 2623,
+    "name": "격노수호병",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "이 하수인은 피해를 받을 때마다 내 영웅에게도 그만큼의 피해를 줍니다.",
+    "attack": 4,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "한 게임에서 안녕로봇을 5번 만나면 누구나 격노수호병이 될 수 있습니다.",
+    "spellSchool": "",
+    "portrait": "W20_a149_D.psd:fc7e3c85727cb524c9501e7576289dcc",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [
+      "DEMON"
+    ],
+    "race": "악마",
+    "classes": [],
+    "art": "art/AT_026.png",
+    "patches": [],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "W20_a149_D.psd:fc7e3c85727cb524c9501e7576289dcc",
+    "goldenMaterial": "AT_026_PremiumCard.mat:99ffc4b6854b87a44a2a13b86fc925c9",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "격노수호병",
+      "rawText": "이 하수인은 피해를 입을 때마다 내 영웅에게 그만큼의 피해를 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "격노수호병",
+      "rawText": "[x]이 하수인은 피해를 입을\n때마다 내 영웅에게 그만큼의\n피해를 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "6.2.0.15181"
+    },
+    {
+      "build": "7.0.0.15590",
+      "name": "격노수호병",
+      "rawText": "이 하수인은 피해를 입을 때마다 내 영웅에게도 그만큼의 피해를 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/2155786e4175c66348b73037d3799c3fe96eeb6d/CardDefs.xml",
+      "lastObservedBuild": "8.0.0.18336"
+    },
+    {
+      "build": "9.0.0.20457",
+      "name": "격노수호병",
+      "rawText": "이 하수인은 피해를 받을 때마다 내 영웅에게도 그만큼의 피해를 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

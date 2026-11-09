@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "card": {
+    "id": "AT_121",
+    "dbfId": 2518,
+    "name": "마상시합 유명인",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 4,
+    "text": "내가 <b>전투의 함성</b> 카드를 낼 때마다 +1/+1을 얻습니다.",
+    "attack": 4,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "킬각은 절대로 놓치지 않습니다. 상대의 비밀이 얼음 방패일거란 생각도 하지 않습니다.",
+    "spellSchool": "",
+    "portrait": "HS5-059_D.psd:74f9cc722d1106346b94cb3713a01c95",
+    "set": "TGT",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1429,
+        "name": "전장 황금 하수인 ID",
+        "value": 58383
+      },
+      {
+        "id": 1440,
+        "name": "선술집 단계",
+        "value": 3
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/AT_121.png",
+    "patches": [],
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified",
+    "initialSpecStatus": "partially_verified"
+  },
+  "artworkProvenance": {
+    "source": "installed Hearthstone native assets",
+    "portrait": "HS5-059_D.psd:74f9cc722d1106346b94cb3713a01c95",
+    "goldenMaterial": "AT_121_PremiumCard.mat:c433c102de9dfd5428f38df974dd9195",
+    "goldenAnimation": ""
+  },
+  "historicalTextObservations": [
+    {
+      "build": "3.0.0.9786",
+      "name": "마상시합 유명인",
+      "rawText": "내가 <b>전투의 함성</b> 능력을 가진 하수인을 소환할 때마다 +1/+1을 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml"
+    },
+    {
+      "build": "3.1.0.10357",
+      "name": "마상시합 유명인",
+      "rawText": "내가 <b>전투의 함성</b> 능력을 가진 카드를 낼 때마다 +1/+1을 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/42df0292653dc4448e26887807970a0c5db8ce4b/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "마상시합 유명인",
+      "rawText": "내가 <b>전투의 함성</b> 능력이 있는 카드를 낼 때마다 +1/+1을 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "8.0.0.18336"
+    },
+    {
+      "build": "9.0.0.20457",
+      "name": "마상시합 유명인",
+      "rawText": "내가 <b>전투의 함성</b> 카드를 낼 때마다 +1/+1을 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

@@ -1,1 +1,28 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_042a","dbfId":2861,"name":"사자 변신","type":"MINION","cardClass":"DRUID","rarity":"COMMON","collectible":false,"cost":2,"text":"<b>돌진</b>","attack":2,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"W9_a025_D.psd:12ce645c26307804680e70c29a6e1693","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":197,"name":"돌진","value":1},{"id":199,"name":"직업","value":2},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":1584,"name":"게임 태그 1584","value":1}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/AT_042a.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W9_a025_D.psd:12ce645c26307804680e70c29a6e1693","goldenMaterial":"AT_042a_PremiumCard.mat:ddb3d508ee25b2b4987f1eae35e28f04","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_042a",
+    "dbfId": 2861,
+    "name": "사자 변신",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": false,
+    "cost": 0,
+    "text": "<b>돌진</b>",
+    "classes": [],
+    "mechanics": []
+  },
+  "2018-11-30": {
+    "type": "MINION",
+    "cost": 2,
+    "attack": 2,
+    "health": 1,
+    "races": [
+      "BEAST"
+    ],
+    "race": "야수",
+    "mechanics": [
+      "CHARGE"
+    ]
+  }
+}

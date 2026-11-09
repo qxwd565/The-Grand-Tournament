@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "scope": "Only old schema1 endpoints; canonical and -date endpoints retain exact presence.",
+  "legacyConsumer": "qxwd565/HSdeck-plugin 78ce6fdc4e70f689880a70d6f22aa77a6c75e337 (unmodified)",
+  "rules": [
+    "Absent combat stats retain zero sentinels only at the old output boundary. Five weapon records preserve the original health/durability mirror.",
+    "Original endpoint field presence is preserved; precise intrinsic mechanics are separate from old annotation conventions.",
+    "54 current texts normalize raw newline syntax to <br></br>;152 records gain independently sourced release metadata. No other current catalog changes.",
+    "History previously empty is now schema1 reverse history equal to the separately retained unpublished104-event audit.",
+    "Before-release old-parser fallback remains unchanged. No strict/default visibility gate is enabled.",
+    "Current native tags, relationships, IDs, DBFs and artwork are unchanged. Canonical future edits still propagate through this narrow compatibility projection."
+  ],
+  "limitations": [
+    "Old numeric sentinel conventions cannot distinguish absent stats from zero or implement general removal.",
+    "Old PHP whitelist omits races/classes/collectible and arbitrary effect fields; installed current native tags can leak into historical rendering.",
+    "Two hero powers remain unsupported old renderer frame types. No live site/import/database/plugin changes or live UI proof.",
+    "Current immutable source preserves raw evidence. Historical initial display, early rarity/class boundaries and Living Roots restoration remain partially unresolved."
+  ],
+  "preciseEndpoints": {
+    "cards": "cards-date.json",
+    "render": "render-date.json",
+    "history": "history-date.json"
+  },
+  "artRule": "All six bundles remain root siblings, retaining art/<ID> URL bases."
+}

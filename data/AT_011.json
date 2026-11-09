@@ -1,1 +1,26 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"AT_011","dbfId":2555,"name":"신성한 용사","type":"MINION","cardClass":"PRIEST","rarity":"COMMON","collectible":true,"cost":2,"text":"<b>초과 치유:</b> 공격력을 +2 얻습니다.","attack":1,"health":4,"durability":0,"armor":0,"flavor":"치료하는 걸 좋아합니다. 그래서 우선 다치게 하죠.","spellSchool":"","portrait":"R8_A040_D.psd:605b1db2a84b3ab4789c2230a36afa1d","set":"TGT","nativeTags":[{"id":45,"name":"생명력","value":4},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":6},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":321,"name":"수집 가능","value":1},{"id":2821,"name":"OVERHEAL","value":1}],"races":[],"race":"","classes":[],"art":"art/AT_011.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"R8_A040_D.psd:605b1db2a84b3ab4789c2230a36afa1d","goldenMaterial":"AT_011_PremiumCard.mat:a9731b8fb7d6e004a893d524320c284b","goldenAnimation":""}}
+{
+  "2015-08-25": {
+    "id": "AT_011",
+    "dbfId": 2555,
+    "name": "신성한 용사",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "캐릭터가 하나 치유될 때마다 공격력을 +2 얻습니다.",
+    "attack": 3,
+    "health": 5,
+    "classes": [],
+    "mechanics": []
+  },
+  "2023-04-05": {
+    "cost": 2,
+    "text": "<b>초과 치유:</b> 공격력을 +2 얻습니다.",
+    "attack": 1,
+    "health": 4,
+    "mechanics": [
+      "OVERHEAL"
+    ]
+  }
+}
