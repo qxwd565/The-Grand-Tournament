@@ -3,8 +3,9 @@
   "id": "HERO_11bp2t",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2022-12-07",
-    "status": "verified"
+    "date": "2022-11-30",
+    "status": "estimated",
+    "beforeDate": "unavailable"
   },
   "baselineStatus": "partially-verified",
   "confidenceNote": "Partial baseline verification. Initial Korean display timelines and generated-card rarity/class boundaries remain qualified. Client tags alone do not establish Korean server-live effective dates.",
@@ -386,5 +387,21 @@
   "heroEvidence": {
     "role": "base-class-hero-entity",
     "meaning": "Not a playable replacement hero card. Source-backed health is retained; no inferred armor or unrelated combat stats."
+  },
+  "availabilityCorrection": {
+    "source": "tools/tgt-dk-availability-evidence.json",
+    "previousDate": "2022-12-07",
+    "adoptedDate": "2022-11-30",
+    "status": "estimated",
+    "meaning": "Estimated Korean ordinary constructed-match generation availability inferred from the 25.0 patch and contemporary pre-class-launch generation reports. Not a directly witnessed Korean match timestamp or raw exact-ID match binding.",
+    "confidence": {
+      "intendedUpgradeMapping": "High: actual tag 1086 maps original 78162 to 79943, cosmetic 99218 to 99219.",
+      "exactPowerMatchIdentity": "Medium-high inference. Identical names and texts exist on original and cosmetic powers; no raw Power.log or replay ID binding.",
+      "exactTokenMatchIdentity": "High inference from the unique 2/1 Charge Undead token 87918 in the inspected 25.0 archive, not a logged community match ID.",
+      "ordinaryConstructed": "Medium-high inference from Wild context and generation reports; no exact queue/region certification.",
+      "kstDay": "Medium-high patch-derived estimate, not a regional first-instant observation."
+    },
+    "classUnlock": "2022-12-07",
+    "sourceRevision": "d5e4954c86c658ff5adc0893add2ed1407c767ac"
   }
 }

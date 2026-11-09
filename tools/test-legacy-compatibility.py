@@ -24,7 +24,13 @@ def main(fixture=None):
   if t!=c['text']:normalized.append(c['id'])
   c['text']=t;c['releasedAt']=m['release']['date'];c['releaseStatus']=m['release']['status']
  assert json_equal(catalog,expected),'Unreviewed current catalog changes'
- assert json_equal(catalog,load(sup/'cards.json'))
+ supplemental_catalog=load(sup/'cards.json')
+ for c in supplemental_catalog['cards']:
+  if c['id'] in ('HERO_11bp2','HERO_11bp2t'):
+   c['releasedAt']='2022-11-30';c['releaseStatus']='estimated'
+ assert json_equal(catalog,supplemental_catalog)
+ for cid in ('HERO_11bp2','HERO_11bp2t'):
+  old[cid]['releasedAt']='2022-11-30';old[cid]['releaseStatus']='estimated'
  assert history==load(sup/'history.json'),'Legacy history differs from independent supplemental reconstruction'
  assert all(x['schema']==1 and 'historySchema' not in x for x in (catalog,history,render))
  for name in ['cards.json','history.json','render.json']:assert '__remove' not in (ROOT/name).read_text()
@@ -33,7 +39,7 @@ def main(fixture=None):
   info,path=line.split('\t');assets[path]=info.split()[2]
  for p,sha in assets.items():
   data=(ROOT/p).read_bytes();assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()==sha,p
- dates={'1900-01-01','2099-12-31'}
+ dates={'1900-01-01','2099-12-31','2022-12-06','2022-12-07','2022-12-08'}
  for cid in by_id:
   for d in load(ROOT/'data'/f'{cid}.json'):dates.update((date.fromisoformat(d)+timedelta(days=n)).isoformat() for n in [-1,0,1])
  cases=[]
@@ -45,7 +51,7 @@ def main(fixture=None):
    actual=old_resolve(c,rows,d);before=old_resolve(old[cid],load(sup/'history.json')['cards'].get(str(c['dbfId']),{}).get('history',[]),d)
    assert json_equal(actual,before),(cid,d)
    cases.append({'id':cid,'dbfId':c['dbfId'],'date':d,'expected':{k:v for k,v in before.items() if k in PHP_FIELDS}})
- report={'result':'pass','cards':152,'approvedTextNormalizations':len(normalized),'approvedReleaseMetadata':152,'otherCurrentChanges':0,'legacyDateCases':len(cases),'preservedAssetFiles':len(assets),'artURLChecks':152*6,'historyEqualsUnpublishedSupplementalAudit':True,'historyBytes':(ROOT/'history.json').stat().st_size,'visibility':'No new strict/default gating; before-release old-parser fallback retained'}
+ report={'result':'pass','cards':152,'approvedTextNormalizations':len(normalized),'approvedReleaseMetadata':152,'otherCurrentChanges':0,'qualifiedAvailabilityCorrections':2,'legacyDateCases':len(cases),'preservedAssetFiles':len(assets),'artURLChecks':152*6,'historyEqualsUnpublishedSupplementalAudit':True,'historyBytes':(ROOT/'history.json').stat().st_size,'visibility':'No new strict/default gating; before-release old-parser fallback retained'}
  put(ROOT/'tools/legacy-compatibility-validation.json',report)
  if fixture:put(fixture,{'catalog':catalog,'history':history,'cases':cases,'allowed':list(PHP_FIELDS),'originalCatalog':expected,'baseUrl':BASE_URL,'expectedCards':152,'originalComparison':'Pinned current source with only reviewed display normalization and release metadata applied'})
  print(json.dumps(report))

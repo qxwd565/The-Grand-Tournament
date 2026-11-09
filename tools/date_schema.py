@@ -153,20 +153,33 @@ class UncertainHistory(ValueError):
     pass
 
 
+def validate_release(release):
+    """Optional opt-in absence policy; omitted policy preserves old behavior."""
+    if 'beforeDate' in release:
+        if release['beforeDate'] != 'unavailable':
+            raise ValueError('Unknown release.beforeDate policy')
+        valid_day(release.get('date'))
+    return release
+
+
 def resolve(timeline, metadata, day=None, *, strict=False):
     """Compatibility is default. Strict refuses uncertainty, never verifies it.
 
-    Estimated releases retain the earlier API's visibility before the estimate.
+    Estimated releases retain the earlier API's visibility before the estimate,
+    unless that card explicitly opts into release.beforeDate="unavailable".
     Unknown releases use an explicitly undated baseline, without inventing keys.
     """
-    status = metadata["release"]["status"]
+    release = validate_release(metadata["release"])
+    status = release["status"]
+    if release.get("beforeDate") == "unavailable" and (not timeline or next(iter(timeline)) != release["date"]):
+        raise ValueError("Explicit availability policy must match the first canonical date")
     if day is not None:
         valid_day(day)
         if strict and (status != "verified" or metadata.get("baselineStatus") != "verified"):
             raise UncertainHistory("Release/baseline is not fully verified")
     if timeline:
         result = fold(timeline, day)
-        if result is None and status != "verified" and not strict:
+        if result is None and status != "verified" and not strict and release.get("beforeDate") != "unavailable":
             return copy.deepcopy(next(iter(timeline.values())))
         return result
     unresolved = metadata.get("undated", {})

@@ -10118,8 +10118,8 @@
       "race": "",
       "classes": [],
       "art": "art/HERO_11bp2.png",
-      "releasedAt": "2022-12-07",
-      "releaseStatus": "verified"
+      "releasedAt": "2022-11-30",
+      "releaseStatus": "estimated"
     },
     {
       "id": "HERO_11bp2t",
@@ -10202,8 +10202,8 @@
       "race": "언데드",
       "classes": [],
       "art": "art/HERO_11bp2t.png",
-      "releasedAt": "2022-12-07",
-      "releaseStatus": "verified"
+      "releasedAt": "2022-11-30",
+      "releaseStatus": "estimated"
     },
     {
       "id": "OG_044c",

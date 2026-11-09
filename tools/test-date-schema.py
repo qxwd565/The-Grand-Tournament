@@ -20,7 +20,7 @@ def reverse(record,day):
 def main():
  require_source_commit(ROOT,SOURCE);current={c['id']:c for c in original('cards.json')['cards']};precise={c['id']:c for c in load(ROOT/'cards-date.json')['cards']};h=load(ROOT/'history-date.json');assert h['historySchema']==2
  assert set(current)==set(precise)=={p.stem for p in (ROOT/'metadata').glob('*.json')} and len(current)==152
- dates={'1900-01-01','2099-12-31'};maps={};metas={};events=0
+ dates={'1900-01-01','2099-12-31','2022-12-06','2022-12-07','2022-12-08'};maps={};metas={};events=0
  for cid in current:
   t,m=read_card(ROOT,cid);maps[cid]=t;metas[cid]=m;validate_timeline(t)
   assert m['originalSource']==original('data/'+cid+'.json')

@@ -9,5 +9,14 @@
     "includes/class-set-api.php": "1e26fd05afc62278d49af12ad07dddd5fc043dd4"
   },
   "comparison": "Original current import with reviewed text normalization and release metadata; all dated expectations from independently retained supplemental schema1 audit.",
-  "scope": "Offline unchanged PHP parser, not live WordPress/rendering/site/import/database proof."
+  "scope": "Offline unchanged PHP parser, not live WordPress/rendering/site/import/database proof.",
+  "availabilityFollowup": {
+    "ids": [
+      "HERO_11bp2",
+      "HERO_11bp2t"
+    ],
+    "result": "pass",
+    "checks": 12617,
+    "meaning": "Qualified November30 metadata does not change old PHP imports or historical fallback. Exact pinned PHP blobs unchanged."
+  }
 }

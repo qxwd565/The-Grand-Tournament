@@ -25,9 +25,9 @@ def compile_history(timeline, meta):
         changes = delta(latest,state)
         if changes:
             rev = {"before": event["date"], "changes": changes}
-            # Keep estimated baseline visible before its estimate, matching
-            # the compatibility resolver rather than implying verified release.
-            if baseline_day and (index > 0 or meta["release"]["status"] == "verified"):
+            # Retain estimated fallback by default; an explicit per-card absence
+            # policy bounds intervals without pretending its date is verified.
+            if baseline_day and (index > 0 or meta["release"]["status"] == "verified" or meta["release"].get("beforeDate") == "unavailable"):
                 rev["from"] = baseline_day
             revisions.append(rev)
         state = apply(state,event["changes"])
@@ -63,6 +63,8 @@ def build(root):
         release = meta["release"]
         record["releasedAt"] = release["date"]
         record["releaseStatus"] = release["status"]
+        if "beforeDate" in release:
+            record["releaseBeforeDate"] = release["beforeDate"]
         record.pop("history",None)
         catalog["cards"].append(record)
         render = copy.deepcopy(record)
@@ -83,6 +85,8 @@ def build(root):
             "baselineStatus":meta["baselineStatus"],
             "currentOnlyFields":render["currentOnlyFields"],
         }
+        if "beforeDate" in release:
+            backward[str(record["dbfId"])]["releaseBeforeDate"] = release["beforeDate"]
         release_counts[release["status"]] += 1
         legacy_card,legacy_revisions = compile_legacy(timeline,meta,record)
         legacy_catalog['cards'].append(legacy_card)

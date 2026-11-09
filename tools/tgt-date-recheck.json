@@ -15,10 +15,14 @@
       "meaning": "25.0 preload Nov30 is not class unlock."
     },
     {
-      "topic": "Demon Hunter class availability, contextual only; no missing IDs invented",
+      "topic": "Demon Hunter class unlock only; earliest generated availability not audited here",
       "date": "2020-04-08",
       "source": "https://news.blizzard.com/ko-kr/article/23357896/17-0-3-27",
-      "meaning": "Mar27 client preload and Apr3 prologue differ from ordinary-match class unlock."
+      "meaning": "April 8 is class unlock, not first ordinary generated use. Reports of March 27 Wild generation predate it. No Demon Hunter records or date changes are included in this two-card correction.",
+      "earlierGenerationReports": [
+        "https://www.hearthpwn.com/forums/hearthstone-general/general-discussion/241225-hero-power-for-demon-hunter-available",
+        "https://www.reddit.com/r/hearthstone/comments/fpfra7"
+      ]
     },
     {
       "topic": "31.0 Draenei race introduction on AT_047/094",
@@ -71,5 +75,15 @@
       "meaning": "Missing original record/art/provenance/first-use unresolved. No synthetic ID or artwork mapping."
     }
   ],
-  "scope": "Independent date recheck plus preserved source evidence. Not exhaustive every-build or live UI proof."
+  "scope": "Independent date recheck plus preserved source evidence. Not exhaustive every-build or live UI proof.",
+  "generationAvailabilityFollowup": {
+    "ids": [
+      "HERO_11bp2",
+      "HERO_11bp2t"
+    ],
+    "estimatedOrdinaryGenerationDate": "2022-11-30",
+    "classUnlock": "2022-12-07",
+    "source": "tools/tgt-dk-availability-evidence.json",
+    "meaning": "The earlier December7 entry establishes class unlock, not earliest generated use. New evidence supports a qualified November30 generation date. Current canonical dates now use estimated status plus explicit beforeDate=unavailable; immutable original audit sources remain unchanged."
+  }
 }

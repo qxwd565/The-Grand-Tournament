@@ -1,0 +1,132 @@
+{
+  "schema": 1,
+  "scope": [
+    "HERO_11bp2",
+    "HERO_11bp2t"
+  ],
+  "ids": {
+    "HERO_11bp2": 79943,
+    "HERO_11bp2t": 87918
+  },
+  "previousDate": "2022-12-07",
+  "adoptedDate": "2022-11-30",
+  "releaseStatus": "estimated",
+  "beforeDate": "unavailable",
+  "classUnlock": "2022-12-07",
+  "meaning": "Estimated Korean ordinary constructed-match generation availability inferred from the 25.0 patch and contemporary pre-class-launch generation reports. Not a directly witnessed Korean match timestamp or raw exact-ID match binding.",
+  "sourceRevision": "d5e4954c86c658ff5adc0893add2ed1407c767ac",
+  "archive": {
+    "build": "25.0.0.158725",
+    "source": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml",
+    "sha256": "5a01259c4f9b13b0ddecce04718ef5de16ec4cae3867957835559946f89ff439",
+    "entries": [
+      {
+        "id": "HERO_11bp",
+        "dbfId": 78162,
+        "tags": {
+          "48": "2",
+          "183": "2",
+          "199": "1",
+          "201": "3",
+          "202": "10",
+          "203": "2",
+          "1086": "79943"
+        },
+        "englishText": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn."
+      },
+      {
+        "id": "HERO_11bp2",
+        "dbfId": 79943,
+        "tags": {
+          "48": "2",
+          "183": "2",
+          "199": "1",
+          "201": "3",
+          "202": "10"
+        },
+        "englishText": "[x]<b>Hero Power</b>\nSummon a 2/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn."
+      },
+      {
+        "id": "HERO_11bp2t",
+        "dbfId": 87918,
+        "tags": {
+          "45": "1",
+          "47": "2",
+          "48": "1",
+          "183": "2",
+          "197": "1",
+          "199": "1",
+          "200": "11",
+          "202": "4",
+          "203": "2",
+          "330": "2",
+          "331": "2",
+          "333": "1"
+        },
+        "englishText": "[x]<b>Charge</b>\nAt the end of your turn,\nthis minion dies."
+      },
+      {
+        "id": "HERO_11cbp",
+        "dbfId": 99218,
+        "tags": {
+          "48": "2",
+          "183": "2",
+          "199": "1",
+          "201": "3",
+          "202": "10",
+          "203": "2",
+          "1086": "99219"
+        },
+        "englishText": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn."
+      },
+      {
+        "id": "HERO_11cbp2",
+        "dbfId": 99219,
+        "tags": {
+          "48": "2",
+          "183": "2",
+          "199": "1",
+          "201": "3",
+          "202": "10"
+        },
+        "englishText": "[x]<b>Hero Power</b>\nSummon a 2/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/23882860",
+      "finding": "Korean body explicitly places 25.0 on November 30 in the Battlegrounds section and class/prologue unlock on December 7. Patch timing is distinct from proof of these exact IDs being generated."
+    },
+    {
+      "url": "https://www.inven.co.kr/board/hs/3508/19396?p=39",
+      "finding": "Independent prior review reported November 29 next-day patch announcement. Direct follow-up open returned 502; not promoted to fresh full-page verification."
+    },
+    {
+      "url": "https://www.reddit.com/r/hearthstone/comments/z85m9l/discovered_the_death_knight_hero_power_off_of/",
+      "finding": "Prior independent review found pre-class-launch base Finley generation."
+    },
+    {
+      "url": "https://www.reddit.com/r/hearthstone/comments/z89j26/death_knight_upgraded_hero_power/",
+      "finding": "Fresh readable comments describe Finley, the upgraded 2/1 ghoul and a still-future class launch. Images not inspected."
+    },
+    {
+      "url": "https://www.reddit.com/r/wildhearthstone/comments/z8yqvq/death_knight_came_early/",
+      "finding": "Fresh readable Wild comments corroborate Finley/Yoink generation before class launch. Images not inspected."
+    }
+  ],
+  "confidence": {
+    "intendedUpgradeMapping": "High: actual tag 1086 maps original 78162 to 79943, cosmetic 99218 to 99219.",
+    "exactPowerMatchIdentity": "Medium-high inference. Identical names and texts exist on original and cosmetic powers; no raw Power.log or replay ID binding.",
+    "exactTokenMatchIdentity": "High inference from the unique 2/1 Charge Undead token 87918 in the inspected 25.0 archive, not a logged community match ID.",
+    "ordinaryConstructed": "Medium-high inference from Wild context and generation reports; no exact queue/region certification.",
+    "kstDay": "Medium-high patch-derived estimate, not a regional first-instant observation."
+  },
+  "limitations": [
+    "Image evidence was not independently inspected; exact match IDs and regional timestamps remain unbound.",
+    "No raw Power.log, replay binding or Korean-region match timestamp.",
+    "Base Finley to Justicar gameplay chain is not directly proven or required for this inference."
+  ],
+  "provenance": "Actual pinned originalSource/currentCatalog and unpublished supplemental documents remain untouched; this is a separate later correction layer.",
+  "visibility": "Optional per-card release.beforeDate=unavailable prevents estimated-date default fallback before November 30. Strict lookup still rejects estimated dates. Old schema1 PHP has no availability gate and retains its pre-existing fallback."
+}

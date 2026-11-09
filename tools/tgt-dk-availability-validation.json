@@ -1,0 +1,17 @@
+{
+  "result": "pass",
+  "baseCommit": "d5e4954c86c658ff5adc0893add2ed1407c767ac",
+  "correctedIDs": {
+    "HERO_11bp2": 79943,
+    "HERO_11bp2t": 87918
+  },
+  "estimatedKoreanDate": "2022-11-30",
+  "classUnlock": "2022-12-07",
+  "targetDateCases": 16,
+  "unchangedOtherCardDateCases": 1200,
+  "immutableSourceSnapshots": "preserved",
+  "unknownPolicies": "rejected by resolver and real builder",
+  "strictEstimatedLookup": "rejected",
+  "oldPhpFallback": "unchanged; no before-date absence support",
+  "precisePolicy": "releaseBeforeDate=unavailable on exactly two IDs across all three precise siblings"
+}

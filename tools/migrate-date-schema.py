@@ -36,5 +36,7 @@ def main():
   if original['card'].get('rarity', 'ABSENT') is None:meta['rarityPresenceEvidence']={'status':'unknown','value':None,'meaning':'Explicit null from source is preserved as unknown; not a fabricated absence or default rarity.'}
   if cid.startswith('HERO_'):meta['heroEvidence']={'role':'base-class-hero-entity','meaning':'Not a playable replacement hero card. Source-backed health is retained; no inferred armor or unrelated combat stats.'}
   put(ROOT/'metadata'/path.name,meta);put(path,timeline);changed+=1
+ from availability_correction import apply_correction
+ apply_correction(ROOT)
  print(json.dumps({'migrated':changed,'sourceCommit':SOURCE}))
 if __name__=='__main__':main()

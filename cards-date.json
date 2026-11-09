@@ -9745,8 +9745,9 @@
       "text": "<b>영웅 능력</b><br></br><b>돌진</b> 능력이 있는 2/1<br></br>구울을 소환합니다.<br></br>턴이 끝날 때 죽습니다.",
       "classes": [],
       "mechanics": [],
-      "releasedAt": "2022-12-07",
-      "releaseStatus": "verified"
+      "releasedAt": "2022-11-30",
+      "releaseStatus": "estimated",
+      "releaseBeforeDate": "unavailable"
     },
     {
       "flavor": "",
@@ -9829,8 +9830,9 @@
       "mechanics": [
         "CHARGE"
       ],
-      "releasedAt": "2022-12-07",
-      "releaseStatus": "verified"
+      "releasedAt": "2022-11-30",
+      "releaseStatus": "estimated",
+      "releaseBeforeDate": "unavailable"
     },
     {
       "flavor": "",
