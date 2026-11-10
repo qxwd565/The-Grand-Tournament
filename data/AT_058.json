@@ -8,7 +8,7 @@
     "rarity": "COMMON",
     "collectible": true,
     "cost": 2,
-    "text": "<b>전투의_함성:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, 그 카드를 뽑습니다.",
+    "text": "<b>전투의 함성:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, 그 카드를 뽑습니다.",
     "attack": 3,
     "health": 2,
     "races": [
