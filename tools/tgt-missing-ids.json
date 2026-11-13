@@ -11,11 +11,11 @@
       "cardSetEnum": 15,
       "collectible": false,
       "firstObservedBuild": "20.0.0.77662",
-      "releaseDateStatus": "20.0 introduction supported; exact first constructed choice availability should be distinguished from new-core rotation before adding a new API record.",
+      "releaseDateStatus": "First Korean gameplay availability set to 2021-03-31 by synchronization with CS2_058; matching to source and user-selected policy, while this unique card remains unpublished in the aggregate TGT API.",
       "generatedPathSource": "https://hearthstone.wiki.gg/wiki/Strength_Totem_%28Totemic_Slam%29",
       "remoteAssetsAtHead": "No AT_132_SHAMANe or CS2_058 art/golden files found in full recursive tree at d04048e30e0ac075b5961e0198c5576d38fd828d.",
-      "blocker": "No installed portrait/material provenance or verified compatible artwork reference in this repository. Do not invent nativeTags, art path or provenance.",
-      "nextStep": "Obtain native asset/provenance mapping, verify first usable upgraded-power choice date and pool changes; then add a matching canonical record and rebuild all indexes.",
+      "blocker": "Release day is now known. The matching native portrait/material/Golden-card art for distinct choice ID AT_132_SHAMANe is not installed or provenance-verified in this repository, and the fixed 152-card aggregate build requires explicit new-ID migration and test updates. Do not fabricate it or reuse a different ID's art as if native.",
+      "nextStep": "Fetch/verify exact artwork and native metadata for AT_132_SHAMANe, add its dated 2021-03-31 data/metadata files, migrate 152->153 card indexes and associated fixture validation, preserving old historical data.",
       "observations": [
         {
           "build": "20.0.0.77662",
@@ -47,7 +47,24 @@
           },
           "source": "https://github.com/HearthSim/hsdata/blob/31b034c26f24b8a66ece845ffd03c1ca397b9a02/CardDefs.xml"
         }
-      ]
+      ],
+      "firstUsableDateKst": "2021-03-31",
+      "firstUsableDateBasis": {
+        "policy": "Same first real normal-match availability as its summoned Strength Totem, by explicit user instruction",
+        "sourceCardId": "CS2_058",
+        "sourceDbfId": 62320,
+        "sourceRepository": "qxwd565/legacy",
+        "sourceCanonicalPath": "data/CS2_058.json",
+        "sourceFirstDateKst": "2021-03-31",
+        "unavailableBefore": "2021-03-31",
+        "canonicalId": "AT_132_SHAMANe",
+        "distinguish": "Client insertion in 20.0.0.77662 (March 25 NA / March 26 Korea) is not in-game availability; Korean Barrens/Core rotation March 31",
+        "sources": [
+          "https://raw.githubusercontent.com/qxwd565/legacy/main/data/CS2_058.json",
+          "https://hearthstone.blizzard.com/ko-kr/news/23642550",
+          "https://hearthstone.wiki.gg/wiki/Strength_Totem_%28Totemic_Slam%29"
+        ]
+      }
     }
   ]
 }

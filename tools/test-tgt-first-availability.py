@@ -62,6 +62,14 @@ def main():
     assert seen==set(modern)
     assert counts==Counter({"2015-08-20":31,"2015-08-25":118,"2016-04-27":1,"2022-11-30":2})
     assert dict(counts)==audit["counts"]["firstPlayableByDate"]
+    missing=load("tools/tgt-missing-ids.json")["cards"]
+    strength=next(x for x in missing if x["id"]=="AT_132_SHAMANe")
+    assert strength["dbfId"]==72268
+    assert strength["firstUsableDateKst"]=="2021-03-31"
+    assert strength["firstUsableDateBasis"]["sourceCardId"]=="CS2_058"
+    assert strength["firstUsableDateBasis"]["sourceDbfId"]==62320
+    assert strength["firstUsableDateBasis"]["sourceFirstDateKst"]==strength["firstUsableDateKst"]
+    # The ID is a verified outstanding record, not yet a fabricated aggregate card.
     assert "AT_132_SHAMANe" not in modern
     print(json.dumps({"result":"pass","total":152,"brawlPreview":31,"firstConstructedOnly":118,"Fandral":1,"DK_qualified":2,"cardDatesChanged":0}))
 if __name__=="__main__":

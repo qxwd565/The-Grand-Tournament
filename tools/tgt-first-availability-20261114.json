@@ -79,7 +79,8 @@
     "TGT AT_060 Bear Trap summons existing Ironfur Grizzly, not a separate missing TGT token; AT_063t is a separately collectible Dreadscale and not a token from Acidmaw.",
     "The two 2022 Death Knight IDs remain estimated rather than direct-Korean-gameplay-ID confirmed.",
     "AT_132_SHAMANe is a separate not-yet-published TGT candidate with missing native art/provenance. Never invent a release date or ID mapping.",
-    "Normal constructed canonical date-first data/<ID>.json and releasedAt remain unchanged; this supplemental ledger is for earliest possible use in any real mode."
+    "Normal constructed canonical date-first data/<ID>.json and releasedAt remain unchanged; this supplemental ledger is for earliest possible use in any real mode.",
+    "The formerly unresolved AT_132_SHAMANe has a first-use day matched to CS2_058 (2021-03-31), but it remains outside the 152 indexed records until exact assets and metadata can be preserved."
   ],
   "records": [
     {
@@ -1787,5 +1788,14 @@
       "constructedReleaseKst": "2016-04-27",
       "canonicalReleaseStatus": "verified"
     }
-  ]
+  ],
+  "unpublishedDateResolved": {
+    "id": "AT_132_SHAMANe",
+    "name": "힘의 토템",
+    "dbfId": 72268,
+    "firstUsableKst": "2021-03-31",
+    "equivalentSummonedMinion": "CS2_058",
+    "state": "date-synchronized but unique ID missing from aggregate pending source artwork and migration",
+    "evidence": "tools/tgt-missing-ids.json"
+  }
 }
