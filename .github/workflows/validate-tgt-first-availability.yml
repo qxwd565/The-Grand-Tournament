@@ -1,0 +1,21 @@
+name: Verify TGT first playable dates
+on:
+  push:
+    paths:
+      - '.github/workflows/validate-tgt-first-availability.yml'
+      - 'tools/tgt-first-availability-20261114.json'
+      - 'tools/test-tgt-first-availability.py'
+      - 'data/**'
+      - 'metadata/**'
+      - 'cards.json'
+      - 'cards-date.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test_first_playable:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify 152 first-playable Korean dates and Brawl child cards
+        run: python3 tools/test-tgt-first-availability.py
