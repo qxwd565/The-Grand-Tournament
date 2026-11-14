@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "AT_132_SHAMANe",
+  "dbfId": 72268,
+  "nativeSet": "TGT",
+  "status": "unpublished / requires historical-date correction and native artwork provenance",
+  "draftFile": "data/_pending/AT_132_SHAMANe.json",
+  "currentMatchedLegacyCS2058": "2021-03-31",
+  "independentDateRecheck": {
+    "officialPatchKst": "2021-03-26",
+    "note": "Contemporary wild reports by 2021-03-28 show earlier generated strength totem access; the existing CS2_058 release date 2021-03-31 appears late. This draft is NOT certified as first real use and must be reconciled together with the Legacy source before activation.",
+    "sources": [
+      "https://news.blizzard.com/ko-kr/article/23642550/20-0",
+      "https://us.forums.blizzard.com/en/hearthstone/t/upgraded-shaman-hero-power-only-offers-four-choices/57227"
+    ]
+  },
+  "identity": {
+    "name": "힘의 토템",
+    "cardType": "MINION",
+    "class": "SHAMAN",
+    "cost": 1,
+    "attack": 0,
+    "health": 2,
+    "collectible": false,
+    "role": "Totemic Slam choice card, not the summoned CS2_058 totem",
+    "sourceCardId": "CS2_058",
+    "sourceDbfId": 62320,
+    "referenceWiki": "https://hearthstone.wiki.gg/wiki/Strength_Totem_%28Totemic_Slam%29"
+  },
+  "originalObservation": {
+    "sourceBuild": "20.0.0.77662",
+    "sourceXml": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+    "recordedTags": {
+      "45": 2,
+      "48": 1,
+      "183": 15,
+      "199": 8,
+      "202": 4
+    },
+    "rawText": "[x]내 턴이 끝날 때,\n다른 무작위 아군\n하수인에게 공격력을\n+1 부여합니다."
+  },
+  "nativeArt": {
+    "status": "unavailable/unverified",
+    "note": "Do not reuse legacy CS2_058 image as native. Wiki credits AT_132_SHAMANe choice art to Zhefei Hou, CS2_058 to BOSi Studio; they are not evidence-identical.",
+    "reference": "https://hearthstone.wiki.gg/wiki/Strength_Totem_%28Totemic_Slam%29"
+  },
+  "notYetIndexedReason": "Existing pinned TGT migration/fixtures are intentionally 152 records, and missing native art prevents a trustworthy cards.json art entry; pending JSON is excluded from published API until complete migration."
+}
