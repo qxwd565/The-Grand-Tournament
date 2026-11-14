@@ -13,7 +13,16 @@ def main():
     assert audit["timezone"]=="Asia/Seoul"
     assert len(modern)==len(legacy)==len(audit["records"])==148
     assert len([c for c in modern.values() if c["collectible"]])==132
-    assert not set(modern).intersection({"AT_132_SHAMANa","AT_132_SHAMANb","AT_132_SHAMANc","AT_132_SHAMANd"})
+    retired={"AT_132_SHAMANa":"16221","AT_132_SHAMANb":"16222","AT_132_SHAMANc":"16223","AT_132_SHAMANd":"16225"}
+    assert not set(modern).intersection(retired)
+    for name in ("cards.json","cards-date.json","render.json","render-date.json"):
+        assert not {c["id"] for c in load(name)["cards"]}.intersection(retired),name
+    for name in ("history.json","history-date.json"):
+        assert not set(load(name)["cards"]).intersection(retired.values()),name
+    for cid in retired:
+        for folder in ("data","metadata","golden/cards","tools/supplemental-audit"):
+            assert not (ROOT/folder/(cid+".json")).exists(),(cid,folder)
+    assert "AT_132" in modern  # Justicar Trueheart remains accessible
     assert {x.stem for x in (ROOT/"data").glob("*.json") if x.stem!="history"}==set(modern)
     assert {x.stem for x in (ROOT/"metadata").glob("*.json")}==set(modern)
     assert audit["modeDates"]["KoreanPremadeTavernBrawl"]=="2015-08-20"
