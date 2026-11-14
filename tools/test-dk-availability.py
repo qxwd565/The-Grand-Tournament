@@ -7,6 +7,11 @@ from build_date_api import compile_history
 ROOT=Path(__file__).resolve().parents[1]
 BASE='d5e4954c86c658ff5adc0893add2ed1407c767ac'
 IDS={'HERO_11bp2':79943,'HERO_11bp2t':87918}
+def display_keyword(text):
+ return (text.replace('전투의_함성','전투의 함성')
+         .replace('죽음의_메아리','죽음의 메아리')
+         .replace('천상의_보호막','천상의 보호막'))
+
 DAYS=['1900-01-01','2022-11-29','2022-11-30','2022-12-01','2022-12-06','2022-12-07','2022-12-08','2099-12-31']
 def old(path):return json.loads(subprocess.check_output(['git','show',BASE+':'+path],cwd=ROOT))
 def old_bytes(path):return subprocess.check_output(['git','show',BASE+':'+path],cwd=ROOT)
@@ -45,7 +50,7 @@ def main():
    if reviewed:
     old_current=prior[cid]
     assert {k:v for k,v in c.items() if k!='text'}=={k:v for k,v in old_current.items() if k!='text'},cid
-    assert c.get('text','').replace('_','')==old_current.get('text','').replace('_',''),(cid,'only approved display underscore may differ')
+    assert display_keyword(c.get('text',''))==display_keyword(old_current.get('text','')),(cid,'only approved display underscore may differ')
    else:
     assert c==prior[cid],cid
    for day in DAYS:
@@ -54,7 +59,7 @@ def main():
      assert present is not None and before is not None or present==before,cid
      if present is not None and before is not None:
       assert {k:v for k,v in present.items() if k!='text'}=={k:v for k,v in before.items() if k!='text'},(cid,day)
-      assert present.get('text','').replace('_','')==before.get('text','').replace('_',''),(cid,day,'modern display text drift')
+      assert display_keyword(present.get('text',''))==display_keyword(before.get('text','')),(cid,day,'modern display text drift')
     else:
      assert json_equal(present,before),(cid,day)
     unchanged+=1
