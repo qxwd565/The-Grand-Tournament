@@ -5,11 +5,11 @@
   "scope": "148 currently publicly indexed TGT cards; inherited 152-card historical audit is source evidence only",
   "auditMethod": "Date-first source + six current transports + original 3.0/localized client observations + Korean first-use ledger, with no assumed historical live server timing from client files",
   "summary": {
-    "historicalLookupChecks": 602,
-    "launch_text_matches_client_archive": 80,
-    "later_12_2_wording_potentially_backdated": 30,
+    "historicalLookupChecks": 671,
+    "launch_text_matches_client_archive": 103,
     "layout_or_keyword_markup_difference": 13,
     "other_historical_wording_difference": 25,
+    "later_12_2_wording_potentially_backdated": 7,
     "dkPreloadDateSuspicions": 2,
     "publicCards": 148,
     "collectibleCards": 132,
@@ -25,7 +25,7 @@
     "2015": 1,
     "2016": 2,
     "2017": 6,
-    "2018": 9,
+    "2018": 32,
     "2019": 4,
     "2021": 22,
     "2022": 18,
@@ -34,7 +34,100 @@
     "2026": 1
   },
   "missingArtwork": [],
-  "warnings": [],
+  "warnings": [
+    {
+      "id": "AT_002",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_004",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_005",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_009",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_010",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_022",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_023",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_035",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_038",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_040",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_077",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_078",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_084",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_094",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_099",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_100",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_104",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_106",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_108",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_112",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_113",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_131",
+      "issue": "Additional unrecognized estimated source text change"
+    },
+    {
+      "id": "AT_133",
+      "issue": "Additional unrecognized estimated source text change"
+    }
+  ],
   "cards": [
     {
       "id": "AT_001",
@@ -96,6 +189,12 @@
       "earliestPlayMode": "constructed-collection",
       "datedEvents": [
         {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        },
+        {
           "date": "2021-03-26",
           "fields": [
             "spellSchool"
@@ -105,7 +204,7 @@
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>비밀:</b> 아군 하수인이 죽으면, 같은 비용의 무작위 하수인 하나를 소환합니다.",
-        "publishedReleaseText": "<b>비밀:</b><br></br>아군 하수인이 죽으면, 같은 비용의 무작위 하수인을 소환합니다.",
+        "publishedReleaseText": "<b>비밀:</b> 아군 하수인이 죽으면, 같은 비용의 무작위 하수인 하나를 소환합니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "<b>비밀:</b>\n아군 하수인이 죽으면, 같은 비용의 무작위 하수인을 소환합니다.",
         "transitionRanges": [
@@ -115,12 +214,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_003",
@@ -167,6 +265,12 @@
       "earliestPlayMode": "constructed-collection",
       "datedEvents": [
         {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        },
+        {
           "date": "2021-03-26",
           "fields": [
             "spellSchool"
@@ -176,7 +280,7 @@
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "하수인 하나에게 피해를 $2 줍니다. 이 주문은 <b>주문 공격력</b>의 효과를 2배로 받습니다.",
-        "publishedReleaseText": "하수인에게 피해를 $2 줍니다.<br></br>이 주문은 <b>주문 공격력</b>의 효과를 2배로 받습니다.",
+        "publishedReleaseText": "하수인 하나에게 피해를 $2 줍니다. 이 주문은 <b>주문 공격력</b>의 효과를 2배로 받습니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "하수인에게 피해를 $2 줍니다.\n이 주문은 <b>주문 공격력</b>의 효과를 2배로 받습니다.",
         "transitionRanges": [
@@ -186,12 +290,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_005",
@@ -205,6 +308,12 @@
       "earliestPlayMode": "preconstructed-tavern-brawl",
       "datedEvents": [
         {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        },
+        {
           "date": "2021-03-26",
           "fields": [
             "spellSchool"
@@ -214,7 +323,7 @@
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "하수인 하나를 <b>돌진</b> 능력이 있는 4/2 멧돼지로 변신시킵니다.",
-        "publishedReleaseText": "[x]하수인을 <b>돌진</b> 능력이<br></br>있는 4/2 멧돼지로<br></br>변신시킵니다.",
+        "publishedReleaseText": "하수인 하나를 <b>돌진</b> 능력이 있는 4/2 멧돼지로 변신시킵니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "[x]하수인을 <b>돌진</b> 능력이\n있는 4/2 멧돼지로\n변신시킵니다.",
         "transitionRanges": [
@@ -224,12 +333,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_005t",
@@ -389,11 +497,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-20",
       "earliestPlayMode": "preconstructed-tavern-brawl",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>죽음의 메아리:</b> 신비한 화살 카드 3장을 내 손으로 가져옵니다.",
-        "publishedReleaseText": "<b>죽음의 메아리:</b><br></br>신비한 화살 셋을<br></br>내 손으로 가져옵니다.",
+        "publishedReleaseText": "<b>죽음의 메아리:</b> 신비한 화살 카드 3장을 내 손으로 가져옵니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "<b>죽음의 메아리:</b>\n신비한 화살 셋을\n내 손으로 가져옵니다.",
         "transitionRanges": [
@@ -403,12 +518,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_010",
@@ -420,11 +534,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-20",
       "earliestPlayMode": "preconstructed-tavern-brawl",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>전투의 함성:</b> 내 전장에 야수가 있으면, 무작위 야수 1마리를 소환합니다.",
-        "publishedReleaseText": "<b>전투의 함성:</b> 내 전장에 야수가 있으면, 무작위 야수를 소환합니다.",
+        "publishedReleaseText": "<b>전투의 함성:</b> 내 전장에 야수가 있으면, 무작위 야수 1마리를 소환합니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "<b>전투의 함성:</b> 내 전장에 야수가 있으면, 무작위 야수를 소환합니다.",
         "transitionRanges": [
@@ -434,12 +555,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_011",
@@ -907,6 +1027,12 @@
       "earliestPlayMode": "constructed-collection",
       "datedEvents": [
         {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        },
+        {
           "date": "2021-03-26",
           "fields": [
             "spellSchool"
@@ -916,7 +1042,7 @@
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "이 카드를 내거나 버릴 때, 무작위 적 하나에게 피해를 $4 줍니다.",
-        "publishedReleaseText": "이 카드를 내거나 버릴 때, 무작위 적에게 피해를 $4 줍니다.",
+        "publishedReleaseText": "이 카드를 내거나 버릴 때, 무작위 적 하나에게 피해를 $4 줍니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "이 카드를 내거나 버릴 때, 무작위 적에게 피해를 $4 줍니다.",
         "transitionRanges": [
@@ -926,12 +1052,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_023",
@@ -943,11 +1068,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-25",
       "earliestPlayMode": "constructed-collection",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>격려:</b> 각 플레이어의 전장에서 무작위 하수인을 하나씩 처치합니다.",
-        "publishedReleaseText": "<b>격려:</b> 각 플레이어의 전장에서 무작위 하수인을 처치합니다.",
+        "publishedReleaseText": "<b>격려:</b> 각 플레이어의 전장에서 무작위 하수인을 하나씩 처치합니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "<b>격려:</b> 각 플레이어의 전장에서 무작위 하수인을 처치합니다.",
         "transitionRanges": [
@@ -957,12 +1089,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_024",
@@ -1382,11 +1513,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-25",
       "earliestPlayMode": "constructed-collection",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "상대편의 덱에 잠복 카드 3장을 섞어 넣습니다. 상대편이 잠복 카드를 뽑으면, 내가 4/4 네루비안을 하나 소환합니다.",
-        "publishedReleaseText": "상대편의 덱에 잠복을 셋 섞어 넣습니다. 상대편이 잠복을 뽑으면, 내가 4/4 네루비안을 소환합니다.",
+        "publishedReleaseText": "상대편의 덱에 잠복 카드 3장을 섞어 넣습니다. 상대편이 잠복 카드를 뽑으면, 내가 4/4 네루비안을 하나 소환합니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "상대편의 덱에 잠복을 셋 섞어 넣습니다. 상대편이 잠복을 뽑으면, 내가 4/4 네루비안을 소환합니다.",
         "transitionRanges": [
@@ -1396,12 +1534,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_035t",
@@ -1730,11 +1867,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-25",
       "earliestPlayMode": "constructed-collection",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>전투의 함성:</b> 빈 마나 수정을 1개 획득합니다.\n<b>죽음의 메아리:</b> 마나 수정을 1개 파괴합니다.",
-        "publishedReleaseText": "[x]<b>전투의 함성:</b> 빈<br></br>마나 수정을 얻습니다.<br></br><b>죽음의 메아리:</b> 마나<br></br>수정을 잃습니다.",
+        "publishedReleaseText": "<b>전투의 함성:</b> 빈 마나 수정을 1개 획득합니다.<br></br><b>죽음의 메아리:</b> 마나 수정을 1개 파괴합니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "[x]<b>전투의 함성:</b> 빈\n마나 수정을 얻습니다.\n<b>죽음의 메아리:</b> 마나\n수정을 잃습니다.",
         "transitionRanges": [
@@ -1744,12 +1888,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_039",
@@ -1786,11 +1929,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-25",
       "earliestPlayMode": "constructed-collection",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>전투의 함성:</b> 아군 야수 1마리에게 생명력을 +3 부여합니다.",
-        "publishedReleaseText": "<b>전투의 함성:</b> 아군 야수에게 생명력을<br></br>+3 부여합니다.",
+        "publishedReleaseText": "<b>전투의 함성:</b> 아군 야수 1마리에게 생명력을 +3 부여합니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "<b>전투의 함성:</b> 아군 야수에게 생명력을\n+3 부여합니다.",
         "transitionRanges": [
@@ -1800,12 +1950,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_041",
@@ -3418,11 +3567,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-25",
       "earliestPlayMode": "constructed-collection",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>전투의 함성:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, 내구도를 +1 얻습니다.",
-        "publishedReleaseText": "[x]<b>전투의 함성:</b> 각 덱의<br></br>하수인을 공개해 내 것의<br></br>비용이 더 높으면, 내구도를<br></br>+1 얻습니다.",
+        "publishedReleaseText": "<b>전투의 함성:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, 내구도를 +1 얻습니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "[x]<b>전투의 함성:</b> 각 덱의\n하수인을 공개해 내 것의\n비용이 더 높으면, 내구도를\n+1 얻습니다.",
         "transitionRanges": [
@@ -3432,12 +3588,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_078",
@@ -3451,6 +3606,12 @@
       "earliestPlayMode": "constructed-collection",
       "datedEvents": [
         {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        },
+        {
           "date": "2023-08-23",
           "fields": [
             "cost"
@@ -3460,7 +3621,7 @@
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "각 플레이어의 전장에서 공격력이 가장 높은 하수인 하나씩을 제외한 <b>모든</b> 하수인을 처치합니다.",
-        "publishedReleaseText": "각 플레이어의 전장에서 공격력이 가장 높은 하수인을 제외한 <b>모든</b> 하수인을 처치합니다.",
+        "publishedReleaseText": "각 플레이어의 전장에서 공격력이 가장 높은 하수인 하나씩을 제외한 <b>모든</b> 하수인을 처치합니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "각 플레이어의 전장에서 공격력이 가장 높은 하수인을 제외한 <b>모든</b> 하수인을 처치합니다.",
         "transitionRanges": [
@@ -3470,12 +3631,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_079",
@@ -3630,11 +3790,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-25",
       "earliestPlayMode": "constructed-collection",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>전투의 함성:</b> 아군 하수인 하나에게 공격력을 +2 부여합니다.",
-        "publishedReleaseText": "[x]<b>전투의 함성:</b> 아군<br></br>하수인에게 공격력을<br></br>+2 부여합니다.",
+        "publishedReleaseText": "<b>전투의 함성:</b> 아군 하수인 하나에게 공격력을 +2 부여합니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "[x]<b>전투의 함성:</b> 아군\n하수인에게 공격력을\n+2 부여합니다.",
         "transitionRanges": [
@@ -3644,12 +3811,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_085",
@@ -3910,6 +4076,12 @@
       "earliestPlayMode": "constructed-collection",
       "datedEvents": [
         {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        },
+        {
           "date": "2024-10-30",
           "fields": [
             "races",
@@ -3920,7 +4092,7 @@
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>전투의 함성:</b> 무작위 적 하나에게 피해를 1 줍니다.",
-        "publishedReleaseText": "<b>전투의 함성:</b><br></br>무작위 적에게<br></br>피해를 1 줍니다.",
+        "publishedReleaseText": "<b>전투의 함성:</b> 무작위 적 하나에게 피해를 1 줍니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "<b>전투의 함성:</b>\n무작위 적에게\n피해를 1 줍니다.",
         "transitionRanges": [
@@ -3930,12 +4102,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_095",
@@ -4060,11 +4231,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-20",
       "earliestPlayMode": "preconstructed-tavern-brawl",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>격려:</b> 3/5 전투코도를 1마리 소환합니다.",
-        "publishedReleaseText": "<b>격려:</b> 3/5 전투코도를 소환합니다.",
+        "publishedReleaseText": "<b>격려:</b> 3/5 전투코도를 1마리 소환합니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "<b>격려:</b> 3/5 전투코도를 소환합니다.",
         "transitionRanges": [
@@ -4074,12 +4252,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_099t",
@@ -4115,11 +4292,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-25",
       "earliestPlayMode": "constructed-collection",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>격려:</b> 1/1 은빛 성기사단 신병을 1명 소환합니다.",
-        "publishedReleaseText": "<b>격려:</b> 1/1 은빛 성기사단 신병을 소환합니다.",
+        "publishedReleaseText": "<b>격려:</b> 1/1 은빛 성기사단 신병을 1명 소환합니다.",
         "latestClientBuild": "37.0.2.256589",
         "latestClientRaw": "<b>격려:</b> {0} 은빛 성기사단 신병을 소환합니다.",
         "transitionRanges": [
@@ -4129,12 +4313,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_101",
@@ -4227,11 +4410,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-25",
       "earliestPlayMode": "constructed-collection",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>전투의 함성:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, 내 영웅의 생명력을 7 회복시킵니다.",
-        "publishedReleaseText": "<b>전투의 함성:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, 내 영웅의 생명력을 #7 회복시킵니다.",
+        "publishedReleaseText": "<b>전투의 함성:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, 내 영웅의 생명력을 7 회복시킵니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "<b>전투의 함성:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, 내 영웅의 생명력을 #7 회복시킵니다.",
         "transitionRanges": [
@@ -4241,12 +4431,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_105",
@@ -4290,11 +4479,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-25",
       "earliestPlayMode": "constructed-collection",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>전투의 함성:</b> 악마 하나를 <b>침묵</b>시킵니다.",
-        "publishedReleaseText": "<b>전투의 함성:</b><br></br>악마를 <b>침묵</b>시킵니다.",
+        "publishedReleaseText": "<b>전투의 함성:</b> 악마 하나를 <b>침묵</b>시킵니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "<b>전투의 함성:</b>\n악마를 <b>침묵</b>시킵니다.",
         "transitionRanges": [
@@ -4304,12 +4500,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_108",
@@ -4321,11 +4516,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-20",
       "earliestPlayMode": "preconstructed-tavern-brawl",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>전투의 함성:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, <b>돌진</b>을 얻습니다.",
-        "publishedReleaseText": "<b>전투의 함성:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, <b>돌진</b>을 얻습니다.",
+        "publishedReleaseText": "<b>전투의 함성:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, <b>돌진</b>을 얻습니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "<b>전투의_함성:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, <b>돌진</b>을 얻습니다.",
         "transitionRanges": [
@@ -4335,12 +4537,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_109",
@@ -4439,11 +4640,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-20",
       "earliestPlayMode": "preconstructed-tavern-brawl",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>전투의 함성:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
-        "publishedReleaseText": "<b>전투의 함성:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
+        "publishedReleaseText": "<b>전투의 함성:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, <b>도발</b>과 <b>천상의 보호막</b>을 얻습니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "<b>전투의 함성:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, <b>도발</b>과 <b>천상의_보호막</b>을 얻습니다.",
         "transitionRanges": [
@@ -4453,12 +4661,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_113",
@@ -4470,11 +4677,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-25",
       "earliestPlayMode": "constructed-collection",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>격려:</b> 2/2 종자 하나를 내 손으로 가져옵니다.",
-        "publishedReleaseText": "<b>격려:</b> 2/2 종자를<br></br>내 손으로 가져옵니다.",
+        "publishedReleaseText": "<b>격려:</b> 2/2 종자 하나를 내 손으로 가져옵니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "<b>격려:</b> 2/2 종자를\n내 손으로 가져옵니다.",
         "transitionRanges": [
@@ -4484,12 +4698,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_114",
@@ -5012,6 +5225,12 @@
       "earliestPlayMode": "constructed-collection",
       "datedEvents": [
         {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        },
+        {
           "date": "2022-11-30",
           "fields": [
             "races",
@@ -5022,7 +5241,7 @@
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "내가 주문의 대상으로 이 하수인을 지정할 때마다 무작위 적 하나에게 피해를 3 줍니다.",
-        "publishedReleaseText": "내가 주문의 대상으로<br></br>이 하수인을 지정할 때마다 무작위 적에게 피해를 3 줍니다.",
+        "publishedReleaseText": "내가 주문의 대상으로 이 하수인을 지정할 때마다 무작위 적 하나에게 피해를 3 줍니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "내가 주문의 대상으로\n이 하수인을 지정할 때마다 무작위 적에게 피해를 3 줍니다.",
         "transitionRanges": [
@@ -5032,12 +5251,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "AT_132",
@@ -5105,11 +5323,18 @@
       "releaseStatus": "verified",
       "firstEverPlayableKst": "2015-08-25",
       "earliestPlayMode": "constructed-collection",
-      "datedEvents": [],
+      "datedEvents": [
+        {
+          "date": "2018-10-03",
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "historicalKoKR": {
         "firstClientBuild": "3.0.0.9786",
         "firstClientRaw": "<b>전투의 함성:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, +1/+1을 얻습니다.",
-        "publishedReleaseText": "<b>전투의 함성:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, +1/+1을 얻습니다.",
+        "publishedReleaseText": "<b>전투의 함성:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, +1/+1을 얻습니다.",
         "latestClientBuild": "12.2.0.26996",
         "latestClientRaw": "<b>전투의 함성:</b> 각 덱의 하수인을 공개해 내 것의 비용이 더 높으면, +1/+1을 얻습니다.",
         "transitionRanges": [
@@ -5119,12 +5344,11 @@
             "dateStatus": "Observed range only; separately sourced effect/name/keyword boundaries are dated in card.patches."
           }
         ],
-        "classification": "later_12_2_wording_potentially_backdated",
+        "classification": "launch_text_matches_client_archive",
         "known2018Build": "12.2.0.26996",
-        "cardSpecificChangeDateConfidence": null,
+        "cardSpecificChangeDateConfidence": "estimated-card-specific",
         "firstUseAndTextHistoryAreSeparateClaims": true
-      },
-      "reviewRequired": true
+      }
     },
     {
       "id": "HERO_11bp2",

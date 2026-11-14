@@ -8,12 +8,15 @@
     "rarity": "COMMON",
     "collectible": true,
     "cost": 4,
-    "text": "<b>전투의 함성:</b> 아군 야수에게 생명력을<br></br>+3 부여합니다.",
+    "text": "<b>전투의 함성:</b> 아군 야수 1마리에게 생명력을 +3 부여합니다.",
     "attack": 4,
     "health": 4,
     "classes": [],
     "mechanics": [
       "BATTLECRY"
     ]
+  },
+  "2018-10-03": {
+    "text": "<b>전투의 함성:</b> 아군 야수에게 생명력을<br></br>+3 부여합니다."
   }
 }

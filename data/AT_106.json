@@ -8,12 +8,15 @@
     "rarity": "RARE",
     "collectible": true,
     "cost": 3,
-    "text": "<b>전투의 함성:</b><br></br>악마를 <b>침묵</b>시킵니다.",
+    "text": "<b>전투의 함성:</b> 악마 하나를 <b>침묵</b>시킵니다.",
     "attack": 4,
     "health": 3,
     "classes": [],
     "mechanics": [
       "BATTLECRY"
     ]
+  },
+  "2018-10-03": {
+    "text": "<b>전투의 함성:</b><br></br>악마를 <b>침묵</b>시킵니다."
   }
 }

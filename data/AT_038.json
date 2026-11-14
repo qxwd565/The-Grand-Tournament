@@ -8,7 +8,7 @@
     "rarity": "RARE",
     "collectible": true,
     "cost": 2,
-    "text": "[x]<b>전투의 함성:</b> 빈<br></br>마나 수정을 얻습니다.<br></br><b>죽음의 메아리:</b> 마나<br></br>수정을 잃습니다.",
+    "text": "<b>전투의 함성:</b> 빈 마나 수정을 1개 획득합니다.<br></br><b>죽음의 메아리:</b> 마나 수정을 1개 파괴합니다.",
     "attack": 2,
     "health": 3,
     "classes": [],
@@ -16,5 +16,8 @@
       "BATTLECRY",
       "DEATHRATTLE"
     ]
+  },
+  "2018-10-03": {
+    "text": "[x]<b>전투의 함성:</b> 빈<br></br>마나 수정을 얻습니다.<br></br><b>죽음의 메아리:</b> 마나<br></br>수정을 잃습니다."
   }
 }

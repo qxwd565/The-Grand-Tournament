@@ -8,12 +8,15 @@
     "rarity": "COMMON",
     "collectible": true,
     "cost": 2,
-    "text": "[x]<b>전투의 함성:</b> 아군<br></br>하수인에게 공격력을<br></br>+2 부여합니다.",
+    "text": "<b>전투의 함성:</b> 아군 하수인 하나에게 공격력을 +2 부여합니다.",
     "attack": 1,
     "health": 2,
     "classes": [],
     "mechanics": [
       "BATTLECRY"
     ]
+  },
+  "2018-10-03": {
+    "text": "[x]<b>전투의 함성:</b> 아군<br></br>하수인에게 공격력을<br></br>+2 부여합니다."
   }
 }

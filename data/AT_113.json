@@ -8,12 +8,15 @@
     "rarity": "EPIC",
     "collectible": true,
     "cost": 5,
-    "text": "<b>격려:</b> 2/2 종자를<br></br>내 손으로 가져옵니다.",
+    "text": "<b>격려:</b> 2/2 종자 하나를 내 손으로 가져옵니다.",
     "attack": 5,
     "health": 4,
     "classes": [],
     "mechanics": [
       "INSPIRE"
     ]
+  },
+  "2018-10-03": {
+    "text": "<b>격려:</b> 2/2 종자를<br></br>내 손으로 가져옵니다."
   }
 }

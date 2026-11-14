@@ -8,12 +8,15 @@
     "rarity": "LEGENDARY",
     "collectible": true,
     "cost": 8,
-    "text": "<b>죽음의 메아리:</b><br></br>신비한 화살 셋을<br></br>내 손으로 가져옵니다.",
+    "text": "<b>죽음의 메아리:</b> 신비한 화살 카드 3장을 내 손으로 가져옵니다.",
     "attack": 7,
     "health": 7,
     "classes": [],
     "mechanics": [
       "DEATHRATTLE"
     ]
+  },
+  "2018-10-03": {
+    "text": "<b>죽음의 메아리:</b><br></br>신비한 화살 셋을<br></br>내 손으로 가져옵니다."
   }
 }

@@ -8,12 +8,15 @@
     "rarity": "RARE",
     "collectible": true,
     "cost": 2,
-    "text": "[x]<b>전투의 함성:</b> 각 덱의<br></br>하수인을 공개해 내 것의<br></br>비용이 더 높으면, 내구도를<br></br>+1 얻습니다.",
+    "text": "<b>전투의 함성:</b> 각 덱의 하수인 하나를 공개해 내 것의 비용이 더 높으면, 내구도를 +1 얻습니다.",
     "attack": 2,
     "durability": 2,
     "classes": [],
     "mechanics": [
       "BATTLECRY"
     ]
+  },
+  "2018-10-03": {
+    "text": "[x]<b>전투의 함성:</b> 각 덱의<br></br>하수인을 공개해 내 것의<br></br>비용이 더 높으면, 내구도를<br></br>+1 얻습니다."
   }
 }

@@ -8,12 +8,15 @@
     "rarity": "COMMON",
     "collectible": true,
     "cost": 3,
-    "text": "<b>격려:</b> 1/1 은빛 성기사단 신병을 소환합니다.",
+    "text": "<b>격려:</b> 1/1 은빛 성기사단 신병을 1명 소환합니다.",
     "attack": 3,
     "health": 3,
     "classes": [],
     "mechanics": [
       "INSPIRE"
     ]
+  },
+  "2018-10-03": {
+    "text": "<b>격려:</b> 1/1 은빛 성기사단 신병을 소환합니다."
   }
 }

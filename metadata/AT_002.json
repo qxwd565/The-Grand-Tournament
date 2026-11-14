@@ -340,5 +340,30 @@
       "dateStatus": "Observation only; not an asserted Korean gameplay change",
       "lastObservedBuild": "37.0.2.256589"
     }
-  ]
+  ],
+  "historicalTextCorrection": {
+    "purpose": "Reconstruct 3.0 launch koKR and preserve the 12.2 observed wording in a separate dated diff, without changing gameplay",
+    "originalFirstPlayableKst": "2015-08-25",
+    "adoptedDisplayChangeKst": "2018-10-03",
+    "dateConfidence": "estimated-card-specific",
+    "dateBasis": "Only the 12.0.0.25770 -> 12.2.0.26996 localized client interval is observed, not a dated Korean screenshot. Patch 12.2 KST date is used provisionally.",
+    "sourceArchivedClientBuilds": [
+      {
+        "build": "3.0.0.9786",
+        "koKR": "<b>비밀:</b> 아군 하수인이 죽으면, 같은 비용의 무작위 하수인 하나를 소환합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml"
+      },
+      {
+        "build": "12.2.0.26996",
+        "koKR": "<b>비밀:</b>\n아군 하수인이 죽으면, 같은 비용의 무작위 하수인을 소환합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml"
+      }
+    ],
+    "koreaPatchEvidence": [
+      "https://hearthstone.blizzard.com/ko-kr/news/22546493"
+    ],
+    "immutableOriginalSourcePreserved": true,
+    "currentGameplayFieldsChanged": [],
+    "source": "tools/tgt-release-audit.json"
+  }
 }

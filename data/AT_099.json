@@ -8,12 +8,15 @@
     "rarity": "EPIC",
     "collectible": true,
     "cost": 6,
-    "text": "<b>격려:</b> 3/5 전투코도를 소환합니다.",
+    "text": "<b>격려:</b> 3/5 전투코도를 1마리 소환합니다.",
     "attack": 3,
     "health": 5,
     "classes": [],
     "mechanics": [
       "INSPIRE"
     ]
+  },
+  "2018-10-03": {
+    "text": "<b>격려:</b> 3/5 전투코도를 소환합니다."
   }
 }

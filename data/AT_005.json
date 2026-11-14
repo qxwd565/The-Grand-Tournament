@@ -8,9 +8,12 @@
     "rarity": "RARE",
     "collectible": true,
     "cost": 3,
-    "text": "[x]하수인을 <b>돌진</b> 능력이<br></br>있는 4/2 멧돼지로<br></br>변신시킵니다.",
+    "text": "하수인 하나를 <b>돌진</b> 능력이 있는 4/2 멧돼지로 변신시킵니다.",
     "classes": [],
     "mechanics": []
+  },
+  "2018-10-03": {
+    "text": "[x]하수인을 <b>돌진</b> 능력이<br></br>있는 4/2 멧돼지로<br></br>변신시킵니다."
   },
   "2021-03-26": {
     "spellSchool": "ARCANE"
