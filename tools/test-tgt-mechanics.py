@@ -7,6 +7,9 @@ assert sum(len(b['cards']) for b in e['builds'])==6931
 for b in e['builds']:
  assert len(b['xmlSha256'])==64 and '/blob/' in b['source']
  for cid,c in b['cards'].items():assert set(c)>= {'Tag','ReferencedTag','rawText','actualMechanics'}
+assert len(a['baseline'])==148
+assert set(a['baseline'])=={p.stem for p in (r/'metadata').glob('*.json')}
+assert not any(cid.startswith('AT_132_SHAMAN') for cid in a['baseline'])
 prior=(r/'tools/tgt-keyword-abilities.json').read_bytes();subprocess.run([sys.executable,str(r/'tools/build-keyword-abilities.py')],check=True);assert prior==(r/'tools/tgt-keyword-abilities.json').read_bytes()
 def at(cid,d=None):return fold(load(r/'data'/f'{cid}.json'),d)
 for cid in a['baseline']:
