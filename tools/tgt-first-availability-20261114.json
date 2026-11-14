@@ -1795,7 +1795,9 @@
     "dbfId": 72268,
     "firstUsableKst": "2021-03-31",
     "equivalentSummonedMinion": "CS2_058",
-    "state": "date-synchronized but unique ID missing from aggregate pending source artwork and migration",
-    "evidence": "tools/tgt-missing-ids.json"
+    "state": "user-directed Legacy card now published and indexed; excluded from TGT 152 original cards",
+    "evidence": "tools/tgt-missing-ids.json",
+    "publishedTo": "qxwd565/legacy",
+    "publishedCommit": "c3a85cc4b85ca58abd0f37bf17f7513a9699da8a"
   }
 }

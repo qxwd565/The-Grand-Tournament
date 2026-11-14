@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "scope": "Verified missing-ID candidate outside the152 existing API records; not published as a fabricated native-asset card.",
+  "scope": "Verified TGT-native card ID intentionally published only in qxwd565/legacy per explicit user request. Its absence from the 152 original TGT catalogue is intentional and not a site-wide missing record.",
   "cards": [
     {
       "id": "AT_132_SHAMANe",
@@ -11,11 +11,11 @@
       "cardSetEnum": 15,
       "collectible": false,
       "firstObservedBuild": "20.0.0.77662",
-      "releaseDateStatus": "First Korean gameplay availability set to 2021-03-31 by synchronization with CS2_058; matching to source and user-selected policy, while this unique card remains unpublished in the aggregate TGT API.",
+      "releaseDateStatus": "Published in the Legacy API on 2021-03-31 KST, matching CS2_058, with original TGT native-set provenance preserved; not duplicated in the TGT aggregate.",
       "generatedPathSource": "https://hearthstone.wiki.gg/wiki/Strength_Totem_%28Totemic_Slam%29",
       "remoteAssetsAtHead": "No AT_132_SHAMANe or CS2_058 art/golden files found in full recursive tree at d04048e30e0ac075b5961e0198c5576d38fd828d.",
-      "blocker": "Release day is now known. The matching native portrait/material/Golden-card art for distinct choice ID AT_132_SHAMANe is not installed or provenance-verified in this repository, and the fixed 152-card aggregate build requires explicit new-ID migration and test updates. Do not fabricate it or reuse a different ID's art as if native.",
-      "nextStep": "Fetch/verify exact artwork and native metadata for AT_132_SHAMANe, add its dated 2021-03-31 data/metadata files, migrate 152->153 card indexes and associated fixture validation, preserving old historical data.",
+      "blocker": "The dedicated card image is not available and was not invented in the published Legacy record; no outstanding JSON creation task.",
+      "nextStep": "No TGT duplicate should be added. Acquire verified choice-only art if visual rendering is later required.",
       "observations": [
         {
           "build": "20.0.0.77662",
@@ -64,6 +64,14 @@
           "https://hearthstone.blizzard.com/ko-kr/news/23642550",
           "https://hearthstone.wiki.gg/wiki/Strength_Totem_%28Totemic_Slam%29"
         ]
+      },
+      "publishedIn": {
+        "repository": "qxwd565/legacy",
+        "path": "data/AT_132_SHAMANe.json",
+        "metadata": "metadata/AT_132_SHAMANe.json",
+        "dbfId": 72268,
+        "releaseDateKst": "2021-03-31",
+        "commit": "c3a85cc4b85ca58abd0f37bf17f7513a9699da8a"
       }
     }
   ]

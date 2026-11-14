@@ -3,8 +3,8 @@
   "id": "AT_132_SHAMANe",
   "dbfId": 72268,
   "nativeSet": "TGT",
-  "status": "unpublished / requires historical-date correction and native artwork provenance",
-  "draftFile": "data/_pending/AT_132_SHAMANe.json",
+  "status": "published-only-in-Legacy-by-user-request",
+  "draftFile": null,
   "currentMatchedLegacyCS2058": "2021-03-31",
   "independentDateRecheck": {
     "officialPatchKst": "2021-03-26",
@@ -44,5 +44,13 @@
     "note": "Do not reuse legacy CS2_058 image as native. Wiki credits AT_132_SHAMANe choice art to Zhefei Hou, CS2_058 to BOSi Studio; they are not evidence-identical.",
     "reference": "https://hearthstone.wiki.gg/wiki/Strength_Totem_%28Totemic_Slam%29"
   },
-  "notYetIndexedReason": "Existing pinned TGT migration/fixtures are intentionally 152 records, and missing native art prevents a trustworthy cards.json art entry; pending JSON is excluded from published API until complete migration."
+  "notYetIndexedReason": "Intentionally absent from TGT's original 152-card catalogue. Fully indexed in Legacy at user request; do not duplicate.",
+  "published": {
+    "repository": "qxwd565/legacy",
+    "cardPath": "data/AT_132_SHAMANe.json",
+    "metadataPath": "metadata/AT_132_SHAMANe.json",
+    "releaseDate": "2021-03-31",
+    "commit": "c3a85cc4b85ca58abd0f37bf17f7513a9699da8a"
+  },
+  "draftRemoved": true
 }
