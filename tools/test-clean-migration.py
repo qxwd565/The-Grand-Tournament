@@ -10,7 +10,9 @@ with tempfile.TemporaryDirectory(prefix='tgt-date-clean-',dir='/tmp') as tmp:
  subprocess.run(['git','-C',str(root),'checkout','--quiet','--detach',m.SOURCE],check=True)
  shutil.copytree(r/'tools',root/'tools',dirs_exist_ok=True)
  for tool in ['migrate-date-schema.py','build-api.py']:
-  subprocess.run([sys.executable,str(root/'tools'/tool)],check=True,capture_output=True)
+  result=subprocess.run([sys.executable,str(root/'tools'/tool)],capture_output=True,text=True)
+  if result.returncode:
+   raise RuntimeError(f"Pinned clean migration tool {tool} failed: stdout={result.stdout!r} stderr={result.stderr!r}")
  files=[*(r/'data').glob('*.json'),*(r/'metadata').glob('*.json'),*[r/f for f in ['cards.json','render.json','history.json','cards-date.json','render-date.json','history-date.json']]]
  diff=[str(p.relative_to(r)) for p in files if p.read_bytes()!=(root/p.relative_to(r)).read_bytes()]
  assert not diff,diff
