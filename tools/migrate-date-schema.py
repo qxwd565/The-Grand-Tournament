@@ -20,6 +20,46 @@ def retire_redundant_choice_entries():
   for directory in ('data', 'metadata', 'golden/cards', 'tools/supplemental-audit'):
    (ROOT/directory/f'{cid}.json').unlink(missing_ok=True)
 
+def correct_elekk_koKR_chronology():
+ # The pinned modern source is not a launch-day koKR card description.
+ # The 3.0 archive proves "하수인 하나", and 12.2 first shows the simplified
+ # wording. The Korean 12.2 release was 2018-10-03, an inferred card-specific
+ # text-change date rather than independently verified in-game evidence.
+ cid='AT_058'
+ path=ROOT/'data'/f'{cid}.json'
+ meta_path=ROOT/'metadata'/f'{cid}.json'
+ timeline=load(path);meta=load(meta_path)
+ observations=meta['supplementalAudit']['document']['historicalTextObservations']
+ early=next(o for o in observations if o['build']=='3.0.0.9786')
+ later=next(o for o in observations if o['build']=='12.2.0.26996')
+ before=early['rawText']
+ after=later['rawText'].replace('전투의_함성','전투의 함성')
+ assert list(timeline) in (['2015-08-25'],['2015-08-25','2018-10-03'])
+ assert timeline['2015-08-25']['id']==cid and timeline['2015-08-25']['dbfId']==2635
+ assert timeline['2015-08-25']['text'] in (before,after)
+ assert meta['release']=={'date':'2015-08-25','status':'verified'}
+ assert meta['currentCatalog']['text'].replace('전투의_함성','전투의 함성')==after
+ timeline['2015-08-25']['text']=before
+ timeline['2018-10-03']={'text':after}
+ timeline=dict(sorted(timeline.items()))
+ validate_timeline(timeline)
+ put(path,timeline)
+ meta['historicalTextCorrection']={
+  'purpose':'Restore original 3.0 koKR description and record first observed 12.2 koKR simplification separately, with no gameplay-stat changes',
+  'originalFirstPlayableKst':'2015-08-25',
+  'adoptedDisplayChangeKst':'2018-10-03',
+  'dateConfidence':'estimated-card-specific',
+  'dateBasis':'Client build 12.2.0.26996 contains the new koKR text and 12.2 was installed in Korea on 2018-10-03; no independent card-specific Korean screenshot or exact server-effective time',
+  'earlierClient':{'build':early['build'],'archivedKoKR':early['rawText'],'source':early['source']},
+  'laterClient':{'build':later['build'],'archivedKoKR':later['rawText'],'source':later['source']},
+  'koreaPatchEvidence':[
+   'https://hearthstone.blizzard.com/ko-kr/news/22546493',
+   'https://m.inven.co.kr/webzine/wznews.php?idx=208062&l=120643&p=21&site=hs'],
+  'normalizedDisplayTag':'<b>전투의 함성:</b> (archive 11.0/12.2 had <b>전투의_함성:</b>; underscore is not recorded as gameplay change)',
+  'immutableOriginalSourcePreserved':True,
+ }
+ put(meta_path,meta)
+
 def main():
  retire_redundant_choice_entries()
  try:original_catalog=json.loads(subprocess.check_output(['git','show',SOURCE+':cards.json'],cwd=ROOT))
@@ -54,5 +94,6 @@ def main():
   put(ROOT/'metadata'/path.name,meta);put(path,timeline);changed+=1
  from availability_correction import apply_correction
  apply_correction(ROOT)
+ correct_elekk_koKR_chronology()
  print(json.dumps({'migrated':changed,'sourceCommit':SOURCE}))
 if __name__=='__main__':main()
