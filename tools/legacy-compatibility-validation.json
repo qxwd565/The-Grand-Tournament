@@ -4,12 +4,12 @@
   "approvedTextNormalizations": 59,
   "approvedReleaseMetadata": 148,
   "otherCurrentChanges": 0,
+  "auditedHistoricalTextCorrections": 25,
   "qualifiedAvailabilityCorrections": 2,
   "legacyDateCases": 11840,
   "preservedAssetFiles": 821,
   "artURLChecks": 888,
   "historyEqualsUnpublishedSupplementalAudit": "unchanged outside reviewed text-only history diffs",
   "historyBytes": 18797,
-  "visibility": "No new strict/default gating; before-release old-parser fallback retained",
-  "auditedHistoricalTextCorrections": 25
+  "visibility": "No new strict/default gating; before-release old-parser fallback retained"
 }
