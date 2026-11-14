@@ -1,14 +1,15 @@
 {
   "result": "pass",
-  "cards": 152,
-  "approvedTextNormalizations": 54,
-  "approvedReleaseMetadata": 152,
+  "cards": 148,
+  "approvedTextNormalizations": 59,
+  "approvedReleaseMetadata": 148,
   "otherCurrentChanges": 0,
   "qualifiedAvailabilityCorrections": 2,
-  "legacyDateCases": 12616,
-  "preservedAssetFiles": 825,
-  "artURLChecks": 912,
-  "historyEqualsUnpublishedSupplementalAudit": true,
-  "historyBytes": 14190,
-  "visibility": "No new strict/default gating; before-release old-parser fallback retained"
+  "legacyDateCases": 11840,
+  "preservedAssetFiles": 821,
+  "artURLChecks": 888,
+  "historyEqualsUnpublishedSupplementalAudit": "unchanged outside reviewed text-only history diffs",
+  "historyBytes": 18797,
+  "visibility": "No new strict/default gating; before-release old-parser fallback retained",
+  "auditedHistoricalTextCorrections": 25
 }

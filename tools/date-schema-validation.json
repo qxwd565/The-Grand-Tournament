@@ -1,15 +1,15 @@
 {
   "result": "pass",
-  "cards": 152,
-  "preciseGlobalDateCases": 12616,
-  "dates": 83,
-  "sparseEvents": 104,
-  "preservedSupplementalEvents": 104,
-  "originalSourceDocuments": 152,
-  "partiallyVerifiedBaselines": 152,
+  "cards": 148,
+  "preciseGlobalDateCases": 11840,
+  "dates": 80,
+  "sparseEvents": 125,
+  "preservedSupplementalEvents": 100,
+  "originalSourceDocuments": 148,
+  "partiallyVerifiedBaselines": 148,
   "currentTypes": {
     "SPELL": 31,
-    "MINION": 114,
+    "MINION": 110,
     "WEAPON": 5,
     "HERO_POWER": 2
   }

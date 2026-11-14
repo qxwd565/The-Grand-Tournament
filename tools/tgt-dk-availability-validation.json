@@ -8,7 +8,7 @@
   "estimatedKoreanDate": "2022-11-30",
   "classUnlock": "2022-12-07",
   "targetDateCases": 16,
-  "unchangedOtherCardDateCases": 1200,
+  "unchangedOtherCardDateCases": 1168,
   "immutableSourceSnapshots": "preserved",
   "unknownPolicies": "rejected by resolver and real builder",
   "strictEstimatedLookup": "rejected",
