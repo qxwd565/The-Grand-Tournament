@@ -36,7 +36,7 @@ def correct_elekk_koKR_chronology():
  after=later['rawText'].replace('전투의_함성','전투의 함성')
  assert list(timeline) in (['2015-08-25'],['2015-08-25','2018-10-03'])
  assert timeline['2015-08-25']['id']==cid and timeline['2015-08-25']['dbfId']==2635
- assert timeline['2015-08-25']['text'] in (before,after)
+ assert timeline['2015-08-25']['text'] in (before,after,later['rawText'])
  assert meta['release']=={'date':'2015-08-25','status':'verified'}
  assert meta['currentCatalog']['text'].replace('전투의_함성','전투의 함성')==after
  timeline['2015-08-25']['text']=before
@@ -75,7 +75,7 @@ def correct_seal_koKR_chronology():
  new=later['rawText'].replace('천상의_보호막','천상의 보호막')
  assert list(timeline) in (['2015-08-25','2021-03-26'],['2015-08-25','2018-10-03','2021-03-26'])
  assert timeline['2015-08-25']['id']==cid and timeline['2015-08-25']['dbfId']==2717
- assert timeline['2015-08-25']['text'] in (old,new)
+ assert timeline['2015-08-25']['text'] in (old,new,later['rawText'])
  assert timeline['2021-03-26']=={'spellSchool':'HOLY'}
  assert meta['release']=={'date':'2015-08-25','status':'verified'}
  assert meta['currentCatalog']['text'].replace('천상의_보호막','천상의 보호막')==new

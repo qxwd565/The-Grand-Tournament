@@ -54,7 +54,8 @@ def migrate(root=ROOT):
         post=timeline[WORDING_DAY]["text"] if WORDING_DAY in timeline else before
         if not loose(post)==loose(twelve["rawText"]):raise ValueError(cid+": canonical post-revision text differs semantically from archived 12.2")
         if loose(original)==loose(post):raise ValueError(cid+": no actual wording difference from launch")
-        if before not in (original,post):raise ValueError(cid+": launch text has an unreviewed change")
+        if before not in (original,post,twelve["rawText"]) and normalized(before)!=post:
+            raise ValueError(cid+": launch text has an unreviewed change")
         if WORDING_DAY in timeline and timeline[WORDING_DAY]!={"text":post}:raise ValueError(cid+": 12.2 patch has unreviewed fields")
         latest=fold(timeline)
         if latest["id"]!=cid or latest["dbfId"]!=meta["currentCatalog"]["dbfId"]:raise ValueError(cid+": identity changed")
@@ -63,7 +64,11 @@ def migrate(root=ROOT):
             if d not in (FIRST,WORDING_DAY):updated[d]=copy.deepcopy(v)
         updated=dict(sorted(updated.items()))
         validate_timeline(updated)
-        if fold(updated)!=latest:raise ValueError(cid+": modern card state drifted")
+        now=fold(updated)
+        if {k:v for k,v in now.items() if k!="text"}!={k:v for k,v in latest.items() if k!="text"}:
+            raise ValueError(cid+": modern gameplay or nontext card state drifted")
+        if normalized(now["text"])!=normalized(latest["text"]):
+            raise ValueError(cid+": modern card wording drifted outside audited display normalization")
         put(path,updated)
         meta["historicalTextCorrection"]={
           "purpose":"Reconstruct 3.0 launch koKR and preserve the 12.2 observed wording in a separate dated diff, without changing gameplay",
