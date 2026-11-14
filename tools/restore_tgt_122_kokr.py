@@ -52,6 +52,7 @@ def migrate(root=ROOT):
         if any(FIRST<d<WORDING_DAY for d in timeline):raise ValueError(cid+": earlier patch would be overwritten")
         before=timeline[FIRST]["text"]
         post=timeline[WORDING_DAY]["text"] if WORDING_DAY in timeline else before
+        corrected_modern=normalized(twelve["rawText"])
         if not loose(post)==loose(twelve["rawText"]):raise ValueError(cid+": canonical post-revision text differs semantically from archived 12.2")
         if loose(original)==loose(post):raise ValueError(cid+": no actual wording difference from launch")
         if before not in (original,post,twelve["rawText"]) and normalized(before)!=post:
@@ -59,7 +60,7 @@ def migrate(root=ROOT):
         if WORDING_DAY in timeline and timeline[WORDING_DAY]!={"text":post}:raise ValueError(cid+": 12.2 patch has unreviewed fields")
         latest=fold(timeline)
         if latest["id"]!=cid or latest["dbfId"]!=meta["currentCatalog"]["dbfId"]:raise ValueError(cid+": identity changed")
-        updated={FIRST:{**timeline[FIRST],"text":original}, WORDING_DAY:{"text":post}}
+        updated={FIRST:{**timeline[FIRST],"text":original}, WORDING_DAY:{"text":corrected_modern}}
         for d,v in timeline.items():
             if d not in (FIRST,WORDING_DAY):updated[d]=copy.deepcopy(v)
         updated=dict(sorted(updated.items()))

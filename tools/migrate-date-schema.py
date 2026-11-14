@@ -98,6 +98,20 @@ def correct_seal_koKR_chronology():
  }
  put(meta_path,meta)
 
+def normalize_anubarak_published_tooltip():
+ # Native archived current presentation has the underscore form; the approved
+ # API displays this text with a normal space. Retain pinned native evidence.
+ path=ROOT/'data/AT_036.json'
+ history=load(path)
+ last=history['2023-08-23']
+ raw=last['text']
+ clean=raw.replace('죽음의_메아리','죽음의 메아리')
+ assert raw in (clean,clean.replace('죽음의 메아리','죽음의_메아리',1))
+ if clean!=raw:
+  history['2023-08-23']['text']=clean
+  validate_timeline(history)
+  put(path,history)
+
 def main():
  retire_redundant_choice_entries()
  try:original_catalog=json.loads(subprocess.check_output(['git','show',SOURCE+':cards.json'],cwd=ROOT))
@@ -134,6 +148,7 @@ def main():
  apply_correction(ROOT)
  correct_elekk_koKR_chronology()
  correct_seal_koKR_chronology()
+ normalize_anubarak_published_tooltip()
  from restore_tgt_122_kokr import migrate as restore_122_kokr
  restore_122_kokr(ROOT)
  print(json.dumps({'migrated':changed,'sourceCommit':SOURCE}))
