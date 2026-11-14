@@ -173,8 +173,8 @@ def main():
         }
         if bucket!="launch_text_matches_client_archive":result["reviewRequired"]=True
         if cid.startswith("HERO_11") and first_day=="2022-11-30":
-            result["dateWarning"]="Actual Death Knight class gameplay unlock reported 2022-12-07 KST, current first source date 2022-11-30 is preloaded-client date"
-            summary["dkPreloadDateSuspicions"]+=1
+            result["dateWarning"]="2022-11-30 may be real pre-class use by Finley generation (contemporary reports), while class unlock was 2022-12-07 KST. Exact Korean game-day and CardID match remain estimated; do not turn this into a verified preload or an automatic Dec 7 correction."
+            summary["dkPreClassGenerationDateQualified"]+=1
         results.append(result)
     summary.update({
         "publicCards":len(ids),
@@ -196,7 +196,7 @@ def main():
         "specialCautions":[
           "The 2018-10-03 per-card wording boundaries for AT_058 and AT_074 remain inferred, not individually proven KST game-client presentation times.",
           "Historically different koKR strings do not establish a balance change; cosmetic line breaks, localized style updates, and live-game effects remain separate.",
-          "A 2022-11-30 client asset does not make a Death Knight power playable before the 2022-12-07 class release.",
+          "The full Death Knight class was unlocked on 2022-12-07; however, pre-class Finley generation of its hero power was reported in late November. The exact 2022-11-30 Korean match day and internal card ID remain estimated, not disproven.",
           "Open-ended Korean restore date for AT_037 temporary EPIC rarity was not guessed."
         ],
         "sources":{
@@ -204,7 +204,7 @@ def main():
           "selectedArchives":"tools/supplemental-audit/<CARD_ID>.json",
           "firstUseLedger":"tools/tgt-first-availability-20261114.json",
           "KoreanClient12_2":BASE,"KoreanDeathKnightUnlock":DK_SOURCE,
-          "knownUnmodeledIntervals":"tools/tgt-known-unmodeled-intervals.json"
+          "knownUnmodeledIntervals":"tools/tgt-known-unmodeled-intervals.json", "preClassDeathKnightEvidence":"tools/tgt-dk-availability-evidence.json"
         }
     }
     REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
@@ -222,7 +222,7 @@ def main():
       f"| 12.2 문구가 출시일로 소급되었을 가능성 | {summary['later_12_2_wording_potentially_backdated']}장 |",
       f"| 기타 과거 문구 불일치 | {summary['other_historical_wording_difference']}장 |",
       f"| 원화 누락 | {summary['missingArtworkCount']}건 |",
-      f"| 죽음의 기사 선행 수록일 의심 | {summary['dkPreloadDateSuspicions']}건 |",
+      f"| 선행 생성 가능성이 있는 죽음의 기사 카드(날짜 미확정) | {summary['dkPreClassGenerationDateQualified']}건 |",
       "",
       "## 검토 대상",
       "",
