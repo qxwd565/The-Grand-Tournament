@@ -134,5 +134,7 @@ def main():
  apply_correction(ROOT)
  correct_elekk_koKR_chronology()
  correct_seal_koKR_chronology()
+ from restore_tgt_122_kokr import migrate as restore_122_kokr
+ restore_122_kokr(ROOT)
  print(json.dumps({'migrated':changed,'sourceCommit':SOURCE}))
 if __name__=='__main__':main()
