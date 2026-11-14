@@ -61,7 +61,7 @@ def main():
     observations=doc['historicalTextObservations']
     old=next(o for o in observations if o['build']=='3.0.0.9786')
     new=next(o for o in observations if o['build']=='12.2.0.26996')
-    assert meta['historicalTextCorrection']['dateConfidence']=='estimated-card-specific'
+    assert m['historicalTextCorrection']['dateConfidence']=='estimated-card-specific'
     assert normalized(old['rawText'])==t['2015-08-25']['text']
     assert t['2018-10-03']=={'text':published['text'] if d>='2018-10-03' else t['2018-10-03']['text']}
     comparison['text']=t['2015-08-25']['text'] if d<'2018-10-03' else t['2018-10-03']['text']
