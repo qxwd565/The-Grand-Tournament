@@ -25,3 +25,7 @@ See [docs/date-schema.md](docs/date-schema.md) for canonical card files, precise
 ## 트루하트 주술사 중복 토템 선택지 정리 (2026-11-14)
 
 `AT_132_SHAMANa`, `AT_132_SHAMANb`, `AT_132_SHAMANc`, `AT_132_SHAMANd`의 개별 `data/`, `metadata/`, `golden/cards/` 및 `tools/supplemental-audit/` JSON을 제거했습니다. 공개 `cards`, `render`, `history`의 기존·날짜별 6개 API에서도 제외했습니다. 원본 예전 커밋의 증거는 보존하며, 일반 소환 토템과 강화 주술사 영웅 능력, 트루하트 본체는 유지합니다. 종전에 별도로 요청받아 고전 API에 게시한 `AT_132_SHAMANe`는 이번 TGT 정리 대상에 포함하지 않았습니다.
+
+## 2022년 죽음의 기사 영웅 능력 선행 노출의 성격
+
+`HERO_11bp2`·`HERO_11bp2t`의 2022-11-30 날짜는 25.0 이후 핀리로 강화 영웅 능력을 발견했다는 당시 증언에 기초한 **선행 생성 가능일 추정값**입니다. 정상 직업 해금 날짜는 한국 2022-12-07입니다. 그 이전 노출은 의도하지 않은 버그였을 가능성이 있지만, 2022년 이 특정 현상을 블리자드가 공식적으로 버그라고 인정했다는 직접 근거는 없습니다. 따라서 이를 공식 출시일로 혼동하지 않으며, 별도 근거 `tools/tgt-dk-availability-evidence.json.prelaunchExposureReview`에 불확실성과 함께 기록합니다. 해당 카드를 다른 세트로 자동 이동시키거나 현재 추정 실사용 기록을 소급 삭제하지는 않습니다.

@@ -128,5 +128,39 @@
     "Base Finley to Justicar gameplay chain is not directly proven or required for this inference."
   ],
   "provenance": "Actual pinned originalSource/currentCatalog and unpublished supplemental documents remain untouched; this is a separate later correction layer.",
-  "visibility": "Optional per-card release.beforeDate=unavailable prevents estimated-date default fallback before November 30. Strict lookup still rejects estimated dates. Old schema1 PHP has no availability gate and retains its pre-existing fallback."
+  "visibility": "Optional per-card release.beforeDate=unavailable prevents estimated-date default fallback before November 30. Strict lookup still rejects estimated dates. Old schema1 PHP has no availability gate and retains its pre-existing fallback.",
+  "prelaunchExposureReview": {
+    "classification": "suspected-unintended-prelaunch-hero-power-discovery",
+    "status": "possible-unintended-generation-not-officially-confirmed-as-2022-bug",
+    "prelaunchKoreanDate": "2022-11-30",
+    "prelaunchDateConfidence": "estimated",
+    "exactHeroPowerEntityIDs": "not independently confirmed by a Power.log or Korean replay",
+    "normalDeathKnightClassUnlockKst": "2022-12-07",
+    "intendedNormalAvailabilityFrom": "2022-12-07",
+    "behavior": "Before the Death Knight class could be unlocked, effects such as Sir Finley of the Sands could Discover its upgraded hero power; public Renounce Darkness reports also showed the Death Knight class entering generation pools prematurely.",
+    "sourceNotes": "Contemporary community footage/comments support pre-release exposure. Blizzard 25.0 known issues confirms the class itself unavailable until Dec 6 Pacific/Dec 7 Korea but does NOT explicitly classify the 2022 Finley discovery as a confirmed bug. Blizzard later fixed illegal Death Knight/Demon Hunter hero-power offers in 2023 Twist, a related but distinct mode.",
+    "policy": "Keep qualified 2022-11-30 earliest possible generation as an estimated observation; never label it verified ordinary class unlock. For a release timeline based on intended regular class gameplay, use 2022-12-07. Archive potential prelaunch bug separately.",
+    "evidence": [
+      {
+        "type": "official-intended-unlock",
+        "url": "https://us.forums.blizzard.com/en/hearthstone/t/250-known-issues/98324"
+      },
+      {
+        "type": "official-expansion-release",
+        "url": "https://hearthstone.blizzard.com/ko-kr/news/23882860"
+      },
+      {
+        "type": "contemporary-upgraded-hero-power-report",
+        "url": "https://www.reddit.com/r/hearthstone/comments/z89j26/death_knight_upgraded_hero_power/"
+      },
+      {
+        "type": "contemporary-renounce-darkness-bug-report",
+        "url": "https://www.reddit.com/r/hearthstone/comments/z8xscn/renounce_darkness_on_6/"
+      },
+      {
+        "type": "related-but-later-twist-bug-fix",
+        "url": "https://us.forums.blizzard.com/en/hearthstone/t/2741-patch-notes/113699"
+      }
+    ]
+  }
 }

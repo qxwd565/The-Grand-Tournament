@@ -22,4 +22,5 @@ def apply_correction(root):
             'classUnlock':evidence['classUnlock'],
             'sourceRevision':evidence['sourceRevision'],
         }
+        meta['prelaunchExposureReview']=copy.deepcopy(evidence['prelaunchExposureReview'])
         put(path,timeline);put(sidecar,meta)
