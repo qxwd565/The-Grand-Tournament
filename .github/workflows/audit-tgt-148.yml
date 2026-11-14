@@ -18,7 +18,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate all TGT data, historical text and API transports
+      - name: Verify canonical rebuild and all targeted first-use/text corrections
+        run: |
+          python3 tools/migrate-date-schema.py
+          python3 tools/build-api.py
+          python3 tools/test-tgt-first-availability.py
+          python3 tools/test-elekk-koKR-chronology.py
+          python3 tools/test-seal-koKR-chronology.py
+          python3 tools/test-tgt-12-2-kokr.py
+      - name: Audit all 148 source and historic transports
         run: |
           python3 tools/audit-tgt-148.py
           git diff --check
