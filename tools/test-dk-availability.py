@@ -42,7 +42,12 @@ def main():
     assert meta['originalSource']==prior_m['originalSource'],cid
     assert meta['currentCatalog']==prior_m['currentCatalog'],cid
     assert meta['release']==prior_m['release'],cid
-   assert c==prior[cid],cid
+   if reviewed:
+    old_current=prior[cid]
+    assert {k:v for k,v in c.items() if k!='text'}=={k:v for k,v in old_current.items() if k!='text'},cid
+    assert c.get('text','').replace('_','')==old_current.get('text','').replace('_',''),(cid,'only approved display underscore may differ')
+   else:
+    assert c==prior[cid],cid
    for day in DAYS:
     present=resolve(timeline,meta,day);before=previous.resolve(prior_t,prior_m,day)
     if reviewed:
