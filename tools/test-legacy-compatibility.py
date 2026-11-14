@@ -74,10 +74,10 @@ def main(fixture=None):
     before_other={k:v for k,v in before.items() if k!='text'}
     assert json_equal(actual_other,before_other),(cid,d,'non-text gameplay drift')
     if cid!='AT_036' and '2015-08-25'<=d<'2018-10-03':
-     from restore_tgt_122_kokr import normalized
+     from restore_tgt_122_kokr import normalized as launch_display
      obs=load(ROOT/'metadata'/f'{cid}.json')['supplementalAudit']['document']['historicalTextObservations']
      initial=next(x for x in obs if x['build']=='3.0.0.9786')['rawText']
-     assert actual['text']==normalized(initial),(cid,d,'launch text drift')
+     assert actual['text']==launch_display(initial),(cid,d,'launch text drift')
     else:
      assert display_keyword(actual.get('text',''))==display_keyword(before.get('text','')),(cid,d,'unexpected current text drift')
    else:assert json_equal(actual,before),(cid,d)
