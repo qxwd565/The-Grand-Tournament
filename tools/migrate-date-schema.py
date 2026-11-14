@@ -106,7 +106,9 @@ def normalize_anubarak_published_tooltip():
  last=history['2023-08-23']
  raw=last['text']
  clean=raw.replace('죽음의_메아리','죽음의 메아리')
- assert raw in (clean,clean.replace('죽음의 메아리','죽음의_메아리',1))
+ original=load(ROOT/'metadata/AT_036.json')['supplementalAudit']['document']['card']['patches']
+ archived=next(x['changes']['text'] for x in original if x['date']=='2023-08-23')
+ assert raw in (archived,archived.replace('죽음의_메아리','죽음의 메아리'))
  if clean!=raw:
   history['2023-08-23']['text']=clean
   validate_timeline(history)
