@@ -12,12 +12,12 @@
     "deathKnightEstimatedGenerated": "2022-11-30"
   },
   "counts": {
-    "total": 152,
+    "total": 148,
     "collectible": 132,
-    "noncollectible": 20,
+    "noncollectible": 16,
     "firstPlayableByDate": {
       "2015-08-20": 31,
-      "2015-08-25": 118,
+      "2015-08-25": 114,
       "2022-11-30": 2,
       "2016-04-27": 1
     },
@@ -80,7 +80,8 @@
     "The two 2022 Death Knight IDs remain estimated rather than direct-Korean-gameplay-ID confirmed.",
     "AT_132_SHAMANe is a separate not-yet-published TGT candidate with missing native art/provenance. Never invent a release date or ID mapping.",
     "Normal constructed canonical date-first data/<ID>.json and releasedAt remain unchanged; this supplemental ledger is for earliest possible use in any real mode.",
-    "The formerly unresolved AT_132_SHAMANe has a first-use day matched to CS2_058 (2021-03-31), but it remains outside the 152 indexed records until exact assets and metadata can be preserved."
+    "The formerly unresolved AT_132_SHAMANe has a first-use day matched to CS2_058 (2021-03-31), but it remains outside the 152 indexed records until exact assets and metadata can be preserved.",
+    "Four redundant Totemic Slam choice entries AT_132_SHAMANa/b/c/d are retired from the TGT public API as requested; original sources remain in immutable Git history. Existing basic totems and the upgraded Shaman hero power remain unchanged."
   ],
   "records": [
     {
@@ -1701,50 +1702,6 @@
       "canonicalReleaseStatus": "verified"
     },
     {
-      "id": "AT_132_SHAMANa",
-      "name": "치유 토템",
-      "dbfId": 16221,
-      "collectible": false,
-      "earliestPlayableKst": "2015-08-25",
-      "firstPlayableMode": "constructed-collection",
-      "firstPlayableConfidence": "verified",
-      "constructedReleaseKst": "2015-08-25",
-      "canonicalReleaseStatus": "verified"
-    },
-    {
-      "id": "AT_132_SHAMANb",
-      "name": "불타는 토템",
-      "dbfId": 16222,
-      "collectible": false,
-      "earliestPlayableKst": "2015-08-25",
-      "firstPlayableMode": "constructed-collection",
-      "firstPlayableConfidence": "verified",
-      "constructedReleaseKst": "2015-08-25",
-      "canonicalReleaseStatus": "verified"
-    },
-    {
-      "id": "AT_132_SHAMANc",
-      "name": "돌발톱 토템",
-      "dbfId": 16223,
-      "collectible": false,
-      "earliestPlayableKst": "2015-08-25",
-      "firstPlayableMode": "constructed-collection",
-      "firstPlayableConfidence": "verified",
-      "constructedReleaseKst": "2015-08-25",
-      "canonicalReleaseStatus": "verified"
-    },
-    {
-      "id": "AT_132_SHAMANd",
-      "name": "천벌의 토템",
-      "dbfId": 16225,
-      "collectible": false,
-      "earliestPlayableKst": "2015-08-25",
-      "firstPlayableMode": "constructed-collection",
-      "firstPlayableConfidence": "verified",
-      "constructedReleaseKst": "2015-08-25",
-      "canonicalReleaseStatus": "verified"
-    },
-    {
       "id": "AT_133",
       "name": "가젯잔 창기사",
       "dbfId": 2818,
@@ -1795,7 +1752,7 @@
     "dbfId": 72268,
     "firstUsableKst": "2021-03-31",
     "equivalentSummonedMinion": "CS2_058",
-    "state": "user-directed Legacy card now published and indexed; excluded from TGT 152 original cards",
+    "state": "user-directed Legacy card now published and indexed; excluded from TGT 148 retained indexed cards",
     "evidence": "tools/tgt-missing-ids.json",
     "publishedTo": "qxwd565/legacy",
     "publishedCommit": "c3a85cc4b85ca58abd0f37bf17f7513a9699da8a"

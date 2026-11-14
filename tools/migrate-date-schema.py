@@ -5,10 +5,26 @@ from pathlib import Path
 from date_schema import *
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE='d04048e30e0ac075b5961e0198c5576d38fd828d'
+RETIRED_CHOICES = frozenset(('AT_132_SHAMANa', 'AT_132_SHAMANb', 'AT_132_SHAMANc', 'AT_132_SHAMANd'))
+
+def retire_redundant_choice_entries():
+ # A pinned old archive includes four separate Totemic Slam choices.
+ # They must not be resurrected in a clean rebuild. Basic summonable totems
+ # and the empowered Shaman hero power are not altered by this migration.
+ catalog = load(ROOT/'cards.json')
+ rows = [card for card in catalog['cards'] if card['id'] not in RETIRED_CHOICES]
+ if len(rows) != len(catalog['cards']):
+  catalog['cards'] = rows
+  put(ROOT/'cards.json', catalog)
+ for cid in RETIRED_CHOICES:
+  for directory in ('data', 'metadata', 'golden/cards', 'tools/supplemental-audit'):
+   (ROOT/directory/f'{cid}.json').unlink(missing_ok=True)
+
 def main():
+ retire_redundant_choice_entries()
  try:original_catalog=json.loads(subprocess.check_output(['git','show',SOURCE+':cards.json'],cwd=ROOT))
  except subprocess.CalledProcessError:raise RuntimeError('Pinned source missing; require checkout fetch-depth: 0')
- current={c['id']:c for c in original_catalog['cards']};audit=load(ROOT/'tools/tgt-release-audit.json');evidence=load(ROOT/'tools/tgt-mechanics-evidence.json');changed=0
+ current={c['id']:c for c in original_catalog['cards'] if c['id'] not in RETIRED_CHOICES};audit=load(ROOT/'tools/tgt-release-audit.json');evidence=load(ROOT/'tools/tgt-mechanics-evidence.json');changed=0
  for cid in sorted(current):
   path=ROOT/'data'/f'{cid}.json';doc=load(path)
   if 'card' not in doc:

@@ -11,8 +11,9 @@ def main():
     modern={x["id"]:x for x in load("cards-date.json")["cards"]}
     legacy={x["id"]:x for x in load("cards.json")["cards"]}
     assert audit["timezone"]=="Asia/Seoul"
-    assert len(modern)==len(legacy)==len(audit["records"])==152
+    assert len(modern)==len(legacy)==len(audit["records"])==148
     assert len([c for c in modern.values() if c["collectible"]])==132
+    assert not set(modern).intersection({"AT_132_SHAMANa","AT_132_SHAMANb","AT_132_SHAMANc","AT_132_SHAMANd"})
     assert {x.stem for x in (ROOT/"data").glob("*.json") if x.stem!="history"}==set(modern)
     assert {x.stem for x in (ROOT/"metadata").glob("*.json")}==set(modern)
     assert audit["modeDates"]["KoreanPremadeTavernBrawl"]=="2015-08-20"
@@ -60,7 +61,7 @@ def main():
         else:
             assert first=="2015-08-25" and card["releasedAt"]=="2015-08-25",cid
     assert seen==set(modern)
-    assert counts==Counter({"2015-08-20":31,"2015-08-25":118,"2016-04-27":1,"2022-11-30":2})
+    assert counts==Counter({"2015-08-20":31,"2015-08-25":114,"2016-04-27":1,"2022-11-30":2})
     assert dict(counts)==audit["counts"]["firstPlayableByDate"]
     missing=load("tools/tgt-missing-ids.json")["cards"]
     strength=next(x for x in missing if x["id"]=="AT_132_SHAMANe")
@@ -71,6 +72,6 @@ def main():
     assert strength["firstUsableDateBasis"]["sourceFirstDateKst"]==strength["firstUsableDateKst"]
     # The ID is a verified outstanding record, not yet a fabricated aggregate card.
     assert "AT_132_SHAMANe" not in modern
-    print(json.dumps({"result":"pass","total":152,"brawlPreview":31,"firstConstructedOnly":118,"Fandral":1,"DK_qualified":2,"cardDatesChanged":0}))
+    print(json.dumps({"result":"pass","total":148,"brawlPreview":31,"firstConstructedOnly":114,"Fandral":1,"DK_qualified":2,"cardDatesChanged":0}))
 if __name__=="__main__":
     main()

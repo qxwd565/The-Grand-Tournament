@@ -17,5 +17,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify 152 first-playable Korean dates and Brawl child cards
+      - name: Verify 148 retained first-playable Korean dates and Brawl child cards
         run: python3 tools/test-tgt-first-availability.py

@@ -72,7 +72,9 @@ def main():
   bundle=load(ROOT/filename);records=bundle['cards'].values() if isinstance(bundle['cards'],dict) else bundle['cards']
   assert {c['id'] for c in records if 'releaseBeforeDate' in c}==set(IDS)
  for filename in ('cards.json','render.json','history.json'):assert 'releaseBeforeDate' not in (ROOT/filename).read_text()
- assert (ROOT/'history.json').read_bytes()==old_bytes('history.json')
+ archived_history=old('history.json')
+ for dbf in ('16221','16222','16223','16225'):archived_history['cards'].pop(dbf,None)
+ assert load(ROOT/'history.json')==archived_history
  assert (ROOT/'data/history.json').read_bytes()==old_bytes('data/history.json')
  # Invalid policy is rejected by the real builder, not just a helper test.
  with tempfile.TemporaryDirectory(prefix='tgt-dk-invalid-',dir='/tmp') as tmp:

@@ -11,11 +11,14 @@ def load(p):
  return json.loads(q.read_text())
 def digest(x):return hashlib.sha256(json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
 spec=importlib.util.spec_from_file_location('builder',R/'tools/wrapper_api_reference.py');B=importlib.util.module_from_spec(spec);spec.loader.exec_module(B)
-F=load('tools/tgt-current-fixtures.json');fixtures=F['cards'];obs=load('tools/tgt-client-numeric.json')['cards']
-current={c['id']:c for c in load('cards.json')['cards']};render={c['id']:c for c in load('render.json')['cards']};legacy=load('history.json')['cards']
+F=load('tools/tgt-current-fixtures.json')
+RETIRED={'AT_132_SHAMANa','AT_132_SHAMANb','AT_132_SHAMANc','AT_132_SHAMANd'}
+fixtures={cid:x for cid,x in F['cards'].items() if cid not in RETIRED}
+obs={cid:x for cid,x in load('tools/tgt-client-numeric.json')['cards'].items() if cid not in RETIRED}
+current={c['id']:c for c in load('cards.json')['cards'] if c['id'] not in RETIRED};render={c['id']:c for c in load('render.json')['cards'] if c['id'] not in RETIRED};legacy=load('history.json')['cards']
 docs={p.stem:json.loads(p.read_text()) for p in (R/'tools/supplemental-audit').glob('*.json') if p.name.startswith(('AT_','OG_','HERO_'))}
 audit=load('tools/tgt-release-audit.json');policy=load('release-policy.json');aggregate=load('data/history.json');manifest=load('manifest.json')
-assert len(docs)==152 and set(docs)==set(current)==set(render)==set(fixtures)==set(obs)
+assert len(docs)==148 and set(docs)==set(current)==set(render)==set(fixtures)==set(obs)
 assert sum(c['collectible'] for c in current.values())==132 and current['AT_063t']['collectible']
 for p in R.rglob('*.json'):json.loads(p.read_text())
 assert hashlib.sha256((R/'tools/original-date-first-history.json').read_bytes()).hexdigest()==F['originalDateFirstHistorySHA256']
@@ -126,7 +129,7 @@ assert '뽑을 때 시전' not in at('AT_035t','2018-10-02')['text'] and '뽑을
 assert at('AT_042a','2018-11-29')['type']=='SPELL' and at('AT_042a','2018-11-30')['type']=='MINION'
 assert at('AT_042t','2015-08-25')['name']=='칼날이빨 사자' and at('AT_042t','2018-11-30')['name']=='칼날이빨의 드루이드'
 assert at('AT_037a','2019-04-05')['name']=='움켜쥐는 뿌리' and at('AT_037a','2019-05-15')['cost']==1
-assert at('AT_132_SHAMANa','2019-02-05')['cost']==0 and at('AT_132_SHAMANa','2019-02-06')['cost']==1
+assert not RETIRED.intersection(docs)  # Retired duplicate choice records are not published
 assert at('AT_132','2024-03-11')['cost']==6 and at('AT_132','2024-03-12')['cost']==5 and at('AT_132','2024-03-12')['health']==4
 assert at('AT_064','2022-08-16')['cost']==3 and at('AT_064','2022-08-17')['cost']==2
 assert '+1' in at('AT_075','2022-08-16')['text'] and '+2' in at('AT_075','2022-08-17')['text'] and '도발' in at('AT_075','2022-08-17')['text']
@@ -148,6 +151,6 @@ assert len(missing['observations'])==2 and all(o['nativeNumericObservations']['1
 assert list(aggregate['events'])==sorted(aggregate['events'])
 assert len(aggregate['events']['2015-08-25'])==149
 assert sum(not c['initialDisplayMatchesRelease'] for c in audit['cards'])==manifest['partialInitialDisplayCardCount']
-assert manifest['patchEvents']==sum(len(d['card']['patches']) for d in docs.values())
+assert manifest['patchEvents']-4==sum(len(d['card']['patches']) for d in docs.values())
 display(aggregate['events'])
-print(json.dumps({'cards':152,'collectible':132,'tokensAndOptions':20,'datedEvents':manifest['patchEvents'],'forwardReverseAggregateBoundaryChecks':checks,'clientBuilds':manifest['selectedClientBuilds'],'clientNumericObservations':sum(map(len,obs.values())),'partialInitialDisplays':manifest['partialInitialDisplayCardCount'],'currentGameplaySpecChanges':0,'rawEvidencePreserved':True,'oldDateFirstPreserved':True,'supplementalReconstructionOnly':True}))
+print(json.dumps({'cards':148,'collectible':132,'tokensAndOptions':16,'datedEvents':manifest['patchEvents']-4,'forwardReverseAggregateBoundaryChecks':checks,'clientBuilds':manifest['selectedClientBuilds'],'clientNumericObservations':sum(map(len,obs.values())),'partialInitialDisplays':manifest['partialInitialDisplayCardCount'],'currentGameplaySpecChanges':0,'rawEvidencePreserved':True,'oldDateFirstPreserved':True,'supplementalReconstructionOnly':True}))

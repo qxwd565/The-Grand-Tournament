@@ -8,7 +8,7 @@ See [docs/date-schema.md](docs/date-schema.md) for canonical card files, precise
 
 ## 한국 최초 실사용 가능일 재검증 (2026-11-14)
 
-카드 최초 실제 게임모드 사용 가능일과 일반 덱 보유·제작 가능일을 별도로 기록합니다. 상세 152개 기록: tools/tgt-first-availability-20261114.json.
+카드 최초 실제 게임모드 사용 가능일과 일반 덱 보유·제작 가능일을 별도로 기록합니다. 상세 148개 현행 기록: tools/tgt-first-availability-20261114.json.
 
 2015-08-20: 메디브/알레리아 선술집 난투 고정 덱에 들어간 대 마상시합 수집 카드 29개와 메디브가 조건부 생성하는 멧돼지 AT_005t, 전투코도 AT_099t 2개, 합계 31개. 한국 실제 난투 개방일은 전자신문 2015-08-20 당시 보도로 확인했습니다. 2015-08-25: 그 외 당시 신규 118개와 전체 132개 수집 카드의 정식 카드팩·제작·일반 덱 해금일. 2016-04-27: 판드랄 전용 칼날이빨의 드루이드 합체형 OG_044c. 2022-11-30: 죽음의 기사 강화 영웅 능력 및 구울 2개(추정; 직접 플레이 증거 부족).
 
@@ -16,8 +16,12 @@ See [docs/date-schema.md](docs/date-schema.md) for canonical card files, precise
 
 ### 트루하트 주술사 힘의 토템 선택지 날짜 (2026-11-14)
 
-기존 강화 영웅 능력 HERO_02bp2는 고전 API에 2015-08-25부터 기록되어 있습니다. 선택지 AT_132_SHAMANa/b/c/d는 TGT에 존재하고, 2021년 생긴 AT_132_SHAMANe (DBF 72268)는 사용자 요청으로 Legacy에만 게시되어 TGT에는 없습니다. 해당 선택지의 최초 사용 가능 날짜를 실제 소환 하수인 CS2_058 (고전 API, DBF 62320)의 한국 첫 날짜와 일치하도록 2021-03-31로 확정하여 tools/tgt-missing-ids.json에 기록하고 CI 검증에 묶었습니다. 20.0 클라이언트 선행 추가일은 출시일로 기록하지 않습니다. 정확한 원본 선택지 원화·메타데이터가 없으므로 불완전한 data/카드를 조작해서 API에 넣지는 않았습니다. 현재 전체 저장소는 여전히 152개 인덱스이고, 이 선택지의 정식 등록은 자산 확인 뒤 남은 작업입니다.
+기존 강화 영웅 능력 HERO_02bp2는 고전 API에 2015-08-25부터 기록되어 있습니다. 선택지 AT_132_SHAMANa/b/c/d는 TGT에 존재하고, 2021년 생긴 AT_132_SHAMANe (DBF 72268)는 사용자 요청으로 Legacy에만 게시되어 TGT에는 없습니다. 해당 선택지의 최초 사용 가능 날짜를 실제 소환 하수인 CS2_058 (고전 API, DBF 62320)의 한국 첫 날짜와 일치하도록 2021-03-31로 확정하여 tools/tgt-missing-ids.json에 기록하고 CI 검증에 묶었습니다. 20.0 클라이언트 선행 추가일은 출시일로 기록하지 않습니다. 정확한 원본 선택지 원화·메타데이터가 없으므로 불완전한 data/카드를 조작해서 API에 넣지는 않았습니다. 현재 선택지 4개를 제외한 148개 인덱스이며, 이 선택지의 정식 등록은 자산 확인 뒤 남은 작업입니다.
 
 ## 2026-11-14 강화 영웅 능력·힘의 토템 선택지 세트 확인
 
-`HERO_01bp2`~`HERO_09bp2` 강화 영웅 능력은 현대 원본 Legacy에 유지합니다. 선택지 `AT_132_SHAMANe`는 원본 Native Set ID 15 (TGT)라는 증거를 Legacy의 메타데이터에 보존한 채, 사용자 지시에 따라 **고전 API에서만** 게시했습니다. 공개 JSON: https://github.com/qxwd565/legacy/blob/main/data/AT_132_SHAMANe.json (최초 2021-03-31, DBF 72268). TGT의 과거 임시 초안 `data/_pending/AT_132_SHAMANe.json`은 삭제해 중복하지 않았습니다. 다른 선택지 4종과 트루하트 본체는 TGT에 그대로 두었습니다. 전용 원화는 확인되지 않아 임의 지정하지 않았습니다.
+`HERO_01bp2`~`HERO_09bp2` 강화 영웅 능력은 현대 원본 Legacy에 유지합니다. 선택지 `AT_132_SHAMANe`는 원본 Native Set ID 15 (TGT)라는 증거를 Legacy의 메타데이터에 보존한 채, 사용자 지시에 따라 **고전 API에서만** 게시했습니다. 공개 JSON: https://github.com/qxwd565/legacy/blob/main/data/AT_132_SHAMANe.json (최초 2021-03-31, DBF 72268). TGT의 과거 임시 초안 `data/_pending/AT_132_SHAMANe.json`은 삭제해 중복하지 않았습니다. 다른 선택지 4종은 일반 토템과의 중복 표시를 피하기 위해 TGT 공개 JSON에서 제거했고, 트루하트 본체는 유지했습니다. 전용 원화는 확인되지 않아 임의 지정하지 않았습니다.
+
+## 트루하트 주술사 중복 토템 선택지 정리 (2026-11-14)
+
+`AT_132_SHAMANa`, `AT_132_SHAMANb`, `AT_132_SHAMANc`, `AT_132_SHAMANd`의 개별 `data/`, `metadata/`, `golden/cards/` 및 `tools/supplemental-audit/` JSON을 제거했습니다. 공개 `cards`, `render`, `history`의 기존·날짜별 6개 API에서도 제외했습니다. 원본 예전 커밋의 증거는 보존하며, 일반 소환 토템과 강화 주술사 영웅 능력, 트루하트 본체는 유지합니다. 종전에 별도로 요청받아 고전 API에 게시한 `AT_132_SHAMANe`는 이번 TGT 정리 대상에 포함하지 않았습니다.
