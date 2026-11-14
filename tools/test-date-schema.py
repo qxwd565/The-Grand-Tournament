@@ -27,7 +27,18 @@ def main():
   assert m['currentCatalog']==current[cid] and m['sourceCommit']==SOURCE
   doc=load(ROOT/'tools/supplemental-audit'/f'{cid}.json');assert m['supplementalAudit']['document']==doc and m['supplementalAudit']['status']=='unpublished-reconstruction'
   expected=projected_states(doc)
-  for d,s in expected:assert json_equal(fold(t,d),s),(cid,d)
+  for d,source_state in expected:
+   published=fold(t,d)
+   comparison=copy.deepcopy(source_state)
+   if cid=='AT_036' and d=='2023-08-23':
+    # The immutable 27.2 client archive uses an underscore in the Korean
+    # tooltip keyword; the public card text normalizes that display typo.
+    # Approve only this exact presentation change, not a gameplay change.
+    assert comparison['text'].count('죽음의_메아리')==1
+    comparison['text']=comparison['text'].replace('죽음의_메아리','죽음의 메아리')
+    assert published['cost']==8
+   assert json_equal(published,comparison),(cid,d)
+
   assert json_equal(fold(t),{k:precise[cid][k] for k in m['canonicalFields'] if k in precise[cid]})
   events+=len(t)-1
   for d in t:
@@ -40,6 +51,15 @@ def main():
   for d in sorted(dates):assert json_equal(fold(t,d),reverse(h['cards'][str(current[cid]['dbfId'])],d)),(cid,d);cases+=1
  # Preserved original date-first aggregate is evidence, not another writable canonical source.
  assert load(ROOT/'data/history.json')==original('data/history.json')
+ # Anub'arak retains its TGT debut and the confirmed 27.2 balance/rework.
+ assert list(maps['AT_036'])==['2015-08-25','2022-11-30','2023-08-23']
+ assert maps['AT_036']['2015-08-25']['cost']==9
+ assert maps['AT_036']['2023-08-23']['cost']==8
+ assert maps['AT_036']['2023-08-23']['text']==('<b>죽음의 메아리:</b> '
+  '"<b>죽음의 메아리:</b> 아눕아락을 소환함" 능력이 있는 4/4 네루비안을 소환합니다.')
+ assert maps['AT_036t']['2023-08-23']['mechanics']==['DEATHRATTLE']
+ assert maps['AT_036t']['2023-08-23']['text']=='<b>죽음의 메아리:</b> 아눕아락을 소환합니다.'
+
  assert fold(maps['AT_063t'])['collectible'] is True
  assert 'attack' not in fold(maps['HERO_11bp2']) and fold(maps['HERO_11bp2'])['rarity'] is None
  assert fold(maps['AT_042a'],'2018-11-29')['type']=='SPELL' and 'attack' not in fold(maps['AT_042a'],'2018-11-29')
