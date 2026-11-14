@@ -56,6 +56,15 @@ def main():
     assert comparison['text'].count('죽음의_메아리')==1
     comparison['text']=comparison['text'].replace('죽음의_메아리','죽음의 메아리')
     assert published['cost']==8
+   from restore_tgt_122_kokr import IDS as SINGLE_12_2_IDS, normalized
+   if cid in SINGLE_12_2_IDS:
+    observations=doc['historicalTextObservations']
+    old=next(o for o in observations if o['build']=='3.0.0.9786')
+    new=next(o for o in observations if o['build']=='12.2.0.26996')
+    assert meta['historicalTextCorrection']['dateConfidence']=='estimated-card-specific'
+    assert normalized(old['rawText'])==t['2015-08-25']['text']
+    assert t['2018-10-03']=={'text':published['text'] if d>='2018-10-03' else t['2018-10-03']['text']}
+    comparison['text']=t['2015-08-25']['text'] if d<'2018-10-03' else t['2018-10-03']['text']
    assert json_equal(published,comparison),(cid,d)
 
   assert json_equal(fold(t),{k:precise[cid][k] for k in m['canonicalFields'] if k in precise[cid]})
