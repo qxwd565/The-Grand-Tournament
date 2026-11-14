@@ -30,6 +30,14 @@ def main():
   for d,source_state in expected:
    published=fold(t,d)
    comparison=copy.deepcopy(source_state)
+   if cid=='AT_074':
+    observations=doc['historicalTextObservations']
+    earliest=next(o for o in observations if o['build']=='3.0.0.9786')
+    latter=next(o for o in observations if o['build']=='12.2.0.26996')
+    comparison['text']=(earliest['rawText'] if d=='2015-08-25'
+                        else latter['rawText'].replace('천상의_보호막','천상의 보호막'))
+    assert m['historicalTextCorrection']['dateConfidence']=='estimated-card-specific'
+    assert t['2018-10-03']=={'text':latter['rawText'].replace('천상의_보호막','천상의 보호막')}
    if cid=='AT_058' and d=='2015-08-25':
     # A later installed-source reconstruction incorrectly backdated the
     # post-12.2 wording. Preserve the audited original and verify the
@@ -71,6 +79,10 @@ def main():
  assert maps['AT_036t']['2023-08-23']['mechanics']==['DEATHRATTLE']
  assert maps['AT_036t']['2023-08-23']['text']=='<b>죽음의 메아리:</b> 아눕아락을 소환합니다.'
 
+ assert list(maps['AT_074'])==['2015-08-25','2018-10-03','2021-03-26']
+ assert maps['AT_074']['2015-08-25']['text'].startswith('하수인 하나에게')
+ assert maps['AT_074']['2018-10-03']['text'].startswith('하수인에게')
+ assert maps['AT_074']['2021-03-26']=={'spellSchool':'HOLY'}
  assert fold(maps['AT_063t'])['collectible'] is True
  assert 'attack' not in fold(maps['HERO_11bp2']) and fold(maps['HERO_11bp2'])['rarity'] is None
  assert fold(maps['AT_042a'],'2018-11-29')['type']=='SPELL' and 'attack' not in fold(maps['AT_042a'],'2018-11-29')

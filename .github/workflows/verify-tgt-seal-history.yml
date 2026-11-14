@@ -1,0 +1,37 @@
+name: Verify TGT Seal of Champions koKR history
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-tgt-seal-history.yml'
+      - 'data/AT_074.json'
+      - 'metadata/AT_074.json'
+      - 'tools/migrate-date-schema.py'
+      - 'tools/test-seal-koKR-chronology.py'
+      - 'cards.json'
+      - 'cards-date.json'
+      - 'render.json'
+      - 'render-date.json'
+      - 'history.json'
+      - 'history-date.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild date-first and compatibility snapshots
+        run: |
+          python3 tools/migrate-date-schema.py
+          python3 tools/build-api.py
+      - name: Verify original Korean text, 2018 revision, and Holy school attribution
+        run: |
+          python3 tools/test-seal-koKR-chronology.py
+          git diff --check
+          git diff --exit-code

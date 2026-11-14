@@ -60,6 +60,44 @@ def correct_elekk_koKR_chronology():
  }
  put(meta_path,meta)
 
+def correct_seal_koKR_chronology():
+ # TGT AT_074 (Seal of Champions): localized 3.0 debut worded "하수인 하나에게";
+ # localized 12.2 used "하수인에게". Korean rollout day is an inferred
+ # card-specific boundary, not proof of a separate mechanics change.
+ cid='AT_074'
+ path=ROOT/'data'/f'{cid}.json'
+ meta_path=ROOT/'metadata'/f'{cid}.json'
+ timeline=load(path);meta=load(meta_path)
+ observations=meta['supplementalAudit']['document']['historicalTextObservations']
+ early=next(o for o in observations if o['build']=='3.0.0.9786')
+ later=next(o for o in observations if o['build']=='12.2.0.26996')
+ old=early['rawText']
+ new=later['rawText'].replace('천상의_보호막','천상의 보호막')
+ assert list(timeline) in (['2015-08-25','2021-03-26'],['2015-08-25','2018-10-03','2021-03-26'])
+ assert timeline['2015-08-25']['id']==cid and timeline['2015-08-25']['dbfId']==2717
+ assert timeline['2015-08-25']['text'] in (old,new)
+ assert timeline['2021-03-26']=={'spellSchool':'HOLY'}
+ assert meta['release']=={'date':'2015-08-25','status':'verified'}
+ assert meta['currentCatalog']['text'].replace('천상의_보호막','천상의 보호막')==new
+ timeline={'2015-08-25':dict(timeline['2015-08-25'],text=old),
+           '2018-10-03':{'text':new},
+           '2021-03-26':timeline['2021-03-26']}
+ validate_timeline(timeline)
+ put(path,timeline)
+ meta['historicalTextCorrection']={
+  'purpose':'Restore archived launch koKR display and date observed 12.2 wording separately, with no gameplay-rule changes',
+  'originalFirstPlayableKst':'2015-08-25',
+  'adoptedDisplayChangeKst':'2018-10-03',
+  'dateConfidence':'estimated-card-specific',
+  'dateBasis':'3.0 client localized koKR text says 하수인 하나에게; 12.2 localized text says 하수인에게. Korea 12.2 patch date is corroborated; card-specific exact live text change not independently confirmed',
+  'earlierClient':{'build':early['build'],'archivedKoKR':early['rawText'],'source':early['source']},
+  'laterClient':{'build':later['build'],'archivedKoKR':later['rawText'],'source':later['source']},
+  'koreaPatchEvidence':['https://hearthstone.blizzard.com/ko-kr/news/22546493'],
+  'normalizedDisplayTag':'<b>천상의 보호막</b> (archive latest had <b>천상의_보호막</b>; underscore is not a gameplay patch)',
+  'immutableOriginalSourcePreserved':True,
+ }
+ put(meta_path,meta)
+
 def main():
  retire_redundant_choice_entries()
  try:original_catalog=json.loads(subprocess.check_output(['git','show',SOURCE+':cards.json'],cwd=ROOT))
@@ -95,5 +133,6 @@ def main():
  from availability_correction import apply_correction
  apply_correction(ROOT)
  correct_elekk_koKR_chronology()
+ correct_seal_koKR_chronology()
  print(json.dumps({'migrated':changed,'sourceCommit':SOURCE}))
 if __name__=='__main__':main()
