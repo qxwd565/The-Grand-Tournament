@@ -32,10 +32,27 @@ def main():
  for cid,c in current.items():
   timeline,meta=read_card(ROOT,cid);prior_t=old('data/'+cid+'.json');prior_m=old('metadata/'+cid+'.json')
   if cid not in IDS:
-   assert (ROOT/'data'/f'{cid}.json').read_bytes()==old_bytes('data/'+cid+'.json')
-   assert (ROOT/'metadata'/f'{cid}.json').read_bytes()==old_bytes('metadata/'+cid+'.json')
-   assert c==prior[cid]
-   for day in DAYS:assert json_equal(resolve(timeline,meta,day),previous.resolve(prior_t,prior_m,day));unchanged+=1
+   reviewed=(cid=='AT_036' or meta.get('historicalTextCorrection',{}).get('dateConfidence')=='estimated-card-specific')
+   if not reviewed:
+    assert (ROOT/'data'/f'{cid}.json').read_bytes()==old_bytes('data/'+cid+'.json')
+    assert (ROOT/'metadata'/f'{cid}.json').read_bytes()==old_bytes('metadata/'+cid+'.json')
+   else:
+    # The TGT full-set historical Korean text review deliberately changed
+    # only earlier displayed wording. The archived source remains immutable.
+    assert meta['originalSource']==prior_m['originalSource'],cid
+    assert meta['currentCatalog']==prior_m['currentCatalog'],cid
+    assert meta['release']==prior_m['release'],cid
+   assert c==prior[cid],cid
+   for day in DAYS:
+    present=resolve(timeline,meta,day);before=previous.resolve(prior_t,prior_m,day)
+    if reviewed:
+     assert present is not None and before is not None or present==before,cid
+     if present is not None and before is not None:
+      assert {k:v for k,v in present.items() if k!='text'}=={k:v for k,v in before.items() if k!='text'},(cid,day)
+      assert present.get('text','').replace('_','')==before.get('text','').replace('_',''),(cid,day,'modern display text drift')
+    else:
+     assert json_equal(present,before),(cid,day)
+    unchanged+=1
    continue
   assert c['dbfId']==IDS[cid]
   expected=copy.deepcopy(prior[cid]);expected.update(releasedAt='2022-11-30',releaseStatus='estimated');assert c==expected
@@ -74,7 +91,15 @@ def main():
  for filename in ('cards.json','render.json','history.json'):assert 'releaseBeforeDate' not in (ROOT/filename).read_text()
  archived_history=old('history.json')
  for dbf in ('16221','16222','16223','16225'):archived_history['cards'].pop(dbf,None)
- assert load(ROOT/'history.json')==archived_history
+ active=load(ROOT/'history.json')['cards']
+ for cid,c in current.items():
+  if cid in IDS:continue
+  dbf=str(c['dbfId'])
+  if cid=='AT_036' or load(ROOT/'metadata'/f'{cid}.json').get('historicalTextCorrection'):
+   assert (dbf in active) or cid=='AT_036',(cid,'expected corrected historical interval')
+  else:
+   assert active.get(dbf)==archived_history['cards'].get(dbf),(cid,'unexpected unrelated legacy history')
+ assert not set(active).intersection({'16221','16222','16223','16225'})
  assert (ROOT/'data/history.json').read_bytes()==old_bytes('data/history.json')
  # Invalid policy is rejected by the real builder, not just a helper test.
  with tempfile.TemporaryDirectory(prefix='tgt-dk-invalid-',dir='/tmp') as tmp:
