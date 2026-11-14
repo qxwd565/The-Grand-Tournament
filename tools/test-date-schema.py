@@ -30,6 +30,17 @@ def main():
   for d,source_state in expected:
    published=fold(t,d)
    comparison=copy.deepcopy(source_state)
+   if cid=='AT_058' and d=='2015-08-25':
+    # A later installed-source reconstruction incorrectly backdated the
+    # post-12.2 wording. Preserve the audited original and verify the
+    # reviewed history correction against archived koKR client observations.
+    observations=doc['historicalTextObservations']
+    launch=next(o for o in observations if o['build']=='3.0.0.9786')
+    updated=next(o for o in observations if o['build']=='12.2.0.26996')
+    comparison['text']=launch['rawText']
+    assert published['text']==launch['rawText']
+    assert t['2018-10-03']=={'text':updated['rawText'].replace('전투의_함성','전투의 함성')}
+    assert m['historicalTextCorrection']['dateConfidence']=='estimated-card-specific'
    if cid=='AT_036' and d=='2023-08-23':
     # The immutable 27.2 client archive uses an underscore in the Korean
     # tooltip keyword; the public card text normalizes that display typo.

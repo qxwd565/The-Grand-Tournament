@@ -1,0 +1,38 @@
+name: Verify TGT King's Elekk Korean text chronology
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-tgt-elekk-history.yml'
+      - 'data/AT_058.json'
+      - 'metadata/AT_058.json'
+      - 'tools/migrate-date-schema.py'
+      - 'tools/test-elekk-koKR-chronology.py'
+      - 'tools/test-date-schema.py'
+      - 'cards.json'
+      - 'cards-date.json'
+      - 'render.json'
+      - 'render-date.json'
+      - 'history.json'
+      - 'history-date.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild canonical snapshots
+        run: |
+          python3 tools/migrate-date-schema.py
+          python3 tools/build-api.py
+      - name: Verify first-use, 12.2 text change, historical lookup, and exact generated bundles
+        run: |
+          python3 tools/test-elekk-koKR-chronology.py
+          git diff --check
+          git diff --exit-code
